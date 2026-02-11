@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="saiexperimentaldashmeter_8h" kind="file" language="C++">
+    <compoundname>saiexperimentaldashmeter.h</compoundname>
+    <includes refid="saitypesextensions_8h" local="no">saitypesextensions.h</includes>
+    <includedby refid="saiextensions_8h" local="yes">/home/romanveskera/SAI/SAI/experimental/saiextensions.h</includedby>
+    <includedby refid="saiobject_8h" local="no">/home/romanveskera/SAI/SAI/inc/saiobject.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashmeter.h</label>
+        <link refid="saiexperimentaldashmeter_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>saitypesextensions.h</label>
+        <link refid="saitypesextensions_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>saitypes.h</label>
+        <link refid="saitypes_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stdint.h</label>
+      </node>
+      <node id="6">
+        <label>sys/types.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashmeter.h</label>
+        <link refid="saiexperimentaldashmeter_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiextensions.h</label>
+        <link refid="saiextensions_8h"/>
+      </node>
+      <node id="4">
+        <label>/home/romanveskera/SAI/SAI/inc/sai.h</label>
+        <link refid="sai_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>/home/romanveskera/SAI/SAI/inc/saiobject.h</label>
+        <link refid="saiobject_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct__sai__meter__bucket__entry__t" prot="public">_sai_meter_bucket_entry_t</innerclass>
+    <innerclass refid="struct__sai__dash__meter__api__t" prot="public">_sai_dash_meter_api_t</innerclass>
+    <sectiondef kind="enum">
+      <member refid="group__SAIEXPERIMENTALDASHMETER_1gabf3fbe0f33f212c8370f3217db554326" kind="enum"><name>_sai_meter_bucket_entry_action_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHMETER_1ga8366357acae09ffe4f0c802dc9fb19e7" kind="enum"><name>_sai_meter_bucket_entry_attr_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHMETER_1ga053fcbd9be360c2cb3c1cd876a69e3ca" kind="enum"><name>_sai_meter_bucket_entry_stat_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHMETER_1gafe68c7fca7a6b05ef3e2127404df0c56" kind="enum"><name>_sai_meter_policy_attr_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHMETER_1gaa2952ae08959da4095727897d8f98281" kind="enum"><name>_sai_meter_rule_attr_t</name></member>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <member refid="group__SAIEXPERIMENTALDASHMETER_1ga0b2fb7deacb58e9fd5410e8e6ef43cb5" kind="typedef"><name>sai_meter_bucket_entry_action_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHMETER_1ga33c194eecaa870465afdc96e381861d6" kind="typedef"><name>sai_meter_bucket_entry_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHMETER_1ga79b5cb18a0ad0e65059054c0a47ffc56" kind="typedef"><name>sai_meter_bucket_entry_attr_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHMETER_1ga91bd0e3f531fa10d08291512a196473e" kind="typedef"><name>sai_meter_bucket_entry_stat_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHMETER_1ga8c697f4360ee9d48d21d6afe9e20ef23" kind="typedef"><name>sai_meter_policy_attr_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHMETER_1gae168cc7711eaed5fa96e6fcbce175cdb" kind="typedef"><name>sai_meter_rule_attr_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHMETER_1gab4107eefc8224c32aaa901f3a0d49073" kind="typedef"><name>sai_create_meter_bucket_entry_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHMETER_1ga2a7b4516e78e41c7dd99f864811617db" kind="typedef"><name>sai_remove_meter_bucket_entry_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHMETER_1ga128c40f93219121cb460cb9e586dd6b1" kind="typedef"><name>sai_set_meter_bucket_entry_attribute_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHMETER_1ga07621d6d1bd2996c5451f7667e3dd4b4" kind="typedef"><name>sai_get_meter_bucket_entry_attribute_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHMETER_1gae606b348064d6297afb7edf43c77d2e4" kind="typedef"><name>sai_get_meter_bucket_entry_stats_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHMETER_1ga7b37712cdc436d0845b5dbe44d6f32b3" kind="typedef"><name>sai_get_meter_bucket_entry_stats_ext_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHMETER_1gaf301baba2a56536c9d1d06d180d4ff3c" kind="typedef"><name>sai_clear_meter_bucket_entry_stats_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHMETER_1ga2adb0521149a02ec72a544a55a5af344" kind="typedef"><name>sai_bulk_create_meter_bucket_entry_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHMETER_1ga712d3811269cb1570550154e6828d8a1" kind="typedef"><name>sai_bulk_remove_meter_bucket_entry_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHMETER_1ga7de9618adb88ab7c45633ad9db94d3e4" kind="typedef"><name>sai_create_meter_policy_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHMETER_1ga9b8e10d835e28006ab6ef766c5ccf5b4" kind="typedef"><name>sai_remove_meter_policy_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHMETER_1ga6883ab829d4a9e48cb13d5f07bf2c465" kind="typedef"><name>sai_set_meter_policy_attribute_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHMETER_1ga20b556820c89ab1c6655fd550e74f77b" kind="typedef"><name>sai_get_meter_policy_attribute_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHMETER_1gab0b927b12d7d0ccd09e047734f134cdf" kind="typedef"><name>sai_create_meter_rule_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHMETER_1gaa6c895faac9937e42dab3984213d96a9" kind="typedef"><name>sai_remove_meter_rule_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHMETER_1ga7ef5db39d4306a6ccd52d4c5068dea51" kind="typedef"><name>sai_set_meter_rule_attribute_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHMETER_1ga82da3a9a872383e60ce238b23cb88bdb" kind="typedef"><name>sai_get_meter_rule_attribute_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHMETER_1ga9a6c463ac1c525c8e0d8d44e445a069d" kind="typedef"><name>sai_dash_meter_api_t</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>This module defines SAI extensions for DASH meter. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (c) 2014 Microsoft Open Technologies, Inc.</para>
+<para>Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <ulink url="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</ulink></para>
+<para>THIS CODE IS PROVIDED ON AN <emphasis>AS IS</emphasis> BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY OR NON-INFRINGEMENT.</para>
+<para>See the Apache Version 2.0 License for specific language governing permissions and limitations under the License.</para>
+<para>Microsoft would like to thank the following companies for their review and assistance with these files: Intel Corporation, Mellanox Technologies Ltd, Dell Products, L.P., Facebook, Inc., Marvell International Ltd.</para>
+<para><simplesect kind="warning"><para>This module is a SAI experimental module </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashmeter.h"/>
+  </compounddef>
+</doxygen>

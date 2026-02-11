@@ -1,0 +1,1037 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="saitypes_8h" kind="file" language="C++">
+    <compoundname>saitypes.h</compoundname>
+    <includes local="no">stdint.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">sys/types.h</includes>
+    <includedby refid="saiexperimentalbmtor_8h" local="no">/home/romanveskera/SAI/SAI/experimental/saiexperimentalbmtor.h</includedby>
+    <includedby refid="saiextensions_8h" local="no">/home/romanveskera/SAI/SAI/experimental/saiextensions.h</includedby>
+    <includedby refid="saiportextensions_8h" local="no">/home/romanveskera/SAI/SAI/experimental/saiportextensions.h</includedby>
+    <includedby refid="saitypesextensions_8h" local="no">/home/romanveskera/SAI/SAI/experimental/saitypesextensions.h</includedby>
+    <includedby refid="sai_8h" local="yes">/home/romanveskera/SAI/SAI/inc/sai.h</includedby>
+    <includedby refid="saiacl_8h" local="no">/home/romanveskera/SAI/SAI/inc/saiacl.h</includedby>
+    <includedby refid="saiars_8h" local="no">/home/romanveskera/SAI/SAI/inc/saiars.h</includedby>
+    <includedby refid="saiarsprofile_8h" local="no">/home/romanveskera/SAI/SAI/inc/saiarsprofile.h</includedby>
+    <includedby refid="saibfd_8h" local="no">/home/romanveskera/SAI/SAI/inc/saibfd.h</includedby>
+    <includedby refid="saibridge_8h" local="no">/home/romanveskera/SAI/SAI/inc/saibridge.h</includedby>
+    <includedby refid="saibuffer_8h" local="no">/home/romanveskera/SAI/SAI/inc/saibuffer.h</includedby>
+    <includedby refid="saicounter_8h" local="no">/home/romanveskera/SAI/SAI/inc/saicounter.h</includedby>
+    <includedby refid="saidebugcounter_8h" local="no">/home/romanveskera/SAI/SAI/inc/saidebugcounter.h</includedby>
+    <includedby refid="saidtel_8h" local="no">/home/romanveskera/SAI/SAI/inc/saidtel.h</includedby>
+    <includedby refid="saifdb_8h" local="no">/home/romanveskera/SAI/SAI/inc/saifdb.h</includedby>
+    <includedby refid="saigenericprogrammable_8h" local="no">/home/romanveskera/SAI/SAI/inc/saigenericprogrammable.h</includedby>
+    <includedby refid="saihash_8h" local="no">/home/romanveskera/SAI/SAI/inc/saihash.h</includedby>
+    <includedby refid="saihostif_8h" local="no">/home/romanveskera/SAI/SAI/inc/saihostif.h</includedby>
+    <includedby refid="saiicmpecho_8h" local="no">/home/romanveskera/SAI/SAI/inc/saiicmpecho.h</includedby>
+    <includedby refid="saiipmc_8h" local="no">/home/romanveskera/SAI/SAI/inc/saiipmc.h</includedby>
+    <includedby refid="saiipmcgroup_8h" local="no">/home/romanveskera/SAI/SAI/inc/saiipmcgroup.h</includedby>
+    <includedby refid="saiipsec_8h" local="no">/home/romanveskera/SAI/SAI/inc/saiipsec.h</includedby>
+    <includedby refid="saiisolationgroup_8h" local="no">/home/romanveskera/SAI/SAI/inc/saiisolationgroup.h</includedby>
+    <includedby refid="sail2mc_8h" local="no">/home/romanveskera/SAI/SAI/inc/sail2mc.h</includedby>
+    <includedby refid="sail2mcgroup_8h" local="no">/home/romanveskera/SAI/SAI/inc/sail2mcgroup.h</includedby>
+    <includedby refid="sailag_8h" local="no">/home/romanveskera/SAI/SAI/inc/sailag.h</includedby>
+    <includedby refid="saimacsec_8h" local="no">/home/romanveskera/SAI/SAI/inc/saimacsec.h</includedby>
+    <includedby refid="saimcastfdb_8h" local="no">/home/romanveskera/SAI/SAI/inc/saimcastfdb.h</includedby>
+    <includedby refid="saimirror_8h" local="no">/home/romanveskera/SAI/SAI/inc/saimirror.h</includedby>
+    <includedby refid="saimpls_8h" local="no">/home/romanveskera/SAI/SAI/inc/saimpls.h</includedby>
+    <includedby refid="saimymac_8h" local="no">/home/romanveskera/SAI/SAI/inc/saimymac.h</includedby>
+    <includedby refid="sainat_8h" local="no">/home/romanveskera/SAI/SAI/inc/sainat.h</includedby>
+    <includedby refid="saineighbor_8h" local="no">/home/romanveskera/SAI/SAI/inc/saineighbor.h</includedby>
+    <includedby refid="sainexthop_8h" local="no">/home/romanveskera/SAI/SAI/inc/sainexthop.h</includedby>
+    <includedby refid="sainexthopgroup_8h" local="no">/home/romanveskera/SAI/SAI/inc/sainexthopgroup.h</includedby>
+    <includedby refid="saiobject_8h" local="no">/home/romanveskera/SAI/SAI/inc/saiobject.h</includedby>
+    <includedby refid="saipoe_8h" local="no">/home/romanveskera/SAI/SAI/inc/saipoe.h</includedby>
+    <includedby refid="saipolicer_8h" local="no">/home/romanveskera/SAI/SAI/inc/saipolicer.h</includedby>
+    <includedby refid="saiport_8h" local="no">/home/romanveskera/SAI/SAI/inc/saiport.h</includedby>
+    <includedby refid="saiprefixcompression_8h" local="no">/home/romanveskera/SAI/SAI/inc/saiprefixcompression.h</includedby>
+    <includedby refid="saiqosmap_8h" local="no">/home/romanveskera/SAI/SAI/inc/saiqosmap.h</includedby>
+    <includedby refid="saiqueue_8h" local="no">/home/romanveskera/SAI/SAI/inc/saiqueue.h</includedby>
+    <includedby refid="sairoute_8h" local="no">/home/romanveskera/SAI/SAI/inc/sairoute.h</includedby>
+    <includedby refid="sairouterinterface_8h" local="no">/home/romanveskera/SAI/SAI/inc/sairouterinterface.h</includedby>
+    <includedby refid="sairpfgroup_8h" local="no">/home/romanveskera/SAI/SAI/inc/sairpfgroup.h</includedby>
+    <includedby refid="saisamplepacket_8h" local="no">/home/romanveskera/SAI/SAI/inc/saisamplepacket.h</includedby>
+    <includedby refid="saischeduler_8h" local="no">/home/romanveskera/SAI/SAI/inc/saischeduler.h</includedby>
+    <includedby refid="saischedulergroup_8h" local="no">/home/romanveskera/SAI/SAI/inc/saischedulergroup.h</includedby>
+    <includedby refid="saisrv6_8h" local="no">/home/romanveskera/SAI/SAI/inc/saisrv6.h</includedby>
+    <includedby refid="saistp_8h" local="no">/home/romanveskera/SAI/SAI/inc/saistp.h</includedby>
+    <includedby refid="saiswitch_8h" local="no">/home/romanveskera/SAI/SAI/inc/saiswitch.h</includedby>
+    <includedby refid="saisynce_8h" local="no">/home/romanveskera/SAI/SAI/inc/saisynce.h</includedby>
+    <includedby refid="saisystemport_8h" local="no">/home/romanveskera/SAI/SAI/inc/saisystemport.h</includedby>
+    <includedby refid="saitam_8h" local="no">/home/romanveskera/SAI/SAI/inc/saitam.h</includedby>
+    <includedby refid="saitunnel_8h" local="no">/home/romanveskera/SAI/SAI/inc/saitunnel.h</includedby>
+    <includedby refid="saitwamp_8h" local="no">/home/romanveskera/SAI/SAI/inc/saitwamp.h</includedby>
+    <includedby refid="saiudf_8h" local="no">/home/romanveskera/SAI/SAI/inc/saiudf.h</includedby>
+    <includedby refid="saiversion_8h" local="no">/home/romanveskera/SAI/SAI/inc/saiversion.h</includedby>
+    <includedby refid="saivirtualrouter_8h" local="no">/home/romanveskera/SAI/SAI/inc/saivirtualrouter.h</includedby>
+    <includedby refid="saivlan_8h" local="no">/home/romanveskera/SAI/SAI/inc/saivlan.h</includedby>
+    <includedby refid="saiwred_8h" local="no">/home/romanveskera/SAI/SAI/inc/saiwred.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/saitypes.h</label>
+        <link refid="saitypes_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>stdbool.h</label>
+      </node>
+      <node id="2">
+        <label>stdint.h</label>
+      </node>
+      <node id="4">
+        <label>sys/types.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiexperimentalbmtor.h</label>
+        <link refid="saiexperimentalbmtor_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashacl.h</label>
+        <link refid="saiexperimentaldashacl_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashappliance.h</label>
+        <link refid="saiexperimentaldashappliance_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashdirectionlookup.h</label>
+        <link refid="saiexperimentaldashdirectionlookup_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiexperimentaldasheni.h</label>
+        <link refid="saiexperimentaldasheni_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashflow.h</label>
+        <link refid="saiexperimentaldashflow_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashha.h</label>
+        <link refid="saiexperimentaldashha_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashinboundrouting.h</label>
+        <link refid="saiexperimentaldashinboundrouting_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashmeter.h</label>
+        <link refid="saiexperimentaldashmeter_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashoutboundcatopa.h</label>
+        <link refid="saiexperimentaldashoutboundcatopa_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashoutboundportmap.h</label>
+        <link refid="saiexperimentaldashoutboundportmap_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashoutboundrouting.h</label>
+        <link refid="saiexperimentaldashoutboundrouting_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashpavalidation.h</label>
+        <link refid="saiexperimentaldashpavalidation_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h</label>
+        <link refid="saiexperimentaldashtrustedvni_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtunnel.h</label>
+        <link refid="saiexperimentaldashtunnel_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashvip.h</label>
+        <link refid="saiexperimentaldashvip_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashvnet.h</label>
+        <link refid="saiexperimentaldashvnet_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiextensions.h</label>
+        <link refid="saiextensions_8h"/>
+      </node>
+      <node id="6">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiportextensions.h</label>
+        <link refid="saiportextensions_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiswitchextensions.h</label>
+        <link refid="saiswitchextensions_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>/home/romanveskera/SAI/SAI/experimental/saitypesextensions.h</label>
+        <link refid="saitypesextensions_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>/home/romanveskera/SAI/SAI/inc/sai.h</label>
+        <link refid="sai_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>/home/romanveskera/SAI/SAI/inc/saiacl.h</label>
+        <link refid="saiacl_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>/home/romanveskera/SAI/SAI/inc/saiars.h</label>
+        <link refid="saiars_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>/home/romanveskera/SAI/SAI/inc/saiarsprofile.h</label>
+        <link refid="saiarsprofile_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>/home/romanveskera/SAI/SAI/inc/saibfd.h</label>
+        <link refid="saibfd_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>/home/romanveskera/SAI/SAI/inc/saibridge.h</label>
+        <link refid="saibridge_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>/home/romanveskera/SAI/SAI/inc/saibuffer.h</label>
+        <link refid="saibuffer_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>/home/romanveskera/SAI/SAI/inc/saicounter.h</label>
+        <link refid="saicounter_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>/home/romanveskera/SAI/SAI/inc/saidebugcounter.h</label>
+        <link refid="saidebugcounter_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>/home/romanveskera/SAI/SAI/inc/saidtel.h</label>
+        <link refid="saidtel_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>/home/romanveskera/SAI/SAI/inc/saifdb.h</label>
+        <link refid="saifdb_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>/home/romanveskera/SAI/SAI/inc/saigenericprogrammable.h</label>
+        <link refid="saigenericprogrammable_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>/home/romanveskera/SAI/SAI/inc/saihash.h</label>
+        <link refid="saihash_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>/home/romanveskera/SAI/SAI/inc/saihostif.h</label>
+        <link refid="saihostif_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>/home/romanveskera/SAI/SAI/inc/saiicmpecho.h</label>
+        <link refid="saiicmpecho_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>/home/romanveskera/SAI/SAI/inc/saiipmc.h</label>
+        <link refid="saiipmc_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>/home/romanveskera/SAI/SAI/inc/saiipmcgroup.h</label>
+        <link refid="saiipmcgroup_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="41">
+        <label>/home/romanveskera/SAI/SAI/inc/saiipsec.h</label>
+        <link refid="saiipsec_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="42">
+        <label>/home/romanveskera/SAI/SAI/inc/saiisolationgroup.h</label>
+        <link refid="saiisolationgroup_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="43">
+        <label>/home/romanveskera/SAI/SAI/inc/sail2mc.h</label>
+        <link refid="sail2mc_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="44">
+        <label>/home/romanveskera/SAI/SAI/inc/sail2mcgroup.h</label>
+        <link refid="sail2mcgroup_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="45">
+        <label>/home/romanveskera/SAI/SAI/inc/sailag.h</label>
+        <link refid="sailag_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="46">
+        <label>/home/romanveskera/SAI/SAI/inc/saimacsec.h</label>
+        <link refid="saimacsec_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="47">
+        <label>/home/romanveskera/SAI/SAI/inc/saimcastfdb.h</label>
+        <link refid="saimcastfdb_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="48">
+        <label>/home/romanveskera/SAI/SAI/inc/saimirror.h</label>
+        <link refid="saimirror_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="49">
+        <label>/home/romanveskera/SAI/SAI/inc/saimpls.h</label>
+        <link refid="saimpls_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="50">
+        <label>/home/romanveskera/SAI/SAI/inc/saimymac.h</label>
+        <link refid="saimymac_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="51">
+        <label>/home/romanveskera/SAI/SAI/inc/sainat.h</label>
+        <link refid="sainat_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="52">
+        <label>/home/romanveskera/SAI/SAI/inc/saineighbor.h</label>
+        <link refid="saineighbor_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="53">
+        <label>/home/romanveskera/SAI/SAI/inc/sainexthop.h</label>
+        <link refid="sainexthop_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="54">
+        <label>/home/romanveskera/SAI/SAI/inc/sainexthopgroup.h</label>
+        <link refid="sainexthopgroup_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>/home/romanveskera/SAI/SAI/inc/saiobject.h</label>
+        <link refid="saiobject_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="55">
+        <label>/home/romanveskera/SAI/SAI/inc/saipoe.h</label>
+        <link refid="saipoe_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="56">
+        <label>/home/romanveskera/SAI/SAI/inc/saipolicer.h</label>
+        <link refid="saipolicer_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="57">
+        <label>/home/romanveskera/SAI/SAI/inc/saiport.h</label>
+        <link refid="saiport_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="58">
+        <label>/home/romanveskera/SAI/SAI/inc/saiprefixcompression.h</label>
+        <link refid="saiprefixcompression_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="59">
+        <label>/home/romanveskera/SAI/SAI/inc/saiqosmap.h</label>
+        <link refid="saiqosmap_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="60">
+        <label>/home/romanveskera/SAI/SAI/inc/saiqueue.h</label>
+        <link refid="saiqueue_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="61">
+        <label>/home/romanveskera/SAI/SAI/inc/sairoute.h</label>
+        <link refid="sairoute_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="62">
+        <label>/home/romanveskera/SAI/SAI/inc/sairouterinterface.h</label>
+        <link refid="sairouterinterface_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="63">
+        <label>/home/romanveskera/SAI/SAI/inc/sairpfgroup.h</label>
+        <link refid="sairpfgroup_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="64">
+        <label>/home/romanveskera/SAI/SAI/inc/saisamplepacket.h</label>
+        <link refid="saisamplepacket_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="65">
+        <label>/home/romanveskera/SAI/SAI/inc/saischeduler.h</label>
+        <link refid="saischeduler_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="66">
+        <label>/home/romanveskera/SAI/SAI/inc/saischedulergroup.h</label>
+        <link refid="saischedulergroup_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="67">
+        <label>/home/romanveskera/SAI/SAI/inc/saisrv6.h</label>
+        <link refid="saisrv6_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="68">
+        <label>/home/romanveskera/SAI/SAI/inc/saistp.h</label>
+        <link refid="saistp_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="69">
+        <label>/home/romanveskera/SAI/SAI/inc/saiswitch.h</label>
+        <link refid="saiswitch_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="70">
+        <label>/home/romanveskera/SAI/SAI/inc/saisynce.h</label>
+        <link refid="saisynce_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="71">
+        <label>/home/romanveskera/SAI/SAI/inc/saisystemport.h</label>
+        <link refid="saisystemport_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="72">
+        <label>/home/romanveskera/SAI/SAI/inc/saitam.h</label>
+        <link refid="saitam_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="73">
+        <label>/home/romanveskera/SAI/SAI/inc/saitunnel.h</label>
+        <link refid="saitunnel_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="74">
+        <label>/home/romanveskera/SAI/SAI/inc/saitwamp.h</label>
+        <link refid="saitwamp_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/saitypes.h</label>
+        <link refid="saitypes_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+        <childnode refid="47" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+        <childnode refid="49" relation="include">
+        </childnode>
+        <childnode refid="50" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
+        </childnode>
+        <childnode refid="52" relation="include">
+        </childnode>
+        <childnode refid="53" relation="include">
+        </childnode>
+        <childnode refid="54" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="55" relation="include">
+        </childnode>
+        <childnode refid="56" relation="include">
+        </childnode>
+        <childnode refid="57" relation="include">
+        </childnode>
+        <childnode refid="58" relation="include">
+        </childnode>
+        <childnode refid="59" relation="include">
+        </childnode>
+        <childnode refid="60" relation="include">
+        </childnode>
+        <childnode refid="61" relation="include">
+        </childnode>
+        <childnode refid="62" relation="include">
+        </childnode>
+        <childnode refid="63" relation="include">
+        </childnode>
+        <childnode refid="64" relation="include">
+        </childnode>
+        <childnode refid="65" relation="include">
+        </childnode>
+        <childnode refid="66" relation="include">
+        </childnode>
+        <childnode refid="67" relation="include">
+        </childnode>
+        <childnode refid="68" relation="include">
+        </childnode>
+        <childnode refid="69" relation="include">
+        </childnode>
+        <childnode refid="70" relation="include">
+        </childnode>
+        <childnode refid="71" relation="include">
+        </childnode>
+        <childnode refid="72" relation="include">
+        </childnode>
+        <childnode refid="73" relation="include">
+        </childnode>
+        <childnode refid="74" relation="include">
+        </childnode>
+        <childnode refid="75" relation="include">
+        </childnode>
+        <childnode refid="76" relation="include">
+        </childnode>
+        <childnode refid="77" relation="include">
+        </childnode>
+        <childnode refid="78" relation="include">
+        </childnode>
+        <childnode refid="79" relation="include">
+        </childnode>
+      </node>
+      <node id="75">
+        <label>/home/romanveskera/SAI/SAI/inc/saiudf.h</label>
+        <link refid="saiudf_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="76">
+        <label>/home/romanveskera/SAI/SAI/inc/saiversion.h</label>
+        <link refid="saiversion_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="77">
+        <label>/home/romanveskera/SAI/SAI/inc/saivirtualrouter.h</label>
+        <link refid="saivirtualrouter_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="78">
+        <label>/home/romanveskera/SAI/SAI/inc/saivlan.h</label>
+        <link refid="saivlan_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="79">
+        <label>/home/romanveskera/SAI/SAI/inc/saiwred.h</label>
+        <link refid="saiwred_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct__sai__timespec__t" prot="public">_sai_timespec_t</innerclass>
+    <innerclass refid="struct__sai__object__list__t" prot="public">_sai_object_list_t</innerclass>
+    <innerclass refid="struct__sai__u8__list__t" prot="public">_sai_u8_list_t</innerclass>
+    <innerclass refid="struct__sai__s8__list__t" prot="public">_sai_s8_list_t</innerclass>
+    <innerclass refid="struct__sai__u16__list__t" prot="public">_sai_u16_list_t</innerclass>
+    <innerclass refid="struct__sai__s16__list__t" prot="public">_sai_s16_list_t</innerclass>
+    <innerclass refid="struct__sai__u32__list__t" prot="public">_sai_u32_list_t</innerclass>
+    <innerclass refid="struct__sai__s32__list__t" prot="public">_sai_s32_list_t</innerclass>
+    <innerclass refid="struct__sai__u32__range__t" prot="public">_sai_u32_range_t</innerclass>
+    <innerclass refid="struct__sai__s32__range__t" prot="public">_sai_s32_range_t</innerclass>
+    <innerclass refid="struct__sai__u16__range__t" prot="public">_sai_u16_range_t</innerclass>
+    <innerclass refid="struct__sai__u16__range__list__t" prot="public">_sai_u16_range_list_t</innerclass>
+    <innerclass refid="struct__sai__vlan__list__t" prot="public">_sai_vlan_list_t</innerclass>
+    <innerclass refid="struct__sai__taps__list__t" prot="public">_sai_taps_list_t</innerclass>
+    <innerclass refid="union__sai__ip__addr__t" prot="public">_sai_ip_addr_t</innerclass>
+    <innerclass refid="struct__sai__ip__address__t" prot="public">_sai_ip_address_t</innerclass>
+    <innerclass refid="struct__sai__ip__address__list__t" prot="public">_sai_ip_address_list_t</innerclass>
+    <innerclass refid="struct__sai__ip__prefix__t" prot="public">_sai_ip_prefix_t</innerclass>
+    <innerclass refid="struct__sai__ip__prefix__list__t" prot="public">_sai_ip_prefix_list_t</innerclass>
+    <innerclass refid="struct__sai__prbs__per__lane__rx__status__t" prot="public">_sai_prbs_per_lane_rx_status_t</innerclass>
+    <innerclass refid="struct__sai__prbs__per__lane__rx__status__list__t" prot="public">_sai_prbs_per_lane_rx_status_list_t</innerclass>
+    <innerclass refid="struct__sai__prbs__rx__state__t" prot="public">_sai_prbs_rx_state_t</innerclass>
+    <innerclass refid="struct__sai__latch__status__t" prot="public">_sai_latch_status_t</innerclass>
+    <innerclass refid="struct__sai__prbs__bit__error__rate__t" prot="public">_sai_prbs_bit_error_rate_t</innerclass>
+    <innerclass refid="struct__sai__prbs__per__lane__bit__error__rate__t" prot="public">_sai_prbs_per_lane_bit_error_rate_t</innerclass>
+    <innerclass refid="struct__sai__prbs__per__lane__bit__error__rate__list__t" prot="public">_sai_prbs_per_lane_bit_error_rate_list_t</innerclass>
+    <innerclass refid="struct__sai__port__lane__latch__status__t" prot="public">_sai_port_lane_latch_status_t</innerclass>
+    <innerclass refid="struct__sai__port__lane__latch__status__list__t" prot="public">_sai_port_lane_latch_status_list_t</innerclass>
+    <innerclass refid="struct__sai__prbs__per__lane__rx__state__t" prot="public">_sai_prbs_per_lane_rx_state_t</innerclass>
+    <innerclass refid="struct__sai__prbs__per__lane__rx__state__list__t" prot="public">_sai_prbs_per_lane_rx_state_list_t</innerclass>
+    <innerclass refid="union__sai__acl__field__data__mask__t" prot="public">_sai_acl_field_data_mask_t</innerclass>
+    <innerclass refid="union__sai__acl__field__data__data__t" prot="public">_sai_acl_field_data_data_t</innerclass>
+    <innerclass refid="struct__sai__acl__field__data__t" prot="public">_sai_acl_field_data_t</innerclass>
+    <innerclass refid="union__sai__acl__action__parameter__t" prot="public">_sai_acl_action_parameter_t</innerclass>
+    <innerclass refid="struct__sai__acl__action__data__t" prot="public">_sai_acl_action_data_t</innerclass>
+    <innerclass refid="struct__sai__qos__map__params__t" prot="public">_sai_qos_map_params_t</innerclass>
+    <innerclass refid="struct__sai__qos__map__t" prot="public">_sai_qos_map_t</innerclass>
+    <innerclass refid="struct__sai__qos__map__list__t" prot="public">_sai_qos_map_list_t</innerclass>
+    <innerclass refid="struct__sai__map__t" prot="public">_sai_map_t</innerclass>
+    <innerclass refid="struct__sai__map__list__t" prot="public">_sai_map_list_t</innerclass>
+    <innerclass refid="struct__sai__acl__chain__t" prot="public">_sai_acl_chain_t</innerclass>
+    <innerclass refid="struct__sai__acl__chain__list__t" prot="public">_sai_acl_chain_list_t</innerclass>
+    <innerclass refid="struct__sai__acl__capability__t" prot="public">_sai_acl_capability_t</innerclass>
+    <innerclass refid="struct__sai__acl__resource__t" prot="public">_sai_acl_resource_t</innerclass>
+    <innerclass refid="struct__sai__acl__resource__list__t" prot="public">_sai_acl_resource_list_t</innerclass>
+    <innerclass refid="struct__sai__hmac__t" prot="public">_sai_hmac_t</innerclass>
+    <innerclass refid="union__sai__tlv__entry__t" prot="public">_sai_tlv_entry_t</innerclass>
+    <innerclass refid="struct__sai__tlv__t" prot="public">_sai_tlv_t</innerclass>
+    <innerclass refid="struct__sai__tlv__list__t" prot="public">_sai_tlv_list_t</innerclass>
+    <innerclass refid="struct__sai__segment__list__t" prot="public">_sai_segment_list_t</innerclass>
+    <innerclass refid="struct__sai__json__t" prot="public">_sai_json_t</innerclass>
+    <innerclass refid="struct__sai__port__lane__eye__values__t" prot="public">_sai_port_lane_eye_values_t</innerclass>
+    <innerclass refid="struct__sai__port__eye__values__list__t" prot="public">_sai_port_eye_values_list_t</innerclass>
+    <innerclass refid="struct__sai__port__pam4__lane__eye__values__t" prot="public">_sai_port_pam4_lane_eye_values_t</innerclass>
+    <innerclass refid="struct__sai__port__pam4__eye__values__list__t" prot="public">_sai_port_pam4_eye_values_list_t</innerclass>
+    <innerclass refid="struct__sai__port__frequency__offset__ppm__values__t" prot="public">_sai_port_frequency_offset_ppm_values_t</innerclass>
+    <innerclass refid="struct__sai__port__frequency__offset__ppm__list__t" prot="public">_sai_port_frequency_offset_ppm_list_t</innerclass>
+    <innerclass refid="struct__sai__port__snr__values__t" prot="public">_sai_port_snr_values_t</innerclass>
+    <innerclass refid="struct__sai__port__snr__list__t" prot="public">_sai_port_snr_list_t</innerclass>
+    <innerclass refid="struct__sai__poe__port__power__consumption__t" prot="public">_sai_poe_port_power_consumption_t</innerclass>
+    <innerclass refid="struct__sai__system__port__config__t" prot="public">_sai_system_port_config_t</innerclass>
+    <innerclass refid="struct__sai__system__port__config__list__t" prot="public">_sai_system_port_config_list_t</innerclass>
+    <innerclass refid="struct__sai__fabric__port__reachability__t" prot="public">_sai_fabric_port_reachability_t</innerclass>
+    <innerclass refid="struct__sai__port__err__status__list__t" prot="public">_sai_port_err_status_list_t</innerclass>
+    <innerclass refid="union__sai__attribute__value__t" prot="public">_sai_attribute_value_t</innerclass>
+    <innerclass refid="struct__sai__attribute__t" prot="public">_sai_attribute_t</innerclass>
+    <innerclass refid="struct__sai__stat__capability__t" prot="public">_sai_stat_capability_t</innerclass>
+    <innerclass refid="struct__sai__stat__capability__list__t" prot="public">_sai_stat_capability_list_t</innerclass>
+    <innerclass refid="struct__sai__stat__st__capability__t" prot="public">_sai_stat_st_capability_t</innerclass>
+    <innerclass refid="struct__sai__stat__st__capability__list__t" prot="public">_sai_stat_st_capability_list_t</innerclass>
+    <innerclass refid="struct__sai__ser__health__data__t" prot="public">_sai_ser_health_data_t</innerclass>
+    <innerclass refid="union__sai__health__data__t" prot="public">_sai_health_data_t</innerclass>
+    <innerclass refid="struct__sai__switch__health__data__t" prot="public">_sai_switch_health_data_t</innerclass>
+    <sectiondef kind="define">
+      <member refid="group__SAITYPES_1gaa74f89aa7d942f4a79ea12d7c9b763ef" kind="define"><name>_In_</name></member>
+      <member refid="group__SAITYPES_1ga9c50bd6a6ca6e0be76a0f3a79379b90e" kind="define"><name>_Out_</name></member>
+      <member refid="group__SAITYPES_1ga198d136b8176ee5824b09c7bd8b7beb0" kind="define"><name>_Inout_</name></member>
+      <member refid="group__SAITYPES_1gab360cbf5d564aa4e668eac35c51f9f23" kind="define"><name>_In_reads_z_</name></member>
+      <member refid="group__SAITYPES_1ga51681e44fdd568a1a2a24c78e273763e" kind="define"><name>_In_reads_opt_z_</name></member>
+      <member refid="group__SAITYPES_1ga05f6bb4ef9f7ddf0ceb2056dc6ac8c6c" kind="define"><name>SAI_NULL_OBJECT_ID</name></member>
+    </sectiondef>
+    <sectiondef kind="enum">
+      <member refid="group__SAITYPES_1ga43383ec9df06a44f114025813af8962e" kind="enum"><name>_sai_common_api_t</name></member>
+      <member refid="group__SAITYPES_1ga4450320ede120f84efcd17a09c58e29f" kind="enum"><name>_sai_object_type_t</name></member>
+      <member refid="group__SAITYPES_1ga4b064fb312f83f7371fb44c277880273" kind="enum"><name>_sai_ip_addr_family_t</name></member>
+      <member refid="group__SAITYPES_1gac232cd3ec2e7aa35ee8c644f026ba199" kind="enum"><name>_sai_port_prbs_rx_status_t</name></member>
+      <member refid="group__SAITYPES_1gaf12aeae877b4c8dfbcd487a2d0a7f392" kind="enum"><name>_sai_packet_color_t</name></member>
+      <member refid="group__SAITYPES_1ga2f5be5588303ec3b7ebc06bd76f61c93" kind="enum"><name>_sai_acl_table_supported_match_type_t</name></member>
+      <member refid="group__SAITYPES_1ga2490d4484fc7e5b0a6cbe8befa61a101" kind="enum"><name>_sai_acl_table_chain_group_stage_t</name></member>
+      <member refid="group__SAITYPES_1ga69c57d2058c849c456476f49cdb3711d" kind="enum"><name>_sai_acl_stage_t</name></member>
+      <member refid="group__SAITYPES_1gaf1c9cd2f03b010c76d32e7913a10a275" kind="enum"><name>_sai_acl_bind_point_type_t</name></member>
+      <member refid="group__SAITYPES_1ga688f88091e849142059553146b335cae" kind="enum"><name>_sai_acl_table_match_type_t</name></member>
+      <member refid="group__SAITYPES_1ga29bbe6efbac3dca0d48dced474b10fc1" kind="enum"><name>_sai_tam_bind_point_type_t</name></member>
+      <member refid="group__SAITYPES_1ga88c6feb61d3ce318a7bca0a55edb1909" kind="enum"><name>_sai_prefix_compression_stage_t</name></member>
+      <member refid="group__SAITYPES_1ga0bc63ee6592c32bd1f51576805c79add" kind="enum"><name>_sai_prefix_compression_type_t</name></member>
+      <member refid="group__SAITYPES_1gaaed172f2b1308b82f94e8d55afd5ad8c" kind="enum"><name>_sai_tlv_type_t</name></member>
+      <member refid="group__SAITYPES_1ga1e604828e2fb1c7c08c35c7e9cd4b35b" kind="enum"><name>_sai_poe_port_active_channel_type_t</name></member>
+      <member refid="group__SAITYPES_1ga78cca52470273285de4a30e9c8326123" kind="enum"><name>_sai_poe_port_signature_type_t</name></member>
+      <member refid="group__SAITYPES_1ga51777008322656649840a4394b19574b" kind="enum"><name>_sai_poe_port_class_method_type_t</name></member>
+      <member refid="group__SAITYPES_1ga3d5c5beb5bba4ae8d3ee80c0bd58bd31" kind="enum"><name>_sai_outseg_type_t</name></member>
+      <member refid="group__SAITYPES_1ga504a81cb1909935d465417a6304a77f2" kind="enum"><name>_sai_outseg_ttl_mode_t</name></member>
+      <member refid="group__SAITYPES_1ga43af4b4ee6d50627651fb2f75867a375" kind="enum"><name>_sai_outseg_exp_mode_t</name></member>
+      <member refid="group__SAITYPES_1ga86eea4ad27f46d90e72d28c4d7c17b6f" kind="enum"><name>_sai_port_err_status_t</name></member>
+      <member refid="group__SAITYPES_1ga8719e09f6bf0f5a06813e32731699374" kind="enum"><name>_sai_bulk_op_error_mode_t</name></member>
+      <member refid="group__SAITYPES_1gaa7e10e19a1ac78d115740f2c7b3fe97b" kind="enum"><name>_sai_stats_mode_t</name></member>
+      <member refid="group__SAITYPES_1ga10c87bbc48e266a1aa76c1795a5df3a0" kind="enum"><name>_sai_stats_count_mode_t</name></member>
+      <member refid="group__SAITYPES_1ga58d19d2f48480f533ad7366064ed6d2a" kind="enum"><name>_sai_object_stage_t</name></member>
+      <member refid="group__SAITYPES_1gaedf8ab11b5fb0b0857d97738fbbd629c" kind="enum"><name>_sai_health_data_type_t</name></member>
+      <member refid="group__SAITYPES_1ga6aed489eadedc7e77ef89a837a0121ae" kind="enum"><name>_sai_ser_type_t</name></member>
+      <member refid="group__SAITYPES_1ga7e8e7b8bfc2311e5b555c18be6b53033" kind="enum"><name>_sai_ser_correction_type_t</name></member>
+      <member refid="group__SAITYPES_1gac97360403b4f35032ae824b68e05448c" kind="enum"><name>_sai_ser_log_type_t</name></member>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <member refid="group__SAITYPES_1gac7a28b557aa0fa2fe889f824dd73f673" kind="typedef"><name>sai_status_t</name></member>
+      <member refid="group__SAITYPES_1ga6538a9a54eccef091e997c446f6aa6fd" kind="typedef"><name>sai_switch_profile_id_t</name></member>
+      <member refid="group__SAITYPES_1gabac430b9cf2346d0cbe41bf6ec139f17" kind="typedef"><name>sai_vlan_id_t</name></member>
+      <member refid="group__SAITYPES_1ga73b4cfe4261b8c980ac123c2d2442c8f" kind="typedef"><name>sai_attr_id_t</name></member>
+      <member refid="group__SAITYPES_1ga11ffe64b80068402a5a4cf137a0424cc" kind="typedef"><name>sai_cos_t</name></member>
+      <member refid="group__SAITYPES_1ga7d3f137aff7502a5326e21fefaf77734" kind="typedef"><name>sai_queue_index_t</name></member>
+      <member refid="group__SAITYPES_1gafd2c510de88a5bdb2a040c5087582910" kind="typedef"><name>sai_mac_t</name></member>
+      <member refid="group__SAITYPES_1ga4ce283516b3e7b57b7b65aa8438a8f53" kind="typedef"><name>sai_ip4_t</name></member>
+      <member refid="group__SAITYPES_1ga696564e9a423016b4a0407bca9cfaed7" kind="typedef"><name>sai_ip6_t</name></member>
+      <member refid="group__SAITYPES_1ga964a4a7a31a36583c17899cda88e70dc" kind="typedef"><name>sai_switch_hash_seed_t</name></member>
+      <member refid="group__SAITYPES_1ga192e0b111514ee756ae87e91a77ebf94" kind="typedef"><name>sai_label_id_t</name></member>
+      <member refid="group__SAITYPES_1gafa8f96058afb44ba1f980429499d7750" kind="typedef"><name>sai_stat_id_t</name></member>
+      <member refid="group__SAITYPES_1gad4960c2566e43bb5741d77ad0639226b" kind="typedef"><name>sai_encrypt_key_t</name></member>
+      <member refid="group__SAITYPES_1gad996cf7887ebf43870b2efbf513f2ee0" kind="typedef"><name>sai_auth_key_t</name></member>
+      <member refid="group__SAITYPES_1ga73cec4a4ba1c51523b60f47571bc4dd4" kind="typedef"><name>sai_macsec_sak_t</name></member>
+      <member refid="group__SAITYPES_1ga81d5755c24f14f939cfc3eb18c7d9c4d" kind="typedef"><name>sai_macsec_auth_key_t</name></member>
+      <member refid="group__SAITYPES_1gab11714f1b32efbf198bbfd0a32c8c181" kind="typedef"><name>sai_macsec_salt_t</name></member>
+      <member refid="group__SAITYPES_1ga668224f0696ab5e53f9678040ee2ded0" kind="typedef"><name>sai_uint64_t</name></member>
+      <member refid="group__SAITYPES_1ga53885d5c76942bb311d3c20b580ebd84" kind="typedef"><name>sai_int64_t</name></member>
+      <member refid="group__SAITYPES_1ga9b2c1c86923109a12504416c7dd6b767" kind="typedef"><name>sai_uint32_t</name></member>
+      <member refid="group__SAITYPES_1gaeba0c6a74fe507adc2f450d9aabba287" kind="typedef"><name>sai_int32_t</name></member>
+      <member refid="group__SAITYPES_1ga60a09da18c5a15296dcb69ed064a1332" kind="typedef"><name>sai_uint16_t</name></member>
+      <member refid="group__SAITYPES_1ga94f2149c30e91884669dc579fb8b031d" kind="typedef"><name>sai_int16_t</name></member>
+      <member refid="group__SAITYPES_1ga7a2231370a0961cd6d199d7c303d19b4" kind="typedef"><name>sai_uint8_t</name></member>
+      <member refid="group__SAITYPES_1ga40d7422e7c97412f94a62472be0a3cfb" kind="typedef"><name>sai_int8_t</name></member>
+      <member refid="group__SAITYPES_1ga58d1faa28d39260fb438668f559bd5c0" kind="typedef"><name>sai_size_t</name></member>
+      <member refid="group__SAITYPES_1ga6b6df71f912df59c008f752a179a8893" kind="typedef"><name>sai_object_id_t</name></member>
+      <member refid="group__SAITYPES_1ga63ae23d6aadeb8cd04db479910eb8b9b" kind="typedef"><name>sai_pointer_t</name></member>
+      <member refid="group__SAITYPES_1gaffdf4aa6f14355ed57510c2f9817a477" kind="typedef"><name>sai_api_version_t</name></member>
+      <member refid="group__SAITYPES_1gaff393aac6a382646dae4cfb8a3547771" kind="typedef"><name>sai_timespec_t</name></member>
+      <member refid="group__SAITYPES_1ga35f1bf10bc85316bf38cc8e4e3db5651" kind="typedef"><name>sai_object_list_t</name></member>
+      <member refid="group__SAITYPES_1ga71ea9809b7e097d2dd285a44af476501" kind="typedef"><name>sai_common_api_t</name></member>
+      <member refid="group__SAITYPES_1ga1ca8e8725c9b140661ffae60b880fe95" kind="typedef"><name>sai_object_type_t</name></member>
+      <member refid="group__SAITYPES_1gac00e35c5f1eef42f3e3f5f11e5a897eb" kind="typedef"><name>sai_u8_list_t</name></member>
+      <member refid="group__SAITYPES_1ga7c43690e546df2a07f7029736a731d52" kind="typedef"><name>sai_s8_list_t</name></member>
+      <member refid="group__SAITYPES_1gac29a4b8cb0712b5712314449024cd46a" kind="typedef"><name>sai_u16_list_t</name></member>
+      <member refid="group__SAITYPES_1ga18230452cd98100c985e3adcf2f5d7a4" kind="typedef"><name>sai_s16_list_t</name></member>
+      <member refid="group__SAITYPES_1gac3ced5dc4edc315020266c5ead9f133f" kind="typedef"><name>sai_u32_list_t</name></member>
+      <member refid="group__SAITYPES_1gadad5dd3b45db3cdefee4a1f679b7b75a" kind="typedef"><name>sai_s32_list_t</name></member>
+      <member refid="group__SAITYPES_1ga167bb2d9d3322082a3016af531494df4" kind="typedef"><name>sai_u32_range_t</name></member>
+      <member refid="group__SAITYPES_1gaef1365b37dddc9ea8da592e84ec725e3" kind="typedef"><name>sai_s32_range_t</name></member>
+      <member refid="group__SAITYPES_1gae8c64da936ccc602d96d5457b106259d" kind="typedef"><name>sai_u16_range_t</name></member>
+      <member refid="group__SAITYPES_1ga66f930de693fdb1524485faed9751e41" kind="typedef"><name>sai_u16_range_list_t</name></member>
+      <member refid="group__SAITYPES_1gaceb7bb9da5b8d48d391c459ecfd4f9b4" kind="typedef"><name>sai_vlan_list_t</name></member>
+      <member refid="group__SAITYPES_1gaae1c1fa1a4c6e4ed6d835e273101abee" kind="typedef"><name>sai_taps_list_t</name></member>
+      <member refid="group__SAITYPES_1ga7cdd316fd968553d5a9e583b50fcb926" kind="typedef"><name>sai_ip_addr_family_t</name></member>
+      <member refid="group__SAITYPES_1ga736b8c4c088855ebc6fde14ff2eb2fa0" kind="typedef"><name>sai_ip_addr_t</name></member>
+      <member refid="group__SAITYPES_1gaadb13378bd9bc88add186c78c605be21" kind="typedef"><name>sai_ip_address_t</name></member>
+      <member refid="group__SAITYPES_1ga6db7607b59fcc7f9109dbd93e5a8ebf8" kind="typedef"><name>sai_ip_address_list_t</name></member>
+      <member refid="group__SAITYPES_1ga6ac6261fb6f69f8c0db5fb27920d2f19" kind="typedef"><name>sai_ip_prefix_t</name></member>
+      <member refid="group__SAITYPES_1ga5b9865b31917d02cb0cf805b065d9515" kind="typedef"><name>sai_ip_prefix_list_t</name></member>
+      <member refid="group__SAITYPES_1ga8a88e3aa9bb5d0cef987d796e8343b49" kind="typedef"><name>sai_port_prbs_rx_status_t</name></member>
+      <member refid="group__SAITYPES_1ga18a45b94905734e9a8e190a81f777909" kind="typedef"><name>sai_prbs_per_lane_rx_status_t</name></member>
+      <member refid="group__SAITYPES_1gab169a9c2726bf22826c4c1c1bfc4c82a" kind="typedef"><name>sai_prbs_per_lane_rx_status_list_t</name></member>
+      <member refid="group__SAITYPES_1ga86081e5af492d106df8ebadf755d7752" kind="typedef"><name>sai_prbs_rx_state_t</name></member>
+      <member refid="group__SAITYPES_1ga59fc514a6b33f8a0b13f32f8929fda5d" kind="typedef"><name>sai_latch_status_t</name></member>
+      <member refid="group__SAITYPES_1ga8ba5377dd48aad39e65d9dc337ed3ef5" kind="typedef"><name>sai_prbs_bit_error_rate_t</name></member>
+      <member refid="group__SAITYPES_1ga8c7d79a18d0bf5264f2cd8b634a72132" kind="typedef"><name>sai_prbs_per_lane_bit_error_rate_t</name></member>
+      <member refid="group__SAITYPES_1ga755104c44462c475a0e603ea24b7046f" kind="typedef"><name>sai_prbs_per_lane_bit_error_rate_list_t</name></member>
+      <member refid="group__SAITYPES_1gabc447c1f7eb643d678917482e5087c85" kind="typedef"><name>sai_port_lane_latch_status_t</name></member>
+      <member refid="group__SAITYPES_1gac6039858eee261fac840bc33ec0d1452" kind="typedef"><name>sai_port_lane_latch_status_list_t</name></member>
+      <member refid="group__SAITYPES_1gaaf7aa0f8132f0a67a39df16b147897cd" kind="typedef"><name>sai_prbs_per_lane_rx_state_t</name></member>
+      <member refid="group__SAITYPES_1gafb04041c752c63aacb2840683f642d38" kind="typedef"><name>sai_prbs_per_lane_rx_state_list_t</name></member>
+      <member refid="group__SAITYPES_1ga29ceb0c26f9f612fe991c5de277abc8c" kind="typedef"><name>sai_acl_field_data_mask_t</name></member>
+      <member refid="group__SAITYPES_1gad2ee518be2f68601c02ed7cde4f1131d" kind="typedef"><name>sai_acl_field_data_data_t</name></member>
+      <member refid="group__SAITYPES_1ga4a9bf69faa0a8fb6c3ec872b212198f5" kind="typedef"><name>sai_acl_field_data_t</name></member>
+      <member refid="group__SAITYPES_1ga1acb78d9bf20d43d439faf6278526fc8" kind="typedef"><name>sai_acl_action_parameter_t</name></member>
+      <member refid="group__SAITYPES_1gaf1c9c3a029bb1ef244c40022aec90153" kind="typedef"><name>sai_acl_action_data_t</name></member>
+      <member refid="group__SAITYPES_1ga9148fe45196c83d67d148219bddd03cb" kind="typedef"><name>sai_packet_color_t</name></member>
+      <member refid="group__SAITYPES_1ga43713c1a6535222a59530fafd144935c" kind="typedef"><name>sai_qos_map_params_t</name></member>
+      <member refid="group__SAITYPES_1ga0d8091710158436d45cc2af8bea7899a" kind="typedef"><name>sai_qos_map_t</name></member>
+      <member refid="group__SAITYPES_1gac3bea78310b8aa6b78e1c7854e96ccf2" kind="typedef"><name>sai_qos_map_list_t</name></member>
+      <member refid="group__SAITYPES_1ga73639b19edcfc752db6266f2cce68606" kind="typedef"><name>sai_map_t</name></member>
+      <member refid="group__SAITYPES_1ga9dc7f6cf89e73699e0c143c80500c449" kind="typedef"><name>sai_map_list_t</name></member>
+      <member refid="group__SAITYPES_1gada671d2f02c33f619c57b718e91a48c8" kind="typedef"><name>sai_acl_table_supported_match_type_t</name></member>
+      <member refid="group__SAITYPES_1ga91de96ef87456c79900d2a9e27062234" kind="typedef"><name>sai_acl_table_chain_group_stage_t</name></member>
+      <member refid="group__SAITYPES_1ga21cb62ab356aaa23f5fc54683b89a3ea" kind="typedef"><name>sai_acl_chain_t</name></member>
+      <member refid="group__SAITYPES_1gadb9061d7fc0032f38a926f0a951956af" kind="typedef"><name>sai_acl_chain_list_t</name></member>
+      <member refid="group__SAITYPES_1gaa2d155173f27b09573d1419028e0d720" kind="typedef"><name>sai_acl_capability_t</name></member>
+      <member refid="group__SAITYPES_1gaa365a82745158215f3e8e6312bd69c50" kind="typedef"><name>sai_acl_stage_t</name></member>
+      <member refid="group__SAITYPES_1ga0bf114ff8ed616d26d1eeb9965e31c1a" kind="typedef"><name>sai_acl_bind_point_type_t</name></member>
+      <member refid="group__SAITYPES_1ga76d9ee313481adec73e52536516591a0" kind="typedef"><name>sai_acl_table_match_type_t</name></member>
+      <member refid="group__SAITYPES_1ga475a6bf900b0e5e6cc06625483549189" kind="typedef"><name>sai_tam_bind_point_type_t</name></member>
+      <member refid="group__SAITYPES_1ga010e5fa6bdd5b88c156c7fd111c4758a" kind="typedef"><name>sai_prefix_compression_stage_t</name></member>
+      <member refid="group__SAITYPES_1gaa3a200bdbc322dcb14347570991960af" kind="typedef"><name>sai_prefix_compression_type_t</name></member>
+      <member refid="group__SAITYPES_1gad03ad4e293071f4e411bc7eee09d82e2" kind="typedef"><name>sai_acl_resource_t</name></member>
+      <member refid="group__SAITYPES_1ga2973f996529c00d9a535577b6aa83396" kind="typedef"><name>sai_acl_resource_list_t</name></member>
+      <member refid="group__SAITYPES_1gacea8c732df2ede1c7bbadfe6282dac6e" kind="typedef"><name>sai_tlv_type_t</name></member>
+      <member refid="group__SAITYPES_1ga66e84471748668b7b1316622d07e9126" kind="typedef"><name>sai_hmac_t</name></member>
+      <member refid="group__SAITYPES_1gae18ff69d828154635c0aef9e664bbb86" kind="typedef"><name>sai_tlv_entry_t</name></member>
+      <member refid="group__SAITYPES_1ga0874949cf5a3720173db4494cc43b451" kind="typedef"><name>sai_tlv_t</name></member>
+      <member refid="group__SAITYPES_1ga7d9584c65cb8acc33acfd5dda9a865e2" kind="typedef"><name>sai_tlv_list_t</name></member>
+      <member refid="group__SAITYPES_1ga4b074fbe700dad02a46e485363d19d61" kind="typedef"><name>sai_segment_list_t</name></member>
+      <member refid="group__SAITYPES_1ga86bc6f40adc2a4ee7caa899b81f9dac9" kind="typedef"><name>sai_json_t</name></member>
+      <member refid="group__SAITYPES_1gaf811d269ea31aedbee74ea04644f5fc7" kind="typedef"><name>sai_port_lane_eye_values_t</name></member>
+      <member refid="group__SAITYPES_1ga8568500db91f271aeb0177435ef822c4" kind="typedef"><name>sai_port_eye_values_list_t</name></member>
+      <member refid="group__SAITYPES_1ga7a4e0cc28dd804c86593e3b64d90bf8b" kind="typedef"><name>sai_port_pam4_lane_eye_values_t</name></member>
+      <member refid="group__SAITYPES_1ga858d185b786a5124b5538ef83105e91c" kind="typedef"><name>sai_port_pam4_eye_values_list_t</name></member>
+      <member refid="group__SAITYPES_1gadd92839b60e82027d9f4a61e249a9973" kind="typedef"><name>sai_port_frequency_offset_ppm_values_t</name></member>
+      <member refid="group__SAITYPES_1gab3cff69f28d1c89b791d6f42ec799746" kind="typedef"><name>sai_port_frequency_offset_ppm_list_t</name></member>
+      <member refid="group__SAITYPES_1ga77706b0bbd60e4f1f1358cb1dff5b944" kind="typedef"><name>sai_port_snr_values_t</name></member>
+      <member refid="group__SAITYPES_1ga88e24b04bbf92577607165247ee4b465" kind="typedef"><name>sai_port_snr_list_t</name></member>
+      <member refid="group__SAITYPES_1gab77617799fb557864efafd82cfa83a2a" kind="typedef"><name>sai_poe_port_active_channel_type_t</name></member>
+      <member refid="group__SAITYPES_1ga28965789a4d84820cc6c92ace4a670b4" kind="typedef"><name>sai_poe_port_signature_type_t</name></member>
+      <member refid="group__SAITYPES_1gad93c102a5abf3c75f73e95143167d423" kind="typedef"><name>sai_poe_port_class_method_type_t</name></member>
+      <member refid="group__SAITYPES_1ga7a711429e0e0ed33cda78a080f60f51f" kind="typedef"><name>sai_poe_port_power_consumption_t</name></member>
+      <member refid="group__SAITYPES_1ga118ea11553686c4d210c7cd5e934e198" kind="typedef"><name>sai_outseg_type_t</name></member>
+      <member refid="group__SAITYPES_1ga35bf3184894b77382a142a96eb1dc791" kind="typedef"><name>sai_outseg_ttl_mode_t</name></member>
+      <member refid="group__SAITYPES_1ga162f60030e06b668e5415962ab88fff4" kind="typedef"><name>sai_outseg_exp_mode_t</name></member>
+      <member refid="group__SAITYPES_1ga438665665d1a3f4191b7996372816d99" kind="typedef"><name>sai_system_port_config_t</name></member>
+      <member refid="group__SAITYPES_1ga6f2c1e3a86b638ae0958bfcb1c1dbf79" kind="typedef"><name>sai_system_port_config_list_t</name></member>
+      <member refid="group__SAITYPES_1ga8814debbc0cc5ef0ad9f35d7b94b0978" kind="typedef"><name>sai_fabric_port_reachability_t</name></member>
+      <member refid="group__SAITYPES_1ga2d01286ef239bd5a74188a7d501029c4" kind="typedef"><name>sai_port_err_status_t</name></member>
+      <member refid="group__SAITYPES_1gae95576ce39de9c8aae91fd34200133da" kind="typedef"><name>sai_port_err_status_list_t</name></member>
+      <member refid="group__SAITYPES_1gab42aceb4b4dd647f478c9e5123a60aec" kind="typedef"><name>sai_attribute_value_t</name></member>
+      <member refid="group__SAITYPES_1gaa03b4ea06d1e99354b7b1f0bb4e5cd6c" kind="typedef"><name>sai_attribute_t</name></member>
+      <member refid="group__SAITYPES_1ga9d616e9a3681df47e76d877ab4239b73" kind="typedef"><name>sai_bulk_op_error_mode_t</name></member>
+      <member refid="group__SAITYPES_1ga4610f346b1ad7a6272ba9d9bf933da94" kind="typedef"><name>sai_bulk_object_create_fn</name></member>
+      <member refid="group__SAITYPES_1ga4bbefb281d59e3e5c25ad8b9868d35c7" kind="typedef"><name>sai_bulk_object_remove_fn</name></member>
+      <member refid="group__SAITYPES_1gac70ee7964e1bbe312df8efa023fd9c09" kind="typedef"><name>sai_bulk_object_set_attribute_fn</name></member>
+      <member refid="group__SAITYPES_1ga2ab56d3f0d9cfe8964f3cbfd32a6e5ea" kind="typedef"><name>sai_bulk_object_get_attribute_fn</name></member>
+      <member refid="group__SAITYPES_1ga014bb209265764e9561d87972a503209" kind="typedef"><name>sai_stats_mode_t</name></member>
+      <member refid="group__SAITYPES_1ga060513eff356bab3c21eff868ffd2eeb" kind="typedef"><name>sai_stat_capability_t</name></member>
+      <member refid="group__SAITYPES_1ga39b1c7c10d5c3b31541f9df96e3c8150" kind="typedef"><name>sai_stat_capability_list_t</name></member>
+      <member refid="group__SAITYPES_1ga12302cedc0885a941654eb9bee82e576" kind="typedef"><name>sai_stat_st_capability_t</name></member>
+      <member refid="group__SAITYPES_1ga4ced08fe4512e03532e91d2293bedee8" kind="typedef"><name>sai_stat_st_capability_list_t</name></member>
+      <member refid="group__SAITYPES_1gacc81765a1603c9de2909d77965c23a7d" kind="typedef"><name>sai_stats_count_mode_t</name></member>
+      <member refid="group__SAITYPES_1ga16c183ce62db740ca4aa9b8be9e9961e" kind="typedef"><name>sai_object_stage_t</name></member>
+      <member refid="group__SAITYPES_1ga520cb074ad29ec309c76588b30f2c46f" kind="typedef"><name>sai_health_data_type_t</name></member>
+      <member refid="group__SAITYPES_1ga05befedac27515d542bbbb2156e3d480" kind="typedef"><name>sai_ser_type_t</name></member>
+      <member refid="group__SAITYPES_1ga405298921544e74de5b99054c832002c" kind="typedef"><name>sai_ser_correction_type_t</name></member>
+      <member refid="group__SAITYPES_1ga02ef41e4ae060c56924860e23d44f114" kind="typedef"><name>sai_ser_log_type_t</name></member>
+      <member refid="group__SAITYPES_1ga2429e41d40bcba0bafadcd10d08384aa" kind="typedef"><name>sai_ser_health_data_t</name></member>
+      <member refid="group__SAITYPES_1gac1b1a2a231fd2467b5dac90a10525bdd" kind="typedef"><name>sai_health_data_t</name></member>
+      <member refid="group__SAITYPES_1ga923745d6d29486137b733c75991b40c4" kind="typedef"><name>sai_switch_health_data_t</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>This module defines SAI portable types. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (c) 2014 Microsoft Open Technologies, Inc.</para>
+<para>Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <ulink url="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</ulink></para>
+<para>THIS CODE IS PROVIDED ON AN <emphasis>AS IS</emphasis> BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY OR NON-INFRINGEMENT.</para>
+<para>See the Apache Version 2.0 License for specific language governing permissions and limitations under the License.</para>
+<para>Microsoft would like to thank the following companies for their review and assistance with these files: Intel Corporation, Mellanox Technologies Ltd, Dell Products, L.P., Facebook, Inc., Marvell International Ltd. </para>
+    </detaileddescription>
+    <location file="/home/romanveskera/SAI/SAI/inc/saitypes.h"/>
+  </compounddef>
+</doxygen>

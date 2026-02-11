@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="saiexperimentaldashoutboundportmap_8h" kind="file" language="C++">
+    <compoundname>saiexperimentaldashoutboundportmap.h</compoundname>
+    <includes refid="saitypesextensions_8h" local="no">saitypesextensions.h</includes>
+    <includedby refid="saiextensions_8h" local="yes">/home/romanveskera/SAI/SAI/experimental/saiextensions.h</includedby>
+    <includedby refid="saiobject_8h" local="no">/home/romanveskera/SAI/SAI/inc/saiobject.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashoutboundportmap.h</label>
+        <link refid="saiexperimentaldashoutboundportmap_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>saitypesextensions.h</label>
+        <link refid="saitypesextensions_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>saitypes.h</label>
+        <link refid="saitypes_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stdint.h</label>
+      </node>
+      <node id="6">
+        <label>sys/types.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashoutboundportmap.h</label>
+        <link refid="saiexperimentaldashoutboundportmap_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiextensions.h</label>
+        <link refid="saiextensions_8h"/>
+      </node>
+      <node id="4">
+        <label>/home/romanveskera/SAI/SAI/inc/sai.h</label>
+        <link refid="sai_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>/home/romanveskera/SAI/SAI/inc/saiobject.h</label>
+        <link refid="saiobject_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct__sai__outbound__port__map__port__range__entry__t" prot="public">_sai_outbound_port_map_port_range_entry_t</innerclass>
+    <innerclass refid="struct__sai__dash__outbound__port__map__api__t" prot="public">_sai_dash_outbound_port_map_api_t</innerclass>
+    <sectiondef kind="enum">
+      <member refid="group__SAIEXPERIMENTALDASHOUTBOUNDPORTMAP_1ga9e72bc00a353f405836d8830495a5aba" kind="enum"><name>_sai_outbound_port_map_port_range_entry_action_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHOUTBOUNDPORTMAP_1ga1cc62167bd841bcac52c0d0240d30948" kind="enum"><name>_sai_outbound_port_map_attr_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHOUTBOUNDPORTMAP_1ga46d1ca41c31aacf38076b3a678be9595" kind="enum"><name>_sai_outbound_port_map_port_range_entry_attr_t</name></member>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <member refid="group__SAIEXPERIMENTALDASHOUTBOUNDPORTMAP_1ga4f1b7ff53e4b230c817be7d19b785e91" kind="typedef"><name>sai_outbound_port_map_port_range_entry_action_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHOUTBOUNDPORTMAP_1ga6e7103548f45c2c7e11432155c89d06f" kind="typedef"><name>sai_outbound_port_map_attr_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHOUTBOUNDPORTMAP_1gae6927ac0c73a0a0db78e6e89c29fe5d1" kind="typedef"><name>sai_outbound_port_map_port_range_entry_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHOUTBOUNDPORTMAP_1ga483d57876132dfc9f434a9e8a7dfe759" kind="typedef"><name>sai_outbound_port_map_port_range_entry_attr_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHOUTBOUNDPORTMAP_1gaeffa62155cd40619c052f1da360ba796" kind="typedef"><name>sai_create_outbound_port_map_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHOUTBOUNDPORTMAP_1ga9956b7f960da3a97627ba65d37db9c46" kind="typedef"><name>sai_remove_outbound_port_map_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHOUTBOUNDPORTMAP_1ga034ef60883e4df9719d24f2992055e67" kind="typedef"><name>sai_set_outbound_port_map_attribute_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHOUTBOUNDPORTMAP_1gaac8b381b06d0f398954456b3fba51fb9" kind="typedef"><name>sai_get_outbound_port_map_attribute_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHOUTBOUNDPORTMAP_1ga05ab9dc3bb6deeaa2f35f1977f178e96" kind="typedef"><name>sai_create_outbound_port_map_port_range_entry_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHOUTBOUNDPORTMAP_1gaded82f02a6ddfae0c0f8c71bad8e2d5d" kind="typedef"><name>sai_remove_outbound_port_map_port_range_entry_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHOUTBOUNDPORTMAP_1ga6c7f4cee12744c672429e2c2e4d5257c" kind="typedef"><name>sai_set_outbound_port_map_port_range_entry_attribute_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHOUTBOUNDPORTMAP_1ga4aefe5870bf6a94f34cc397c9c7d2fec" kind="typedef"><name>sai_get_outbound_port_map_port_range_entry_attribute_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHOUTBOUNDPORTMAP_1ga6831331fc9ce63d006a5b26c80ff93bb" kind="typedef"><name>sai_bulk_create_outbound_port_map_port_range_entry_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHOUTBOUNDPORTMAP_1ga47789b5e1a3feb127b39d296dd18c489" kind="typedef"><name>sai_bulk_remove_outbound_port_map_port_range_entry_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHOUTBOUNDPORTMAP_1ga44ac17d202de6d48e73ddea3bd2eb445" kind="typedef"><name>sai_dash_outbound_port_map_api_t</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>This module defines SAI extensions for DASH outbound port map. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (c) 2014 Microsoft Open Technologies, Inc.</para>
+<para>Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <ulink url="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</ulink></para>
+<para>THIS CODE IS PROVIDED ON AN <emphasis>AS IS</emphasis> BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY OR NON-INFRINGEMENT.</para>
+<para>See the Apache Version 2.0 License for specific language governing permissions and limitations under the License.</para>
+<para>Microsoft would like to thank the following companies for their review and assistance with these files: Intel Corporation, Mellanox Technologies Ltd, Dell Products, L.P., Facebook, Inc., Marvell International Ltd.</para>
+<para><simplesect kind="warning"><para>This module is a SAI experimental module </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashoutboundportmap.h"/>
+  </compounddef>
+</doxygen>

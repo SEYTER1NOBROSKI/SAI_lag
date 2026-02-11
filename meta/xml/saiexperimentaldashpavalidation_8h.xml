@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="saiexperimentaldashpavalidation_8h" kind="file" language="C++">
+    <compoundname>saiexperimentaldashpavalidation.h</compoundname>
+    <includes refid="saitypesextensions_8h" local="no">saitypesextensions.h</includes>
+    <includedby refid="saiextensions_8h" local="yes">/home/romanveskera/SAI/SAI/experimental/saiextensions.h</includedby>
+    <includedby refid="saiobject_8h" local="no">/home/romanveskera/SAI/SAI/inc/saiobject.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashpavalidation.h</label>
+        <link refid="saiexperimentaldashpavalidation_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>saitypesextensions.h</label>
+        <link refid="saitypesextensions_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>saitypes.h</label>
+        <link refid="saitypes_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stdint.h</label>
+      </node>
+      <node id="6">
+        <label>sys/types.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashpavalidation.h</label>
+        <link refid="saiexperimentaldashpavalidation_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiextensions.h</label>
+        <link refid="saiextensions_8h"/>
+      </node>
+      <node id="4">
+        <label>/home/romanveskera/SAI/SAI/inc/sai.h</label>
+        <link refid="sai_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>/home/romanveskera/SAI/SAI/inc/saiobject.h</label>
+        <link refid="saiobject_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct__sai__pa__validation__entry__t" prot="public">_sai_pa_validation_entry_t</innerclass>
+    <innerclass refid="struct__sai__dash__pa__validation__api__t" prot="public">_sai_dash_pa_validation_api_t</innerclass>
+    <sectiondef kind="enum">
+      <member refid="group__SAIEXPERIMENTALDASHPAVALIDATION_1ga245d12fb60f1593321b46b497063b674" kind="enum"><name>_sai_pa_validation_entry_action_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHPAVALIDATION_1gae4c300b66f4f67505abf6f5c05a3e94a" kind="enum"><name>_sai_pa_validation_entry_attr_t</name></member>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <member refid="group__SAIEXPERIMENTALDASHPAVALIDATION_1ga410e8c6145a6f7ae4704072d5b27a4f7" kind="typedef"><name>sai_pa_validation_entry_action_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHPAVALIDATION_1ga5abcf7f878bf449b40150932bddd74a5" kind="typedef"><name>sai_pa_validation_entry_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHPAVALIDATION_1ga7723df8ca06f9835ce8e6b01e8bab196" kind="typedef"><name>sai_pa_validation_entry_attr_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHPAVALIDATION_1ga9b16da17e48e605c49d7f343fe0ec7ea" kind="typedef"><name>sai_create_pa_validation_entry_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHPAVALIDATION_1ga989e5420ae173ea8cbe4c08f9a121157" kind="typedef"><name>sai_remove_pa_validation_entry_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHPAVALIDATION_1ga8c080d41d90581965931ac51d209e625" kind="typedef"><name>sai_set_pa_validation_entry_attribute_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHPAVALIDATION_1gaedb365e52ab5d4edd9752ea13817fb5d" kind="typedef"><name>sai_get_pa_validation_entry_attribute_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHPAVALIDATION_1gab1bc424d926b6498c07cd1aa443f7574" kind="typedef"><name>sai_bulk_create_pa_validation_entry_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHPAVALIDATION_1gafe77b676b6678e0799fa1c6e58e4434e" kind="typedef"><name>sai_bulk_remove_pa_validation_entry_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHPAVALIDATION_1ga7c23f983f261e89576c01aadcac0f34b" kind="typedef"><name>sai_dash_pa_validation_api_t</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>This module defines SAI extensions for DASH PA validation. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (c) 2014 Microsoft Open Technologies, Inc.</para>
+<para>Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <ulink url="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</ulink></para>
+<para>THIS CODE IS PROVIDED ON AN <emphasis>AS IS</emphasis> BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY OR NON-INFRINGEMENT.</para>
+<para>See the Apache Version 2.0 License for specific language governing permissions and limitations under the License.</para>
+<para>Microsoft would like to thank the following companies for their review and assistance with these files: Intel Corporation, Mellanox Technologies Ltd, Dell Products, L.P., Facebook, Inc., Marvell International Ltd.</para>
+<para><simplesect kind="warning"><para>This module is a SAI experimental module </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashpavalidation.h"/>
+  </compounddef>
+</doxygen>

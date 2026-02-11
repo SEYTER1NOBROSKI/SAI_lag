@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="saimirror_8h" kind="file" language="C++">
+    <compoundname>saimirror.h</compoundname>
+    <includes refid="saitypes_8h" local="no">saitypes.h</includes>
+    <includedby refid="sai_8h" local="yes">/home/romanveskera/SAI/SAI/inc/sai.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/saimirror.h</label>
+        <link refid="saimirror_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>saitypes.h</label>
+        <link refid="saitypes_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>stdbool.h</label>
+      </node>
+      <node id="3">
+        <label>stdint.h</label>
+      </node>
+      <node id="5">
+        <label>sys/types.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiextensions.h</label>
+        <link refid="saiextensions_8h"/>
+      </node>
+      <node id="2">
+        <label>/home/romanveskera/SAI/SAI/inc/sai.h</label>
+        <link refid="sai_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/saimirror.h</label>
+        <link refid="saimirror_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct__sai__mirror__api__t" prot="public">_sai_mirror_api_t</innerclass>
+    <sectiondef kind="enum">
+      <member refid="group__SAIMIRROR_1gabdc98f10a0da23a7e8ed9761d9a88d35" kind="enum"><name>_sai_mirror_session_type_t</name></member>
+      <member refid="group__SAIMIRROR_1ga67b6ca919b1ea4871156a1abcef19e6f" kind="enum"><name>_sai_erspan_encapsulation_type_t</name></member>
+      <member refid="group__SAIMIRROR_1ga510eb3a8a95f7d55bdcea9f00fc6d961" kind="enum"><name>_sai_mirror_session_congestion_mode_t</name></member>
+      <member refid="group__SAIMIRROR_1ga1744423f16efcb37a507a6a31834975c" kind="enum"><name>_sai_mirror_session_attr_t</name></member>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <member refid="group__SAIMIRROR_1ga9f74f282547f55068a2e586fbffc1422" kind="typedef"><name>sai_mirror_session_type_t</name></member>
+      <member refid="group__SAIMIRROR_1gae811fe7cb547a18863c79d86f9096e66" kind="typedef"><name>sai_erspan_encapsulation_type_t</name></member>
+      <member refid="group__SAIMIRROR_1ga01ce89388ee431498fcc41f9506445e4" kind="typedef"><name>sai_mirror_session_congestion_mode_t</name></member>
+      <member refid="group__SAIMIRROR_1ga44fbb7997d532b803a57fe52e4b57956" kind="typedef"><name>sai_mirror_session_attr_t</name></member>
+      <member refid="group__SAIMIRROR_1ga1058e406dcdbfcad8f41f8bb168d49d5" kind="typedef"><name>sai_create_mirror_session_fn</name></member>
+      <member refid="group__SAIMIRROR_1ga78e222fc1f3acd342f00f30e76b4a196" kind="typedef"><name>sai_remove_mirror_session_fn</name></member>
+      <member refid="group__SAIMIRROR_1ga21e2a618c6f512f80b42699c49190f91" kind="typedef"><name>sai_set_mirror_session_attribute_fn</name></member>
+      <member refid="group__SAIMIRROR_1ga20e6dde106fda495d83b657f024e6707" kind="typedef"><name>sai_get_mirror_session_attribute_fn</name></member>
+      <member refid="group__SAIMIRROR_1gab8a9aaf599e951018669858af8e9b6a2" kind="typedef"><name>sai_mirror_api_t</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>This module defines SAI Port Mirror interface. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (c) 2014 Microsoft Open Technologies, Inc.</para>
+<para>Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <ulink url="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</ulink></para>
+<para>THIS CODE IS PROVIDED ON AN <emphasis>AS IS</emphasis> BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY OR NON-INFRINGEMENT.</para>
+<para>See the Apache Version 2.0 License for specific language governing permissions and limitations under the License.</para>
+<para>Microsoft would like to thank the following companies for their review and assistance with these files: Intel Corporation, Mellanox Technologies Ltd, Dell Products, L.P., Facebook, Inc., Marvell International Ltd. </para>
+    </detaileddescription>
+    <location file="/home/romanveskera/SAI/SAI/inc/saimirror.h"/>
+  </compounddef>
+</doxygen>

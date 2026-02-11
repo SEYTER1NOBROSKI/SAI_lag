@@ -702,41 +702,44 @@ sai_status_t sai_attr_list_to_str(_In_ uint32_t                     attr_count,
     return SAI_STATUS_SUCCESS;
 }
 
-sai_status_t stub_object_to_type(sai_object_id_t object_id, sai_object_type_t type, uint32_t *data)
+sai_status_t stub_object_to_type(
+    sai_object_id_t object_id,
+    sai_object_type_t type,
+    uint32_t *out_data)
 {
-    stub_object_id_t *stub_object_id = (stub_object_id_t*)&object_id;
+    sai_object_type_t received_type = (sai_object_type_t)(object_id >> 48);
 
-    if (NULL == data) {
-        STUB_LOG_ERR("NULL data value\n");
+    if (received_type != type) {
+        printf("OID Error: Expected Type %d, but OID 0x%lx has Type %d\n", 
+               type, object_id, received_type);
         return SAI_STATUS_INVALID_PARAMETER;
     }
 
-    if (type != stub_object_id->object_type) {
-        STUB_LOG_ERR("Expected object %s got %s\n", SAI_TYPE_STR(type), SAI_TYPE_STR(stub_object_id->object_type));
-        return SAI_STATUS_INVALID_PARAMETER;
+    if (out_data) {
+        *out_data = (uint32_t)(object_id & 0xFFFFFFFF);
     }
 
-    *data = stub_object_id->data;
     return SAI_STATUS_SUCCESS;
 }
 
-sai_status_t stub_create_object(sai_object_type_t type, uint32_t data, sai_object_id_t *object_id)
+sai_status_t stub_create_object(
+    sai_object_type_t type, 
+    uint32_t data, 
+    sai_object_id_t *object_id)
 {
-    stub_object_id_t *stub_object_id = (stub_object_id_t*)object_id;
-
     if (NULL == object_id) {
-        STUB_LOG_ERR("NULL object id value\n");
+        printf("NULL object id value\n");
         return SAI_STATUS_INVALID_PARAMETER;
     }
 
-    if (type >= SAI_OBJECT_TYPE_MAX) {
-        STUB_LOG_ERR("Unknown object type %d\n", type);
-        return SAI_STATUS_INVALID_PARAMETER;
-    }
+    uint64_t type_bits = (uint64_t)type;
+    uint64_t data_bits = (uint64_t)data;
 
-    memset(stub_object_id, 0, sizeof(*stub_object_id));
-    stub_object_id->data        = data;
-    stub_object_id->object_type = type;
+    *object_id = (type_bits << 48) | data_bits;
+    
+    //printf("DEBUG: Object Created via Shift. Type: %d, Data: %d -> OID: 0x%lx\n", 
+    //       type, data, *object_id);
+
     return SAI_STATUS_SUCCESS;
 }
 

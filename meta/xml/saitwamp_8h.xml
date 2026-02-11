@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="saitwamp_8h" kind="file" language="C++">
+    <compoundname>saitwamp.h</compoundname>
+    <includes refid="saitypes_8h" local="no">saitypes.h</includes>
+    <includedby refid="sai_8h" local="yes">/home/romanveskera/SAI/SAI/inc/sai.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/saitwamp.h</label>
+        <link refid="saitwamp_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>saitypes.h</label>
+        <link refid="saitypes_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>stdbool.h</label>
+      </node>
+      <node id="3">
+        <label>stdint.h</label>
+      </node>
+      <node id="5">
+        <label>sys/types.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiextensions.h</label>
+        <link refid="saiextensions_8h"/>
+      </node>
+      <node id="2">
+        <label>/home/romanveskera/SAI/SAI/inc/sai.h</label>
+        <link refid="sai_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/saitwamp.h</label>
+        <link refid="saitwamp_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct__sai__twamp__session__stats__data__t" prot="public">_sai_twamp_session_stats_data_t</innerclass>
+    <innerclass refid="struct__sai__twamp__session__event__notification__data__t" prot="public">_sai_twamp_session_event_notification_data_t</innerclass>
+    <innerclass refid="struct__sai__twamp__api__t" prot="public">_sai_twamp_api_t</innerclass>
+    <sectiondef kind="enum">
+      <member refid="group__SAITWAMP_1gaf77c98bef383e429cdcd51eee4d75a15" kind="enum"><name>_sai_twamp_session_auth_mode_t</name></member>
+      <member refid="group__SAITWAMP_1ga81de6d8e3b1a0637a8bdadce07db2d86" kind="enum"><name>_sai_twamp_session_role_t</name></member>
+      <member refid="group__SAITWAMP_1gaffa30d38e2b08cc17fb0d9fd44ea6d38" kind="enum"><name>_sai_twamp_mode_t</name></member>
+      <member refid="group__SAITWAMP_1ga14376d2b164e4d43d7cbcddb638742df" kind="enum"><name>_sai_twamp_pkt_tx_mode_t</name></member>
+      <member refid="group__SAITWAMP_1ga1feccfee1a3080466245e78b37ee3777" kind="enum"><name>_sai_twamp_timestamp_format_t</name></member>
+      <member refid="group__SAITWAMP_1ga67ef58e83dc63f0b8492048e439df583" kind="enum"><name>_sai_twamp_encapsulation_type_t</name></member>
+      <member refid="group__SAITWAMP_1gaa363f42736b57a738c862f590a2cf0da" kind="enum"><name>_sai_twamp_session_attr_t</name></member>
+      <member refid="group__SAITWAMP_1ga11f977d12b067dabb4b115e4806180dd" kind="enum"><name>_sai_twamp_session_stat_t</name></member>
+      <member refid="group__SAITWAMP_1ga7e1ddad11c5fce34f3bddc2a181f50dd" kind="enum"><name>_sai_twamp_session_state_t</name></member>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <member refid="group__SAITWAMP_1ga98a5307409a7fa58b9b6d2e399cef0d0" kind="typedef"><name>sai_twamp_session_auth_mode_t</name></member>
+      <member refid="group__SAITWAMP_1gae9390ba38ac386ebce976e9d2bf89ce4" kind="typedef"><name>sai_twamp_session_role_t</name></member>
+      <member refid="group__SAITWAMP_1ga3a468b3718e4399381ae03075f1177cf" kind="typedef"><name>sai_twamp_mode_t</name></member>
+      <member refid="group__SAITWAMP_1gac0b93746117a3845b452615687635f77" kind="typedef"><name>sai_twamp_pkt_tx_mode_t</name></member>
+      <member refid="group__SAITWAMP_1ga90b1bbd70ebd1a51a027dab7719c759e" kind="typedef"><name>sai_twamp_timestamp_format_t</name></member>
+      <member refid="group__SAITWAMP_1ga55ea61ec3740ee3ef936f51c4eaae5e4" kind="typedef"><name>sai_twamp_encapsulation_type_t</name></member>
+      <member refid="group__SAITWAMP_1ga2ec3492e478608b4b32397f6cfeaca61" kind="typedef"><name>sai_twamp_session_attr_t</name></member>
+      <member refid="group__SAITWAMP_1ga87d03e02bad1e618fe945162b525ddd8" kind="typedef"><name>sai_twamp_session_stat_t</name></member>
+      <member refid="group__SAITWAMP_1ga3d5345b61a863b19aff12dc9682dfc98" kind="typedef"><name>sai_twamp_session_state_t</name></member>
+      <member refid="group__SAITWAMP_1ga10ce5481ecea1f5c43f437d71e3d7573" kind="typedef"><name>sai_twamp_session_stats_data_t</name></member>
+      <member refid="group__SAITWAMP_1gaa46fe82f9ca52059366a03d91aed62ab" kind="typedef"><name>sai_twamp_session_event_notification_data_t</name></member>
+      <member refid="group__SAITWAMP_1gaf0e67d972d8351ee4e1d55e19a3efb88" kind="typedef"><name>sai_create_twamp_session_fn</name></member>
+      <member refid="group__SAITWAMP_1ga70ee48c0cedf173ee4d5fe1658a2965e" kind="typedef"><name>sai_remove_twamp_session_fn</name></member>
+      <member refid="group__SAITWAMP_1ga7e330e2b5311180be5133ec8f4020703" kind="typedef"><name>sai_set_twamp_session_attribute_fn</name></member>
+      <member refid="group__SAITWAMP_1ga8ae2fe33537a6c250b47da12be0046a7" kind="typedef"><name>sai_get_twamp_session_attribute_fn</name></member>
+      <member refid="group__SAITWAMP_1ga5292b2e816032021d16aa8b4c5edc82c" kind="typedef"><name>sai_get_twamp_session_stats_fn</name></member>
+      <member refid="group__SAITWAMP_1ga1ee8e78fcb0a0e469a5aa1284efb78dc" kind="typedef"><name>sai_get_twamp_session_stats_ext_fn</name></member>
+      <member refid="group__SAITWAMP_1gaf68a8a2652a0d8da3a6be6bd01c7821f" kind="typedef"><name>sai_clear_twamp_session_stats_fn</name></member>
+      <member refid="group__SAITWAMP_1ga785d8f6648586cbf696ac4bef04a41e0" kind="typedef"><name>sai_twamp_session_event_notification_fn</name></member>
+      <member refid="group__SAITWAMP_1gab9857efb6854c0e757351231249cd1a1" kind="typedef"><name>sai_twamp_api_t</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>This module defines SAI Two-Way Active Measurement Protocol interface. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (c) 2023 Microsoft Open Technologies, Inc.</para>
+<para>Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <ulink url="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</ulink></para>
+<para>THIS CODE IS PROVIDED ON AN <emphasis>AS IS</emphasis> BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY OR NON-INFRINGEMENT.</para>
+<para>See the Apache Version 2.0 License for specific language governing permissions and limitations under the License.</para>
+<para>Microsoft would like to thank the following companies for their review and assistance with these files: Intel Corporation, Mellanox Technologies Ltd, Dell Products, L.P., Facebook, Inc., Marvell International Ltd. </para>
+    </detaileddescription>
+    <location file="/home/romanveskera/SAI/SAI/inc/saitwamp.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="saidebugcounter_8h" kind="file" language="C++">
+    <compoundname>saidebugcounter.h</compoundname>
+    <includes refid="saitypes_8h" local="no">saitypes.h</includes>
+    <includedby refid="sai_8h" local="yes">/home/romanveskera/SAI/SAI/inc/sai.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/saidebugcounter.h</label>
+        <link refid="saidebugcounter_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>saitypes.h</label>
+        <link refid="saitypes_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>stdbool.h</label>
+      </node>
+      <node id="3">
+        <label>stdint.h</label>
+      </node>
+      <node id="5">
+        <label>sys/types.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiextensions.h</label>
+        <link refid="saiextensions_8h"/>
+      </node>
+      <node id="2">
+        <label>/home/romanveskera/SAI/SAI/inc/sai.h</label>
+        <link refid="sai_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/saidebugcounter.h</label>
+        <link refid="saidebugcounter_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct__sai__debug__counter__api__t" prot="public">_sai_debug_counter_api_t</innerclass>
+    <sectiondef kind="enum">
+      <member refid="group__SAIDEBUGCOUNTER_1ga12dd047a22748532683245953da60f59" kind="enum"><name>_sai_debug_counter_type_t</name></member>
+      <member refid="group__SAIDEBUGCOUNTER_1gacf249229e35d8c5be3d093af97eda39a" kind="enum"><name>_sai_debug_counter_bind_method_t</name></member>
+      <member refid="group__SAIDEBUGCOUNTER_1gaeead349562594f067067f2a38e8157c4" kind="enum"><name>_sai_in_drop_reason_t</name></member>
+      <member refid="group__SAIDEBUGCOUNTER_1ga9bf28d66b40b24dbc47677d5f661937a" kind="enum"><name>_sai_out_drop_reason_t</name></member>
+      <member refid="group__SAIDEBUGCOUNTER_1gaca7678992e1d3f88ef481515be35bab2" kind="enum"><name>_sai_debug_counter_attr_t</name></member>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <member refid="group__SAIDEBUGCOUNTER_1ga9d383b3483c207947ad6b46b1939dd8b" kind="typedef"><name>sai_debug_counter_type_t</name></member>
+      <member refid="group__SAIDEBUGCOUNTER_1ga11c431ea1a3ed16f1fc821c3cd4dd783" kind="typedef"><name>sai_debug_counter_bind_method_t</name></member>
+      <member refid="group__SAIDEBUGCOUNTER_1ga494a3708d68e1f71473c3fb6096ce5dc" kind="typedef"><name>sai_in_drop_reason_t</name></member>
+      <member refid="group__SAIDEBUGCOUNTER_1gab93eb041175b75a0d7b858f97eac9a50" kind="typedef"><name>sai_out_drop_reason_t</name></member>
+      <member refid="group__SAIDEBUGCOUNTER_1gac02a5f8841c257ba596ac8d3be542f88" kind="typedef"><name>sai_debug_counter_attr_t</name></member>
+      <member refid="group__SAIDEBUGCOUNTER_1gacc2adfa30f63bb7706668c47ad933b97" kind="typedef"><name>sai_create_debug_counter_fn</name></member>
+      <member refid="group__SAIDEBUGCOUNTER_1ga55b38dd3e092c0c4d884c932d0545079" kind="typedef"><name>sai_remove_debug_counter_fn</name></member>
+      <member refid="group__SAIDEBUGCOUNTER_1ga88adf549416478dae700129ec60149e0" kind="typedef"><name>sai_set_debug_counter_attribute_fn</name></member>
+      <member refid="group__SAIDEBUGCOUNTER_1ga1fdd9e89a5ae7ab810df8de5a22eae0b" kind="typedef"><name>sai_get_debug_counter_attribute_fn</name></member>
+      <member refid="group__SAIDEBUGCOUNTER_1ga930b24480b60b931e6ca85280bf2fb08" kind="typedef"><name>sai_debug_counter_api_t</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>This module defines SAI Debug Counter interface. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (c) 2014 Microsoft Open Technologies, Inc.</para>
+<para>Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <ulink url="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</ulink></para>
+<para>THIS CODE IS PROVIDED ON AN <emphasis>AS IS</emphasis> BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY OR NON-INFRINGEMENT.</para>
+<para>See the Apache Version 2.0 License for specific language governing permissions and limitations under the License.</para>
+<para>Microsoft would like to thank the following companies for their review and assistance with these files: Intel Corporation, Mellanox Technologies Ltd, Dell Products, L.P., Facebook, Inc., Marvell International Ltd.</para>
+<para><simplesect kind="par"><title>Abstract</title><para></para>
+</simplesect>
+This module defines SAI Debug Counter API. </para>
+    </detaileddescription>
+    <location file="/home/romanveskera/SAI/SAI/inc/saidebugcounter.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,795 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="group__SAIEXPERIMENTALDASHTRUSTEDVNI" kind="group">
+    <compoundname>SAIEXPERIMENTALDASHTRUSTEDVNI</compoundname>
+    <title>SAI - Experimental: DASH trusted VNI specific API definitions</title>
+    <innerclass refid="struct__sai__global__trusted__vni__entry__t" prot="public">_sai_global_trusted_vni_entry_t</innerclass>
+    <innerclass refid="struct__sai__eni__trusted__vni__entry__t" prot="public">_sai_eni_trusted_vni_entry_t</innerclass>
+    <innerclass refid="struct__sai__dash__trusted__vni__api__t" prot="public">_sai_dash_trusted_vni_api_t</innerclass>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="group__SAIEXPERIMENTALDASHTRUSTEDVNI_1ga05a92f5354a65aae2a3b5f3d9f81af96" prot="public" static="no" strong="no">
+        <type></type>
+        <name>_sai_global_trusted_vni_entry_action_t</name>
+        <enumvalue id="group__SAIEXPERIMENTALDASHTRUSTEDVNI_1gga05a92f5354a65aae2a3b5f3d9f81af96a12ea4c2e698434f878df11262e29f3f6" prot="public">
+          <name>SAI_GLOBAL_TRUSTED_VNI_ENTRY_ACTION_PERMIT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Attribute data for <ref refid="group__SAIEXPERIMENTALDASHTRUSTEDVNI_1gga1a06ef9372d3f19c274461b4c9a2967aa62d5b746ace28ea6bd53666394a4c2e7" kindref="member">SAI_GLOBAL_TRUSTED_VNI_ENTRY_ATTR_ACTION</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" line="41" column="1" bodyfile="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" bodystart="42" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="enum" id="group__SAIEXPERIMENTALDASHTRUSTEDVNI_1ga7a9c3ffcef22447723da9d60cca762d3" prot="public" static="no" strong="no">
+        <type></type>
+        <name>_sai_eni_trusted_vni_entry_action_t</name>
+        <enumvalue id="group__SAIEXPERIMENTALDASHTRUSTEDVNI_1gga7a9c3ffcef22447723da9d60cca762d3a960fc0a3d6407901d82a827a5bc3fb7c" prot="public">
+          <name>SAI_ENI_TRUSTED_VNI_ENTRY_ACTION_PERMIT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Attribute data for <ref refid="group__SAIEXPERIMENTALDASHTRUSTEDVNI_1gga6d73c03ba2973070fe147066a6396413a37648e0d35ef2b0e22c1399365db6571" kindref="member">SAI_ENI_TRUSTED_VNI_ENTRY_ATTR_ACTION</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" line="50" column="1" bodyfile="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" bodystart="51" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="enum" id="group__SAIEXPERIMENTALDASHTRUSTEDVNI_1ga1a06ef9372d3f19c274461b4c9a2967a" prot="public" static="no" strong="no">
+        <type></type>
+        <name>_sai_global_trusted_vni_entry_attr_t</name>
+        <enumvalue id="group__SAIEXPERIMENTALDASHTRUSTEDVNI_1gga1a06ef9372d3f19c274461b4c9a2967aa4910ea4f9f5089ebda31cea846f69779" prot="public">
+          <name>SAI_GLOBAL_TRUSTED_VNI_ENTRY_ATTR_START</name>
+          <briefdescription>
+<para>Start of attributes. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__SAIEXPERIMENTALDASHTRUSTEDVNI_1gga1a06ef9372d3f19c274461b4c9a2967aa62d5b746ace28ea6bd53666394a4c2e7" prot="public">
+          <name>SAI_GLOBAL_TRUSTED_VNI_ENTRY_ATTR_ACTION</name>
+          <initializer>= SAI_GLOBAL_TRUSTED_VNI_ENTRY_ATTR_START</initializer>
+          <briefdescription>
+<para>Action. </para>
+          </briefdescription>
+          <detaileddescription>
+<para><simplesect kind="par"><title>Value Type:</title><para> @@type            sai_global_trusted_vni_entry_action_t </para>
+</simplesect>
+<simplesect kind="par"><title>Flags:</title><para> @@flags           CREATE_AND_SET </para>
+</simplesect>
+<simplesect kind="par"><title>Default value:</title><para> @@default         SAI_GLOBAL_TRUSTED_VNI_ENTRY_ACTION_PERMIT </para>
+</simplesect>
+</para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__SAIEXPERIMENTALDASHTRUSTEDVNI_1gga1a06ef9372d3f19c274461b4c9a2967aa8ee89b8a2af42f2b025f331ae0f28a87" prot="public">
+          <name>SAI_GLOBAL_TRUSTED_VNI_ENTRY_ATTR_END</name>
+          <briefdescription>
+<para>End of attributes. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__SAIEXPERIMENTALDASHTRUSTEDVNI_1gga1a06ef9372d3f19c274461b4c9a2967aaac5a3d4e24d9e118e5bdddbecbe42cbb" prot="public">
+          <name>SAI_GLOBAL_TRUSTED_VNI_ENTRY_ATTR_CUSTOM_RANGE_START</name>
+          <initializer>= 0x10000000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Custom range base value </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__SAIEXPERIMENTALDASHTRUSTEDVNI_1gga1a06ef9372d3f19c274461b4c9a2967aa282b4ab4d99797cbc48c43a4082cb9a2" prot="public">
+          <name>SAI_GLOBAL_TRUSTED_VNI_ENTRY_ATTR_CUSTOM_RANGE_END</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>End of custom range base </para>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Attribute ID for global trusted VNI entry. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" line="78" column="1" bodyfile="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" bodystart="79" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="enum" id="group__SAIEXPERIMENTALDASHTRUSTEDVNI_1ga6d73c03ba2973070fe147066a6396413" prot="public" static="no" strong="no">
+        <type></type>
+        <name>_sai_eni_trusted_vni_entry_attr_t</name>
+        <enumvalue id="group__SAIEXPERIMENTALDASHTRUSTEDVNI_1gga6d73c03ba2973070fe147066a6396413a751c912e6797ffcee8405255a4f26320" prot="public">
+          <name>SAI_ENI_TRUSTED_VNI_ENTRY_ATTR_START</name>
+          <briefdescription>
+<para>Start of attributes. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__SAIEXPERIMENTALDASHTRUSTEDVNI_1gga6d73c03ba2973070fe147066a6396413a37648e0d35ef2b0e22c1399365db6571" prot="public">
+          <name>SAI_ENI_TRUSTED_VNI_ENTRY_ATTR_ACTION</name>
+          <initializer>= SAI_ENI_TRUSTED_VNI_ENTRY_ATTR_START</initializer>
+          <briefdescription>
+<para>Action. </para>
+          </briefdescription>
+          <detaileddescription>
+<para><simplesect kind="par"><title>Value Type:</title><para> @@type            sai_eni_trusted_vni_entry_action_t </para>
+</simplesect>
+<simplesect kind="par"><title>Flags:</title><para> @@flags           CREATE_AND_SET </para>
+</simplesect>
+<simplesect kind="par"><title>Default value:</title><para> @@default         SAI_ENI_TRUSTED_VNI_ENTRY_ACTION_PERMIT </para>
+</simplesect>
+</para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__SAIEXPERIMENTALDASHTRUSTEDVNI_1gga6d73c03ba2973070fe147066a6396413a75dc0689247391591cfb03cfecc0396e" prot="public">
+          <name>SAI_ENI_TRUSTED_VNI_ENTRY_ATTR_END</name>
+          <briefdescription>
+<para>End of attributes. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__SAIEXPERIMENTALDASHTRUSTEDVNI_1gga6d73c03ba2973070fe147066a6396413a7b6acfa0ea37ce2936432b8a6213fe2e" prot="public">
+          <name>SAI_ENI_TRUSTED_VNI_ENTRY_ATTR_CUSTOM_RANGE_START</name>
+          <initializer>= 0x10000000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Custom range base value </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__SAIEXPERIMENTALDASHTRUSTEDVNI_1gga6d73c03ba2973070fe147066a6396413a7ac6abc30561116591e66812d18a3dde" prot="public">
+          <name>SAI_ENI_TRUSTED_VNI_ENTRY_ATTR_CUSTOM_RANGE_END</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>End of custom range base </para>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Attribute ID for ENI trusted VNI entry. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" line="136" column="1" bodyfile="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" bodystart="137" bodyend="163"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="group__SAIEXPERIMENTALDASHTRUSTEDVNI_1gabca45e104f02a7786db366afe2cfcc3f" prot="public" static="no">
+        <type>enum <ref refid="group__SAIEXPERIMENTALDASHTRUSTEDVNI_1ga05a92f5354a65aae2a3b5f3d9f81af96" kindref="member">_sai_global_trusted_vni_entry_action_t</ref></type>
+        <definition>typedef enum _sai_global_trusted_vni_entry_action_t sai_global_trusted_vni_entry_action_t</definition>
+        <argsstring></argsstring>
+        <name>sai_global_trusted_vni_entry_action_t</name>
+        <briefdescription>
+<para>Attribute data for <ref refid="group__SAIEXPERIMENTALDASHTRUSTEDVNI_1gga1a06ef9372d3f19c274461b4c9a2967aa62d5b746ace28ea6bd53666394a4c2e7" kindref="member">SAI_GLOBAL_TRUSTED_VNI_ENTRY_ATTR_ACTION</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" line="45" column="39"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__SAIEXPERIMENTALDASHTRUSTEDVNI_1ga4137e5f6a2f4213382185d31e6030a11" prot="public" static="no">
+        <type>enum <ref refid="group__SAIEXPERIMENTALDASHTRUSTEDVNI_1ga7a9c3ffcef22447723da9d60cca762d3" kindref="member">_sai_eni_trusted_vni_entry_action_t</ref></type>
+        <definition>typedef enum _sai_eni_trusted_vni_entry_action_t sai_eni_trusted_vni_entry_action_t</definition>
+        <argsstring></argsstring>
+        <name>sai_eni_trusted_vni_entry_action_t</name>
+        <briefdescription>
+<para>Attribute data for <ref refid="group__SAIEXPERIMENTALDASHTRUSTEDVNI_1gga6d73c03ba2973070fe147066a6396413a37648e0d35ef2b0e22c1399365db6571" kindref="member">SAI_ENI_TRUSTED_VNI_ENTRY_ATTR_ACTION</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" line="54" column="36"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__SAIEXPERIMENTALDASHTRUSTEDVNI_1ga91d0006798a3d82d19d14a1680abf521" prot="public" static="no">
+        <type>struct <ref refid="struct__sai__global__trusted__vni__entry__t" kindref="compound">_sai_global_trusted_vni_entry_t</ref></type>
+        <definition>typedef struct _sai_global_trusted_vni_entry_t sai_global_trusted_vni_entry_t</definition>
+        <argsstring></argsstring>
+        <name>sai_global_trusted_vni_entry_t</name>
+        <briefdescription>
+<para>Entry for global_trusted_vni_entry. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" line="73" column="32"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__SAIEXPERIMENTALDASHTRUSTEDVNI_1ga698d459b15176022b96f078dd81e9c87" prot="public" static="no">
+        <type>enum <ref refid="group__SAIEXPERIMENTALDASHTRUSTEDVNI_1ga1a06ef9372d3f19c274461b4c9a2967a" kindref="member">_sai_global_trusted_vni_entry_attr_t</ref></type>
+        <definition>typedef enum _sai_global_trusted_vni_entry_attr_t sai_global_trusted_vni_entry_attr_t</definition>
+        <argsstring></argsstring>
+        <name>sai_global_trusted_vni_entry_attr_t</name>
+        <briefdescription>
+<para>Attribute ID for global trusted VNI entry. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" line="105" column="37"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__SAIEXPERIMENTALDASHTRUSTEDVNI_1ga06c57103dc82395b7da72f1deb52adf9" prot="public" static="no">
+        <type>struct <ref refid="struct__sai__eni__trusted__vni__entry__t" kindref="compound">_sai_eni_trusted_vni_entry_t</ref></type>
+        <definition>typedef struct _sai_eni_trusted_vni_entry_t sai_eni_trusted_vni_entry_t</definition>
+        <argsstring></argsstring>
+        <name>sai_eni_trusted_vni_entry_t</name>
+        <briefdescription>
+<para>Entry for eni_trusted_vni_entry. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" line="131" column="29"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__SAIEXPERIMENTALDASHTRUSTEDVNI_1ga978f31203bd16e28512f88687b7adddf" prot="public" static="no">
+        <type>enum <ref refid="group__SAIEXPERIMENTALDASHTRUSTEDVNI_1ga6d73c03ba2973070fe147066a6396413" kindref="member">_sai_eni_trusted_vni_entry_attr_t</ref></type>
+        <definition>typedef enum _sai_eni_trusted_vni_entry_attr_t sai_eni_trusted_vni_entry_attr_t</definition>
+        <argsstring></argsstring>
+        <name>sai_eni_trusted_vni_entry_attr_t</name>
+        <briefdescription>
+<para>Attribute ID for ENI trusted VNI entry. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" line="163" column="34"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__SAIEXPERIMENTALDASHTRUSTEDVNI_1ga7a09e42103e9ada0b999cab3d066870b" prot="public" static="no">
+        <type>sai_status_t(*</type>
+        <definition>typedef sai_status_t(* sai_create_global_trusted_vni_entry_fn) (_In_ const sai_global_trusted_vni_entry_t *global_trusted_vni_entry, _In_ uint32_t attr_count, _In_ const sai_attribute_t *attr_list)</definition>
+        <argsstring>)(_In_ const sai_global_trusted_vni_entry_t *global_trusted_vni_entry, _In_ uint32_t attr_count, _In_ const sai_attribute_t *attr_list)</argsstring>
+        <name>sai_create_global_trusted_vni_entry_fn</name>
+        <briefdescription>
+<para>Create global trusted VNI entry. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">global_trusted_vni_entry</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Entry </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">attr_count</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number of attributes </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">attr_list</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Array of attributes</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="group__SAISTATUS_1gaccbc66056ee29d7f1dc8defdc314cc55" kindref="member">SAI_STATUS_SUCCESS</ref> on success Failure status code on error </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" line="174" column="9" bodyfile="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" bodystart="174" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__SAIEXPERIMENTALDASHTRUSTEDVNI_1ga4e993639cebddbe84d0de78a4856a1aa" prot="public" static="no">
+        <type>sai_status_t(*</type>
+        <definition>typedef sai_status_t(* sai_remove_global_trusted_vni_entry_fn) (_In_ const sai_global_trusted_vni_entry_t *global_trusted_vni_entry)</definition>
+        <argsstring>)(_In_ const sai_global_trusted_vni_entry_t *global_trusted_vni_entry)</argsstring>
+        <name>sai_remove_global_trusted_vni_entry_fn</name>
+        <briefdescription>
+<para>Remove global trusted VNI entry. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">global_trusted_vni_entry</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Entry</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="group__SAISTATUS_1gaccbc66056ee29d7f1dc8defdc314cc55" kindref="member">SAI_STATUS_SUCCESS</ref> on success Failure status code on error </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" line="186" column="9" bodyfile="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" bodystart="186" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__SAIEXPERIMENTALDASHTRUSTEDVNI_1ga32c2f1f9781fa17e139335903c4e6575" prot="public" static="no">
+        <type>sai_status_t(*</type>
+        <definition>typedef sai_status_t(* sai_set_global_trusted_vni_entry_attribute_fn) (_In_ const sai_global_trusted_vni_entry_t *global_trusted_vni_entry, _In_ const sai_attribute_t *attr)</definition>
+        <argsstring>)(_In_ const sai_global_trusted_vni_entry_t *global_trusted_vni_entry, _In_ const sai_attribute_t *attr)</argsstring>
+        <name>sai_set_global_trusted_vni_entry_attribute_fn</name>
+        <briefdescription>
+<para>Set attribute for global trusted VNI entry. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">global_trusted_vni_entry</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Entry </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">attr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Attribute</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="group__SAISTATUS_1gaccbc66056ee29d7f1dc8defdc314cc55" kindref="member">SAI_STATUS_SUCCESS</ref> on success Failure status code on error </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" line="197" column="9" bodyfile="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" bodystart="197" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__SAIEXPERIMENTALDASHTRUSTEDVNI_1gab95ccd2549a3210492edbea85944745f" prot="public" static="no">
+        <type>sai_status_t(*</type>
+        <definition>typedef sai_status_t(* sai_get_global_trusted_vni_entry_attribute_fn) (_In_ const sai_global_trusted_vni_entry_t *global_trusted_vni_entry, _In_ uint32_t attr_count, _Inout_ sai_attribute_t *attr_list)</definition>
+        <argsstring>)(_In_ const sai_global_trusted_vni_entry_t *global_trusted_vni_entry, _In_ uint32_t attr_count, _Inout_ sai_attribute_t *attr_list)</argsstring>
+        <name>sai_get_global_trusted_vni_entry_attribute_fn</name>
+        <briefdescription>
+<para>Get attribute for global trusted VNI entry. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">global_trusted_vni_entry</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Entry </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">attr_count</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number of attributes </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="inout">attr_list</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Array of attributes</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="group__SAISTATUS_1gaccbc66056ee29d7f1dc8defdc314cc55" kindref="member">SAI_STATUS_SUCCESS</ref> on success Failure status code on error </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" line="210" column="9" bodyfile="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" bodystart="210" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__SAIEXPERIMENTALDASHTRUSTEDVNI_1ga87cb77cdf043bf2106f336d9f7a759c2" prot="public" static="no">
+        <type>sai_status_t(*</type>
+        <definition>typedef sai_status_t(* sai_bulk_create_global_trusted_vni_entry_fn) (_In_ uint32_t object_count, _In_ const sai_global_trusted_vni_entry_t *global_trusted_vni_entry, _In_ const uint32_t *attr_count, _In_ const sai_attribute_t **attr_list, _In_ sai_bulk_op_error_mode_t mode, _Out_ sai_status_t *object_statuses)</definition>
+        <argsstring>)(_In_ uint32_t object_count, _In_ const sai_global_trusted_vni_entry_t *global_trusted_vni_entry, _In_ const uint32_t *attr_count, _In_ const sai_attribute_t **attr_list, _In_ sai_bulk_op_error_mode_t mode, _Out_ sai_status_t *object_statuses)</argsstring>
+        <name>sai_bulk_create_global_trusted_vni_entry_fn</name>
+        <briefdescription>
+<para>Bulk create global trusted VNI entry. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">object_count</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number of objects to create </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">global_trusted_vni_entry</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>List of object to create </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">attr_count</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>List of attr_count. Caller passes the number of attribute for each object to create. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">attr_list</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>List of attributes for every object. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">mode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Bulk operation error handling mode. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">object_statuses</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>List of status for every object. Caller needs to allocate the buffer</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="group__SAISTATUS_1gaccbc66056ee29d7f1dc8defdc314cc55" kindref="member">SAI_STATUS_SUCCESS</ref> on success when all objects are created or <ref refid="group__SAISTATUS_1ga033ca99724e17bca3e17f86df3f80490" kindref="member">SAI_STATUS_FAILURE</ref> when any of the objects fails to create. When there is failure, Caller is expected to go through the list of returned statuses to find out which fails and which succeeds. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" line="232" column="9" bodyfile="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" bodystart="232" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__SAIEXPERIMENTALDASHTRUSTEDVNI_1ga50e0da92d0e868f752e532b0ac14e893" prot="public" static="no">
+        <type>sai_status_t(*</type>
+        <definition>typedef sai_status_t(* sai_bulk_remove_global_trusted_vni_entry_fn) (_In_ uint32_t object_count, _In_ const sai_global_trusted_vni_entry_t *global_trusted_vni_entry, _In_ sai_bulk_op_error_mode_t mode, _Out_ sai_status_t *object_statuses)</definition>
+        <argsstring>)(_In_ uint32_t object_count, _In_ const sai_global_trusted_vni_entry_t *global_trusted_vni_entry, _In_ sai_bulk_op_error_mode_t mode, _Out_ sai_status_t *object_statuses)</argsstring>
+        <name>sai_bulk_remove_global_trusted_vni_entry_fn</name>
+        <briefdescription>
+<para>Bulk remove global trusted VNI entry. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">object_count</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number of objects to remove </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">global_trusted_vni_entry</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>List of objects to remove </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">mode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Bulk operation error handling mode. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">object_statuses</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>List of status for every object. Caller needs to allocate the buffer</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="group__SAISTATUS_1gaccbc66056ee29d7f1dc8defdc314cc55" kindref="member">SAI_STATUS_SUCCESS</ref> on success when all objects are removed or <ref refid="group__SAISTATUS_1ga033ca99724e17bca3e17f86df3f80490" kindref="member">SAI_STATUS_FAILURE</ref> when any of the objects fails to remove. When there is failure, Caller is expected to go through the list of returned statuses to find out which fails and which succeeds. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" line="254" column="9" bodyfile="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" bodystart="254" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__SAIEXPERIMENTALDASHTRUSTEDVNI_1gab59105e3e5715c55cad89877a8d21ec1" prot="public" static="no">
+        <type>sai_status_t(*</type>
+        <definition>typedef sai_status_t(* sai_create_eni_trusted_vni_entry_fn) (_In_ const sai_eni_trusted_vni_entry_t *eni_trusted_vni_entry, _In_ uint32_t attr_count, _In_ const sai_attribute_t *attr_list)</definition>
+        <argsstring>)(_In_ const sai_eni_trusted_vni_entry_t *eni_trusted_vni_entry, _In_ uint32_t attr_count, _In_ const sai_attribute_t *attr_list)</argsstring>
+        <name>sai_create_eni_trusted_vni_entry_fn</name>
+        <briefdescription>
+<para>Create ENI trusted VNI entry. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">eni_trusted_vni_entry</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Entry </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">attr_count</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number of attributes </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">attr_list</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Array of attributes</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="group__SAISTATUS_1gaccbc66056ee29d7f1dc8defdc314cc55" kindref="member">SAI_STATUS_SUCCESS</ref> on success Failure status code on error </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" line="269" column="9" bodyfile="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" bodystart="269" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__SAIEXPERIMENTALDASHTRUSTEDVNI_1ga3c1eae10140641072e214e224b413d65" prot="public" static="no">
+        <type>sai_status_t(*</type>
+        <definition>typedef sai_status_t(* sai_remove_eni_trusted_vni_entry_fn) (_In_ const sai_eni_trusted_vni_entry_t *eni_trusted_vni_entry)</definition>
+        <argsstring>)(_In_ const sai_eni_trusted_vni_entry_t *eni_trusted_vni_entry)</argsstring>
+        <name>sai_remove_eni_trusted_vni_entry_fn</name>
+        <briefdescription>
+<para>Remove ENI trusted VNI entry. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">eni_trusted_vni_entry</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Entry</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="group__SAISTATUS_1gaccbc66056ee29d7f1dc8defdc314cc55" kindref="member">SAI_STATUS_SUCCESS</ref> on success Failure status code on error </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" line="281" column="9" bodyfile="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" bodystart="281" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__SAIEXPERIMENTALDASHTRUSTEDVNI_1gad90a35be8743a1b97fc628113d6a884c" prot="public" static="no">
+        <type>sai_status_t(*</type>
+        <definition>typedef sai_status_t(* sai_set_eni_trusted_vni_entry_attribute_fn) (_In_ const sai_eni_trusted_vni_entry_t *eni_trusted_vni_entry, _In_ const sai_attribute_t *attr)</definition>
+        <argsstring>)(_In_ const sai_eni_trusted_vni_entry_t *eni_trusted_vni_entry, _In_ const sai_attribute_t *attr)</argsstring>
+        <name>sai_set_eni_trusted_vni_entry_attribute_fn</name>
+        <briefdescription>
+<para>Set attribute for ENI trusted VNI entry. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">eni_trusted_vni_entry</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Entry </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">attr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Attribute</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="group__SAISTATUS_1gaccbc66056ee29d7f1dc8defdc314cc55" kindref="member">SAI_STATUS_SUCCESS</ref> on success Failure status code on error </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" line="292" column="9" bodyfile="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" bodystart="292" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__SAIEXPERIMENTALDASHTRUSTEDVNI_1gaab521e64f841b3891a14f3af5cba4e3b" prot="public" static="no">
+        <type>sai_status_t(*</type>
+        <definition>typedef sai_status_t(* sai_get_eni_trusted_vni_entry_attribute_fn) (_In_ const sai_eni_trusted_vni_entry_t *eni_trusted_vni_entry, _In_ uint32_t attr_count, _Inout_ sai_attribute_t *attr_list)</definition>
+        <argsstring>)(_In_ const sai_eni_trusted_vni_entry_t *eni_trusted_vni_entry, _In_ uint32_t attr_count, _Inout_ sai_attribute_t *attr_list)</argsstring>
+        <name>sai_get_eni_trusted_vni_entry_attribute_fn</name>
+        <briefdescription>
+<para>Get attribute for ENI trusted VNI entry. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">eni_trusted_vni_entry</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Entry </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">attr_count</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number of attributes </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="inout">attr_list</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Array of attributes</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="group__SAISTATUS_1gaccbc66056ee29d7f1dc8defdc314cc55" kindref="member">SAI_STATUS_SUCCESS</ref> on success Failure status code on error </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" line="305" column="9" bodyfile="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" bodystart="305" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__SAIEXPERIMENTALDASHTRUSTEDVNI_1ga554688a36e34fb5c898fc791eb542ea5" prot="public" static="no">
+        <type>sai_status_t(*</type>
+        <definition>typedef sai_status_t(* sai_bulk_create_eni_trusted_vni_entry_fn) (_In_ uint32_t object_count, _In_ const sai_eni_trusted_vni_entry_t *eni_trusted_vni_entry, _In_ const uint32_t *attr_count, _In_ const sai_attribute_t **attr_list, _In_ sai_bulk_op_error_mode_t mode, _Out_ sai_status_t *object_statuses)</definition>
+        <argsstring>)(_In_ uint32_t object_count, _In_ const sai_eni_trusted_vni_entry_t *eni_trusted_vni_entry, _In_ const uint32_t *attr_count, _In_ const sai_attribute_t **attr_list, _In_ sai_bulk_op_error_mode_t mode, _Out_ sai_status_t *object_statuses)</argsstring>
+        <name>sai_bulk_create_eni_trusted_vni_entry_fn</name>
+        <briefdescription>
+<para>Bulk create ENI trusted VNI entry. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">object_count</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number of objects to create </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">eni_trusted_vni_entry</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>List of object to create </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">attr_count</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>List of attr_count. Caller passes the number of attribute for each object to create. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">attr_list</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>List of attributes for every object. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">mode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Bulk operation error handling mode. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">object_statuses</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>List of status for every object. Caller needs to allocate the buffer</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="group__SAISTATUS_1gaccbc66056ee29d7f1dc8defdc314cc55" kindref="member">SAI_STATUS_SUCCESS</ref> on success when all objects are created or <ref refid="group__SAISTATUS_1ga033ca99724e17bca3e17f86df3f80490" kindref="member">SAI_STATUS_FAILURE</ref> when any of the objects fails to create. When there is failure, Caller is expected to go through the list of returned statuses to find out which fails and which succeeds. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" line="327" column="9" bodyfile="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" bodystart="327" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__SAIEXPERIMENTALDASHTRUSTEDVNI_1ga9fac3b1b9fa84535bc7c00ab63e7f8be" prot="public" static="no">
+        <type>sai_status_t(*</type>
+        <definition>typedef sai_status_t(* sai_bulk_remove_eni_trusted_vni_entry_fn) (_In_ uint32_t object_count, _In_ const sai_eni_trusted_vni_entry_t *eni_trusted_vni_entry, _In_ sai_bulk_op_error_mode_t mode, _Out_ sai_status_t *object_statuses)</definition>
+        <argsstring>)(_In_ uint32_t object_count, _In_ const sai_eni_trusted_vni_entry_t *eni_trusted_vni_entry, _In_ sai_bulk_op_error_mode_t mode, _Out_ sai_status_t *object_statuses)</argsstring>
+        <name>sai_bulk_remove_eni_trusted_vni_entry_fn</name>
+        <briefdescription>
+<para>Bulk remove ENI trusted VNI entry. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">object_count</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number of objects to remove </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">eni_trusted_vni_entry</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>List of objects to remove </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">mode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Bulk operation error handling mode. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="out">object_statuses</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>List of status for every object. Caller needs to allocate the buffer</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="group__SAISTATUS_1gaccbc66056ee29d7f1dc8defdc314cc55" kindref="member">SAI_STATUS_SUCCESS</ref> on success when all objects are removed or <ref refid="group__SAISTATUS_1ga033ca99724e17bca3e17f86df3f80490" kindref="member">SAI_STATUS_FAILURE</ref> when any of the objects fails to remove. When there is failure, Caller is expected to go through the list of returned statuses to find out which fails and which succeeds. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" line="349" column="9" bodyfile="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" bodystart="349" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__SAIEXPERIMENTALDASHTRUSTEDVNI_1gaf9495f4a0ea7396631a5ae347872c76d" prot="public" static="no">
+        <type>struct <ref refid="struct__sai__dash__trusted__vni__api__t" kindref="compound">_sai_dash_trusted_vni_api_t</ref></type>
+        <definition>typedef struct _sai_dash_trusted_vni_api_t sai_dash_trusted_vni_api_t</definition>
+        <argsstring></argsstring>
+        <name>sai_dash_trusted_vni_api_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" line="371" column="28"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

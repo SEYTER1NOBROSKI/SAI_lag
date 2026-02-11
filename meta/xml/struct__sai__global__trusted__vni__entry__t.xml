@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="struct__sai__global__trusted__vni__entry__t" kind="struct" language="C++" prot="public">
+    <compoundname>_sai_global_trusted_vni_entry_t</compoundname>
+    <includes refid="saiexperimentaldashtrustedvni_8h" local="no">saiexperimentaldashtrustedvni.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__sai__global__trusted__vni__entry__t_1a146d31b0ee5d0e3858332ea282372207" prot="public" static="no" mutable="no">
+        <type>sai_object_id_t</type>
+        <definition>sai_object_id_t _sai_global_trusted_vni_entry_t::switch_id</definition>
+        <argsstring></argsstring>
+        <name>switch_id</name>
+        <qualifiedname>_sai_global_trusted_vni_entry_t::switch_id</qualifiedname>
+        <briefdescription>
+<para>Switch ID. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>Allowed object types</title><para> @@objects         SAI_OBJECT_TYPE_SWITCH </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" line="66" column="21" bodyfile="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__sai__global__trusted__vni__entry__t_1a6983209b5df4160d9503eb19ffea8432" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__sai__u32__range__t" kindref="compound">sai_u32_range_t</ref></type>
+        <definition>sai_u32_range_t _sai_global_trusted_vni_entry_t::vni_range</definition>
+        <argsstring></argsstring>
+        <name>vni_range</name>
+        <qualifiedname>_sai_global_trusted_vni_entry_t::vni_range</qualifiedname>
+        <briefdescription>
+<para>Range matched key vni_range. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" line="71" column="21" bodyfile="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Entry for global_trusted_vni_entry. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>_sai_global_trusted_vni_entry_t</label>
+        <link refid="struct__sai__global__trusted__vni__entry__t"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>vni_range</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>_sai_u32_range_t</label>
+        <link refid="struct__sai__u32__range__t"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" line="59" column="1" bodyfile="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" bodystart="60" bodyend="73"/>
+    <listofallmembers>
+      <member refid="struct__sai__global__trusted__vni__entry__t_1a146d31b0ee5d0e3858332ea282372207" prot="public" virt="non-virtual"><scope>_sai_global_trusted_vni_entry_t</scope><name>switch_id</name></member>
+      <member refid="struct__sai__global__trusted__vni__entry__t_1a6983209b5df4160d9503eb19ffea8432" prot="public" virt="non-virtual"><scope>_sai_global_trusted_vni_entry_t</scope><name>vni_range</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

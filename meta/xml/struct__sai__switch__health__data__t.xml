@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="struct__sai__switch__health__data__t" kind="struct" language="C++" prot="public">
+    <compoundname>_sai_switch_health_data_t</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__sai__switch__health__data__t_1a7c725fd879102e143870e30c05d7427d" prot="public" static="no" mutable="no">
+        <type>sai_health_data_type_t</type>
+        <definition>sai_health_data_type_t _sai_switch_health_data_t::data_type</definition>
+        <argsstring></argsstring>
+        <name>data_type</name>
+        <qualifiedname>_sai_switch_health_data_t::data_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Type of switch health data </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/romanveskera/SAI/SAI/inc/saitypes.h" line="2149" column="28" bodyfile="/home/romanveskera/SAI/SAI/inc/saitypes.h" bodystart="2149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__sai__switch__health__data__t_1a4a785d97d1f4d6ee75e352fa3353702c" prot="public" static="no" mutable="no">
+        <type><ref refid="group__SAITYPES_1gac1b1a2a231fd2467b5dac90a10525bdd" kindref="member">sai_health_data_t</ref></type>
+        <definition>sai_health_data_t _sai_switch_health_data_t::data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <qualifiedname>_sai_switch_health_data_t::data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>Pass paramater:</title><para> @@passparam       data_type </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/romanveskera/SAI/SAI/inc/saitypes.h" line="2152" column="23" bodyfile="/home/romanveskera/SAI/SAI/inc/saitypes.h" bodystart="2152" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>_sai_health_data_t</label>
+        <link refid="union__sai__health__data__t"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>ser</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>_sai_ser_health_data_t</label>
+        <link refid="struct__sai__ser__health__data__t"/>
+      </node>
+      <node id="1">
+        <label>_sai_switch_health_data_t</label>
+        <link refid="struct__sai__switch__health__data__t"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/romanveskera/SAI/SAI/inc/saitypes.h" line="2146" column="1" bodyfile="/home/romanveskera/SAI/SAI/inc/saitypes.h" bodystart="2147" bodyend="2153"/>
+    <listofallmembers>
+      <member refid="struct__sai__switch__health__data__t_1a4a785d97d1f4d6ee75e352fa3353702c" prot="public" virt="non-virtual"><scope>_sai_switch_health_data_t</scope><name>data</name></member>
+      <member refid="struct__sai__switch__health__data__t_1a7c725fd879102e143870e30c05d7427d" prot="public" virt="non-virtual"><scope>_sai_switch_health_data_t</scope><name>data_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

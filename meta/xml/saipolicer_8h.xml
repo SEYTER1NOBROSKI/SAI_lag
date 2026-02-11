@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="saipolicer_8h" kind="file" language="C++">
+    <compoundname>saipolicer.h</compoundname>
+    <includes refid="saitypes_8h" local="no">saitypes.h</includes>
+    <includedby refid="sai_8h" local="yes">/home/romanveskera/SAI/SAI/inc/sai.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/saipolicer.h</label>
+        <link refid="saipolicer_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>saitypes.h</label>
+        <link refid="saitypes_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>stdbool.h</label>
+      </node>
+      <node id="3">
+        <label>stdint.h</label>
+      </node>
+      <node id="5">
+        <label>sys/types.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiextensions.h</label>
+        <link refid="saiextensions_8h"/>
+      </node>
+      <node id="2">
+        <label>/home/romanveskera/SAI/SAI/inc/sai.h</label>
+        <link refid="sai_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/saipolicer.h</label>
+        <link refid="saipolicer_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct__sai__policer__api__t" prot="public">_sai_policer_api_t</innerclass>
+    <sectiondef kind="enum">
+      <member refid="group__SAIPOLICER_1ga5895f63f56d831e0d330a22836b30078" kind="enum"><name>_sai_meter_type_t</name></member>
+      <member refid="group__SAIPOLICER_1ga6a9ec1ae150200720ea825a8745ae54b" kind="enum"><name>_sai_policer_mode_t</name></member>
+      <member refid="group__SAIPOLICER_1ga0c3f52fc5517aa97d57883d6459fc45f" kind="enum"><name>_sai_policer_color_source_t</name></member>
+      <member refid="group__SAIPOLICER_1gace54a7afc052f9d8d6043900fc085916" kind="enum"><name>_sai_policer_attr_t</name></member>
+      <member refid="group__SAIPOLICER_1ga85097c29fecf4c85302c2da1a18cd8ac" kind="enum"><name>_sai_policer_stat_t</name></member>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <member refid="group__SAIPOLICER_1gabd11adeadc01db9baefc29cf0a76eb48" kind="typedef"><name>sai_meter_type_t</name></member>
+      <member refid="group__SAIPOLICER_1gabe12375d01f9cfc74eda4959d7db858c" kind="typedef"><name>sai_policer_mode_t</name></member>
+      <member refid="group__SAIPOLICER_1gae6ab328b43101b562c7777b3f23b3d91" kind="typedef"><name>sai_policer_color_source_t</name></member>
+      <member refid="group__SAIPOLICER_1gab816dead180899e50ee6a2dd7c6980bb" kind="typedef"><name>sai_policer_attr_t</name></member>
+      <member refid="group__SAIPOLICER_1ga206456c7faf18471bac66b0d5481980d" kind="typedef"><name>sai_policer_stat_t</name></member>
+      <member refid="group__SAIPOLICER_1ga6d599a995e071fac0f054b4e2d83ed8a" kind="typedef"><name>sai_create_policer_fn</name></member>
+      <member refid="group__SAIPOLICER_1gad2f0eb383c5c773afe0a4442ce41b36b" kind="typedef"><name>sai_remove_policer_fn</name></member>
+      <member refid="group__SAIPOLICER_1ga635310e1df8911107d95853b456fccf7" kind="typedef"><name>sai_set_policer_attribute_fn</name></member>
+      <member refid="group__SAIPOLICER_1ga40080a1f5ca4efa657adea733a8933a1" kind="typedef"><name>sai_get_policer_attribute_fn</name></member>
+      <member refid="group__SAIPOLICER_1ga6e3862bd6bcc57bf54a290f2dc977d55" kind="typedef"><name>sai_get_policer_stats_fn</name></member>
+      <member refid="group__SAIPOLICER_1gaaf9b7b8d31bd3a481d5d61a8d2a486da" kind="typedef"><name>sai_get_policer_stats_ext_fn</name></member>
+      <member refid="group__SAIPOLICER_1gaf8aafcba52a6cc4c6b11feeb7c36dfa0" kind="typedef"><name>sai_clear_policer_stats_fn</name></member>
+      <member refid="group__SAIPOLICER_1ga4eb9701e8040bbdca233bb14e92e5591" kind="typedef"><name>sai_policer_api_t</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>This module defines SAI QOS Policer interface. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (c) 2014 Microsoft Open Technologies, Inc.</para>
+<para>Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <ulink url="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</ulink></para>
+<para>THIS CODE IS PROVIDED ON AN <emphasis>AS IS</emphasis> BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY OR NON-INFRINGEMENT.</para>
+<para>See the Apache Version 2.0 License for specific language governing permissions and limitations under the License.</para>
+<para>Microsoft would like to thank the following companies for their review and assistance with these files: Intel Corporation, Mellanox Technologies Ltd, Dell Products, L.P., Facebook, Inc., Marvell International Ltd. </para>
+    </detaileddescription>
+    <location file="/home/romanveskera/SAI/SAI/inc/saipolicer.h"/>
+  </compounddef>
+</doxygen>

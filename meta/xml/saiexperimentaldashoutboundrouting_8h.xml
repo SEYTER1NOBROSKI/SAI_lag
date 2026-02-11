@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="saiexperimentaldashoutboundrouting_8h" kind="file" language="C++">
+    <compoundname>saiexperimentaldashoutboundrouting.h</compoundname>
+    <includes refid="saitypesextensions_8h" local="no">saitypesextensions.h</includes>
+    <includedby refid="saiextensions_8h" local="yes">/home/romanveskera/SAI/SAI/experimental/saiextensions.h</includedby>
+    <includedby refid="saiobject_8h" local="no">/home/romanveskera/SAI/SAI/inc/saiobject.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashoutboundrouting.h</label>
+        <link refid="saiexperimentaldashoutboundrouting_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>saitypesextensions.h</label>
+        <link refid="saitypesextensions_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>saitypes.h</label>
+        <link refid="saitypes_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stdint.h</label>
+      </node>
+      <node id="6">
+        <label>sys/types.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashoutboundrouting.h</label>
+        <link refid="saiexperimentaldashoutboundrouting_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiextensions.h</label>
+        <link refid="saiextensions_8h"/>
+      </node>
+      <node id="4">
+        <label>/home/romanveskera/SAI/SAI/inc/sai.h</label>
+        <link refid="sai_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>/home/romanveskera/SAI/SAI/inc/saiobject.h</label>
+        <link refid="saiobject_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct__sai__outbound__routing__entry__t" prot="public">_sai_outbound_routing_entry_t</innerclass>
+    <innerclass refid="struct__sai__dash__outbound__routing__api__t" prot="public">_sai_dash_outbound_routing_api_t</innerclass>
+    <sectiondef kind="enum">
+      <member refid="group__SAIEXPERIMENTALDASHOUTBOUNDROUTING_1gaad5c487b4605b6f8cd22713000c73069" kind="enum"><name>_sai_outbound_routing_entry_action_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHOUTBOUNDROUTING_1ga390c88f3351d35c748d40bf9aa89c460" kind="enum"><name>_sai_outbound_routing_entry_attr_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHOUTBOUNDROUTING_1gaa1f2d4b26e93ee65bfb4d1c81f94dda7" kind="enum"><name>_sai_outbound_routing_group_attr_t</name></member>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <member refid="group__SAIEXPERIMENTALDASHOUTBOUNDROUTING_1gabd955520ab8d5e199d5e6b68a4d61096" kind="typedef"><name>sai_outbound_routing_entry_action_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHOUTBOUNDROUTING_1ga24537a4acf61992a8b9aef32379669b8" kind="typedef"><name>sai_outbound_routing_entry_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHOUTBOUNDROUTING_1gad25c2dfa6ef3277ab07fa4e8515138bf" kind="typedef"><name>sai_outbound_routing_entry_attr_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHOUTBOUNDROUTING_1gaf5efd6100a077dc26507470623765cd1" kind="typedef"><name>sai_outbound_routing_group_attr_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHOUTBOUNDROUTING_1ga200a106e42ce329ac86fb05cdd25e7b1" kind="typedef"><name>sai_create_outbound_routing_entry_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHOUTBOUNDROUTING_1ga865e8249926f340c0ebeb798d24cb5da" kind="typedef"><name>sai_remove_outbound_routing_entry_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHOUTBOUNDROUTING_1gaa3318ec4d06d4f791fd9e9f2eec45cfb" kind="typedef"><name>sai_set_outbound_routing_entry_attribute_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHOUTBOUNDROUTING_1gadae6899f18f2959f85d50182a01af798" kind="typedef"><name>sai_get_outbound_routing_entry_attribute_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHOUTBOUNDROUTING_1gaa2d3ecca62339fe3722ea2a88df99df3" kind="typedef"><name>sai_bulk_create_outbound_routing_entry_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHOUTBOUNDROUTING_1ga03777a08efc9c5b82be38ab572589294" kind="typedef"><name>sai_bulk_remove_outbound_routing_entry_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHOUTBOUNDROUTING_1gabaf7c7b4da1229989ebd3b565968ae46" kind="typedef"><name>sai_create_outbound_routing_group_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHOUTBOUNDROUTING_1ga3e05663d1fe64049dd3cee11839008d1" kind="typedef"><name>sai_remove_outbound_routing_group_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHOUTBOUNDROUTING_1ga5ac2ebd5e32e24ab0146b8153deeec2a" kind="typedef"><name>sai_set_outbound_routing_group_attribute_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHOUTBOUNDROUTING_1gaf917abbfe1221d203781e0b85babb7d7" kind="typedef"><name>sai_get_outbound_routing_group_attribute_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHOUTBOUNDROUTING_1gaae092b54ba9ef8a020d30048936c602e" kind="typedef"><name>sai_dash_outbound_routing_api_t</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>This module defines SAI extensions for DASH outbound routing. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (c) 2014 Microsoft Open Technologies, Inc.</para>
+<para>Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <ulink url="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</ulink></para>
+<para>THIS CODE IS PROVIDED ON AN <emphasis>AS IS</emphasis> BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY OR NON-INFRINGEMENT.</para>
+<para>See the Apache Version 2.0 License for specific language governing permissions and limitations under the License.</para>
+<para>Microsoft would like to thank the following companies for their review and assistance with these files: Intel Corporation, Mellanox Technologies Ltd, Dell Products, L.P., Facebook, Inc., Marvell International Ltd.</para>
+<para><simplesect kind="warning"><para>This module is a SAI experimental module </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashoutboundrouting.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="saidtel_8h" kind="file" language="C++">
+    <compoundname>saidtel.h</compoundname>
+    <includes refid="saitypes_8h" local="no">saitypes.h</includes>
+    <includedby refid="sai_8h" local="yes">/home/romanveskera/SAI/SAI/inc/sai.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/saidtel.h</label>
+        <link refid="saidtel_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>saitypes.h</label>
+        <link refid="saitypes_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>stdbool.h</label>
+      </node>
+      <node id="3">
+        <label>stdint.h</label>
+      </node>
+      <node id="5">
+        <label>sys/types.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiextensions.h</label>
+        <link refid="saiextensions_8h"/>
+      </node>
+      <node id="2">
+        <label>/home/romanveskera/SAI/SAI/inc/sai.h</label>
+        <link refid="sai_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/saidtel.h</label>
+        <link refid="saidtel_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct__sai__dtel__api__t" prot="public">_sai_dtel_api_t</innerclass>
+    <sectiondef kind="enum">
+      <member refid="group__SAIDTEL_1ga4671f4e49001568353b72c0e4e080083" kind="enum"><name>_sai_dtel_attr_t</name></member>
+      <member refid="group__SAIDTEL_1ga66b72870af834da3552015edfd0b7e12" kind="enum"><name>_sai_dtel_queue_report_attr_t</name></member>
+      <member refid="group__SAIDTEL_1ga86a279445835375bb60ac75b2b4cfcc8" kind="enum"><name>_sai_dtel_int_session_attr_t</name></member>
+      <member refid="group__SAIDTEL_1gaf034cd591c2c046bab01ac637721c0ce" kind="enum"><name>_sai_dtel_report_session_attr_t</name></member>
+      <member refid="group__SAIDTEL_1ga35ae472d10f5076afda1fd9f7fe80498" kind="enum"><name>_sai_dtel_event_type_t</name></member>
+      <member refid="group__SAIDTEL_1ga9e0c2860f0584ad47fd78e7cb0c36019" kind="enum"><name>_sai_dtel_event_attr_t</name></member>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <member refid="group__SAIDTEL_1ga6617ed14760f568e8594483d1c14cdf8" kind="typedef"><name>sai_dtel_attr_t</name></member>
+      <member refid="group__SAIDTEL_1ga3ce5d08a5050adb3d53a017aef627fa2" kind="typedef"><name>sai_dtel_queue_report_attr_t</name></member>
+      <member refid="group__SAIDTEL_1ga9d83dee83b994047cf7541dc7e50c201" kind="typedef"><name>sai_dtel_int_session_attr_t</name></member>
+      <member refid="group__SAIDTEL_1ga06692d1808f66ca329593052a296a7d6" kind="typedef"><name>sai_dtel_report_session_attr_t</name></member>
+      <member refid="group__SAIDTEL_1gaf441024d51bc175f05bf1947812b52de" kind="typedef"><name>sai_dtel_event_type_t</name></member>
+      <member refid="group__SAIDTEL_1gac1257cf03573a9af60b83498f8f349a3" kind="typedef"><name>sai_dtel_event_attr_t</name></member>
+      <member refid="group__SAIDTEL_1ga759c00aa5292a9caa86195fa18c849cd" kind="typedef"><name>sai_create_dtel_fn</name></member>
+      <member refid="group__SAIDTEL_1ga341587dcf154201bf86bb0ff8f164e1e" kind="typedef"><name>sai_remove_dtel_fn</name></member>
+      <member refid="group__SAIDTEL_1ga90d53e80d65ecaa300fca939331bd606" kind="typedef"><name>sai_set_dtel_attribute_fn</name></member>
+      <member refid="group__SAIDTEL_1ga5251ecfc9040eb90bb7746eec682c4c4" kind="typedef"><name>sai_get_dtel_attribute_fn</name></member>
+      <member refid="group__SAIDTEL_1ga06f9fa31c641bd82a52bcd821af97fbd" kind="typedef"><name>sai_create_dtel_queue_report_fn</name></member>
+      <member refid="group__SAIDTEL_1gac3d231cdfd022130e10b8c7ac99d89b4" kind="typedef"><name>sai_remove_dtel_queue_report_fn</name></member>
+      <member refid="group__SAIDTEL_1ga408c355ddf64de668f1f825e6480932a" kind="typedef"><name>sai_set_dtel_queue_report_attribute_fn</name></member>
+      <member refid="group__SAIDTEL_1ga668dc6202e1672624c8aee12e2e352b8" kind="typedef"><name>sai_get_dtel_queue_report_attribute_fn</name></member>
+      <member refid="group__SAIDTEL_1ga77337bc010813b0becae2f122edc2b7c" kind="typedef"><name>sai_create_dtel_int_session_fn</name></member>
+      <member refid="group__SAIDTEL_1ga7b83a37851f59ae5f0c5a102ae28141e" kind="typedef"><name>sai_remove_dtel_int_session_fn</name></member>
+      <member refid="group__SAIDTEL_1ga19c7defddde13475d630b2c7e740592e" kind="typedef"><name>sai_set_dtel_int_session_attribute_fn</name></member>
+      <member refid="group__SAIDTEL_1gaa23436870b43de96622ba59dd03638d4" kind="typedef"><name>sai_get_dtel_int_session_attribute_fn</name></member>
+      <member refid="group__SAIDTEL_1ga682213be7e680579e3fab0e0bedef46f" kind="typedef"><name>sai_create_dtel_report_session_fn</name></member>
+      <member refid="group__SAIDTEL_1gac3af1f2e7fd4b631f961b902b1c80ade" kind="typedef"><name>sai_remove_dtel_report_session_fn</name></member>
+      <member refid="group__SAIDTEL_1gadaa55d26ac22a32d15553bbf0cc0fed6" kind="typedef"><name>sai_set_dtel_report_session_attribute_fn</name></member>
+      <member refid="group__SAIDTEL_1ga2452e646b05c6363846a85dc1e1c77b6" kind="typedef"><name>sai_get_dtel_report_session_attribute_fn</name></member>
+      <member refid="group__SAIDTEL_1gab5a30cff56275f6cf7f23f62d1e5fa84" kind="typedef"><name>sai_create_dtel_event_fn</name></member>
+      <member refid="group__SAIDTEL_1ga19a80ab756bc8354dbed3c0f55e43905" kind="typedef"><name>sai_remove_dtel_event_fn</name></member>
+      <member refid="group__SAIDTEL_1ga523cb43650ba41accce150ac5ba45945" kind="typedef"><name>sai_set_dtel_event_attribute_fn</name></member>
+      <member refid="group__SAIDTEL_1ga697a04bbf08f3a1731dbd8d33abb4ee8" kind="typedef"><name>sai_get_dtel_event_attribute_fn</name></member>
+      <member refid="group__SAIDTEL_1gaf8e9e8f1d73f63311bfba6762005996f" kind="typedef"><name>sai_dtel_api_t</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>This module defines SAI data plane telemetry (DTEL) interface. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (c) 2014 Microsoft Open Technologies, Inc.</para>
+<para>Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <ulink url="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</ulink></para>
+<para>THIS CODE IS PROVIDED ON AN <emphasis>AS IS</emphasis> BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY OR NON-INFRINGEMENT.</para>
+<para>See the Apache Version 2.0 License for specific language governing permissions and limitations under the License.</para>
+<para>Microsoft would like to thank the following companies for their review and assistance with these files: Intel Corporation, Mellanox Technologies Ltd, Dell Products, L.P., Facebook, Inc., Marvell International Ltd.</para>
+<para><simplesect kind="warning"><para>This is a SAI experimental module </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="/home/romanveskera/SAI/SAI/inc/saidtel.h"/>
+  </compounddef>
+</doxygen>

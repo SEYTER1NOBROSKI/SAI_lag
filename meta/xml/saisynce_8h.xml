@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="saisynce_8h" kind="file" language="C++">
+    <compoundname>saisynce.h</compoundname>
+    <includes refid="saitypes_8h" local="no">saitypes.h</includes>
+    <includedby refid="sai_8h" local="yes">/home/romanveskera/SAI/SAI/inc/sai.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/saisynce.h</label>
+        <link refid="saisynce_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>saitypes.h</label>
+        <link refid="saitypes_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>stdbool.h</label>
+      </node>
+      <node id="3">
+        <label>stdint.h</label>
+      </node>
+      <node id="5">
+        <label>sys/types.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiextensions.h</label>
+        <link refid="saiextensions_8h"/>
+      </node>
+      <node id="2">
+        <label>/home/romanveskera/SAI/SAI/inc/sai.h</label>
+        <link refid="sai_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/saisynce.h</label>
+        <link refid="saisynce_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct__sai__synce__api__t" prot="public">_sai_synce_api_t</innerclass>
+    <sectiondef kind="enum">
+      <member refid="group__SAISYNCE_1ga6698ff10b728e9440f18ef62e69ea355" kind="enum"><name>_sai_synce_recovered_clock_state_t</name></member>
+      <member refid="group__SAISYNCE_1gad4c0a6159d8f73c84c41d87ebc3c105d" kind="enum"><name>_sai_synce_clock_attr_t</name></member>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <member refid="group__SAISYNCE_1gaec1d8926e4d42940b65844037d8dcfef" kind="typedef"><name>sai_synce_recovered_clock_state_t</name></member>
+      <member refid="group__SAISYNCE_1gaed51b724a89f967821a17a16a7b54adf" kind="typedef"><name>sai_synce_clock_attr_t</name></member>
+      <member refid="group__SAISYNCE_1ga73485cb8e7fd7c104501559b0ecf9ca4" kind="typedef"><name>sai_create_synce_clock_fn</name></member>
+      <member refid="group__SAISYNCE_1ga44d494d6e4c89b4d4340c3323ab68bea" kind="typedef"><name>sai_remove_synce_clock_fn</name></member>
+      <member refid="group__SAISYNCE_1ga9179f36396e6959192f7e192f86797ea" kind="typedef"><name>sai_set_synce_clock_attribute_fn</name></member>
+      <member refid="group__SAISYNCE_1ga699ce18009bf881f49f8f556c1bd167e" kind="typedef"><name>sai_get_synce_clock_attribute_fn</name></member>
+      <member refid="group__SAISYNCE_1ga5124d38ee90e1ac2f0ebddc1da266b9b" kind="typedef"><name>sai_synce_api_t</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>This module defines SAI Synchronous Ethernet interface. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (c) 2014 Microsoft Open Technologies, Inc.</para>
+<para>Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <ulink url="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</ulink></para>
+<para>THIS CODE IS PROVIDED ON AN <emphasis>AS IS</emphasis> BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY OR NON-INFRINGEMENT.</para>
+<para>See the Apache Version 2.0 License for specific language governing permissions and limitations under the License.</para>
+<para>Microsoft would like to thank the following companies for their review and assistance with these files: Intel Corporation, Mellanox Technologies Ltd, Dell Products, L.P., Facebook, Inc., Marvell International Ltd. </para>
+    </detaileddescription>
+    <location file="/home/romanveskera/SAI/SAI/inc/saisynce.h"/>
+  </compounddef>
+</doxygen>

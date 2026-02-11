@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="saiexperimentalbmtor_8h" kind="file" language="C++">
+    <compoundname>saiexperimentalbmtor.h</compoundname>
+    <includes refid="saitypes_8h" local="no">saitypes.h</includes>
+    <includedby refid="saiextensions_8h" local="yes">/home/romanveskera/SAI/SAI/experimental/saiextensions.h</includedby>
+    <includedby refid="saiobject_8h" local="no">/home/romanveskera/SAI/SAI/inc/saiobject.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiexperimentalbmtor.h</label>
+        <link refid="saiexperimentalbmtor_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>saitypes.h</label>
+        <link refid="saitypes_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>stdbool.h</label>
+      </node>
+      <node id="3">
+        <label>stdint.h</label>
+      </node>
+      <node id="5">
+        <label>sys/types.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiexperimentalbmtor.h</label>
+        <link refid="saiexperimentalbmtor_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiextensions.h</label>
+        <link refid="saiextensions_8h"/>
+      </node>
+      <node id="4">
+        <label>/home/romanveskera/SAI/SAI/inc/sai.h</label>
+        <link refid="sai_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>/home/romanveskera/SAI/SAI/inc/saiobject.h</label>
+        <link refid="saiobject_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct__sai__bmtor__api__t" prot="public">_sai_bmtor_api_t</innerclass>
+    <sectiondef kind="enum">
+      <member refid="group__SAIEXPERIMENTALBMTOR_1gaf28ce4b6fc1ac1bf754b16d1e9ec2e2d" kind="enum"><name>_sai_table_bitmap_classification_entry_action_t</name></member>
+      <member refid="group__SAIEXPERIMENTALBMTOR_1ga34ac5750822847ee4d86230a703b1d84" kind="enum"><name>_sai_table_bitmap_router_entry_action_t</name></member>
+      <member refid="group__SAIEXPERIMENTALBMTOR_1gaec7f35be145c552bf840f7c1b1732d10" kind="enum"><name>_sai_table_meta_tunnel_entry_action_t</name></member>
+      <member refid="group__SAIEXPERIMENTALBMTOR_1gab03d4e0918a919b5f23394a99ffc60c2" kind="enum"><name>_sai_table_bitmap_classification_entry_attr_t</name></member>
+      <member refid="group__SAIEXPERIMENTALBMTOR_1gae174414f761267604434cc5f9ae78bd5" kind="enum"><name>_sai_table_bitmap_router_entry_attr_t</name></member>
+      <member refid="group__SAIEXPERIMENTALBMTOR_1gadccb7036650ac9d01283f38c719c76a6" kind="enum"><name>_sai_table_meta_tunnel_entry_attr_t</name></member>
+      <member refid="group__SAIEXPERIMENTALBMTOR_1gade02a711f21f915bebdb3fe608148e82" kind="enum"><name>_sai_table_bitmap_classification_entry_stat_t</name></member>
+      <member refid="group__SAIEXPERIMENTALBMTOR_1ga09e7cdcbfd1a0691158701bdef2b1ef2" kind="enum"><name>_sai_table_bitmap_router_entry_stat_t</name></member>
+      <member refid="group__SAIEXPERIMENTALBMTOR_1gad3f9cb60591d9434d3f64b3863903aab" kind="enum"><name>_sai_table_meta_tunnel_entry_stat_t</name></member>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <member refid="group__SAIEXPERIMENTALBMTOR_1ga6a402d5724059e791d9a34d52a01688b" kind="typedef"><name>sai_table_bitmap_classification_entry_action_t</name></member>
+      <member refid="group__SAIEXPERIMENTALBMTOR_1ga2cbc5039056db1b704988dd715037f3f" kind="typedef"><name>sai_table_bitmap_router_entry_action_t</name></member>
+      <member refid="group__SAIEXPERIMENTALBMTOR_1ga671f24e61f27829f93bfd7f6d559fa3c" kind="typedef"><name>sai_table_meta_tunnel_entry_action_t</name></member>
+      <member refid="group__SAIEXPERIMENTALBMTOR_1gaa64cde9ccc0505c7c6e1d2fef3c946d1" kind="typedef"><name>sai_table_bitmap_classification_entry_attr_t</name></member>
+      <member refid="group__SAIEXPERIMENTALBMTOR_1gac645d7433c7def971f78812f5036288e" kind="typedef"><name>sai_table_bitmap_router_entry_attr_t</name></member>
+      <member refid="group__SAIEXPERIMENTALBMTOR_1ga52cb5ced1297ed4beba413b70bd7a3ec" kind="typedef"><name>sai_table_meta_tunnel_entry_attr_t</name></member>
+      <member refid="group__SAIEXPERIMENTALBMTOR_1gadc9c930ccb52f2492f2bc6fdad01aea4" kind="typedef"><name>sai_table_bitmap_classification_entry_stat_t</name></member>
+      <member refid="group__SAIEXPERIMENTALBMTOR_1gafdd8d6f6557d8183df2026c4a32bde3b" kind="typedef"><name>sai_table_bitmap_router_entry_stat_t</name></member>
+      <member refid="group__SAIEXPERIMENTALBMTOR_1gaf8aef04b870f7acd2331b3c2e8b1a3de" kind="typedef"><name>sai_table_meta_tunnel_entry_stat_t</name></member>
+      <member refid="group__SAIEXPERIMENTALBMTOR_1gafbaa0d104b4f75b0a89558eee7d25ec8" kind="typedef"><name>sai_create_table_bitmap_classification_entry_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALBMTOR_1gaca083b124e37f8c5c6812dcf758a9b80" kind="typedef"><name>sai_remove_table_bitmap_classification_entry_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALBMTOR_1ga30db47ab24b3af16235875938b6146c7" kind="typedef"><name>sai_set_table_bitmap_classification_entry_attribute_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALBMTOR_1ga80a1584281932b664010b127c2df741d" kind="typedef"><name>sai_get_table_bitmap_classification_entry_attribute_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALBMTOR_1gadcbb1fc6cff9538892d1d905f4a12519" kind="typedef"><name>sai_get_table_bitmap_classification_entry_stats_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALBMTOR_1ga43118a05ce22ee531a409baffe2bacb7" kind="typedef"><name>sai_get_table_bitmap_classification_entry_stats_ext_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALBMTOR_1ga0ea476ad315d537a2703f3625a78fb6a" kind="typedef"><name>sai_clear_table_bitmap_classification_entry_stats_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALBMTOR_1ga0b97d7b49046dbf3a2f6480a1b1babeb" kind="typedef"><name>sai_create_table_bitmap_router_entry_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALBMTOR_1ga39d82d1f7d3daf03013e4c0ac90d67a9" kind="typedef"><name>sai_remove_table_bitmap_router_entry_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALBMTOR_1ga98421a6a70d44399d68af191089fdf4e" kind="typedef"><name>sai_set_table_bitmap_router_entry_attribute_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALBMTOR_1ga179f67d4e8c710dc48557a616bedd88c" kind="typedef"><name>sai_get_table_bitmap_router_entry_attribute_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALBMTOR_1gad50ab2c8837e943b59b343535ba5d93b" kind="typedef"><name>sai_get_table_bitmap_router_entry_stats_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALBMTOR_1ga7abbf63954d70068e7f491ed9f7528f6" kind="typedef"><name>sai_get_table_bitmap_router_entry_stats_ext_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALBMTOR_1gacfd908e22c295bab59a5efe521e54218" kind="typedef"><name>sai_clear_table_bitmap_router_entry_stats_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALBMTOR_1ga02ba055bb173d36ee810d12fa08439f3" kind="typedef"><name>sai_create_table_meta_tunnel_entry_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALBMTOR_1gac63e2a5f920e5d612e5bb168d8973a66" kind="typedef"><name>sai_remove_table_meta_tunnel_entry_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALBMTOR_1ga4fcb28ea396d864f1ae0c9e3a6d42580" kind="typedef"><name>sai_set_table_meta_tunnel_entry_attribute_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALBMTOR_1ga043f93884b4fa1c6500419d15aef901e" kind="typedef"><name>sai_get_table_meta_tunnel_entry_attribute_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALBMTOR_1gafdfab135a04c00bd97851ec743cdfbca" kind="typedef"><name>sai_get_table_meta_tunnel_entry_stats_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALBMTOR_1ga89c005548f618f0586acec6625c1b042" kind="typedef"><name>sai_get_table_meta_tunnel_entry_stats_ext_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALBMTOR_1ga8b548cadfe6d86b2ef03b7ed8b35bd3e" kind="typedef"><name>sai_clear_table_meta_tunnel_entry_stats_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALBMTOR_1ga694b03353eefb02df241375514a24a2d" kind="typedef"><name>sai_bmtor_api_t</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>This module defines SAI extensions needed for the BMTOR application. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (c) 2014 Microsoft Open Technologies, Inc.</para>
+<para>Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <ulink url="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</ulink></para>
+<para>THIS CODE IS PROVIDED ON AN <emphasis>AS IS</emphasis> BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY OR NON-INFRINGEMENT.</para>
+<para>See the Apache Version 2.0 License for specific language governing permissions and limitations under the License.</para>
+<para>Microsoft would like to thank the following companies for their review and assistance with these files: Intel Corporation, Mellanox Technologies Ltd, Dell Products, L.P., Facebook, Inc., Marvell International Ltd.</para>
+<para><simplesect kind="warning"><para>This module is a SAI experimental module. </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="/home/romanveskera/SAI/SAI/experimental/saiexperimentalbmtor.h"/>
+  </compounddef>
+</doxygen>

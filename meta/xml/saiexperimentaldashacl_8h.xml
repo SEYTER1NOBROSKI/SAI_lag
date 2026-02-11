@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="saiexperimentaldashacl_8h" kind="file" language="C++">
+    <compoundname>saiexperimentaldashacl.h</compoundname>
+    <includes refid="saitypesextensions_8h" local="no">saitypesextensions.h</includes>
+    <includedby refid="saiextensions_8h" local="yes">/home/romanveskera/SAI/SAI/experimental/saiextensions.h</includedby>
+    <includedby refid="saiobject_8h" local="no">/home/romanveskera/SAI/SAI/inc/saiobject.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashacl.h</label>
+        <link refid="saiexperimentaldashacl_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>saitypesextensions.h</label>
+        <link refid="saitypesextensions_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>saitypes.h</label>
+        <link refid="saitypes_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stdint.h</label>
+      </node>
+      <node id="6">
+        <label>sys/types.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashacl.h</label>
+        <link refid="saiexperimentaldashacl_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiextensions.h</label>
+        <link refid="saiextensions_8h"/>
+      </node>
+      <node id="4">
+        <label>/home/romanveskera/SAI/SAI/inc/sai.h</label>
+        <link refid="sai_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>/home/romanveskera/SAI/SAI/inc/saiobject.h</label>
+        <link refid="saiobject_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct__sai__dash__acl__api__t" prot="public">_sai_dash_acl_api_t</innerclass>
+    <sectiondef kind="enum">
+      <member refid="group__SAIEXPERIMENTALDASHACL_1gaed2bcc296c4f3b060d7c8d788de04468" kind="enum"><name>_sai_dash_acl_rule_action_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHACL_1ga472343f8639d48fa270bff8fab5caa5f" kind="enum"><name>_sai_dash_acl_group_attr_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHACL_1gaf2bd37776895bd86ca90c0373d89d775" kind="enum"><name>_sai_dash_acl_rule_attr_t</name></member>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <member refid="group__SAIEXPERIMENTALDASHACL_1gae0f3040eeb9756fd131661f8d7824fd3" kind="typedef"><name>sai_dash_acl_rule_action_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHACL_1gae73ab2b03dfd113a4f7acf6aa02be225" kind="typedef"><name>sai_dash_acl_group_attr_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHACL_1ga1b8590fef562ae3e96edea33cdb70e9f" kind="typedef"><name>sai_dash_acl_rule_attr_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHACL_1gad605c16e3375a0f37841fb5afb7edc35" kind="typedef"><name>sai_create_dash_acl_group_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHACL_1gaad23e8e78038d3209793afeb831478cc" kind="typedef"><name>sai_remove_dash_acl_group_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHACL_1ga6a9606e5f2296027157668e1b190745a" kind="typedef"><name>sai_set_dash_acl_group_attribute_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHACL_1ga51cd341032a719911f3381b1b8fff6c5" kind="typedef"><name>sai_get_dash_acl_group_attribute_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHACL_1gaf40194f516fff147784434ff9d990bad" kind="typedef"><name>sai_create_dash_acl_rule_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHACL_1gaa9334237721532966814b2963a35014d" kind="typedef"><name>sai_remove_dash_acl_rule_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHACL_1ga790db3b38664bff8ecd73740978b6aac" kind="typedef"><name>sai_set_dash_acl_rule_attribute_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHACL_1gaa73629e50d7e6491af539ede635b3000" kind="typedef"><name>sai_get_dash_acl_rule_attribute_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHACL_1ga3e51767949d57b492c0de79fb754bce3" kind="typedef"><name>sai_dash_acl_api_t</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>This module defines SAI extensions for DASH ACL. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (c) 2014 Microsoft Open Technologies, Inc.</para>
+<para>Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <ulink url="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</ulink></para>
+<para>THIS CODE IS PROVIDED ON AN <emphasis>AS IS</emphasis> BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY OR NON-INFRINGEMENT.</para>
+<para>See the Apache Version 2.0 License for specific language governing permissions and limitations under the License.</para>
+<para>Microsoft would like to thank the following companies for their review and assistance with these files: Intel Corporation, Mellanox Technologies Ltd, Dell Products, L.P., Facebook, Inc., Marvell International Ltd.</para>
+<para><simplesect kind="warning"><para>This module is a SAI experimental module </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashacl.h"/>
+  </compounddef>
+</doxygen>

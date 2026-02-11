@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="saiexperimentaldasheni_8h" kind="file" language="C++">
+    <compoundname>saiexperimentaldasheni.h</compoundname>
+    <includes refid="saitypesextensions_8h" local="no">saitypesextensions.h</includes>
+    <includedby refid="saiextensions_8h" local="yes">/home/romanveskera/SAI/SAI/experimental/saiextensions.h</includedby>
+    <includedby refid="saiobject_8h" local="no">/home/romanveskera/SAI/SAI/inc/saiobject.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiexperimentaldasheni.h</label>
+        <link refid="saiexperimentaldasheni_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>saitypesextensions.h</label>
+        <link refid="saitypesextensions_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>saitypes.h</label>
+        <link refid="saitypes_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stdint.h</label>
+      </node>
+      <node id="6">
+        <label>sys/types.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiexperimentaldasheni.h</label>
+        <link refid="saiexperimentaldasheni_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiextensions.h</label>
+        <link refid="saiextensions_8h"/>
+      </node>
+      <node id="4">
+        <label>/home/romanveskera/SAI/SAI/inc/sai.h</label>
+        <link refid="sai_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>/home/romanveskera/SAI/SAI/inc/saiobject.h</label>
+        <link refid="saiobject_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct__sai__eni__ether__address__map__entry__t" prot="public">_sai_eni_ether_address_map_entry_t</innerclass>
+    <innerclass refid="struct__sai__dash__eni__api__t" prot="public">_sai_dash_eni_api_t</innerclass>
+    <sectiondef kind="enum">
+      <member refid="group__SAIEXPERIMENTALDASHENI_1ga56ba01c23a126a7850aa38a9b245466b" kind="enum"><name>_sai_eni_ether_address_map_entry_action_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHENI_1gaae990330a5465ccd35788761858e81c3" kind="enum"><name>_sai_eni_ether_address_map_entry_attr_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHENI_1ga4bcfc30fee019c115823684bb64033f4" kind="enum"><name>_sai_eni_attr_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHENI_1ga4d52ac1ae893cfe7c52d0c6b6737b47a" kind="enum"><name>_sai_eni_stat_t</name></member>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <member refid="group__SAIEXPERIMENTALDASHENI_1gaa927ec6cbc2447468ae33b92a96bf550" kind="typedef"><name>sai_eni_ether_address_map_entry_action_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHENI_1gae3fe650f8ee91ad3a689616918a36c99" kind="typedef"><name>sai_eni_ether_address_map_entry_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHENI_1ga2980d3ea7af56057aaa3a72a236bff27" kind="typedef"><name>sai_eni_ether_address_map_entry_attr_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHENI_1ga4808b437d08331bf6d81d5bfd0d61d87" kind="typedef"><name>sai_eni_attr_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHENI_1ga6b52de7995ffc94f096c8c2a785c8667" kind="typedef"><name>sai_eni_stat_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHENI_1gadcee9bd892648db4a628d9c128b9d50c" kind="typedef"><name>sai_create_eni_ether_address_map_entry_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHENI_1ga46a1f72bcd9addd249b0f399c2174b86" kind="typedef"><name>sai_remove_eni_ether_address_map_entry_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHENI_1ga95edce382f30948f96e8751a719e5582" kind="typedef"><name>sai_set_eni_ether_address_map_entry_attribute_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHENI_1ga521976e865ae78568e400f2bf2efb79c" kind="typedef"><name>sai_get_eni_ether_address_map_entry_attribute_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHENI_1ga0db41b69774c3c877f90952e8e6ff261" kind="typedef"><name>sai_bulk_create_eni_ether_address_map_entry_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHENI_1gaa6056795e1137f1e6c98842a8df2d426" kind="typedef"><name>sai_bulk_remove_eni_ether_address_map_entry_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHENI_1ga595e3e7deff0011eec3f8f1b02bf4165" kind="typedef"><name>sai_create_eni_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHENI_1ga90fa8f4770ee446777e277c0ec78b638" kind="typedef"><name>sai_remove_eni_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHENI_1ga0302aeaf83a69e5f71f6c644064ae126" kind="typedef"><name>sai_set_eni_attribute_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHENI_1ga27e9465861a99273d7529c1b53a6beb4" kind="typedef"><name>sai_get_eni_attribute_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHENI_1ga2c5f9c095139015c90bf259b48acd6a6" kind="typedef"><name>sai_get_eni_stats_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHENI_1gaca34580bedd4407e4caedefcb61f208b" kind="typedef"><name>sai_get_eni_stats_ext_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHENI_1ga91ca2392e933a242b984a4774a40ad1d" kind="typedef"><name>sai_clear_eni_stats_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHENI_1gaad52251d4152c020d8281093f46705a8" kind="typedef"><name>sai_dash_eni_api_t</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>This module defines SAI extensions for DASH ENI. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (c) 2014 Microsoft Open Technologies, Inc.</para>
+<para>Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <ulink url="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</ulink></para>
+<para>THIS CODE IS PROVIDED ON AN <emphasis>AS IS</emphasis> BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY OR NON-INFRINGEMENT.</para>
+<para>See the Apache Version 2.0 License for specific language governing permissions and limitations under the License.</para>
+<para>Microsoft would like to thank the following companies for their review and assistance with these files: Intel Corporation, Mellanox Technologies Ltd, Dell Products, L.P., Facebook, Inc., Marvell International Ltd.</para>
+<para><simplesect kind="warning"><para>This module is a SAI experimental module </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldasheni.h"/>
+  </compounddef>
+</doxygen>

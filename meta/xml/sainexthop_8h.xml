@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="sainexthop_8h" kind="file" language="C++">
+    <compoundname>sainexthop.h</compoundname>
+    <includes refid="saitypes_8h" local="no">saitypes.h</includes>
+    <includedby refid="sai_8h" local="yes">/home/romanveskera/SAI/SAI/inc/sai.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/sainexthop.h</label>
+        <link refid="sainexthop_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>saitypes.h</label>
+        <link refid="saitypes_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>stdbool.h</label>
+      </node>
+      <node id="3">
+        <label>stdint.h</label>
+      </node>
+      <node id="5">
+        <label>sys/types.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiextensions.h</label>
+        <link refid="saiextensions_8h"/>
+      </node>
+      <node id="2">
+        <label>/home/romanveskera/SAI/SAI/inc/sai.h</label>
+        <link refid="sai_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/sainexthop.h</label>
+        <link refid="sainexthop_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct__sai__next__hop__api__t" prot="public">_sai_next_hop_api_t</innerclass>
+    <sectiondef kind="enum">
+      <member refid="group__SAINEXTHOP_1ga88fc4a34fc14ea69cdf7565f01f5dee0" kind="enum"><name>_sai_next_hop_type_t</name></member>
+      <member refid="group__SAINEXTHOP_1gae3ae8aa0eadbc0759dc68009f267dd4c" kind="enum"><name>_sai_next_hop_attr_t</name></member>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <member refid="group__SAINEXTHOP_1gac68d214fba52001229e3a2e79d024c65" kind="typedef"><name>sai_next_hop_type_t</name></member>
+      <member refid="group__SAINEXTHOP_1gac996e7118f0b37451b5d6ad54fdf0ddc" kind="typedef"><name>sai_next_hop_attr_t</name></member>
+      <member refid="group__SAINEXTHOP_1ga09e80358a43b20f699b10d4f58c3109f" kind="typedef"><name>sai_create_next_hop_fn</name></member>
+      <member refid="group__SAINEXTHOP_1ga4426819485b91f86c57d44845fe68830" kind="typedef"><name>sai_remove_next_hop_fn</name></member>
+      <member refid="group__SAINEXTHOP_1ga218cb404eb8b6b6c1614112e6dbe6ad9" kind="typedef"><name>sai_set_next_hop_attribute_fn</name></member>
+      <member refid="group__SAINEXTHOP_1ga188d6759549f1040095bfa03524b91ff" kind="typedef"><name>sai_get_next_hop_attribute_fn</name></member>
+      <member refid="group__SAINEXTHOP_1ga822455ca407bdb835e060a28b2d67c9e" kind="typedef"><name>sai_next_hop_api_t</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>This module defines SAI Next Hop interface. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (c) 2014 Microsoft Open Technologies, Inc.</para>
+<para>Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <ulink url="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</ulink></para>
+<para>THIS CODE IS PROVIDED ON AN <emphasis>AS IS</emphasis> BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY OR NON-INFRINGEMENT.</para>
+<para>See the Apache Version 2.0 License for specific language governing permissions and limitations under the License.</para>
+<para>Microsoft would like to thank the following companies for their review and assistance with these files: Intel Corporation, Mellanox Technologies Ltd, Dell Products, L.P., Facebook, Inc., Marvell International Ltd. </para>
+    </detaileddescription>
+    <location file="/home/romanveskera/SAI/SAI/inc/sainexthop.h"/>
+  </compounddef>
+</doxygen>

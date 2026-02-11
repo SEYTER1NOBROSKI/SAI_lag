@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="saiipsec_8h" kind="file" language="C++">
+    <compoundname>saiipsec.h</compoundname>
+    <includes refid="saitypes_8h" local="no">saitypes.h</includes>
+    <includedby refid="sai_8h" local="yes">/home/romanveskera/SAI/SAI/inc/sai.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/saiipsec.h</label>
+        <link refid="saiipsec_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>saitypes.h</label>
+        <link refid="saitypes_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>stdbool.h</label>
+      </node>
+      <node id="3">
+        <label>stdint.h</label>
+      </node>
+      <node id="5">
+        <label>sys/types.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiextensions.h</label>
+        <link refid="saiextensions_8h"/>
+      </node>
+      <node id="2">
+        <label>/home/romanveskera/SAI/SAI/inc/sai.h</label>
+        <link refid="sai_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/saiipsec.h</label>
+        <link refid="saiipsec_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct__sai__ipsec__sa__status__notification__t" prot="public">_sai_ipsec_sa_status_notification_t</innerclass>
+    <innerclass refid="struct__sai__ipsec__api__t" prot="public">_sai_ipsec_api_t</innerclass>
+    <sectiondef kind="enum">
+      <member refid="group__SAIIPSEC_1gabe049c335051a86fe9e12652ac435da2" kind="enum"><name>_sai_ipsec_direction_t</name></member>
+      <member refid="group__SAIIPSEC_1ga78e819e3a8056ccdc608df8e62ca13fd" kind="enum"><name>_sai_ipsec_cipher_t</name></member>
+      <member refid="group__SAIIPSEC_1ga32f7bd2c706c4b32f0c493d1d63c92c8" kind="enum"><name>_sai_ipsec_sa_octet_count_status_t</name></member>
+      <member refid="group__SAIIPSEC_1ga319c812294a50ac7e682f3929047923f" kind="enum"><name>_sai_ipsec_post_status_t</name></member>
+      <member refid="group__SAIIPSEC_1ga186432b79ed39ae72d2b85a3df969c5b" kind="enum"><name>_sai_ipsec_attr_t</name></member>
+      <member refid="group__SAIIPSEC_1ga5145de83f16499eeda4cbbde0fddb99a" kind="enum"><name>_sai_ipsec_port_post_status_t</name></member>
+      <member refid="group__SAIIPSEC_1ga70927c5ec7b6229ad4fdf69335221583" kind="enum"><name>_sai_ipsec_port_attr_t</name></member>
+      <member refid="group__SAIIPSEC_1gaad89eddb9c29c589e3d1b7a593a41f90" kind="enum"><name>_sai_ipsec_port_stat_t</name></member>
+      <member refid="group__SAIIPSEC_1ga560f0c8758c4f69aef1958a90ffdf551" kind="enum"><name>_sai_ipsec_sa_attr_t</name></member>
+      <member refid="group__SAIIPSEC_1ga3385808ba9a7255591278d2c79704cf8" kind="enum"><name>_sai_ipsec_sa_stat_t</name></member>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <member refid="group__SAIIPSEC_1ga5b2640d703783a622d986708f0ec3c2b" kind="typedef"><name>sai_ipsec_direction_t</name></member>
+      <member refid="group__SAIIPSEC_1ga9676afaedf0d7cc0d2b27935f015b6a7" kind="typedef"><name>sai_ipsec_cipher_t</name></member>
+      <member refid="group__SAIIPSEC_1gaebbb1cbfe79743bf350ca26875dc7394" kind="typedef"><name>sai_ipsec_sa_octet_count_status_t</name></member>
+      <member refid="group__SAIIPSEC_1ga3ae5a5672a0de90c0d1491258fefab3e" kind="typedef"><name>sai_ipsec_sa_status_notification_t</name></member>
+      <member refid="group__SAIIPSEC_1gaef8efbc7c605c9803c2b5c9578b09450" kind="typedef"><name>sai_ipsec_post_status_t</name></member>
+      <member refid="group__SAIIPSEC_1ga1866800bfb6b74870b68dde92b361029" kind="typedef"><name>sai_ipsec_post_status_notification_fn</name></member>
+      <member refid="group__SAIIPSEC_1ga3c0419853045181fc9e7ebc8492a3248" kind="typedef"><name>sai_ipsec_attr_t</name></member>
+      <member refid="group__SAIIPSEC_1ga4d09036a728235f63a97819fd53b082a" kind="typedef"><name>sai_ipsec_port_post_status_t</name></member>
+      <member refid="group__SAIIPSEC_1ga053de3e2a81b3efbb11b94c9afa02f76" kind="typedef"><name>sai_ipsec_port_attr_t</name></member>
+      <member refid="group__SAIIPSEC_1gae83a26541c3d349a65c2ed7c8c18caf5" kind="typedef"><name>sai_ipsec_port_stat_t</name></member>
+      <member refid="group__SAIIPSEC_1ga73a3a14ac9278f35470a384761aafead" kind="typedef"><name>sai_ipsec_sa_attr_t</name></member>
+      <member refid="group__SAIIPSEC_1ga2bbde0e14eafc4ce2e8460509ecef493" kind="typedef"><name>sai_ipsec_sa_stat_t</name></member>
+      <member refid="group__SAIIPSEC_1ga360b4b3c18d50abc9edd263f364a25e0" kind="typedef"><name>sai_create_ipsec_fn</name></member>
+      <member refid="group__SAIIPSEC_1ga2136e3313c3d6e34e0d6923ea54e9ce0" kind="typedef"><name>sai_remove_ipsec_fn</name></member>
+      <member refid="group__SAIIPSEC_1ga31a3b6fe783a6a95e68aa146c321ed9a" kind="typedef"><name>sai_set_ipsec_attribute_fn</name></member>
+      <member refid="group__SAIIPSEC_1ga478c504b32c936bb8d85d29b7ed32e01" kind="typedef"><name>sai_get_ipsec_attribute_fn</name></member>
+      <member refid="group__SAIIPSEC_1ga731a69c77154f651a35133ea5a2c4745" kind="typedef"><name>sai_create_ipsec_port_fn</name></member>
+      <member refid="group__SAIIPSEC_1gab6805f53bf6b5030b6a3caf310963da8" kind="typedef"><name>sai_remove_ipsec_port_fn</name></member>
+      <member refid="group__SAIIPSEC_1ga778f2cd89548312f9f8463d2bba18136" kind="typedef"><name>sai_set_ipsec_port_attribute_fn</name></member>
+      <member refid="group__SAIIPSEC_1ga4f92bd617e7446a8ab0ebc190c310df9" kind="typedef"><name>sai_get_ipsec_port_attribute_fn</name></member>
+      <member refid="group__SAIIPSEC_1ga9e0f1b12a5bc3b521a1d24456febae95" kind="typedef"><name>sai_get_ipsec_port_stats_fn</name></member>
+      <member refid="group__SAIIPSEC_1ga6409ca5a0cae0a73c72ad0b061bf24af" kind="typedef"><name>sai_get_ipsec_port_stats_ext_fn</name></member>
+      <member refid="group__SAIIPSEC_1ga74349a6b6f232e5a5e0273bf0df0a449" kind="typedef"><name>sai_clear_ipsec_port_stats_fn</name></member>
+      <member refid="group__SAIIPSEC_1ga70768bd762b921af5c3230b29bd054f6" kind="typedef"><name>sai_create_ipsec_sa_fn</name></member>
+      <member refid="group__SAIIPSEC_1ga76cd2b135e39d6120fac5c1c1c10ba2f" kind="typedef"><name>sai_remove_ipsec_sa_fn</name></member>
+      <member refid="group__SAIIPSEC_1ga352817576ca4d7960bffcd030460ad4b" kind="typedef"><name>sai_set_ipsec_sa_attribute_fn</name></member>
+      <member refid="group__SAIIPSEC_1ga48016d8a76e69758c3eac1adc273a361" kind="typedef"><name>sai_get_ipsec_sa_attribute_fn</name></member>
+      <member refid="group__SAIIPSEC_1ga3fa73089f251ae960bcb0a93f9d69aeb" kind="typedef"><name>sai_get_ipsec_sa_stats_fn</name></member>
+      <member refid="group__SAIIPSEC_1gaad66bce37fc062c8bb0c2a406565189f" kind="typedef"><name>sai_get_ipsec_sa_stats_ext_fn</name></member>
+      <member refid="group__SAIIPSEC_1gad157a2c9b77ff22ff3718e45351a85bf" kind="typedef"><name>sai_clear_ipsec_sa_stats_fn</name></member>
+      <member refid="group__SAIIPSEC_1gaeebc1a323c6c43c5a05277fea45a014e" kind="typedef"><name>sai_ipsec_sa_status_change_notification_fn</name></member>
+      <member refid="group__SAIIPSEC_1ga450c99b360b2152e71f3422cabb33364" kind="typedef"><name>sai_ipsec_api_t</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>This module defines SAI IPsec interface. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (c) 2014 Microsoft Open Technologies, Inc.</para>
+<para>Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <ulink url="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</ulink></para>
+<para>THIS CODE IS PROVIDED ON AN <emphasis>AS IS</emphasis> BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY OR NON-INFRINGEMENT.</para>
+<para>See the Apache Version 2.0 License for specific language governing permissions and limitations under the License.</para>
+<para>Microsoft would like to thank the following companies for their review and assistance with these files: Intel Corporation, Mellanox Technologies Ltd, Dell Products, L.P., Facebook, Inc., Marvell International Ltd. </para>
+    </detaileddescription>
+    <location file="/home/romanveskera/SAI/SAI/inc/saiipsec.h"/>
+  </compounddef>
+</doxygen>

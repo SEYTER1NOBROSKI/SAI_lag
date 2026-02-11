@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="struct__sai__attr__capability__t" kind="struct" language="C++" prot="public">
+    <compoundname>_sai_attr_capability_t</compoundname>
+    <includes refid="saiobject_8h" local="no">saiobject.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__sai__attr__capability__t_1a80b305ea645812e706f5cb3c899a0e88" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool _sai_attr_capability_t::create_implemented</definition>
+        <argsstring></argsstring>
+        <name>create_implemented</name>
+        <qualifiedname>_sai_attr_capability_t::create_implemented</qualifiedname>
+        <briefdescription>
+<para>Create is implemented. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/romanveskera/SAI/SAI/inc/saiobject.h" line="169" column="10" bodyfile="/home/romanveskera/SAI/SAI/inc/saiobject.h" bodystart="169" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__sai__attr__capability__t_1a7b25080ec449219e041d42ebe6f9480d" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool _sai_attr_capability_t::set_implemented</definition>
+        <argsstring></argsstring>
+        <name>set_implemented</name>
+        <qualifiedname>_sai_attr_capability_t::set_implemented</qualifiedname>
+        <briefdescription>
+<para>Set is implemented. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/romanveskera/SAI/SAI/inc/saiobject.h" line="174" column="10" bodyfile="/home/romanveskera/SAI/SAI/inc/saiobject.h" bodystart="174" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__sai__attr__capability__t_1a2aa4d0e0e1a9ebf5b45d104a745005a8" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool _sai_attr_capability_t::get_implemented</definition>
+        <argsstring></argsstring>
+        <name>get_implemented</name>
+        <qualifiedname>_sai_attr_capability_t::get_implemented</qualifiedname>
+        <briefdescription>
+<para>Get is implemented. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/romanveskera/SAI/SAI/inc/saiobject.h" line="179" column="10" bodyfile="/home/romanveskera/SAI/SAI/inc/saiobject.h" bodystart="179" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Structure for attribute capabilities per operation. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/romanveskera/SAI/SAI/inc/saiobject.h" line="164" column="1" bodyfile="/home/romanveskera/SAI/SAI/inc/saiobject.h" bodystart="165" bodyend="181"/>
+    <listofallmembers>
+      <member refid="struct__sai__attr__capability__t_1a80b305ea645812e706f5cb3c899a0e88" prot="public" virt="non-virtual"><scope>_sai_attr_capability_t</scope><name>create_implemented</name></member>
+      <member refid="struct__sai__attr__capability__t_1a2aa4d0e0e1a9ebf5b45d104a745005a8" prot="public" virt="non-virtual"><scope>_sai_attr_capability_t</scope><name>get_implemented</name></member>
+      <member refid="struct__sai__attr__capability__t_1a7b25080ec449219e041d42ebe6f9480d" prot="public" virt="non-virtual"><scope>_sai_attr_capability_t</scope><name>set_implemented</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

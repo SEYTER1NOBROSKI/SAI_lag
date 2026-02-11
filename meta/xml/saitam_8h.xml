@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="saitam_8h" kind="file" language="C++">
+    <compoundname>saitam.h</compoundname>
+    <includes refid="saitypes_8h" local="no">saitypes.h</includes>
+    <includedby refid="sai_8h" local="yes">/home/romanveskera/SAI/SAI/inc/sai.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/saitam.h</label>
+        <link refid="saitam_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>saitypes.h</label>
+        <link refid="saitypes_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>stdbool.h</label>
+      </node>
+      <node id="3">
+        <label>stdint.h</label>
+      </node>
+      <node id="5">
+        <label>sys/types.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiextensions.h</label>
+        <link refid="saiextensions_8h"/>
+      </node>
+      <node id="2">
+        <label>/home/romanveskera/SAI/SAI/inc/sai.h</label>
+        <link refid="sai_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/saitam.h</label>
+        <link refid="saitam_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct__sai__tam__api__t" prot="public">_sai_tam_api_t</innerclass>
+    <sectiondef kind="enum">
+      <member refid="group__SAITAM_1ga48b3b2ed94bb6d27d12aaa453b8f067f" kind="enum"><name>_sai_tam_attr_t</name></member>
+      <member refid="group__SAITAM_1ga1460c8123aede1b3fd5fdf7e4e191584" kind="enum"><name>_sai_tam_tel_math_func_type_t</name></member>
+      <member refid="group__SAITAM_1gaf98f21917bcece77933f6206a96a2e11" kind="enum"><name>_sai_tam_math_func_attr_t</name></member>
+      <member refid="group__SAITAM_1ga5d2405087851f231bcf343ff2fa3ab23" kind="enum"><name>_sai_tam_event_threshold_unit_t</name></member>
+      <member refid="group__SAITAM_1ga4060c7163e1a0fb64862ba0e9c26ce10" kind="enum"><name>_sai_tam_event_threshold_attr_t</name></member>
+      <member refid="group__SAITAM_1ga6fe4c8ee48e0ce2400760c058dd0d794" kind="enum"><name>_sai_tam_int_type_t</name></member>
+      <member refid="group__SAITAM_1gaa774331b18dcc9f00325b3bc26f8ef46" kind="enum"><name>_sai_tam_int_presence_type_t</name></member>
+      <member refid="group__SAITAM_1ga4234dceb3d66e8358169d734f19e601d" kind="enum"><name>_sai_tam_int_attr_t</name></member>
+      <member refid="group__SAITAM_1ga218df97236a0ed0e2f127433c8326e2e" kind="enum"><name>_sai_tam_telemetry_type_t</name></member>
+      <member refid="group__SAITAM_1ga6ae3fbfb71e2d9407a08c0a73bb3f998" kind="enum"><name>_sai_tam_tel_type_mode_t</name></member>
+      <member refid="group__SAITAM_1gaeb17b773a241f903e385e9bc240e1daa" kind="enum"><name>_sai_tam_tel_type_state_t</name></member>
+      <member refid="group__SAITAM_1ga5c7fbd12bbcb71be98273d3851d0411f" kind="enum"><name>_sai_tam_tel_type_attr_t</name></member>
+      <member refid="group__SAITAM_1ga782c20986cad54a5c3fe127e975a57b4" kind="enum"><name>_sai_tam_report_type_t</name></member>
+      <member refid="group__SAITAM_1ga8aeb497ef806ee2138ff19808e5b57bb" kind="enum"><name>_sai_tam_report_mode_t</name></member>
+      <member refid="group__SAITAM_1gacc21f57982f5bb248eda1084d1e3e43b" kind="enum"><name>_sai_tam_report_interval_unit_t</name></member>
+      <member refid="group__SAITAM_1gaf0bad66465210b87d342d43e62445a5e" kind="enum"><name>_sai_tam_report_attr_t</name></member>
+      <member refid="group__SAITAM_1ga79d2bc3623f32686d229f5b34e2abb3c" kind="enum"><name>_sai_tam_reporting_unit_t</name></member>
+      <member refid="group__SAITAM_1gabd491a69150e3e9ebe3b330a3f663491" kind="enum"><name>_sai_tam_telemetry_attr_t</name></member>
+      <member refid="group__SAITAM_1ga151339e0a4483d1a01d0888da52904f5" kind="enum"><name>_sai_tam_transport_type_t</name></member>
+      <member refid="group__SAITAM_1ga43d5543b7595e3c8c4e92daeabcee90b" kind="enum"><name>_sai_tam_transport_auth_type_t</name></member>
+      <member refid="group__SAITAM_1ga64d784022264aba88fcf3cf511d2fe9d" kind="enum"><name>_sai_tam_transport_attr_t</name></member>
+      <member refid="group__SAITAM_1ga699d7975f683d93151e522afae7b4c87" kind="enum"><name>_sai_tam_collector_attr_t</name></member>
+      <member refid="group__SAITAM_1ga24e70abb495476efcd749ff1d4ef4755" kind="enum"><name>_sai_tam_event_type_t</name></member>
+      <member refid="group__SAITAM_1gac85addcf608cddc82641dd64edbe9f49" kind="enum"><name>_sai_tam_event_action_attr_t</name></member>
+      <member refid="group__SAITAM_1ga3521c7fe4125e7a08e6d305b712261eb" kind="enum"><name>_sai_tam_event_attr_t</name></member>
+      <member refid="group__SAITAM_1gaa16d14bc21f38fcf8e11448b3a524f61" kind="enum"><name>_sai_tam_counter_subscription_attr_t</name></member>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <member refid="group__SAITAM_1ga3997dfb9748dff0444302b0fafa5c875" kind="typedef"><name>sai_tam_attr_t</name></member>
+      <member refid="group__SAITAM_1ga2cacfddfd10b30828a0bc5777e10aca4" kind="typedef"><name>sai_create_tam_fn</name></member>
+      <member refid="group__SAITAM_1ga878e6310e599ba29376ad8e1ff7b59dc" kind="typedef"><name>sai_remove_tam_fn</name></member>
+      <member refid="group__SAITAM_1ga5e3ce6c8ac5fb0698cdfb4a71afa3bc9" kind="typedef"><name>sai_set_tam_attribute_fn</name></member>
+      <member refid="group__SAITAM_1ga59c0d5b6f7e4f3c60b3ead44dfb84755" kind="typedef"><name>sai_get_tam_attribute_fn</name></member>
+      <member refid="group__SAITAM_1ga18221209764ac0f4da7fe6452fe4b8da" kind="typedef"><name>sai_tam_tel_math_func_type_t</name></member>
+      <member refid="group__SAITAM_1ga55eedc0659269a40d7f68348a272a259" kind="typedef"><name>sai_tam_math_func_attr_t</name></member>
+      <member refid="group__SAITAM_1ga0cb862c944d8e202fedf28c52ff22063" kind="typedef"><name>sai_create_tam_math_func_fn</name></member>
+      <member refid="group__SAITAM_1gaea3ada872936162326ec3b88f8f4094d" kind="typedef"><name>sai_remove_tam_math_func_fn</name></member>
+      <member refid="group__SAITAM_1ga65823be9367b50dd2dea25c46dae83df" kind="typedef"><name>sai_get_tam_math_func_attribute_fn</name></member>
+      <member refid="group__SAITAM_1ga41ca0bfb134e391abbdc3e850a448ec3" kind="typedef"><name>sai_set_tam_math_func_attribute_fn</name></member>
+      <member refid="group__SAITAM_1ga3ed677d80c3520f291c1e4e8fd3ad23f" kind="typedef"><name>sai_tam_event_threshold_unit_t</name></member>
+      <member refid="group__SAITAM_1ga25dc21d535d27d27907e17e2388ddfd6" kind="typedef"><name>sai_tam_event_threshold_attr_t</name></member>
+      <member refid="group__SAITAM_1gaf94c87c7c74c9649b3298f264fc2b78a" kind="typedef"><name>sai_create_tam_event_threshold_fn</name></member>
+      <member refid="group__SAITAM_1gaec6439591ee484f0446df902ab875ee9" kind="typedef"><name>sai_remove_tam_event_threshold_fn</name></member>
+      <member refid="group__SAITAM_1ga41ddc2e1dbcc5640d7bbd0a65844f2cf" kind="typedef"><name>sai_get_tam_event_threshold_attribute_fn</name></member>
+      <member refid="group__SAITAM_1ga1f3d90254f47e0969f89611b11505c5d" kind="typedef"><name>sai_set_tam_event_threshold_attribute_fn</name></member>
+      <member refid="group__SAITAM_1gaf91fbba4df9040af7e124d7adba9e38b" kind="typedef"><name>sai_tam_int_type_t</name></member>
+      <member refid="group__SAITAM_1gaedae3641039278754da8a8be18061ff9" kind="typedef"><name>sai_tam_int_presence_type_t</name></member>
+      <member refid="group__SAITAM_1ga6500fc3595e6556340eb0457c628585b" kind="typedef"><name>sai_tam_int_attr_t</name></member>
+      <member refid="group__SAITAM_1ga6e2e01fc175658878063dee66ecab388" kind="typedef"><name>sai_create_tam_int_fn</name></member>
+      <member refid="group__SAITAM_1gaf765c4b7d7b61766db579431261268d0" kind="typedef"><name>sai_remove_tam_int_fn</name></member>
+      <member refid="group__SAITAM_1ga59a0fe291747388a45fdd826d40056f9" kind="typedef"><name>sai_get_tam_int_attribute_fn</name></member>
+      <member refid="group__SAITAM_1ga436b39cf88aba67a40c833203349a3bf" kind="typedef"><name>sai_set_tam_int_attribute_fn</name></member>
+      <member refid="group__SAITAM_1gad806b1a602b532df0e7fb0c4a82f357d" kind="typedef"><name>sai_tam_telemetry_type_t</name></member>
+      <member refid="group__SAITAM_1gacd267064d389bc4122c650ce1857c048" kind="typedef"><name>sai_tam_tel_type_mode_t</name></member>
+      <member refid="group__SAITAM_1ga96833d7c12332e8ef70e4f60d8ec183b" kind="typedef"><name>sai_tam_tel_type_state_t</name></member>
+      <member refid="group__SAITAM_1gaeacced6e8787e6b0fb668f6a99754b43" kind="typedef"><name>sai_tam_tel_type_attr_t</name></member>
+      <member refid="group__SAITAM_1ga7aabf26b350eb46e8909fa693f62c7c7" kind="typedef"><name>sai_tam_tel_type_config_change_notification_fn</name></member>
+      <member refid="group__SAITAM_1gaa52f4fc8a79bb7b3ff320c45c6f8c82c" kind="typedef"><name>sai_create_tam_tel_type_fn</name></member>
+      <member refid="group__SAITAM_1gaebf33e9eedce354df67a7a4919f21c3d" kind="typedef"><name>sai_remove_tam_tel_type_fn</name></member>
+      <member refid="group__SAITAM_1ga4aefe56c0214213d8136429515a56aad" kind="typedef"><name>sai_get_tam_tel_type_attribute_fn</name></member>
+      <member refid="group__SAITAM_1ga3dcbb7398286080322c1d1da62f15b40" kind="typedef"><name>sai_set_tam_tel_type_attribute_fn</name></member>
+      <member refid="group__SAITAM_1ga9ba61844b09a674375501e0dfe316349" kind="typedef"><name>sai_tam_report_type_t</name></member>
+      <member refid="group__SAITAM_1gadc952fba710e9b57a7f59c816dba970b" kind="typedef"><name>sai_tam_report_mode_t</name></member>
+      <member refid="group__SAITAM_1ga173f81a1a6961c36689e6022ce8beb14" kind="typedef"><name>sai_tam_report_interval_unit_t</name></member>
+      <member refid="group__SAITAM_1ga771d447cd6f69dab334502dbb3ff7508" kind="typedef"><name>sai_tam_report_attr_t</name></member>
+      <member refid="group__SAITAM_1gac09e325337b6f0d9adfd081e6b4628a5" kind="typedef"><name>sai_create_tam_report_fn</name></member>
+      <member refid="group__SAITAM_1ga6c4d92d62406727f74e540438789e43a" kind="typedef"><name>sai_remove_tam_report_fn</name></member>
+      <member refid="group__SAITAM_1ga53dc1bccf6ea0103de038757f3ce7ac4" kind="typedef"><name>sai_get_tam_report_attribute_fn</name></member>
+      <member refid="group__SAITAM_1ga0ce913a0bec6eae58cdcfc037bb640c5" kind="typedef"><name>sai_set_tam_report_attribute_fn</name></member>
+      <member refid="group__SAITAM_1gae927b6abb8282647a464ead08f5c0c66" kind="typedef"><name>sai_tam_reporting_unit_t</name></member>
+      <member refid="group__SAITAM_1ga88e3510c5fb86c254e82aac8e49f4d42" kind="typedef"><name>sai_tam_telemetry_attr_t</name></member>
+      <member refid="group__SAITAM_1gaedde7351b6df5df8b4dafa925fbc731d" kind="typedef"><name>sai_create_tam_telemetry_fn</name></member>
+      <member refid="group__SAITAM_1gaafcdffa02ac381790fa08f35a333f3b7" kind="typedef"><name>sai_remove_tam_telemetry_fn</name></member>
+      <member refid="group__SAITAM_1ga44de9d2c60f25fe71861ec72a07dad14" kind="typedef"><name>sai_get_tam_telemetry_attribute_fn</name></member>
+      <member refid="group__SAITAM_1gaed030605e7e80c9de4b48877015196af" kind="typedef"><name>sai_set_tam_telemetry_attribute_fn</name></member>
+      <member refid="group__SAITAM_1ga4500cfed3b56448619d8981cde2a8475" kind="typedef"><name>sai_tam_transport_type_t</name></member>
+      <member refid="group__SAITAM_1ga6a3e1daf71700c0b5518b9099bdcb49f" kind="typedef"><name>sai_tam_transport_auth_type_t</name></member>
+      <member refid="group__SAITAM_1ga4c028269cd619ac24c2efcc0afd26a80" kind="typedef"><name>sai_tam_transport_attr_t</name></member>
+      <member refid="group__SAITAM_1gab4d7b4ea211d6176b90ea6942bbc45a3" kind="typedef"><name>sai_create_tam_transport_fn</name></member>
+      <member refid="group__SAITAM_1gad11ebf00ef2ed00ad6a68994a98e85a8" kind="typedef"><name>sai_remove_tam_transport_fn</name></member>
+      <member refid="group__SAITAM_1ga9584aee6eb4307e0512ba02d41244c11" kind="typedef"><name>sai_get_tam_transport_attribute_fn</name></member>
+      <member refid="group__SAITAM_1gaeec775993689d92e6d026c948f8be9b9" kind="typedef"><name>sai_set_tam_transport_attribute_fn</name></member>
+      <member refid="group__SAITAM_1ga4b5fb3fc9ee298a9da1286b1d62b3c92" kind="typedef"><name>sai_tam_collector_attr_t</name></member>
+      <member refid="group__SAITAM_1gac4a269b4e89620082847ca3b55d01b9f" kind="typedef"><name>sai_create_tam_collector_fn</name></member>
+      <member refid="group__SAITAM_1gacd0cf0567cc86d19b5b3b9a9f8c8cadf" kind="typedef"><name>sai_remove_tam_collector_fn</name></member>
+      <member refid="group__SAITAM_1ga2c9e0239f92b2887002b9ba5b5c06c54" kind="typedef"><name>sai_get_tam_collector_attribute_fn</name></member>
+      <member refid="group__SAITAM_1ga4c85f86271591f1ff841a0d2f4cf0b24" kind="typedef"><name>sai_set_tam_collector_attribute_fn</name></member>
+      <member refid="group__SAITAM_1ga3736ff07aa1845726425487966cd7d12" kind="typedef"><name>sai_tam_event_type_t</name></member>
+      <member refid="group__SAITAM_1ga29d41651b3e057a572b08b611b78fb89" kind="typedef"><name>sai_tam_event_action_attr_t</name></member>
+      <member refid="group__SAITAM_1ga1cd4e67bfe0909a99ee9209ae6814513" kind="typedef"><name>sai_create_tam_event_action_fn</name></member>
+      <member refid="group__SAITAM_1ga77a8fa463b85998dbacc61032ed5a464" kind="typedef"><name>sai_remove_tam_event_action_fn</name></member>
+      <member refid="group__SAITAM_1ga3fdcad457c187450fa8f4649af46797e" kind="typedef"><name>sai_get_tam_event_action_attribute_fn</name></member>
+      <member refid="group__SAITAM_1ga5e23d48688e8ecd9a0ae0e4081fdb750" kind="typedef"><name>sai_set_tam_event_action_attribute_fn</name></member>
+      <member refid="group__SAITAM_1ga32ebcbdb0f86c2524c9e8978917879d3" kind="typedef"><name>sai_tam_event_attr_t</name></member>
+      <member refid="group__SAITAM_1ga7fcb3899800b48e20b4d620abd55851c" kind="typedef"><name>sai_create_tam_event_fn</name></member>
+      <member refid="group__SAITAM_1gac67dcfd9ecb29b595ad258723f20fa3c" kind="typedef"><name>sai_remove_tam_event_fn</name></member>
+      <member refid="group__SAITAM_1ga1a11ad5ac80488a1ab9ed79f4b9284b6" kind="typedef"><name>sai_get_tam_event_attribute_fn</name></member>
+      <member refid="group__SAITAM_1gaa7eb323919ad2ca14bae587ba5182fd6" kind="typedef"><name>sai_set_tam_event_attribute_fn</name></member>
+      <member refid="group__SAITAM_1ga19bfb878f2825742c8828155a2d725b2" kind="typedef"><name>sai_tam_counter_subscription_attr_t</name></member>
+      <member refid="group__SAITAM_1ga5c9582a682dfcfa157d4497a8790905f" kind="typedef"><name>sai_create_tam_counter_subscription_fn</name></member>
+      <member refid="group__SAITAM_1gade8721bba36baab5c83e3471a3145262" kind="typedef"><name>sai_remove_tam_counter_subscription_fn</name></member>
+      <member refid="group__SAITAM_1gac52833be36d5730d333859c23a173fb4" kind="typedef"><name>sai_set_tam_counter_subscription_attribute_fn</name></member>
+      <member refid="group__SAITAM_1gaf62c0ca7bbedeb28fe2ea14675e4cb2d" kind="typedef"><name>sai_get_tam_counter_subscription_attribute_fn</name></member>
+      <member refid="group__SAITAM_1gaf4351243b008c0f2f28f07ba439ca60f" kind="typedef"><name>sai_tam_event_notification_fn</name></member>
+      <member refid="group__SAITAM_1ga63401a578149374187aa1586106c1283" kind="typedef"><name>sai_tam_api_t</name></member>
+    </sectiondef>
+    <sectiondef kind="func">
+      <member refid="group__SAITAM_1ga8e16f8186175638374bf64b41589b6af" kind="function"><name>sai_tam_telemetry_get_data</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>This module defines SAI TAM (Telemetry And Monitoring) spec. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (c) 2014 Microsoft Open Technologies, Inc.</para>
+<para>Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <ulink url="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</ulink></para>
+<para>THIS CODE IS PROVIDED ON AN <emphasis>AS IS</emphasis> BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY OR NON-INFRINGEMENT.</para>
+<para>See the Apache Version 2.0 License for specific language governing permissions and limitations under the License.</para>
+<para>Microsoft would like to thank the following companies for their review and assistance with these files: Intel Corporation, Mellanox Technologies Ltd, Dell Products, L.P., Facebook, Inc., Marvell International Ltd. </para>
+    </detaileddescription>
+    <location file="/home/romanveskera/SAI/SAI/inc/saitam.h"/>
+  </compounddef>
+</doxygen>

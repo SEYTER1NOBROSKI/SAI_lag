@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="saimpls_8h" kind="file" language="C++">
+    <compoundname>saimpls.h</compoundname>
+    <includes refid="saitypes_8h" local="no">saitypes.h</includes>
+    <includedby refid="sai_8h" local="yes">/home/romanveskera/SAI/SAI/inc/sai.h</includedby>
+    <includedby refid="saiobject_8h" local="no">/home/romanveskera/SAI/SAI/inc/saiobject.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/saimpls.h</label>
+        <link refid="saimpls_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>saitypes.h</label>
+        <link refid="saitypes_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>stdbool.h</label>
+      </node>
+      <node id="3">
+        <label>stdint.h</label>
+      </node>
+      <node id="5">
+        <label>sys/types.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiextensions.h</label>
+        <link refid="saiextensions_8h"/>
+      </node>
+      <node id="2">
+        <label>/home/romanveskera/SAI/SAI/inc/sai.h</label>
+        <link refid="sai_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/saimpls.h</label>
+        <link refid="saimpls_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>/home/romanveskera/SAI/SAI/inc/saiobject.h</label>
+        <link refid="saiobject_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct__sai__inseg__entry__t" prot="public">_sai_inseg_entry_t</innerclass>
+    <innerclass refid="struct__sai__mpls__api__t" prot="public">_sai_mpls_api_t</innerclass>
+    <sectiondef kind="enum">
+      <member refid="group__SAIMPLS_1ga1ae340414d9ca6df1da91d596a7c790b" kind="enum"><name>_sai_inseg_entry_psc_type_t</name></member>
+      <member refid="group__SAIMPLS_1ga2930a9273cdb4bc4a2a28473ca2829f1" kind="enum"><name>_sai_inseg_entry_pop_ttl_mode_t</name></member>
+      <member refid="group__SAIMPLS_1ga0eea598c11839415cfa35bcc86d4195a" kind="enum"><name>_sai_inseg_entry_pop_qos_mode_t</name></member>
+      <member refid="group__SAIMPLS_1gade8e49bf0aac569fcf7cd64cb9c152f7" kind="enum"><name>_sai_inseg_entry_attr_t</name></member>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <member refid="group__SAIMPLS_1gab4ec0a139fd2b8e825c002f281d08ba0" kind="typedef"><name>sai_inseg_entry_psc_type_t</name></member>
+      <member refid="group__SAIMPLS_1gacee67193089a3e4bb827b1e7cef8b9cb" kind="typedef"><name>sai_inseg_entry_pop_ttl_mode_t</name></member>
+      <member refid="group__SAIMPLS_1ga7596c9287b1de5cb4bbec24042cc1f04" kind="typedef"><name>sai_inseg_entry_pop_qos_mode_t</name></member>
+      <member refid="group__SAIMPLS_1ga56f2a0bf47c8939f91df3dacfae55e18" kind="typedef"><name>sai_inseg_entry_attr_t</name></member>
+      <member refid="group__SAIMPLS_1gaaf4f5b997dfd86777344ad0f7b1ed9ee" kind="typedef"><name>sai_inseg_entry_t</name></member>
+      <member refid="group__SAIMPLS_1ga55332db5eeaab7d247ddb49902c5950f" kind="typedef"><name>sai_create_inseg_entry_fn</name></member>
+      <member refid="group__SAIMPLS_1ga8b7a2ebe4adc6b0b571fa9d5a455f891" kind="typedef"><name>sai_remove_inseg_entry_fn</name></member>
+      <member refid="group__SAIMPLS_1ga3a67e1195b01233e074cd26298dafe8c" kind="typedef"><name>sai_set_inseg_entry_attribute_fn</name></member>
+      <member refid="group__SAIMPLS_1ga4e2aeb2e139b959d054d5efd254497f6" kind="typedef"><name>sai_get_inseg_entry_attribute_fn</name></member>
+      <member refid="group__SAIMPLS_1gad7aa3364315baa4d3b2c8e201b57c4a3" kind="typedef"><name>sai_bulk_create_inseg_entry_fn</name></member>
+      <member refid="group__SAIMPLS_1ga3e519b2f4656df2089a05b45fc94c366" kind="typedef"><name>sai_bulk_remove_inseg_entry_fn</name></member>
+      <member refid="group__SAIMPLS_1gaa1b8f22b85409aec2416782a2286c50c" kind="typedef"><name>sai_bulk_set_inseg_entry_attribute_fn</name></member>
+      <member refid="group__SAIMPLS_1ga20ca3d950b6ac98cf26febec07a4ba34" kind="typedef"><name>sai_bulk_get_inseg_entry_attribute_fn</name></member>
+      <member refid="group__SAIMPLS_1ga6331ce4d87a247cbc3b373d2a454f09b" kind="typedef"><name>sai_mpls_api_t</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>This module defines SAI MPLS interface. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (c) 2014 Microsoft Open Technologies, Inc.</para>
+<para>Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <ulink url="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</ulink></para>
+<para>THIS CODE IS PROVIDED ON AN <emphasis>AS IS</emphasis> BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY OR NON-INFRINGEMENT.</para>
+<para>See the Apache Version 2.0 License for specific language governing permissions and limitations under the License.</para>
+<para>Microsoft would like to thank the following companies for their review and assistance with these files: Intel Corporation, Mellanox Technologies Ltd, Dell Products, L.P., Facebook, Inc., Marvell International Ltd. </para>
+    </detaileddescription>
+    <location file="/home/romanveskera/SAI/SAI/inc/saimpls.h"/>
+  </compounddef>
+</doxygen>

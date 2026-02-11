@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="saimcastfdb_8h" kind="file" language="C++">
+    <compoundname>saimcastfdb.h</compoundname>
+    <includes refid="saitypes_8h" local="no">saitypes.h</includes>
+    <includedby refid="sai_8h" local="yes">/home/romanveskera/SAI/SAI/inc/sai.h</includedby>
+    <includedby refid="saiobject_8h" local="no">/home/romanveskera/SAI/SAI/inc/saiobject.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/saimcastfdb.h</label>
+        <link refid="saimcastfdb_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>saitypes.h</label>
+        <link refid="saitypes_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>stdbool.h</label>
+      </node>
+      <node id="3">
+        <label>stdint.h</label>
+      </node>
+      <node id="5">
+        <label>sys/types.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiextensions.h</label>
+        <link refid="saiextensions_8h"/>
+      </node>
+      <node id="2">
+        <label>/home/romanveskera/SAI/SAI/inc/sai.h</label>
+        <link refid="sai_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/saimcastfdb.h</label>
+        <link refid="saimcastfdb_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>/home/romanveskera/SAI/SAI/inc/saiobject.h</label>
+        <link refid="saiobject_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct__sai__mcast__fdb__entry__t" prot="public">_sai_mcast_fdb_entry_t</innerclass>
+    <innerclass refid="struct__sai__mcast__fdb__api__t" prot="public">_sai_mcast_fdb_api_t</innerclass>
+    <sectiondef kind="enum">
+      <member refid="group__SAIMCFDB_1gaa7910c55c920ee61e44ec19e1fa386df" kind="enum"><name>_sai_mcast_fdb_entry_attr_t</name></member>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <member refid="group__SAIMCFDB_1ga0393c0107b3211c138e928f576f78706" kind="typedef"><name>sai_mcast_fdb_entry_t</name></member>
+      <member refid="group__SAIMCFDB_1gadb3576e8d2cb67e848ffecd1fd3015e2" kind="typedef"><name>sai_mcast_fdb_entry_attr_t</name></member>
+      <member refid="group__SAIMCFDB_1ga4462f3d2a67f5793e58257ddd2b56c8a" kind="typedef"><name>sai_create_mcast_fdb_entry_fn</name></member>
+      <member refid="group__SAIMCFDB_1gab29591a52ae460585b315310cac2b449" kind="typedef"><name>sai_remove_mcast_fdb_entry_fn</name></member>
+      <member refid="group__SAIMCFDB_1gac0d49fc00511da823c58eb601be37407" kind="typedef"><name>sai_set_mcast_fdb_entry_attribute_fn</name></member>
+      <member refid="group__SAIMCFDB_1gac8ba102575002167619d7e2d48296cdf" kind="typedef"><name>sai_get_mcast_fdb_entry_attribute_fn</name></member>
+      <member refid="group__SAIMCFDB_1ga108f165b454c887832dc9a7f83292026" kind="typedef"><name>sai_mcast_fdb_api_t</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>This module defines SAI multicast FDB interface. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (c) 2014 Microsoft Open Technologies, Inc.</para>
+<para>Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <ulink url="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</ulink></para>
+<para>THIS CODE IS PROVIDED ON AN <emphasis>AS IS</emphasis> BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY OR NON-INFRINGEMENT.</para>
+<para>See the Apache Version 2.0 License for specific language governing permissions and limitations under the License.</para>
+<para>Microsoft would like to thank the following companies for their review and assistance with these files: Intel Corporation, Mellanox Technologies Ltd, Dell Products, L.P., Facebook, Inc., Marvell International Ltd. </para>
+    </detaileddescription>
+    <location file="/home/romanveskera/SAI/SAI/inc/saimcastfdb.h"/>
+  </compounddef>
+</doxygen>

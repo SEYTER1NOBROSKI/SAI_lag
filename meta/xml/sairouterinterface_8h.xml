@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="sairouterinterface_8h" kind="file" language="C++">
+    <compoundname>sairouterinterface.h</compoundname>
+    <includes refid="saitypes_8h" local="no">saitypes.h</includes>
+    <includedby refid="sai_8h" local="yes">/home/romanveskera/SAI/SAI/inc/sai.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/sairouterinterface.h</label>
+        <link refid="sairouterinterface_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>saitypes.h</label>
+        <link refid="saitypes_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>stdbool.h</label>
+      </node>
+      <node id="3">
+        <label>stdint.h</label>
+      </node>
+      <node id="5">
+        <label>sys/types.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiextensions.h</label>
+        <link refid="saiextensions_8h"/>
+      </node>
+      <node id="2">
+        <label>/home/romanveskera/SAI/SAI/inc/sai.h</label>
+        <link refid="sai_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/sairouterinterface.h</label>
+        <link refid="sairouterinterface_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct__sai__router__interface__api__t" prot="public">_sai_router_interface_api_t</innerclass>
+    <sectiondef kind="enum">
+      <member refid="group__SAIROUTERINTF_1ga5f55c484dbed79b4056861cc6b57197a" kind="enum"><name>_sai_router_interface_type_t</name></member>
+      <member refid="group__SAIROUTERINTF_1ga1c7bae40a5f33e9c4b495919c56ae523" kind="enum"><name>_sai_router_interface_attr_t</name></member>
+      <member refid="group__SAIROUTERINTF_1gaa91fa008c445ea3fbaedf4bbaf22aea0" kind="enum"><name>_sai_router_interface_stat_t</name></member>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <member refid="group__SAIROUTERINTF_1ga5a9e5beee052607bb1505feea195aacf" kind="typedef"><name>sai_router_interface_type_t</name></member>
+      <member refid="group__SAIROUTERINTF_1gaef01c1a8a70613e8a255292c99b568dd" kind="typedef"><name>sai_router_interface_attr_t</name></member>
+      <member refid="group__SAIROUTERINTF_1gaa5efe389eb068b8098ef34736b7e2011" kind="typedef"><name>sai_router_interface_stat_t</name></member>
+      <member refid="group__SAIROUTERINTF_1gab4f0dce2c64d37e8b3ef522a8cb431d2" kind="typedef"><name>sai_create_router_interface_fn</name></member>
+      <member refid="group__SAIROUTERINTF_1gafc68ff524128637deef0a5d0e24f732b" kind="typedef"><name>sai_remove_router_interface_fn</name></member>
+      <member refid="group__SAIROUTERINTF_1ga6d91abbb10639a25746de38a119c8516" kind="typedef"><name>sai_set_router_interface_attribute_fn</name></member>
+      <member refid="group__SAIROUTERINTF_1gacb9b0a66dcc85b35de75551227a84fd8" kind="typedef"><name>sai_get_router_interface_attribute_fn</name></member>
+      <member refid="group__SAIROUTERINTF_1gaeb3345395fb8aec892d23b9e3d0b8347" kind="typedef"><name>sai_get_router_interface_stats_fn</name></member>
+      <member refid="group__SAIROUTERINTF_1ga06fc530893a3552b3b98fdc9c9456b17" kind="typedef"><name>sai_get_router_interface_stats_ext_fn</name></member>
+      <member refid="group__SAIROUTERINTF_1ga914dc6bac58eab7b5c7a9237dc18f2cc" kind="typedef"><name>sai_clear_router_interface_stats_fn</name></member>
+      <member refid="group__SAIROUTERINTF_1ga0111b0e514e5200839067d232e404004" kind="typedef"><name>sai_router_interface_api_t</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>This module defines SAI Router interface. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (c) 2014 Microsoft Open Technologies, Inc.</para>
+<para>Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <ulink url="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</ulink></para>
+<para>THIS CODE IS PROVIDED ON AN <emphasis>AS IS</emphasis> BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY OR NON-INFRINGEMENT.</para>
+<para>See the Apache Version 2.0 License for specific language governing permissions and limitations under the License.</para>
+<para>Microsoft would like to thank the following companies for their review and assistance with these files: Intel Corporation, Mellanox Technologies Ltd, Dell Products, L.P., Facebook, Inc., Marvell International Ltd. </para>
+    </detaileddescription>
+    <location file="/home/romanveskera/SAI/SAI/inc/sairouterinterface.h"/>
+  </compounddef>
+</doxygen>

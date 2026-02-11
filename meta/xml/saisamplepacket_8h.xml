@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="saisamplepacket_8h" kind="file" language="C++">
+    <compoundname>saisamplepacket.h</compoundname>
+    <includes refid="saitypes_8h" local="no">saitypes.h</includes>
+    <includedby refid="sai_8h" local="yes">/home/romanveskera/SAI/SAI/inc/sai.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/saisamplepacket.h</label>
+        <link refid="saisamplepacket_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>saitypes.h</label>
+        <link refid="saitypes_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>stdbool.h</label>
+      </node>
+      <node id="3">
+        <label>stdint.h</label>
+      </node>
+      <node id="5">
+        <label>sys/types.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiextensions.h</label>
+        <link refid="saiextensions_8h"/>
+      </node>
+      <node id="2">
+        <label>/home/romanveskera/SAI/SAI/inc/sai.h</label>
+        <link refid="sai_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/saisamplepacket.h</label>
+        <link refid="saisamplepacket_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct__sai__samplepacket__api__t" prot="public">_sai_samplepacket_api_t</innerclass>
+    <sectiondef kind="enum">
+      <member refid="group__SAISAMPLEPACKET_1ga2a4be9134c4ded84d28bd96fa54ee806" kind="enum"><name>_sai_samplepacket_type_t</name></member>
+      <member refid="group__SAISAMPLEPACKET_1ga077696fae76c94f795133848e5f709b0" kind="enum"><name>_sai_samplepacket_mode_t</name></member>
+      <member refid="group__SAISAMPLEPACKET_1gaacbcd8107fbdc84e4c733b86fcb13324" kind="enum"><name>_sai_samplepacket_attr_t</name></member>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <member refid="group__SAISAMPLEPACKET_1ga9519571de4d449208abc4fd8765c7b41" kind="typedef"><name>sai_samplepacket_type_t</name></member>
+      <member refid="group__SAISAMPLEPACKET_1ga8cc3b598fdc1ae90ef9302f66b9c89c5" kind="typedef"><name>sai_samplepacket_mode_t</name></member>
+      <member refid="group__SAISAMPLEPACKET_1gad48911c37faec19f55fd01773d5c2dc0" kind="typedef"><name>sai_samplepacket_attr_t</name></member>
+      <member refid="group__SAISAMPLEPACKET_1gacbce272c317870c4013275154aad36ee" kind="typedef"><name>sai_create_samplepacket_fn</name></member>
+      <member refid="group__SAISAMPLEPACKET_1gaf644fe3f0f0595bfc8ba29d1c89efddc" kind="typedef"><name>sai_remove_samplepacket_fn</name></member>
+      <member refid="group__SAISAMPLEPACKET_1gad981a80d33f1716ffe7098b2c494105d" kind="typedef"><name>sai_set_samplepacket_attribute_fn</name></member>
+      <member refid="group__SAISAMPLEPACKET_1ga76441d4d62872bedc88191bec5a412d4" kind="typedef"><name>sai_get_samplepacket_attribute_fn</name></member>
+      <member refid="group__SAISAMPLEPACKET_1ga4ca4c14bca3c2b3756d27e1a11dbf765" kind="typedef"><name>sai_samplepacket_api_t</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>This module defines SAI Sample Packet interface. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (c) 2014 Microsoft Open Technologies, Inc.</para>
+<para>Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <ulink url="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</ulink></para>
+<para>THIS CODE IS PROVIDED ON AN <emphasis>AS IS</emphasis> BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY OR NON-INFRINGEMENT.</para>
+<para>See the Apache Version 2.0 License for specific language governing permissions and limitations under the License.</para>
+<para>Microsoft would like to thank the following companies for their review and assistance with these files: Intel Corporation, Mellanox Technologies Ltd, Dell Products, L.P., Facebook, Inc., Marvell International Ltd. </para>
+    </detaileddescription>
+    <location file="/home/romanveskera/SAI/SAI/inc/saisamplepacket.h"/>
+  </compounddef>
+</doxygen>

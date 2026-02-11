@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="saiwred_8h" kind="file" language="C++">
+    <compoundname>saiwred.h</compoundname>
+    <includes refid="saitypes_8h" local="no">saitypes.h</includes>
+    <includedby refid="sai_8h" local="yes">/home/romanveskera/SAI/SAI/inc/sai.h</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>saitypes.h</label>
+        <link refid="saitypes_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/saiwred.h</label>
+        <link refid="saiwred_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>stdbool.h</label>
+      </node>
+      <node id="3">
+        <label>stdint.h</label>
+      </node>
+      <node id="5">
+        <label>sys/types.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiextensions.h</label>
+        <link refid="saiextensions_8h"/>
+      </node>
+      <node id="2">
+        <label>/home/romanveskera/SAI/SAI/inc/sai.h</label>
+        <link refid="sai_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/saiwred.h</label>
+        <link refid="saiwred_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct__sai__wred__api__t" prot="public">_sai_wred_api_t</innerclass>
+    <sectiondef kind="enum">
+      <member refid="group__SAIWRED_1ga641f8567d50f41e99a321f7be23e212d" kind="enum"><name>_sai_ecn_mark_mode_t</name></member>
+      <member refid="group__SAIWRED_1gae3d96cebd897bc0ef674a81de5248c89" kind="enum"><name>_sai_wred_attr_t</name></member>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <member refid="group__SAIWRED_1gab1f20772e808acf0d968827cd35ff5b6" kind="typedef"><name>sai_ecn_mark_mode_t</name></member>
+      <member refid="group__SAIWRED_1gaeb718a1a68d299019fd1faf40815f657" kind="typedef"><name>sai_wred_attr_t</name></member>
+      <member refid="group__SAIWRED_1gad126dadce18f4d0f371f251e4654912d" kind="typedef"><name>sai_create_wred_fn</name></member>
+      <member refid="group__SAIWRED_1ga3b7b9cc59df9a6a2b7e5d83098c89dcf" kind="typedef"><name>sai_remove_wred_fn</name></member>
+      <member refid="group__SAIWRED_1ga2b7f0a11875da945038ba384c3a592aa" kind="typedef"><name>sai_set_wred_attribute_fn</name></member>
+      <member refid="group__SAIWRED_1ga1f6e6bab88ad3e3756578acbdbe09e14" kind="typedef"><name>sai_get_wred_attribute_fn</name></member>
+      <member refid="group__SAIWRED_1ga4551c847f491a4f3c78f315c8b50d386" kind="typedef"><name>sai_wred_api_t</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>This module defines SAI QOS WRED interface. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (c) 2014 Microsoft Open Technologies, Inc.</para>
+<para>Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <ulink url="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</ulink></para>
+<para>THIS CODE IS PROVIDED ON AN <emphasis>AS IS</emphasis> BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY OR NON-INFRINGEMENT.</para>
+<para>See the Apache Version 2.0 License for specific language governing permissions and limitations under the License.</para>
+<para>Microsoft would like to thank the following companies for their review and assistance with these files: Intel Corporation, Mellanox Technologies Ltd, Dell Products, L.P., Facebook, Inc., Marvell International Ltd. </para>
+    </detaileddescription>
+    <location file="/home/romanveskera/SAI/SAI/inc/saiwred.h"/>
+  </compounddef>
+</doxygen>

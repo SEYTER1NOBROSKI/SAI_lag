@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="struct__sai__prbs__bit__error__rate__t" kind="struct" language="C++" prot="public">
+    <compoundname>_sai_prbs_bit_error_rate_t</compoundname>
+    <includes refid="saitypes_8h" local="no">saitypes.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__sai__prbs__bit__error__rate__t_1ab0a9f8f50f42cc0d83e8e5f446799ec4" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t _sai_prbs_bit_error_rate_t::exponent</definition>
+        <argsstring></argsstring>
+        <name>exponent</name>
+        <qualifiedname>_sai_prbs_bit_error_rate_t::exponent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Negative exponent as in 10^-exponent </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/romanveskera/SAI/SAI/inc/saitypes.h" line="512" column="14" bodyfile="/home/romanveskera/SAI/SAI/inc/saitypes.h" bodystart="512" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__sai__prbs__bit__error__rate__t_1a2429d5ccac7524a99b7966df1a9352c0" prot="public" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t _sai_prbs_bit_error_rate_t::mantissa</definition>
+        <argsstring></argsstring>
+        <name>mantissa</name>
+        <qualifiedname>_sai_prbs_bit_error_rate_t::mantissa</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Significant digits of the BER, to be multiplied by 10^(-exponent) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/romanveskera/SAI/SAI/inc/saitypes.h" line="515" column="14" bodyfile="/home/romanveskera/SAI/SAI/inc/saitypes.h" bodystart="515" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Represents BER as mantissa x 10^(-exponent) </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/romanveskera/SAI/SAI/inc/saitypes.h" line="509" column="1" bodyfile="/home/romanveskera/SAI/SAI/inc/saitypes.h" bodystart="510" bodyend="516"/>
+    <listofallmembers>
+      <member refid="struct__sai__prbs__bit__error__rate__t_1ab0a9f8f50f42cc0d83e8e5f446799ec4" prot="public" virt="non-virtual"><scope>_sai_prbs_bit_error_rate_t</scope><name>exponent</name></member>
+      <member refid="struct__sai__prbs__bit__error__rate__t_1a2429d5ccac7524a99b7966df1a9352c0" prot="public" virt="non-virtual"><scope>_sai_prbs_bit_error_rate_t</scope><name>mantissa</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

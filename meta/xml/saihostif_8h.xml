@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="saihostif_8h" kind="file" language="C++">
+    <compoundname>saihostif.h</compoundname>
+    <includes refid="saitypes_8h" local="no">saitypes.h</includes>
+    <includedby refid="sai_8h" local="yes">/home/romanveskera/SAI/SAI/inc/sai.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/saihostif.h</label>
+        <link refid="saihostif_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>saitypes.h</label>
+        <link refid="saitypes_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>stdbool.h</label>
+      </node>
+      <node id="3">
+        <label>stdint.h</label>
+      </node>
+      <node id="5">
+        <label>sys/types.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiextensions.h</label>
+        <link refid="saiextensions_8h"/>
+      </node>
+      <node id="2">
+        <label>/home/romanveskera/SAI/SAI/inc/sai.h</label>
+        <link refid="sai_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/saihostif.h</label>
+        <link refid="saihostif_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct__sai__hostif__api__t" prot="public">_sai_hostif_api_t</innerclass>
+    <sectiondef kind="define">
+      <member refid="group__SAIHOSTINTF_1ga33ba4c8e7f58d82fde73d2eb66513e2c" kind="define"><name>SAI_HOSTIF_NAME_SIZE</name></member>
+      <member refid="group__SAIHOSTINTF_1ga62b08ca334606e51119fecab61a5c2da" kind="define"><name>SAI_HOSTIF_GENETLINK_MCGRP_NAME_SIZE</name></member>
+    </sectiondef>
+    <sectiondef kind="enum">
+      <member refid="group__SAIHOSTINTF_1gab760579bf061179f1c0e0f6e5e6b035b" kind="enum"><name>_sai_hostif_trap_group_attr_t</name></member>
+      <member refid="group__SAIHOSTINTF_1ga99d83686daf81153e6d5a161fbbda0c9" kind="enum"><name>_sai_hostif_trap_type_t</name></member>
+      <member refid="group__SAIHOSTINTF_1gad8175d7d802ee018bdd0036e8d1e050b" kind="enum"><name>_sai_hostif_trap_attr_t</name></member>
+      <member refid="group__SAIHOSTINTF_1ga5276040374e925d269744cd2f015d250" kind="enum"><name>_sai_hostif_user_defined_trap_type_t</name></member>
+      <member refid="group__SAIHOSTINTF_1gabdc80e767d1eda422ef477c76ba0d5c8" kind="enum"><name>_sai_hostif_user_defined_trap_attr_t</name></member>
+      <member refid="group__SAIHOSTINTF_1ga820683e5ff6ed71cb024fd7ff3f63f1e" kind="enum"><name>_sai_hostif_type_t</name></member>
+      <member refid="group__SAIHOSTINTF_1ga38f277f5f654029f3b501388a56b346a" kind="enum"><name>_sai_hostif_vlan_tag_t</name></member>
+      <member refid="group__SAIHOSTINTF_1ga976cb57afc9fc061c2dd087c5460e26c" kind="enum"><name>_sai_hostif_attr_t</name></member>
+      <member refid="group__SAIHOSTINTF_1ga5cdc613bbb888d608cfbc5092b130f47" kind="enum"><name>_sai_hostif_table_entry_type_t</name></member>
+      <member refid="group__SAIHOSTINTF_1ga15e92e1a261903c91b6fb22a661cab57" kind="enum"><name>_sai_hostif_table_entry_channel_type_t</name></member>
+      <member refid="group__SAIHOSTINTF_1ga9256291ae3017408639121224712c46e" kind="enum"><name>_sai_hostif_table_entry_attr_t</name></member>
+      <member refid="group__SAIHOSTINTF_1ga2bec7bf38599be14c8c759f77a09ef1b" kind="enum"><name>_sai_hostif_tx_type_t</name></member>
+      <member refid="group__SAIHOSTINTF_1gadbd461f30a838a8c39e331e1afee71dd" kind="enum"><name>_sai_hostif_packet_attr_t</name></member>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <member refid="group__SAIHOSTINTF_1ga52bd52749e1bbb51eeec91bb895afb95" kind="typedef"><name>sai_hostif_trap_group_attr_t</name></member>
+      <member refid="group__SAIHOSTINTF_1gad861a00452ddce8cd6e00e3fa6e95d64" kind="typedef"><name>sai_create_hostif_trap_group_fn</name></member>
+      <member refid="group__SAIHOSTINTF_1gac004ca35389860f2a0d40a21ad993aca" kind="typedef"><name>sai_remove_hostif_trap_group_fn</name></member>
+      <member refid="group__SAIHOSTINTF_1ga3728a77291c6691515fe14c5fb58ab35" kind="typedef"><name>sai_set_hostif_trap_group_attribute_fn</name></member>
+      <member refid="group__SAIHOSTINTF_1ga13e38a7e9744776505c211bd51de36a1" kind="typedef"><name>sai_get_hostif_trap_group_attribute_fn</name></member>
+      <member refid="group__SAIHOSTINTF_1gabeec7560323648a622ae1331297b0446" kind="typedef"><name>sai_hostif_trap_type_t</name></member>
+      <member refid="group__SAIHOSTINTF_1gad0760d471a98b222c6c8da89a2f3958a" kind="typedef"><name>sai_hostif_trap_attr_t</name></member>
+      <member refid="group__SAIHOSTINTF_1ga5a5e06d8d8f86ff2cbc00d0f2a741005" kind="typedef"><name>sai_create_hostif_trap_fn</name></member>
+      <member refid="group__SAIHOSTINTF_1ga5a600169b29625b27f284746c7f88c47" kind="typedef"><name>sai_remove_hostif_trap_fn</name></member>
+      <member refid="group__SAIHOSTINTF_1gaf60d3614a61f5c859c1d742d1f0d7ed3" kind="typedef"><name>sai_set_hostif_trap_attribute_fn</name></member>
+      <member refid="group__SAIHOSTINTF_1gaef2444992786f034af5682c074213471" kind="typedef"><name>sai_get_hostif_trap_attribute_fn</name></member>
+      <member refid="group__SAIHOSTINTF_1gaf63d7f9d9275d30cdfa60ea745c6c920" kind="typedef"><name>sai_hostif_user_defined_trap_type_t</name></member>
+      <member refid="group__SAIHOSTINTF_1gabf565f857ead980697ba66f757ef9510" kind="typedef"><name>sai_hostif_user_defined_trap_attr_t</name></member>
+      <member refid="group__SAIHOSTINTF_1ga172aa414e9c7fc99a354ca905c794695" kind="typedef"><name>sai_create_hostif_user_defined_trap_fn</name></member>
+      <member refid="group__SAIHOSTINTF_1gab3ac26b11e60741a4a3f27abae627444" kind="typedef"><name>sai_remove_hostif_user_defined_trap_fn</name></member>
+      <member refid="group__SAIHOSTINTF_1ga588dea9a99fbfe4da6c082a1c6a62299" kind="typedef"><name>sai_set_hostif_user_defined_trap_attribute_fn</name></member>
+      <member refid="group__SAIHOSTINTF_1ga76885c007c4957e0f8c3dd9eb261300f" kind="typedef"><name>sai_get_hostif_user_defined_trap_attribute_fn</name></member>
+      <member refid="group__SAIHOSTINTF_1ga9bca962a6184254de0d80a4b35d42a1b" kind="typedef"><name>sai_hostif_type_t</name></member>
+      <member refid="group__SAIHOSTINTF_1ga09a8f189471572b8e73d4e35d76c5622" kind="typedef"><name>sai_hostif_vlan_tag_t</name></member>
+      <member refid="group__SAIHOSTINTF_1ga0b48e9f32d59eb55fb859e18cf2860bd" kind="typedef"><name>sai_hostif_attr_t</name></member>
+      <member refid="group__SAIHOSTINTF_1ga9e6d1d3a3616edc2147a7e24f399c01b" kind="typedef"><name>sai_create_hostif_fn</name></member>
+      <member refid="group__SAIHOSTINTF_1ga332f0b59862a57becebf82352b47f8aa" kind="typedef"><name>sai_remove_hostif_fn</name></member>
+      <member refid="group__SAIHOSTINTF_1ga5759436f815e027a818181de7fe111f7" kind="typedef"><name>sai_set_hostif_attribute_fn</name></member>
+      <member refid="group__SAIHOSTINTF_1ga5ea11e4e6082531ec1e6496c308f1795" kind="typedef"><name>sai_get_hostif_attribute_fn</name></member>
+      <member refid="group__SAIHOSTINTF_1ga9094f694f12da3dd69d16e721b089249" kind="typedef"><name>sai_hostif_table_entry_type_t</name></member>
+      <member refid="group__SAIHOSTINTF_1gae53b8d93e0313bf5cafd1155d3406dd6" kind="typedef"><name>sai_hostif_table_entry_channel_type_t</name></member>
+      <member refid="group__SAIHOSTINTF_1ga1eb3e9d31b12c9f05b3109679c9a8281" kind="typedef"><name>sai_hostif_table_entry_attr_t</name></member>
+      <member refid="group__SAIHOSTINTF_1ga49dc2795cf6e6ebfc414766625ecad91" kind="typedef"><name>sai_create_hostif_table_entry_fn</name></member>
+      <member refid="group__SAIHOSTINTF_1gaeb8fb5f8b5179a1e7d5c3c47c23887cb" kind="typedef"><name>sai_remove_hostif_table_entry_fn</name></member>
+      <member refid="group__SAIHOSTINTF_1gad813bbf365472995e553c0b368c1e938" kind="typedef"><name>sai_set_hostif_table_entry_attribute_fn</name></member>
+      <member refid="group__SAIHOSTINTF_1ga733686cf68b72fe0986c94c7267851b7" kind="typedef"><name>sai_get_hostif_table_entry_attribute_fn</name></member>
+      <member refid="group__SAIHOSTINTF_1ga0f89e5dda7c2cd775db7bad1237f1687" kind="typedef"><name>sai_hostif_tx_type_t</name></member>
+      <member refid="group__SAIHOSTINTF_1ga316abd0c96b24c9435ddcc25cdf5a32d" kind="typedef"><name>sai_hostif_packet_attr_t</name></member>
+      <member refid="group__SAIHOSTINTF_1ga127afe4dff9f5c531f948fd1a6921950" kind="typedef"><name>sai_recv_hostif_packet_fn</name></member>
+      <member refid="group__SAIHOSTINTF_1ga31cb87e51882688f49e85c52b2791bb4" kind="typedef"><name>sai_send_hostif_packet_fn</name></member>
+      <member refid="group__SAIHOSTINTF_1ga4d0b8e90cf980f8545fc2fca41ba2e2a" kind="typedef"><name>sai_allocate_hostif_packet_fn</name></member>
+      <member refid="group__SAIHOSTINTF_1ga6a9358c5aae7fa5235e10acfa262d005" kind="typedef"><name>sai_free_hostif_packet_fn</name></member>
+      <member refid="group__SAIHOSTINTF_1ga047654715f2d7ba9ab5cd8637ac9bf47" kind="typedef"><name>sai_packet_event_notification_fn</name></member>
+      <member refid="group__SAIHOSTINTF_1gaa82f405c602536e6c19b9a472f42054c" kind="typedef"><name>sai_hostif_api_t</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>This module defines SAI host interface. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (c) 2014 Microsoft Open Technologies, Inc.</para>
+<para>Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <ulink url="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</ulink></para>
+<para>THIS CODE IS PROVIDED ON AN <emphasis>AS IS</emphasis> BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY OR NON-INFRINGEMENT.</para>
+<para>See the Apache Version 2.0 License for specific language governing permissions and limitations under the License.</para>
+<para>Microsoft would like to thank the following companies for their review and assistance with these files: Intel Corporation, Mellanox Technologies Ltd, Dell Products, L.P., Facebook, Inc., Marvell International Ltd.</para>
+<para><simplesect kind="par"><title>Abstract</title><para></para>
+</simplesect>
+This module defines SAI Host Interface which is responsible for creating/deleting Linux netdev corresponding to the host interface type. All the management operations of the netdevs such as changing IP address are outside the scope of SAI. </para>
+    </detaileddescription>
+    <location file="/home/romanveskera/SAI/SAI/inc/saihostif.h"/>
+  </compounddef>
+</doxygen>

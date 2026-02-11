@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="struct__sai__dash__trusted__vni__api__t" kind="struct" language="C++" prot="public">
+    <compoundname>_sai_dash_trusted_vni_api_t</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__sai__dash__trusted__vni__api__t_1a341c30e53217df0c1ac343a32656116f" prot="public" static="no" mutable="no">
+        <type><ref refid="group__SAIEXPERIMENTALDASHTRUSTEDVNI_1ga7a09e42103e9ada0b999cab3d066870b" kindref="member">sai_create_global_trusted_vni_entry_fn</ref></type>
+        <definition>sai_create_global_trusted_vni_entry_fn _sai_dash_trusted_vni_api_t::create_global_trusted_vni_entry</definition>
+        <argsstring></argsstring>
+        <name>create_global_trusted_vni_entry</name>
+        <qualifiedname>_sai_dash_trusted_vni_api_t::create_global_trusted_vni_entry</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" line="357" column="54" bodyfile="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" bodystart="357" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__sai__dash__trusted__vni__api__t_1a99dc5027ebb49acb2a2e8a5ca3afe55e" prot="public" static="no" mutable="no">
+        <type><ref refid="group__SAIEXPERIMENTALDASHTRUSTEDVNI_1ga4e993639cebddbe84d0de78a4856a1aa" kindref="member">sai_remove_global_trusted_vni_entry_fn</ref></type>
+        <definition>sai_remove_global_trusted_vni_entry_fn _sai_dash_trusted_vni_api_t::remove_global_trusted_vni_entry</definition>
+        <argsstring></argsstring>
+        <name>remove_global_trusted_vni_entry</name>
+        <qualifiedname>_sai_dash_trusted_vni_api_t::remove_global_trusted_vni_entry</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" line="358" column="54" bodyfile="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" bodystart="358" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__sai__dash__trusted__vni__api__t_1a86a8f4a399eb1db838d7c16e3058a4ad" prot="public" static="no" mutable="no">
+        <type><ref refid="group__SAIEXPERIMENTALDASHTRUSTEDVNI_1ga32c2f1f9781fa17e139335903c4e6575" kindref="member">sai_set_global_trusted_vni_entry_attribute_fn</ref></type>
+        <definition>sai_set_global_trusted_vni_entry_attribute_fn _sai_dash_trusted_vni_api_t::set_global_trusted_vni_entry_attribute</definition>
+        <argsstring></argsstring>
+        <name>set_global_trusted_vni_entry_attribute</name>
+        <qualifiedname>_sai_dash_trusted_vni_api_t::set_global_trusted_vni_entry_attribute</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" line="359" column="54" bodyfile="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" bodystart="359" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__sai__dash__trusted__vni__api__t_1aca7562cf9e6b60d79ffc6a5fbf78ce33" prot="public" static="no" mutable="no">
+        <type><ref refid="group__SAIEXPERIMENTALDASHTRUSTEDVNI_1gab95ccd2549a3210492edbea85944745f" kindref="member">sai_get_global_trusted_vni_entry_attribute_fn</ref></type>
+        <definition>sai_get_global_trusted_vni_entry_attribute_fn _sai_dash_trusted_vni_api_t::get_global_trusted_vni_entry_attribute</definition>
+        <argsstring></argsstring>
+        <name>get_global_trusted_vni_entry_attribute</name>
+        <qualifiedname>_sai_dash_trusted_vni_api_t::get_global_trusted_vni_entry_attribute</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" line="360" column="54" bodyfile="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" bodystart="360" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__sai__dash__trusted__vni__api__t_1aba509c5a2b9d3f3099239a642fd67add" prot="public" static="no" mutable="no">
+        <type><ref refid="group__SAIEXPERIMENTALDASHTRUSTEDVNI_1ga87cb77cdf043bf2106f336d9f7a759c2" kindref="member">sai_bulk_create_global_trusted_vni_entry_fn</ref></type>
+        <definition>sai_bulk_create_global_trusted_vni_entry_fn _sai_dash_trusted_vni_api_t::create_global_trusted_vni_entries</definition>
+        <argsstring></argsstring>
+        <name>create_global_trusted_vni_entries</name>
+        <qualifiedname>_sai_dash_trusted_vni_api_t::create_global_trusted_vni_entries</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" line="361" column="54" bodyfile="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" bodystart="361" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__sai__dash__trusted__vni__api__t_1abeee1125a8b89f5fe1071be248dd9393" prot="public" static="no" mutable="no">
+        <type><ref refid="group__SAIEXPERIMENTALDASHTRUSTEDVNI_1ga50e0da92d0e868f752e532b0ac14e893" kindref="member">sai_bulk_remove_global_trusted_vni_entry_fn</ref></type>
+        <definition>sai_bulk_remove_global_trusted_vni_entry_fn _sai_dash_trusted_vni_api_t::remove_global_trusted_vni_entries</definition>
+        <argsstring></argsstring>
+        <name>remove_global_trusted_vni_entries</name>
+        <qualifiedname>_sai_dash_trusted_vni_api_t::remove_global_trusted_vni_entries</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" line="362" column="54" bodyfile="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" bodystart="362" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__sai__dash__trusted__vni__api__t_1aac9f1f630c6f7326b2bd12894787f2c1" prot="public" static="no" mutable="no">
+        <type><ref refid="group__SAIEXPERIMENTALDASHTRUSTEDVNI_1gab59105e3e5715c55cad89877a8d21ec1" kindref="member">sai_create_eni_trusted_vni_entry_fn</ref></type>
+        <definition>sai_create_eni_trusted_vni_entry_fn _sai_dash_trusted_vni_api_t::create_eni_trusted_vni_entry</definition>
+        <argsstring></argsstring>
+        <name>create_eni_trusted_vni_entry</name>
+        <qualifiedname>_sai_dash_trusted_vni_api_t::create_eni_trusted_vni_entry</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" line="364" column="54" bodyfile="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" bodystart="364" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__sai__dash__trusted__vni__api__t_1a2aa5b03a70682be141e1a039d1d01f33" prot="public" static="no" mutable="no">
+        <type><ref refid="group__SAIEXPERIMENTALDASHTRUSTEDVNI_1ga3c1eae10140641072e214e224b413d65" kindref="member">sai_remove_eni_trusted_vni_entry_fn</ref></type>
+        <definition>sai_remove_eni_trusted_vni_entry_fn _sai_dash_trusted_vni_api_t::remove_eni_trusted_vni_entry</definition>
+        <argsstring></argsstring>
+        <name>remove_eni_trusted_vni_entry</name>
+        <qualifiedname>_sai_dash_trusted_vni_api_t::remove_eni_trusted_vni_entry</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" line="365" column="54" bodyfile="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" bodystart="365" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__sai__dash__trusted__vni__api__t_1a45c581a9e41633ba76a6233337fe9066" prot="public" static="no" mutable="no">
+        <type><ref refid="group__SAIEXPERIMENTALDASHTRUSTEDVNI_1gad90a35be8743a1b97fc628113d6a884c" kindref="member">sai_set_eni_trusted_vni_entry_attribute_fn</ref></type>
+        <definition>sai_set_eni_trusted_vni_entry_attribute_fn _sai_dash_trusted_vni_api_t::set_eni_trusted_vni_entry_attribute</definition>
+        <argsstring></argsstring>
+        <name>set_eni_trusted_vni_entry_attribute</name>
+        <qualifiedname>_sai_dash_trusted_vni_api_t::set_eni_trusted_vni_entry_attribute</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" line="366" column="54" bodyfile="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" bodystart="366" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__sai__dash__trusted__vni__api__t_1a382b21d78a68d9a9d69e251af3466d6e" prot="public" static="no" mutable="no">
+        <type><ref refid="group__SAIEXPERIMENTALDASHTRUSTEDVNI_1gaab521e64f841b3891a14f3af5cba4e3b" kindref="member">sai_get_eni_trusted_vni_entry_attribute_fn</ref></type>
+        <definition>sai_get_eni_trusted_vni_entry_attribute_fn _sai_dash_trusted_vni_api_t::get_eni_trusted_vni_entry_attribute</definition>
+        <argsstring></argsstring>
+        <name>get_eni_trusted_vni_entry_attribute</name>
+        <qualifiedname>_sai_dash_trusted_vni_api_t::get_eni_trusted_vni_entry_attribute</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" line="367" column="54" bodyfile="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" bodystart="367" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__sai__dash__trusted__vni__api__t_1a563163bd146c545231f09048197d1f97" prot="public" static="no" mutable="no">
+        <type><ref refid="group__SAIEXPERIMENTALDASHTRUSTEDVNI_1ga554688a36e34fb5c898fc791eb542ea5" kindref="member">sai_bulk_create_eni_trusted_vni_entry_fn</ref></type>
+        <definition>sai_bulk_create_eni_trusted_vni_entry_fn _sai_dash_trusted_vni_api_t::create_eni_trusted_vni_entries</definition>
+        <argsstring></argsstring>
+        <name>create_eni_trusted_vni_entries</name>
+        <qualifiedname>_sai_dash_trusted_vni_api_t::create_eni_trusted_vni_entries</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" line="368" column="54" bodyfile="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" bodystart="368" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__sai__dash__trusted__vni__api__t_1aee2f7b3a0d8d8e50f081235dfe1ff279" prot="public" static="no" mutable="no">
+        <type><ref refid="group__SAIEXPERIMENTALDASHTRUSTEDVNI_1ga9fac3b1b9fa84535bc7c00ab63e7f8be" kindref="member">sai_bulk_remove_eni_trusted_vni_entry_fn</ref></type>
+        <definition>sai_bulk_remove_eni_trusted_vni_entry_fn _sai_dash_trusted_vni_api_t::remove_eni_trusted_vni_entries</definition>
+        <argsstring></argsstring>
+        <name>remove_eni_trusted_vni_entries</name>
+        <qualifiedname>_sai_dash_trusted_vni_api_t::remove_eni_trusted_vni_entries</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" line="369" column="54" bodyfile="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" bodystart="369" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>_sai_dash_trusted_vni_api_t</label>
+        <link refid="struct__sai__dash__trusted__vni__api__t"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>create_global_trusted_vni_entries</edgelabel>
+          <edgelabel>create_global_trusted_vni_entry</edgelabel>
+          <edgelabel>get_global_trusted_vni_entry_attribute</edgelabel>
+          <edgelabel>remove_global_trusted_vni_entries</edgelabel>
+          <edgelabel>remove_global_trusted_vni_entry</edgelabel>
+          <edgelabel>set_global_trusted_vni_entry_attribute</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>create_eni_trusted_vni_entries</edgelabel>
+          <edgelabel>create_eni_trusted_vni_entry</edgelabel>
+          <edgelabel>get_eni_trusted_vni_entry_attribute</edgelabel>
+          <edgelabel>remove_eni_trusted_vni_entries</edgelabel>
+          <edgelabel>remove_eni_trusted_vni_entry</edgelabel>
+          <edgelabel>set_eni_trusted_vni_entry_attribute</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>_sai_eni_trusted_vni_entry_t</label>
+        <link refid="struct__sai__eni__trusted__vni__entry__t"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>vni_range</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>_sai_global_trusted_vni_entry_t</label>
+        <link refid="struct__sai__global__trusted__vni__entry__t"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>vni_range</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>_sai_u32_range_t</label>
+        <link refid="struct__sai__u32__range__t"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" line="355" column="1" bodyfile="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtrustedvni.h" bodystart="356" bodyend="371"/>
+    <listofallmembers>
+      <member refid="struct__sai__dash__trusted__vni__api__t_1a563163bd146c545231f09048197d1f97" prot="public" virt="non-virtual"><scope>_sai_dash_trusted_vni_api_t</scope><name>create_eni_trusted_vni_entries</name></member>
+      <member refid="struct__sai__dash__trusted__vni__api__t_1aac9f1f630c6f7326b2bd12894787f2c1" prot="public" virt="non-virtual"><scope>_sai_dash_trusted_vni_api_t</scope><name>create_eni_trusted_vni_entry</name></member>
+      <member refid="struct__sai__dash__trusted__vni__api__t_1aba509c5a2b9d3f3099239a642fd67add" prot="public" virt="non-virtual"><scope>_sai_dash_trusted_vni_api_t</scope><name>create_global_trusted_vni_entries</name></member>
+      <member refid="struct__sai__dash__trusted__vni__api__t_1a341c30e53217df0c1ac343a32656116f" prot="public" virt="non-virtual"><scope>_sai_dash_trusted_vni_api_t</scope><name>create_global_trusted_vni_entry</name></member>
+      <member refid="struct__sai__dash__trusted__vni__api__t_1a382b21d78a68d9a9d69e251af3466d6e" prot="public" virt="non-virtual"><scope>_sai_dash_trusted_vni_api_t</scope><name>get_eni_trusted_vni_entry_attribute</name></member>
+      <member refid="struct__sai__dash__trusted__vni__api__t_1aca7562cf9e6b60d79ffc6a5fbf78ce33" prot="public" virt="non-virtual"><scope>_sai_dash_trusted_vni_api_t</scope><name>get_global_trusted_vni_entry_attribute</name></member>
+      <member refid="struct__sai__dash__trusted__vni__api__t_1aee2f7b3a0d8d8e50f081235dfe1ff279" prot="public" virt="non-virtual"><scope>_sai_dash_trusted_vni_api_t</scope><name>remove_eni_trusted_vni_entries</name></member>
+      <member refid="struct__sai__dash__trusted__vni__api__t_1a2aa5b03a70682be141e1a039d1d01f33" prot="public" virt="non-virtual"><scope>_sai_dash_trusted_vni_api_t</scope><name>remove_eni_trusted_vni_entry</name></member>
+      <member refid="struct__sai__dash__trusted__vni__api__t_1abeee1125a8b89f5fe1071be248dd9393" prot="public" virt="non-virtual"><scope>_sai_dash_trusted_vni_api_t</scope><name>remove_global_trusted_vni_entries</name></member>
+      <member refid="struct__sai__dash__trusted__vni__api__t_1a99dc5027ebb49acb2a2e8a5ca3afe55e" prot="public" virt="non-virtual"><scope>_sai_dash_trusted_vni_api_t</scope><name>remove_global_trusted_vni_entry</name></member>
+      <member refid="struct__sai__dash__trusted__vni__api__t_1a45c581a9e41633ba76a6233337fe9066" prot="public" virt="non-virtual"><scope>_sai_dash_trusted_vni_api_t</scope><name>set_eni_trusted_vni_entry_attribute</name></member>
+      <member refid="struct__sai__dash__trusted__vni__api__t_1a86a8f4a399eb1db838d7c16e3058a4ad" prot="public" virt="non-virtual"><scope>_sai_dash_trusted_vni_api_t</scope><name>set_global_trusted_vni_entry_attribute</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

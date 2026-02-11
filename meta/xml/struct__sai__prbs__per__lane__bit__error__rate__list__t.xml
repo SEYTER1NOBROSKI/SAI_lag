@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="struct__sai__prbs__per__lane__bit__error__rate__list__t" kind="struct" language="C++" prot="public">
+    <compoundname>_sai_prbs_per_lane_bit_error_rate_list_t</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__sai__prbs__per__lane__bit__error__rate__list__t_1acf1fd529ca46b70269d20c50ca81499a" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t _sai_prbs_per_lane_bit_error_rate_list_t::count</definition>
+        <argsstring></argsstring>
+        <name>count</name>
+        <qualifiedname>_sai_prbs_per_lane_bit_error_rate_list_t::count</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/romanveskera/SAI/SAI/inc/saitypes.h" line="526" column="14" bodyfile="/home/romanveskera/SAI/SAI/inc/saitypes.h" bodystart="526" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__sai__prbs__per__lane__bit__error__rate__list__t_1a5502634acb7e50aaa2451c829c56db61" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__sai__prbs__per__lane__bit__error__rate__t" kindref="compound">sai_prbs_per_lane_bit_error_rate_t</ref> *</type>
+        <definition>sai_prbs_per_lane_bit_error_rate_t* _sai_prbs_per_lane_bit_error_rate_list_t::list</definition>
+        <argsstring></argsstring>
+        <name>list</name>
+        <qualifiedname>_sai_prbs_per_lane_bit_error_rate_list_t::list</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/romanveskera/SAI/SAI/inc/saitypes.h" line="527" column="40" bodyfile="/home/romanveskera/SAI/SAI/inc/saitypes.h" bodystart="527" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>_sai_prbs_bit_error_rate_t</label>
+        <link refid="struct__sai__prbs__bit__error__rate__t"/>
+      </node>
+      <node id="1">
+        <label>_sai_prbs_per_lane_bit_error_rate_list_t</label>
+        <link refid="struct__sai__prbs__per__lane__bit__error__rate__list__t"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>list</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>_sai_prbs_per_lane_bit_error_rate_t</label>
+        <link refid="struct__sai__prbs__per__lane__bit__error__rate__t"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>ber</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/romanveskera/SAI/SAI/inc/saitypes.h" line="524" column="1" bodyfile="/home/romanveskera/SAI/SAI/inc/saitypes.h" bodystart="525" bodyend="528"/>
+    <listofallmembers>
+      <member refid="struct__sai__prbs__per__lane__bit__error__rate__list__t_1acf1fd529ca46b70269d20c50ca81499a" prot="public" virt="non-virtual"><scope>_sai_prbs_per_lane_bit_error_rate_list_t</scope><name>count</name></member>
+      <member refid="struct__sai__prbs__per__lane__bit__error__rate__list__t_1a5502634acb7e50aaa2451c829c56db61" prot="public" virt="non-virtual"><scope>_sai_prbs_per_lane_bit_error_rate_list_t</scope><name>list</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="saiacl_8h" kind="file" language="C++">
+    <compoundname>saiacl.h</compoundname>
+    <includes refid="saitypes_8h" local="no">saitypes.h</includes>
+    <includedby refid="sai_8h" local="yes">/home/romanveskera/SAI/SAI/inc/sai.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/saiacl.h</label>
+        <link refid="saiacl_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>saitypes.h</label>
+        <link refid="saitypes_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>stdbool.h</label>
+      </node>
+      <node id="3">
+        <label>stdint.h</label>
+      </node>
+      <node id="5">
+        <label>sys/types.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiextensions.h</label>
+        <link refid="saiextensions_8h"/>
+      </node>
+      <node id="2">
+        <label>/home/romanveskera/SAI/SAI/inc/sai.h</label>
+        <link refid="sai_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/saiacl.h</label>
+        <link refid="saiacl_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct__sai__acl__api__t" prot="public">_sai_acl_api_t</innerclass>
+    <sectiondef kind="define">
+      <member refid="group__SAIACL_1ga742aa04c2f50e1c2dcfe28ff77b0d2f5" kind="define"><name>SAI_ACL_USER_DEFINED_FIELD_ATTR_ID_RANGE</name></member>
+    </sectiondef>
+    <sectiondef kind="enum">
+      <member refid="group__SAIACL_1ga0d0b32989b68cd30b0a7255e8d36ea82" kind="enum"><name>_sai_acl_ip_type_t</name></member>
+      <member refid="group__SAIACL_1ga98f725b00ca6fabb84305474dc951d14" kind="enum"><name>_sai_acl_ip_frag_t</name></member>
+      <member refid="group__SAIACL_1gaa329057b7891e9fd28885f2ce1706706" kind="enum"><name>_sai_acl_dtel_flow_op_t</name></member>
+      <member refid="group__SAIACL_1ga6720e1743d3041562e21fd733e406429" kind="enum"><name>_sai_acl_action_type_t</name></member>
+      <member refid="group__SAIACL_1ga03e86d47c2acf05cc2770be03a343d23" kind="enum"><name>_sai_acl_table_chain_group_type_t</name></member>
+      <member refid="group__SAIACL_1ga4e9a06b08b1137104fc2a1df8095dcd2" kind="enum"><name>_sai_acl_table_group_type_t</name></member>
+      <member refid="group__SAIACL_1ga44dd0ccceb1391cd77f19ca4de92bef2" kind="enum"><name>_sai_acl_table_group_attr_t</name></member>
+      <member refid="group__SAIACL_1ga524081259f98085c419508a47af596ff" kind="enum"><name>_sai_acl_table_chain_group_attr_t</name></member>
+      <member refid="group__SAIACL_1ga240b64ad6ab397e540001cb7a0290be5" kind="enum"><name>_sai_acl_table_group_member_attr_t</name></member>
+      <member refid="group__SAIACL_1gadca7ba1d7fe94b0f924566dd3adca1eb" kind="enum"><name>_sai_acl_table_attr_t</name></member>
+      <member refid="group__SAIACL_1ga25441fd99b0ba7ffdc071c8759912145" kind="enum"><name>_sai_acl_entry_attr_t</name></member>
+      <member refid="group__SAIACL_1ga5476e826684d90203dfb0df251af8f98" kind="enum"><name>_sai_acl_counter_attr_t</name></member>
+      <member refid="group__SAIACL_1ga96ef6ea7dc39cf066a892a8241e35df0" kind="enum"><name>_sai_acl_range_type_t</name></member>
+      <member refid="group__SAIACL_1ga83d799a568ab319dd37770e86916d963" kind="enum"><name>_sai_acl_range_attr_t</name></member>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <member refid="group__SAIACL_1ga6f28205e5ccb63cf4c59e80ba163a01e" kind="typedef"><name>sai_acl_ip_type_t</name></member>
+      <member refid="group__SAIACL_1gac2d27231a2b376b382f4ffb1b1f57e38" kind="typedef"><name>sai_acl_ip_frag_t</name></member>
+      <member refid="group__SAIACL_1gaae9751abe801e6a23392dd36da4f095f" kind="typedef"><name>sai_acl_dtel_flow_op_t</name></member>
+      <member refid="group__SAIACL_1gac13282c1096766a9d2a172e1261f3f83" kind="typedef"><name>sai_acl_action_type_t</name></member>
+      <member refid="group__SAIACL_1ga3ae64e90b03ae81195995df7d96da143" kind="typedef"><name>sai_acl_table_chain_group_type_t</name></member>
+      <member refid="group__SAIACL_1ga6e7c7d1c972aac430c9d7380855fdab7" kind="typedef"><name>sai_acl_table_group_type_t</name></member>
+      <member refid="group__SAIACL_1gab646daaa8a485089f1fa75c2e7749e6e" kind="typedef"><name>sai_acl_table_group_attr_t</name></member>
+      <member refid="group__SAIACL_1ga51044b11c5b27c3334d2d06eacd55f73" kind="typedef"><name>sai_acl_table_chain_group_attr_t</name></member>
+      <member refid="group__SAIACL_1gaab3329f763bc8d9b4d7e54d30cc9eaed" kind="typedef"><name>sai_acl_table_group_member_attr_t</name></member>
+      <member refid="group__SAIACL_1gac4debb720683678469312246e6e01a90" kind="typedef"><name>sai_acl_table_attr_t</name></member>
+      <member refid="group__SAIACL_1ga2dc19754b4f1b3cb6cf3637f7dbadb1b" kind="typedef"><name>sai_acl_entry_attr_t</name></member>
+      <member refid="group__SAIACL_1ga9e5232797e9150b1619dd7d9ece61646" kind="typedef"><name>sai_acl_counter_attr_t</name></member>
+      <member refid="group__SAIACL_1ga34b32bfba86991b22f7e533799cc897f" kind="typedef"><name>sai_acl_range_type_t</name></member>
+      <member refid="group__SAIACL_1gaee0a892e424e0833a42393225f5fd7a2" kind="typedef"><name>sai_acl_range_attr_t</name></member>
+      <member refid="group__SAIACL_1ga9abcc36ee9460e59dabd4bf1c2737747" kind="typedef"><name>sai_create_acl_table_fn</name></member>
+      <member refid="group__SAIACL_1ga3c8fb3890cfcc64ff4cd3eb69f6d45b7" kind="typedef"><name>sai_remove_acl_table_fn</name></member>
+      <member refid="group__SAIACL_1gada16bb9bc67310b84bf89c5f6960cfe6" kind="typedef"><name>sai_set_acl_table_attribute_fn</name></member>
+      <member refid="group__SAIACL_1gadda25b858624d9390e6ea8777d47052c" kind="typedef"><name>sai_get_acl_table_attribute_fn</name></member>
+      <member refid="group__SAIACL_1ga8fbe4c6fb70fb60f48a082000363ba5d" kind="typedef"><name>sai_create_acl_entry_fn</name></member>
+      <member refid="group__SAIACL_1ga5e4323198d9a918056abca85b0baf32a" kind="typedef"><name>sai_remove_acl_entry_fn</name></member>
+      <member refid="group__SAIACL_1ga5b304596e897e3276d02fb4c7bcb235f" kind="typedef"><name>sai_set_acl_entry_attribute_fn</name></member>
+      <member refid="group__SAIACL_1ga4c995311023ea9e33f5897425b88dace" kind="typedef"><name>sai_get_acl_entry_attribute_fn</name></member>
+      <member refid="group__SAIACL_1ga65e981fb81f827fbac60c18f3e467001" kind="typedef"><name>sai_create_acl_counter_fn</name></member>
+      <member refid="group__SAIACL_1ga975dcf46f05e86878b86bcf4d7cac3b1" kind="typedef"><name>sai_remove_acl_counter_fn</name></member>
+      <member refid="group__SAIACL_1ga5b45c2591b65d3aef9b84ef7dcd44413" kind="typedef"><name>sai_set_acl_counter_attribute_fn</name></member>
+      <member refid="group__SAIACL_1ga506c077c3abdfeb90ebedaf70074e896" kind="typedef"><name>sai_get_acl_counter_attribute_fn</name></member>
+      <member refid="group__SAIACL_1ga0e96c4e776c174cea1e8dfbe9865b6d0" kind="typedef"><name>sai_create_acl_range_fn</name></member>
+      <member refid="group__SAIACL_1gaa00535302318c7d6723586239c28bdca" kind="typedef"><name>sai_remove_acl_range_fn</name></member>
+      <member refid="group__SAIACL_1ga7f1889f405056696b1c970f6d2adc3c9" kind="typedef"><name>sai_set_acl_range_attribute_fn</name></member>
+      <member refid="group__SAIACL_1ga7af8273ace1b085a33214932ee377894" kind="typedef"><name>sai_get_acl_range_attribute_fn</name></member>
+      <member refid="group__SAIACL_1gaf7f41f9d897ac8ef0e4141a9413d8c13" kind="typedef"><name>sai_create_acl_table_group_fn</name></member>
+      <member refid="group__SAIACL_1ga211a4d161c3f43f3cdec62125a5ac247" kind="typedef"><name>sai_remove_acl_table_group_fn</name></member>
+      <member refid="group__SAIACL_1gab93e3120776e69c08f0a2daaec1d2eb3" kind="typedef"><name>sai_set_acl_table_group_attribute_fn</name></member>
+      <member refid="group__SAIACL_1ga1f79683247d788ab34eea63b242904a0" kind="typedef"><name>sai_get_acl_table_group_attribute_fn</name></member>
+      <member refid="group__SAIACL_1ga72fdc043d7caeadde2b8219a31f57c1d" kind="typedef"><name>sai_create_acl_table_group_member_fn</name></member>
+      <member refid="group__SAIACL_1ga7c35623e572c024f954457459ed5a661" kind="typedef"><name>sai_remove_acl_table_group_member_fn</name></member>
+      <member refid="group__SAIACL_1gad61d132bbb257a3acb355b9db7648f7d" kind="typedef"><name>sai_set_acl_table_group_member_attribute_fn</name></member>
+      <member refid="group__SAIACL_1ga9a72171ae281da746aad6cedc26aa6cf" kind="typedef"><name>sai_get_acl_table_group_member_attribute_fn</name></member>
+      <member refid="group__SAIACL_1gaecc766b44a99595c2526382286d70a1c" kind="typedef"><name>sai_create_acl_table_chain_group_fn</name></member>
+      <member refid="group__SAIACL_1ga110cf6f40ec0290693f69882d950e920" kind="typedef"><name>sai_remove_acl_table_chain_group_fn</name></member>
+      <member refid="group__SAIACL_1gabbf75f76d6af2ac2538f4a2413f0ba41" kind="typedef"><name>sai_set_acl_table_chain_group_attribute_fn</name></member>
+      <member refid="group__SAIACL_1ga182cb32bff5dfbf70ec666322f9aa42e" kind="typedef"><name>sai_get_acl_table_chain_group_attribute_fn</name></member>
+      <member refid="group__SAIACL_1ga384db40904d5ec88ee0fefb8e7cf05e9" kind="typedef"><name>sai_acl_api_t</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>This module defines SAI ACL interface. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (c) 2014 Microsoft Open Technologies, Inc.</para>
+<para>Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <ulink url="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</ulink></para>
+<para>THIS CODE IS PROVIDED ON AN <emphasis>AS IS</emphasis> BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY OR NON-INFRINGEMENT.</para>
+<para>See the Apache Version 2.0 License for specific language governing permissions and limitations under the License.</para>
+<para>Microsoft would like to thank the following companies for their review and assistance with these files: Intel Corporation, Mellanox Technologies Ltd, Dell Products, L.P., Facebook, Inc., Marvell International Ltd. </para>
+    </detaileddescription>
+    <location file="/home/romanveskera/SAI/SAI/inc/saiacl.h"/>
+  </compounddef>
+</doxygen>

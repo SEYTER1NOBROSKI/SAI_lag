@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="struct__sai__u16__range__t" kind="struct" language="C++" prot="public">
+    <compoundname>_sai_u16_range_t</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__sai__u16__range__t_1ae675f9b06ec99e9307151c40e69ee439" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t _sai_u16_range_t::min</definition>
+        <argsstring></argsstring>
+        <name>min</name>
+        <qualifiedname>_sai_u16_range_t::min</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/romanveskera/SAI/SAI/inc/saitypes.h" line="373" column="14" bodyfile="/home/romanveskera/SAI/SAI/inc/saitypes.h" bodystart="373" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__sai__u16__range__t_1aa3f585d7f4c913098046c12340aeebbe" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t _sai_u16_range_t::max</definition>
+        <argsstring></argsstring>
+        <name>max</name>
+        <qualifiedname>_sai_u16_range_t::max</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/romanveskera/SAI/SAI/inc/saitypes.h" line="374" column="14" bodyfile="/home/romanveskera/SAI/SAI/inc/saitypes.h" bodystart="374" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/romanveskera/SAI/SAI/inc/saitypes.h" line="371" column="1" bodyfile="/home/romanveskera/SAI/SAI/inc/saitypes.h" bodystart="372" bodyend="375"/>
+    <listofallmembers>
+      <member refid="struct__sai__u16__range__t_1aa3f585d7f4c913098046c12340aeebbe" prot="public" virt="non-virtual"><scope>_sai_u16_range_t</scope><name>max</name></member>
+      <member refid="struct__sai__u16__range__t_1ae675f9b06ec99e9307151c40e69ee439" prot="public" virt="non-virtual"><scope>_sai_u16_range_t</scope><name>min</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

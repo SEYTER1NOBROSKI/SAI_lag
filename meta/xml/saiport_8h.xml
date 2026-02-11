@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="saiport_8h" kind="file" language="C++">
+    <compoundname>saiport.h</compoundname>
+    <includes refid="saitypes_8h" local="no">saitypes.h</includes>
+    <includedby refid="saiportextensions_8h" local="no">/home/romanveskera/SAI/SAI/experimental/saiportextensions.h</includedby>
+    <includedby refid="sai_8h" local="yes">/home/romanveskera/SAI/SAI/inc/sai.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/saiport.h</label>
+        <link refid="saiport_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>saitypes.h</label>
+        <link refid="saitypes_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>stdbool.h</label>
+      </node>
+      <node id="3">
+        <label>stdint.h</label>
+      </node>
+      <node id="5">
+        <label>sys/types.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiextensions.h</label>
+        <link refid="saiextensions_8h"/>
+      </node>
+      <node id="2">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiportextensions.h</label>
+        <link refid="saiportextensions_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>/home/romanveskera/SAI/SAI/inc/sai.h</label>
+        <link refid="sai_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/saiport.h</label>
+        <link refid="saiport_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct__sai__port__oper__status__notification__t" prot="public">_sai_port_oper_status_notification_t</innerclass>
+    <innerclass refid="struct__sai__extended__port__oper__status__notification__t" prot="public">_sai_extended_port_oper_status_notification_t</innerclass>
+    <innerclass refid="struct__sai__port__api__t" prot="public">_sai_port_api_t</innerclass>
+    <sectiondef kind="enum">
+      <member refid="group__SAIPORT_1ga433659c5a999857201ba4e947c45cfc9" kind="enum"><name>_sai_port_type_t</name></member>
+      <member refid="group__SAIPORT_1ga6ce692d93dbf6b16c62ce1bc1902b8e8" kind="enum"><name>_sai_port_oper_status_t</name></member>
+      <member refid="group__SAIPORT_1ga1a8e6d9fba49d3b2de6a2e602c28706a" kind="enum"><name>_sai_port_error_status_t</name></member>
+      <member refid="group__SAIPORT_1gaa1d1819db0e8afd6c339bdb797d244f4" kind="enum"><name>_sai_port_flow_control_mode_t</name></member>
+      <member refid="group__SAIPORT_1gaf6418060eb65bcd6a65467a735fa0c84" kind="enum"><name>_sai_port_internal_loopback_mode_t</name></member>
+      <member refid="group__SAIPORT_1ga5dbdc4af8fddaeed7a2cca29be5c90b5" kind="enum"><name>_sai_port_loopback_mode_t</name></member>
+      <member refid="group__SAIPORT_1ga295250c71ac25e5ab38d35a81659fd8a" kind="enum"><name>_sai_port_media_type_t</name></member>
+      <member refid="group__SAIPORT_1ga20f99992cb74f34a3e54fc51fc9aec28" kind="enum"><name>_sai_port_cable_pair_state_t</name></member>
+      <member refid="group__SAIPORT_1gae5f5137d43da52b399a1a370983a8533" kind="enum"><name>_sai_port_cable_type_t</name></member>
+      <member refid="group__SAIPORT_1ga388f8de231bef109d45c560c46509b7a" kind="enum"><name>_sai_port_breakout_mode_type_t</name></member>
+      <member refid="group__SAIPORT_1ga213d794c0be6c5ef0ba90a3bbbc1c71c" kind="enum"><name>_sai_port_fec_mode_t</name></member>
+      <member refid="group__SAIPORT_1ga4b7ab79b8fb2219e51f25a161b504e90" kind="enum"><name>_sai_port_fec_mode_extended_t</name></member>
+      <member refid="group__SAIPORT_1ga6dcead95c650975973dce4ee5b490d4d" kind="enum"><name>_sai_port_datapath_enable_t</name></member>
+      <member refid="group__SAIPORT_1ga62a69404c2ce00e5155484c72b257986" kind="enum"><name>_sai_port_priority_flow_control_mode_t</name></member>
+      <member refid="group__SAIPORT_1ga6f8239b325a70e9c75a39a6a1049abdf" kind="enum"><name>_sai_port_ptp_mode_t</name></member>
+      <member refid="group__SAIPORT_1ga1ac3dc5f1281955f69cc563f3c90a925" kind="enum"><name>_sai_port_interface_type_t</name></member>
+      <member refid="group__SAIPORT_1ga1cfa557c24b969a7368fc4094d25ef61" kind="enum"><name>_sai_port_link_training_failure_status_t</name></member>
+      <member refid="group__SAIPORT_1gafa58519824820c092751ed586a2994a7" kind="enum"><name>_sai_port_link_training_rx_status_t</name></member>
+      <member refid="group__SAIPORT_1gae12e5f7508499d23c896910dd9228522" kind="enum"><name>_sai_port_prbs_config_t</name></member>
+      <member refid="group__SAIPORT_1ga5ffe935afe86c55b124e62c3af3eedbe" kind="enum"><name>_sai_port_connector_failover_mode_t</name></member>
+      <member refid="group__SAIPORT_1ga7a70d739cbf21f666dff585c0f6e794b" kind="enum"><name>_sai_port_mdix_mode_status_t</name></member>
+      <member refid="group__SAIPORT_1ga97f3b8cbf94315ba84843adf41b412d4" kind="enum"><name>_sai_port_mdix_mode_config_t</name></member>
+      <member refid="group__SAIPORT_1ga31a481d0c9f20ffc9ed06764127622dc" kind="enum"><name>_sai_port_auto_neg_config_mode_t</name></member>
+      <member refid="group__SAIPORT_1ga7a7a00e2b91ca3d5dda6822102294938" kind="enum"><name>_sai_port_module_type_t</name></member>
+      <member refid="group__SAIPORT_1gaf6dfafbba911597c24b05ba9cdd6f3a4" kind="enum"><name>_sai_port_dual_media_t</name></member>
+      <member refid="group__SAIPORT_1ga45117fa8be0493d96900a467654ec27a" kind="enum"><name>_sai_port_host_tx_ready_status_t</name></member>
+      <member refid="group__SAIPORT_1ga368120608e1470b89239f44d8cde1630" kind="enum"><name>_sai_port_path_tracing_timestamp_type_t</name></member>
+      <member refid="group__SAIPORT_1ga10fb86a5add38c912ee33aecc64beb02" kind="enum"><name>_sai_port_serdes_rx_ecd_mlse_state_t</name></member>
+      <member refid="group__SAIPORT_1ga4bb7eb89f99766c26da46e337685a62b" kind="enum"><name>_sai_port_serdes_polarity_t</name></member>
+      <member refid="group__SAIPORT_1ga00552fc88dcd6b28343de0421275bdb1" kind="enum"><name>_sai_port_llr_tx_status_t</name></member>
+      <member refid="group__SAIPORT_1gad972c640cb28644b1f60ab37b5cb7506" kind="enum"><name>_sai_port_llr_rx_status_t</name></member>
+      <member refid="group__SAIPORT_1ga9df7a7f03493a3bf290f1e4cf23cd276" kind="enum"><name>_sai_llr_frame_action_t</name></member>
+      <member refid="group__SAIPORT_1gaf6a4c24bfa563ea78247c935714eff4b" kind="enum"><name>_sai_port_attr_t</name></member>
+      <member refid="group__SAIPORT_1ga189a5769756b00c66d71e544d9bbb796" kind="enum"><name>_sai_port_stat_t</name></member>
+      <member refid="group__SAIPORT_1ga24a16eaa93d52508959540d89b5738e6" kind="enum"><name>_sai_port_pool_attr_t</name></member>
+      <member refid="group__SAIPORT_1ga9679647f427117cd08211c9d99b85c72" kind="enum"><name>_sai_port_pool_stat_t</name></member>
+      <member refid="group__SAIPORT_1ga81fa02d3f77fabdc87c6652326ca2433" kind="enum"><name>_sai_port_serdes_attr_t</name></member>
+      <member refid="group__SAIPORT_1ga0cb2f2ab724f6aa987aa2a1398bd3152" kind="enum"><name>_sai_port_connector_attr_t</name></member>
+      <member refid="group__SAIPORT_1ga5201a28d7cc2950ee7aa43b53d172fb2" kind="enum"><name>_sai_port_llr_profile_attr_t</name></member>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <member refid="group__SAIPORT_1ga994f01619060030f7f71935bf0a0a5fa" kind="typedef"><name>sai_port_type_t</name></member>
+      <member refid="group__SAIPORT_1ga4c74890a2f8afd03a7c117d1fc772f9d" kind="typedef"><name>sai_port_oper_status_t</name></member>
+      <member refid="group__SAIPORT_1ga524efcd9e5fd08ab9b14ef3a56e005e9" kind="typedef"><name>sai_port_error_status_t</name></member>
+      <member refid="group__SAIPORT_1ga6f4f36d9f6d8a761d05270eee352076c" kind="typedef"><name>sai_port_oper_status_notification_t</name></member>
+      <member refid="group__SAIPORT_1gaf5d38721dc0049b236824b11adb9a285" kind="typedef"><name>sai_extended_port_oper_status_notification_t</name></member>
+      <member refid="group__SAIPORT_1gabb7ba99fb19c8137b467331b903698e3" kind="typedef"><name>sai_port_flow_control_mode_t</name></member>
+      <member refid="group__SAIPORT_1gaa2a02de6a87e470bb5683a05fa60337d" kind="typedef"><name>sai_port_internal_loopback_mode_t</name></member>
+      <member refid="group__SAIPORT_1ga06f9940e7b2c6214df203b20fb3a77b6" kind="typedef"><name>sai_port_loopback_mode_t</name></member>
+      <member refid="group__SAIPORT_1ga238acdbd9d10f2682109eb8e0f82c6e0" kind="typedef"><name>sai_port_media_type_t</name></member>
+      <member refid="group__SAIPORT_1gafccccace4a20affb48c653b3414daf14" kind="typedef"><name>sai_port_cable_pair_state_t</name></member>
+      <member refid="group__SAIPORT_1ga7f7a66c429cd5c47a41d81397c14e4f1" kind="typedef"><name>sai_port_cable_type_t</name></member>
+      <member refid="group__SAIPORT_1gade7beb730ba739319d54e76c5e30fc7f" kind="typedef"><name>sai_port_breakout_mode_type_t</name></member>
+      <member refid="group__SAIPORT_1gaf29c6571abc6a0488026716b8e1f7f81" kind="typedef"><name>sai_port_fec_mode_t</name></member>
+      <member refid="group__SAIPORT_1gafc18ff71bc82a2db7e3dd246dbac1ee9" kind="typedef"><name>sai_port_fec_mode_extended_t</name></member>
+      <member refid="group__SAIPORT_1ga79e2ef704bc5479370db49c9e80424a2" kind="typedef"><name>sai_port_datapath_enable_t</name></member>
+      <member refid="group__SAIPORT_1ga39d5b9557dce3030543e7135d53b889c" kind="typedef"><name>sai_port_priority_flow_control_mode_t</name></member>
+      <member refid="group__SAIPORT_1ga0fa65cba58ef6d22b61481a64434b00a" kind="typedef"><name>sai_port_ptp_mode_t</name></member>
+      <member refid="group__SAIPORT_1gadf74da5beaa3a75d6bb1e9d7d05eff52" kind="typedef"><name>sai_port_interface_type_t</name></member>
+      <member refid="group__SAIPORT_1ga5d8a334810cc89a6ae81f144faf4966f" kind="typedef"><name>sai_port_link_training_failure_status_t</name></member>
+      <member refid="group__SAIPORT_1ga7b180b001e58ef8654a4b7d1cfe828dc" kind="typedef"><name>sai_port_link_training_rx_status_t</name></member>
+      <member refid="group__SAIPORT_1gac4a299fdce10c9f42bd02908e1bbed6c" kind="typedef"><name>sai_port_prbs_config_t</name></member>
+      <member refid="group__SAIPORT_1ga0b55270d76c261cc5abb8be46f083582" kind="typedef"><name>sai_port_connector_failover_mode_t</name></member>
+      <member refid="group__SAIPORT_1gac69d797f3ecb36e69df213c673ec005e" kind="typedef"><name>sai_port_mdix_mode_status_t</name></member>
+      <member refid="group__SAIPORT_1ga6839bf696abd1c172bc994ea0d2c78eb" kind="typedef"><name>sai_port_mdix_mode_config_t</name></member>
+      <member refid="group__SAIPORT_1ga26d0f5974946c1bb4d416b3b3be2e68d" kind="typedef"><name>sai_port_auto_neg_config_mode_t</name></member>
+      <member refid="group__SAIPORT_1ga4e689aa171fe53b6d16b038b67546caa" kind="typedef"><name>sai_port_module_type_t</name></member>
+      <member refid="group__SAIPORT_1gab0f6af1b1ca451ee93fa7c013d2a01e9" kind="typedef"><name>sai_port_dual_media_t</name></member>
+      <member refid="group__SAIPORT_1ga53f377fa545cca631621dbbf01f8353d" kind="typedef"><name>sai_port_host_tx_ready_status_t</name></member>
+      <member refid="group__SAIPORT_1ga7ea48cd027981ab54f6dbdbbb388ecfd" kind="typedef"><name>sai_port_path_tracing_timestamp_type_t</name></member>
+      <member refid="group__SAIPORT_1gacbf3b1071f7647c6abc75ac0ed2682d3" kind="typedef"><name>sai_port_serdes_rx_ecd_mlse_state_t</name></member>
+      <member refid="group__SAIPORT_1gaa3afd11aa191c38c3393c51e497127fe" kind="typedef"><name>sai_port_serdes_polarity_t</name></member>
+      <member refid="group__SAIPORT_1ga9051a4bbcdcfb006432921c898d5cf61" kind="typedef"><name>sai_port_llr_tx_status_t</name></member>
+      <member refid="group__SAIPORT_1ga653ecdbca9a025fce586e1eb0f2d35f5" kind="typedef"><name>sai_port_llr_rx_status_t</name></member>
+      <member refid="group__SAIPORT_1gab00c366ed207464de73bf51de4338552" kind="typedef"><name>sai_llr_frame_action_t</name></member>
+      <member refid="group__SAIPORT_1ga9ff6daf27546b240d1949285e2c55e60" kind="typedef"><name>sai_port_attr_t</name></member>
+      <member refid="group__SAIPORT_1ga69fe91f40bd1f033aa4e35193ef15c79" kind="typedef"><name>sai_port_stat_t</name></member>
+      <member refid="group__SAIPORT_1ga71f9c1598d27f11ef0de4faf5a19282c" kind="typedef"><name>sai_create_port_fn</name></member>
+      <member refid="group__SAIPORT_1gaa889b91fe49a19c5c8ad9f44f772d9c4" kind="typedef"><name>sai_remove_port_fn</name></member>
+      <member refid="group__SAIPORT_1ga684307c7fba7af4525af37a1bc8267cb" kind="typedef"><name>sai_set_port_attribute_fn</name></member>
+      <member refid="group__SAIPORT_1gae9952e226fd8751263631c3d3980cd2f" kind="typedef"><name>sai_get_port_attribute_fn</name></member>
+      <member refid="group__SAIPORT_1ga2749ad9c4c944f5506cc1e67a0ecc825" kind="typedef"><name>sai_get_port_stats_fn</name></member>
+      <member refid="group__SAIPORT_1ga6c85dd9c9e9830d54fff0945f82aa7f7" kind="typedef"><name>sai_get_port_stats_ext_fn</name></member>
+      <member refid="group__SAIPORT_1gab4cb66bb6deb2256f0772089b82035f9" kind="typedef"><name>sai_clear_port_stats_fn</name></member>
+      <member refid="group__SAIPORT_1ga728dd4931d62e4206a6e05a0950dd0b3" kind="typedef"><name>sai_clear_port_all_stats_fn</name></member>
+      <member refid="group__SAIPORT_1ga360b84a7042dcb65c8f207b16a760e47" kind="typedef"><name>sai_port_state_change_notification_fn</name></member>
+      <member refid="group__SAIPORT_1ga7fd3bc3195c4782b72757e94554cac2e" kind="typedef"><name>sai_extended_port_state_change_notification_fn</name></member>
+      <member refid="group__SAIPORT_1ga1d9bbd3851de456eb1d2562a4ceee629" kind="typedef"><name>sai_port_host_tx_ready_notification_fn</name></member>
+      <member refid="group__SAIPORT_1ga1eedc254f69fa7c232a1945a40d0d429" kind="typedef"><name>sai_port_pool_attr_t</name></member>
+      <member refid="group__SAIPORT_1ga2d89667c9dbd965848688a0a7759e414" kind="typedef"><name>sai_port_pool_stat_t</name></member>
+      <member refid="group__SAIPORT_1ga44beda9748c47d14f6877c09c64b3904" kind="typedef"><name>sai_create_port_pool_fn</name></member>
+      <member refid="group__SAIPORT_1ga601cc4b3b847e45ac09c5685f36a03f9" kind="typedef"><name>sai_remove_port_pool_fn</name></member>
+      <member refid="group__SAIPORT_1ga49d19412e680b10acc064911f56ce757" kind="typedef"><name>sai_set_port_pool_attribute_fn</name></member>
+      <member refid="group__SAIPORT_1ga5a290f3f5c48eee0d3cc2c290f8a70a7" kind="typedef"><name>sai_get_port_pool_attribute_fn</name></member>
+      <member refid="group__SAIPORT_1ga8cfb83a4278848857d6764f2dc44a53e" kind="typedef"><name>sai_get_port_pool_stats_fn</name></member>
+      <member refid="group__SAIPORT_1ga754b76b60261bb31f6164dc6b89dfab8" kind="typedef"><name>sai_get_port_pool_stats_ext_fn</name></member>
+      <member refid="group__SAIPORT_1ga3d5691683e01883d6ece79063006a296" kind="typedef"><name>sai_clear_port_pool_stats_fn</name></member>
+      <member refid="group__SAIPORT_1gacf1db254f87b07c1fc033faef8d011b1" kind="typedef"><name>sai_port_serdes_attr_t</name></member>
+      <member refid="group__SAIPORT_1ga5d64ab48a9ffe27c6c9eaab16dac8344" kind="typedef"><name>sai_create_port_serdes_fn</name></member>
+      <member refid="group__SAIPORT_1ga4436e9fa48bec5a3cd80c36948b5bba8" kind="typedef"><name>sai_remove_port_serdes_fn</name></member>
+      <member refid="group__SAIPORT_1ga79538ab0af3dd5e513642ee1ce7383ca" kind="typedef"><name>sai_set_port_serdes_attribute_fn</name></member>
+      <member refid="group__SAIPORT_1gafe4c844c91bf6c69e661d0e81aeb0294" kind="typedef"><name>sai_get_port_serdes_attribute_fn</name></member>
+      <member refid="group__SAIPORT_1gab1f41b1331416f85fd83f839344d2cd8" kind="typedef"><name>sai_port_connector_attr_t</name></member>
+      <member refid="group__SAIPORT_1ga2159693e32752c1d51339935bf2fc88a" kind="typedef"><name>sai_create_port_connector_fn</name></member>
+      <member refid="group__SAIPORT_1ga0a9043f14ed740f126d1accc4c68b086" kind="typedef"><name>sai_remove_port_connector_fn</name></member>
+      <member refid="group__SAIPORT_1ga6cd1447cff30fb8989b294f0493018d8" kind="typedef"><name>sai_set_port_connector_attribute_fn</name></member>
+      <member refid="group__SAIPORT_1ga8342b2d1643023b9bf4898ae48a37dfc" kind="typedef"><name>sai_get_port_connector_attribute_fn</name></member>
+      <member refid="group__SAIPORT_1gad5c2f7ced775dfb9cd7f92ace42dd890" kind="typedef"><name>sai_port_llr_profile_attr_t</name></member>
+      <member refid="group__SAIPORT_1gad829512d5c32a04fe002b4969334e932" kind="typedef"><name>sai_create_port_llr_profile_fn</name></member>
+      <member refid="group__SAIPORT_1gad0bb4e687e35c290c5a10e1d7a04b510" kind="typedef"><name>sai_remove_port_llr_profile_fn</name></member>
+      <member refid="group__SAIPORT_1ga54851a7116352ce99f757800ba38fb47" kind="typedef"><name>sai_set_port_llr_profile_attribute_fn</name></member>
+      <member refid="group__SAIPORT_1ga8523503eec377de962d310302de9ef03" kind="typedef"><name>sai_get_port_llr_profile_attribute_fn</name></member>
+      <member refid="group__SAIPORT_1gaf3c8a0ea81e5c6c2335246f204020fa6" kind="typedef"><name>sai_port_api_t</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>This module defines SAI Port interface. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (c) 2014 Microsoft Open Technologies, Inc.</para>
+<para>Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <ulink url="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</ulink></para>
+<para>THIS CODE IS PROVIDED ON AN <emphasis>AS IS</emphasis> BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY OR NON-INFRINGEMENT.</para>
+<para>See the Apache Version 2.0 License for specific language governing permissions and limitations under the License.</para>
+<para>Microsoft would like to thank the following companies for their review and assistance with these files: Intel Corporation, Mellanox Technologies Ltd, Dell Products, L.P., Facebook, Inc., Marvell International Ltd. </para>
+    </detaileddescription>
+    <location file="/home/romanveskera/SAI/SAI/inc/saiport.h"/>
+  </compounddef>
+</doxygen>

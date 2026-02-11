@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="saibuffer_8h" kind="file" language="C++">
+    <compoundname>saibuffer.h</compoundname>
+    <includes refid="saitypes_8h" local="no">saitypes.h</includes>
+    <includedby refid="sai_8h" local="yes">/home/romanveskera/SAI/SAI/inc/sai.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/saibuffer.h</label>
+        <link refid="saibuffer_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>saitypes.h</label>
+        <link refid="saitypes_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>stdbool.h</label>
+      </node>
+      <node id="3">
+        <label>stdint.h</label>
+      </node>
+      <node id="5">
+        <label>sys/types.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiextensions.h</label>
+        <link refid="saiextensions_8h"/>
+      </node>
+      <node id="2">
+        <label>/home/romanveskera/SAI/SAI/inc/sai.h</label>
+        <link refid="sai_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/saibuffer.h</label>
+        <link refid="saibuffer_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct__sai__buffer__api__t" prot="public">_sai_buffer_api_t</innerclass>
+    <sectiondef kind="enum">
+      <member refid="group__SAIBUFFER_1ga1a14ec66911278253011aed84dcdef20" kind="enum"><name>_sai_ingress_priority_group_attr_t</name></member>
+      <member refid="group__SAIBUFFER_1gac49fccd1891e003fc0ef6d57d65fd149" kind="enum"><name>_sai_ingress_priority_group_stat_t</name></member>
+      <member refid="group__SAIBUFFER_1ga5d6d1d0c41f68362600d6c9221a9552a" kind="enum"><name>_sai_buffer_pool_type_t</name></member>
+      <member refid="group__SAIBUFFER_1ga72cb36529c57e91f01c9a67e104aae83" kind="enum"><name>_sai_buffer_pool_threshold_mode_t</name></member>
+      <member refid="group__SAIBUFFER_1ga36125eda3f6856ac850a068087141ffd" kind="enum"><name>_sai_buffer_pool_attr_t</name></member>
+      <member refid="group__SAIBUFFER_1gaefd81c32886250ddd760ee43dc153d59" kind="enum"><name>_sai_buffer_pool_stat_t</name></member>
+      <member refid="group__SAIBUFFER_1gafd0175ecbeeb8e9d0cda32f1fe2e68b2" kind="enum"><name>_sai_buffer_profile_threshold_mode_t</name></member>
+      <member refid="group__SAIBUFFER_1ga60eaa1636c00c9c70328aebe85cb4ca9" kind="enum"><name>_sai_buffer_profile_packet_admission_fail_action_t</name></member>
+      <member refid="group__SAIBUFFER_1gaf21c473ccd38a4603e0751631a5177fe" kind="enum"><name>_sai_buffer_profile_attr_t</name></member>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <member refid="group__SAIBUFFER_1ga72c6fb04b676b7e42f833aa74bb40e14" kind="typedef"><name>sai_ingress_priority_group_attr_t</name></member>
+      <member refid="group__SAIBUFFER_1ga46ab6aa2d8990fac4544445714df768e" kind="typedef"><name>sai_ingress_priority_group_stat_t</name></member>
+      <member refid="group__SAIBUFFER_1gaeb26c8cfee0cc0e3caf0f7f698f5f18c" kind="typedef"><name>sai_create_ingress_priority_group_fn</name></member>
+      <member refid="group__SAIBUFFER_1ga595321014af379d3047937dbe4096b3d" kind="typedef"><name>sai_remove_ingress_priority_group_fn</name></member>
+      <member refid="group__SAIBUFFER_1gae1e01be012479a1c9929da0e998bb742" kind="typedef"><name>sai_set_ingress_priority_group_attribute_fn</name></member>
+      <member refid="group__SAIBUFFER_1gaa27459f1bb728b0adc2f4f9481b484f6" kind="typedef"><name>sai_get_ingress_priority_group_attribute_fn</name></member>
+      <member refid="group__SAIBUFFER_1gabd3e3cccfdc3ff25d6ea58f33d5e0688" kind="typedef"><name>sai_get_ingress_priority_group_stats_fn</name></member>
+      <member refid="group__SAIBUFFER_1gad893539adc8f877b3a538457bc698b1d" kind="typedef"><name>sai_get_ingress_priority_group_stats_ext_fn</name></member>
+      <member refid="group__SAIBUFFER_1ga3c3be4d27a9c1ef7b88352bd48477a84" kind="typedef"><name>sai_clear_ingress_priority_group_stats_fn</name></member>
+      <member refid="group__SAIBUFFER_1ga256b436e03e389df4f7302ea8b6e3ad3" kind="typedef"><name>sai_buffer_pool_type_t</name></member>
+      <member refid="group__SAIBUFFER_1gafc1b478c4650057ea1287335eca38e30" kind="typedef"><name>sai_buffer_pool_threshold_mode_t</name></member>
+      <member refid="group__SAIBUFFER_1ga19b7ce32d6b437a989aaf937faf14f13" kind="typedef"><name>sai_buffer_pool_attr_t</name></member>
+      <member refid="group__SAIBUFFER_1ga2f76d2ea06ae41d9e28d3d2062ff670f" kind="typedef"><name>sai_buffer_pool_stat_t</name></member>
+      <member refid="group__SAIBUFFER_1gae64750ee68725a87f1237634d1947c30" kind="typedef"><name>sai_create_buffer_pool_fn</name></member>
+      <member refid="group__SAIBUFFER_1ga4a5f09863c52c3eaf0a212e1a8d3bfa2" kind="typedef"><name>sai_remove_buffer_pool_fn</name></member>
+      <member refid="group__SAIBUFFER_1ga1f2d097b27cc12b8e2a538ab552ba4af" kind="typedef"><name>sai_set_buffer_pool_attribute_fn</name></member>
+      <member refid="group__SAIBUFFER_1ga04a384a8fc97d28dff41ec8f62bc2ff2" kind="typedef"><name>sai_get_buffer_pool_attribute_fn</name></member>
+      <member refid="group__SAIBUFFER_1ga9a39bf03bbdc87cf7f99a2ca3724bece" kind="typedef"><name>sai_get_buffer_pool_stats_fn</name></member>
+      <member refid="group__SAIBUFFER_1ga6bd30fc5090a5ac01700b89bf3ea4aba" kind="typedef"><name>sai_get_buffer_pool_stats_ext_fn</name></member>
+      <member refid="group__SAIBUFFER_1ga2b28f0e2981ac5c50ac4e2c95e2142d5" kind="typedef"><name>sai_clear_buffer_pool_stats_fn</name></member>
+      <member refid="group__SAIBUFFER_1ga0e7c89734911fb80c0cfa4993a89d1c4" kind="typedef"><name>sai_buffer_profile_threshold_mode_t</name></member>
+      <member refid="group__SAIBUFFER_1gaa44bc2ff59b71873c69f2b7aae7e33b9" kind="typedef"><name>sai_buffer_profile_packet_admission_fail_action_t</name></member>
+      <member refid="group__SAIBUFFER_1gad78408e537d14ff970ff546c61309e05" kind="typedef"><name>sai_buffer_profile_attr_t</name></member>
+      <member refid="group__SAIBUFFER_1ga12459b95f226e0de5bfea8b623b43ca0" kind="typedef"><name>sai_create_buffer_profile_fn</name></member>
+      <member refid="group__SAIBUFFER_1ga2a73ceaa1ec70abce8f1a068afeb3b89" kind="typedef"><name>sai_remove_buffer_profile_fn</name></member>
+      <member refid="group__SAIBUFFER_1ga9e4c7760935141f4dace123efece3575" kind="typedef"><name>sai_set_buffer_profile_attribute_fn</name></member>
+      <member refid="group__SAIBUFFER_1ga53141523ce29287dca64944c4b576581" kind="typedef"><name>sai_get_buffer_profile_attribute_fn</name></member>
+      <member refid="group__SAIBUFFER_1ga2b301cf5de5cba54555710ff2f0ea957" kind="typedef"><name>sai_buffer_api_t</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>This module defines SAI Buffer interface. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (c) 2014 Microsoft Open Technologies, Inc.</para>
+<para>Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <ulink url="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</ulink></para>
+<para>THIS CODE IS PROVIDED ON AN <emphasis>AS IS</emphasis> BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY OR NON-INFRINGEMENT.</para>
+<para>See the Apache Version 2.0 License for specific language governing permissions and limitations under the License.</para>
+<para>Microsoft would like to thank the following companies for their review and assistance with these files: Intel Corporation, Mellanox Technologies Ltd, Dell Products, L.P., Facebook, Inc., Marvell International Ltd. </para>
+    </detaileddescription>
+    <location file="/home/romanveskera/SAI/SAI/inc/saibuffer.h"/>
+  </compounddef>
+</doxygen>

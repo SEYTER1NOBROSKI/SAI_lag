@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="saiswitch_8h" kind="file" language="C++">
+    <compoundname>saiswitch.h</compoundname>
+    <includes refid="saitypes_8h" local="no">saitypes.h</includes>
+    <includedby refid="saiswitchextensions_8h" local="no">/home/romanveskera/SAI/SAI/experimental/saiswitchextensions.h</includedby>
+    <includedby refid="sai_8h" local="yes">/home/romanveskera/SAI/SAI/inc/sai.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/saiswitch.h</label>
+        <link refid="saiswitch_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>saitypes.h</label>
+        <link refid="saitypes_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>stdbool.h</label>
+      </node>
+      <node id="3">
+        <label>stdint.h</label>
+      </node>
+      <node id="5">
+        <label>sys/types.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiextensions.h</label>
+        <link refid="saiextensions_8h"/>
+      </node>
+      <node id="2">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiswitchextensions.h</label>
+        <link refid="saiswitchextensions_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>/home/romanveskera/SAI/SAI/inc/sai.h</label>
+        <link refid="sai_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/saiswitch.h</label>
+        <link refid="saiswitch_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct__sai__switch__api__t" prot="public">_sai_switch_api_t</innerclass>
+    <sectiondef kind="define">
+      <member refid="group__SAISWITCH_1gab73cecb1599d423a1025cc4597ffb29e" kind="define"><name>SAI_MAX_HARDWARE_ID_LEN</name></member>
+      <member refid="group__SAISWITCH_1ga7bd216a06bf3b0fd38a66541d6927b78" kind="define"><name>SAI_MAX_FIRMWARE_PATH_NAME_LEN</name></member>
+      <member refid="group__SAISWITCH_1ga9dc0b14263bbdc5752c4d6cd2fa34251" kind="define"><name>SAI_SWITCH_ATTR_MAX_KEY_STRING_LEN</name></member>
+      <member refid="group__SAISWITCH_1gab517e05a623d1532cf6c6dcb1648daa5" kind="define"><name>SAI_SWITCH_ATTR_MAX_KEY_COUNT</name></member>
+      <member refid="group__SAISWITCH_1ga961a7573d43d0d6c80d5ea887c6b3d9b" kind="define"><name>SAI_KEY_FDB_TABLE_SIZE</name></member>
+      <member refid="group__SAISWITCH_1ga235809ad63b26a78d1d13177f229eb57" kind="define"><name>SAI_KEY_L3_ROUTE_TABLE_SIZE</name></member>
+      <member refid="group__SAISWITCH_1ga25f29b2b20e91ef6d0c8e314869b36d6" kind="define"><name>SAI_KEY_L3_NEIGHBOR_TABLE_SIZE</name></member>
+      <member refid="group__SAISWITCH_1gab6764fd62506a78f6737766b66ec5a22" kind="define"><name>SAI_KEY_NUM_LAG_MEMBERS</name></member>
+      <member refid="group__SAISWITCH_1ga43f6a975f44c4f47ea31e43060cfcda0" kind="define"><name>SAI_KEY_NUM_LAGS</name></member>
+      <member refid="group__SAISWITCH_1ga3e26a5b6ab44ed24dc955ea86738b853" kind="define"><name>SAI_KEY_NUM_ECMP_MEMBERS</name></member>
+      <member refid="group__SAISWITCH_1gaf1a6eb5f88a0c721eacc560ccc3db6c2" kind="define"><name>SAI_KEY_NUM_ECMP_GROUPS</name></member>
+      <member refid="group__SAISWITCH_1ga0ce3a2f00e5e117d6ca7539bdacfc0b0" kind="define"><name>SAI_KEY_NUM_UNICAST_QUEUES</name></member>
+      <member refid="group__SAISWITCH_1ga70b3a29c2e842e02ff4a99695dd2625c" kind="define"><name>SAI_KEY_NUM_MULTICAST_QUEUES</name></member>
+      <member refid="group__SAISWITCH_1ga031588f6d1cd95e5e2718058acd20966" kind="define"><name>SAI_KEY_NUM_QUEUES</name></member>
+      <member refid="group__SAISWITCH_1gade67e068ba153b42547038a50c30fe86" kind="define"><name>SAI_KEY_NUM_CPU_QUEUES</name></member>
+      <member refid="group__SAISWITCH_1gad7c33baad089fd6593dd16b9549ff8e9" kind="define"><name>SAI_KEY_INIT_CONFIG_FILE</name></member>
+      <member refid="group__SAISWITCH_1gab72490a3f7d9caed4a47fc6627a7483c" kind="define"><name>SAI_KEY_NHG_HIERARCHICAL_NEXTHOP</name></member>
+      <member refid="group__SAISWITCH_1ga15d160c844919f333791ef7d3e7201f1" kind="define"><name>SAI_KEY_BOOT_TYPE</name></member>
+      <member refid="group__SAISWITCH_1gae23f24a95949fa1a7014f12312a26b56" kind="define"><name>SAI_KEY_WARM_BOOT_READ_FILE</name></member>
+      <member refid="group__SAISWITCH_1gafe5d5b8e6e0720e2931c0e290b6f4bf8" kind="define"><name>SAI_KEY_WARM_BOOT_WRITE_FILE</name></member>
+      <member refid="group__SAISWITCH_1ga9d037238814d1ba6d9c42d5ff93512a1" kind="define"><name>SAI_KEY_HW_PORT_PROFILE_ID_CONFIG_FILE</name></member>
+    </sectiondef>
+    <sectiondef kind="enum">
+      <member refid="group__SAISWITCH_1ga40e542f92c2003687af1ad100699c64f" kind="enum"><name>_sai_switch_oper_status_t</name></member>
+      <member refid="group__SAISWITCH_1gad729b5eb1fee331217f0052c1075e02f" kind="enum"><name>_sai_packet_action_t</name></member>
+      <member refid="group__SAISWITCH_1ga9ce7b3ae0a0fe0f488ab11945c13e5f7" kind="enum"><name>_sai_packet_vlan_t</name></member>
+      <member refid="group__SAISWITCH_1ga9bbcb3b3f9a58c599eed39cc1fa5a36c" kind="enum"><name>_sai_switch_switching_mode_t</name></member>
+      <member refid="group__SAISWITCH_1gab4986b1c83e638bc2295206c23b20901" kind="enum"><name>_sai_hash_algorithm_t</name></member>
+      <member refid="group__SAISWITCH_1gaddd3dffa0e52a305ed3375a6af072182" kind="enum"><name>_sai_switch_restart_type_t</name></member>
+      <member refid="group__SAISWITCH_1ga1f9df537ae9e2b57cc28f0a1329b7119" kind="enum"><name>_sai_switch_mcast_snooping_capability_t</name></member>
+      <member refid="group__SAISWITCH_1ga2c80b4a5822b108c7eede21a969775e2" kind="enum"><name>_sai_switch_hardware_access_bus_t</name></member>
+      <member refid="group__SAISWITCH_1ga82a4f90bd85d2b90943090112d3a92eb" kind="enum"><name>_sai_switch_firmware_load_method_t</name></member>
+      <member refid="group__SAISWITCH_1ga26b37a6bcbbfb4e4b37e2cb65f484821" kind="enum"><name>_sai_switch_firmware_load_type_t</name></member>
+      <member refid="group__SAISWITCH_1gac5105f6dd2d9d3de6914d9b2da78f0e1" kind="enum"><name>_sai_switch_type_t</name></member>
+      <member refid="group__SAISWITCH_1ga08c313c3809ae4929501415d4eb4f709" kind="enum"><name>_sai_switch_failover_config_mode_t</name></member>
+      <member refid="group__SAISWITCH_1ga752f357e4a0661f2e5430c0de54185d3" kind="enum"><name>_sai_tunnel_type_t</name></member>
+      <member refid="group__SAISWITCH_1ga20213d361d53569b2df4252e0aa13a75" kind="enum"><name>_sai_tunnel_vxlan_udp_sport_mode_t</name></member>
+      <member refid="group__SAISWITCH_1ga2608e5ab333e1884e03e74f7ea69892b" kind="enum"><name>_sai_tunnel_encap_ecn_mode_t</name></member>
+      <member refid="group__SAISWITCH_1ga0a24eca88d1c226e7142da580d6e9253" kind="enum"><name>_sai_tunnel_decap_ecn_mode_t</name></member>
+      <member refid="group__SAISWITCH_1ga545f2371c2566d429e27fabc8b6e68dc" kind="enum"><name>_sai_switch_tunnel_attr_t</name></member>
+      <member refid="group__SAISWITCH_1ga0d4addc5dc822a5ba6e94f33f93ca92d" kind="enum"><name>_sai_switch_hostif_oper_status_update_mode_t</name></member>
+      <member refid="group__SAISWITCH_1gaa92b273a0111ce08ca9edb3bb231c15e" kind="enum"><name>_sai_packet_trim_queue_resolution_mode_t</name></member>
+      <member refid="group__SAISWITCH_1ga6af1c733c685329f98dc5f78aea02c53" kind="enum"><name>_sai_packet_trim_dscp_resolution_mode_t</name></member>
+      <member refid="group__SAISWITCH_1gaeee8ca10a06b57ac41fb8bd1799f5d46" kind="enum"><name>_sai_switch_macsec_post_status_t</name></member>
+      <member refid="group__SAISWITCH_1ga21699859c0756dceedb5b2edd5310cfb" kind="enum"><name>_sai_switch_ipsec_post_status_t</name></member>
+      <member refid="group__SAISWITCH_1ga96df0871b3925f973f4a9079ffb3e634" kind="enum"><name>_sai_switch_attr_t</name></member>
+      <member refid="group__SAISWITCH_1ga7bc2d89fb3f05ac8f2f4e8dcd073b973" kind="enum"><name>_sai_switch_asic_sdk_health_severity_t</name></member>
+      <member refid="group__SAISWITCH_1ga2c4129f68fbb9b7af891dfec0b5484df" kind="enum"><name>_sai_switch_asic_sdk_health_category_t</name></member>
+      <member refid="group__SAISWITCH_1ga0359a34581094cf761f658fa80ffbff7" kind="enum"><name>_sai_switch_stat_t</name></member>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <member refid="group__SAISWITCH_1ga611ad3d100890bdda61c1d6723bb9bc1" kind="typedef"><name>sai_switch_oper_status_t</name></member>
+      <member refid="group__SAISWITCH_1gacbbf7eb8d2399957339a57710be59ce6" kind="typedef"><name>sai_packet_action_t</name></member>
+      <member refid="group__SAISWITCH_1gaa42c8962d52522974a0b6eb38b910aa1" kind="typedef"><name>sai_packet_vlan_t</name></member>
+      <member refid="group__SAISWITCH_1gae888c8992c24f0de5ebdb1eab97482fa" kind="typedef"><name>sai_switch_switching_mode_t</name></member>
+      <member refid="group__SAISWITCH_1ga433ab705373068fa57dfa0991153e2f9" kind="typedef"><name>sai_hash_algorithm_t</name></member>
+      <member refid="group__SAISWITCH_1gaa39fc21ec20e7535e601e91745319a17" kind="typedef"><name>sai_switch_restart_type_t</name></member>
+      <member refid="group__SAISWITCH_1ga51bdf63b0d690617cd2a58d030f03efe" kind="typedef"><name>sai_switch_mcast_snooping_capability_t</name></member>
+      <member refid="group__SAISWITCH_1gab80d126197694947bb31df030bb31c30" kind="typedef"><name>sai_switch_hardware_access_bus_t</name></member>
+      <member refid="group__SAISWITCH_1ga781a10cfcd43c95cbff4af77526925a7" kind="typedef"><name>sai_switch_firmware_load_method_t</name></member>
+      <member refid="group__SAISWITCH_1ga079dea79c0149a7ebfeddba11aec182e" kind="typedef"><name>sai_switch_firmware_load_type_t</name></member>
+      <member refid="group__SAISWITCH_1gab258aa98d6a545734a4d7dcac6dc9fc0" kind="typedef"><name>sai_switch_type_t</name></member>
+      <member refid="group__SAISWITCH_1ga9a922faadc673905aba37562bf514d87" kind="typedef"><name>sai_switch_failover_config_mode_t</name></member>
+      <member refid="group__SAISWITCH_1ga874ae98795cd2978af5a1b8f66526691" kind="typedef"><name>sai_tunnel_type_t</name></member>
+      <member refid="group__SAISWITCH_1gad3b09cafde25ed0ae7fca07067c2f209" kind="typedef"><name>sai_tunnel_vxlan_udp_sport_mode_t</name></member>
+      <member refid="group__SAISWITCH_1gaa95f35746253e6c9a575d38e125a7631" kind="typedef"><name>sai_tunnel_encap_ecn_mode_t</name></member>
+      <member refid="group__SAISWITCH_1ga5bce0c1462e6cd1db642f07a2effc489" kind="typedef"><name>sai_tunnel_decap_ecn_mode_t</name></member>
+      <member refid="group__SAISWITCH_1ga83fef6effee42907b5e881b9a0dcd397" kind="typedef"><name>sai_switch_tunnel_attr_t</name></member>
+      <member refid="group__SAISWITCH_1ga6211891ef40dc2696572fce041cd27d1" kind="typedef"><name>sai_switch_hostif_oper_status_update_mode_t</name></member>
+      <member refid="group__SAISWITCH_1ga3036375c8eff121eaeb7004f09f80260" kind="typedef"><name>sai_packet_trim_queue_resolution_mode_t</name></member>
+      <member refid="group__SAISWITCH_1gae2842fb64c8e403c340b36c66b4fc420" kind="typedef"><name>sai_packet_trim_dscp_resolution_mode_t</name></member>
+      <member refid="group__SAISWITCH_1gae877aa0b1f74ef50de2b44626f02362a" kind="typedef"><name>sai_switch_macsec_post_status_t</name></member>
+      <member refid="group__SAISWITCH_1ga2d2ca7ce345d82afdf4c3a2eb59b13c4" kind="typedef"><name>sai_switch_ipsec_post_status_t</name></member>
+      <member refid="group__SAISWITCH_1gab7bb297b32ad770df9972358bfe8d97b" kind="typedef"><name>sai_switch_attr_t</name></member>
+      <member refid="group__SAISWITCH_1gae3414a59e86498bf1be3644add3b88eb" kind="typedef"><name>sai_switch_asic_sdk_health_severity_t</name></member>
+      <member refid="group__SAISWITCH_1ga8b92044a852a27aabe522a864c18dfed" kind="typedef"><name>sai_switch_asic_sdk_health_category_t</name></member>
+      <member refid="group__SAISWITCH_1gaf380090dc2c6e7145830a68201c78e55" kind="typedef"><name>sai_switch_stat_t</name></member>
+      <member refid="group__SAISWITCH_1gab5ee3f7d21f4a44b1ea238f69684f1e5" kind="typedef"><name>sai_switch_asic_sdk_health_event_notification_fn</name></member>
+      <member refid="group__SAISWITCH_1ga49f742729c85f2353764f899d86afead" kind="typedef"><name>sai_switch_shutdown_request_notification_fn</name></member>
+      <member refid="group__SAISWITCH_1gaf575c0eb17f2dcf6ab9a88c6b2ee3d91" kind="typedef"><name>sai_switch_state_change_notification_fn</name></member>
+      <member refid="group__SAISWITCH_1ga1526f8a823dbc42b44d09b506f71be7a" kind="typedef"><name>sai_switch_macsec_post_status_notification_fn</name></member>
+      <member refid="group__SAISWITCH_1ga01b9930ad18bba448eb14b139d1cce19" kind="typedef"><name>sai_switch_ipsec_post_status_notification_fn</name></member>
+      <member refid="group__SAISWITCH_1gaf2ea0485938b057ad90a4c4a68de535c" kind="typedef"><name>sai_switch_register_read_fn</name></member>
+      <member refid="group__SAISWITCH_1gaa01071688faab34cb817d6306425c2db" kind="typedef"><name>sai_switch_register_write_fn</name></member>
+      <member refid="group__SAISWITCH_1ga60eb85caadefe4d5bb19efd4add41f14" kind="typedef"><name>sai_switch_mdio_read_fn</name></member>
+      <member refid="group__SAISWITCH_1ga2982583a70969c1b97c3aa91273a7c33" kind="typedef"><name>sai_switch_mdio_write_fn</name></member>
+      <member refid="group__SAISWITCH_1ga11a8f5eaf22abe9c02fad9364d8eb103" kind="typedef"><name>sai_switch_mdio_cl22_read_fn</name></member>
+      <member refid="group__SAISWITCH_1gab54a1aa9a650e8c66e1824f241a262bd" kind="typedef"><name>sai_switch_mdio_cl22_write_fn</name></member>
+      <member refid="group__SAISWITCH_1ga5c2ea667c632de50db41a1cb59bb0b20" kind="typedef"><name>sai_create_switch_fn</name></member>
+      <member refid="group__SAISWITCH_1gacc58a4bb8981031434bc473364df5659" kind="typedef"><name>sai_remove_switch_fn</name></member>
+      <member refid="group__SAISWITCH_1gac56d135398fc68d899234f365ca25c5f" kind="typedef"><name>sai_set_switch_attribute_fn</name></member>
+      <member refid="group__SAISWITCH_1ga3df02be8af8c753b5a2eab193673ab04" kind="typedef"><name>sai_get_switch_attribute_fn</name></member>
+      <member refid="group__SAISWITCH_1ga3d970d163ddd16b3d2d9d98ff06ce2ba" kind="typedef"><name>sai_get_switch_stats_fn</name></member>
+      <member refid="group__SAISWITCH_1gad311ef30f19b18f2b1017c94ebfb3409" kind="typedef"><name>sai_get_switch_stats_ext_fn</name></member>
+      <member refid="group__SAISWITCH_1ga5dffb136a168a74e413eaadd98234c11" kind="typedef"><name>sai_clear_switch_stats_fn</name></member>
+      <member refid="group__SAISWITCH_1gab6d70f19243418e5919d3093c792b4de" kind="typedef"><name>sai_create_switch_tunnel_fn</name></member>
+      <member refid="group__SAISWITCH_1ga94fa230da1ddc9fc7a526a66407bb492" kind="typedef"><name>sai_remove_switch_tunnel_fn</name></member>
+      <member refid="group__SAISWITCH_1ga9eeef466f68844f250026b676c27b2c9" kind="typedef"><name>sai_set_switch_tunnel_attribute_fn</name></member>
+      <member refid="group__SAISWITCH_1gaa3dd97a0033c82dc060ddd3197b79abc" kind="typedef"><name>sai_get_switch_tunnel_attribute_fn</name></member>
+      <member refid="group__SAISWITCH_1gad7b6584b5e204ba68e72195172d16ec5" kind="typedef"><name>sai_switch_api_t</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>This module defines SAI Switch interface. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (c) 2014 Microsoft Open Technologies, Inc.</para>
+<para>Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <ulink url="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</ulink></para>
+<para>THIS CODE IS PROVIDED ON AN <emphasis>AS IS</emphasis> BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY OR NON-INFRINGEMENT.</para>
+<para>See the Apache Version 2.0 License for specific language governing permissions and limitations under the License.</para>
+<para>Microsoft would like to thank the following companies for their review and assistance with these files: Intel Corporation, Mellanox Technologies Ltd, Dell Products, L.P., Facebook, Inc., Marvell International Ltd. </para>
+    </detaileddescription>
+    <location file="/home/romanveskera/SAI/SAI/inc/saiswitch.h"/>
+  </compounddef>
+</doxygen>

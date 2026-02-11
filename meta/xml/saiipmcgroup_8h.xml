@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="saiipmcgroup_8h" kind="file" language="C++">
+    <compoundname>saiipmcgroup.h</compoundname>
+    <includes refid="saitypes_8h" local="no">saitypes.h</includes>
+    <includedby refid="sai_8h" local="yes">/home/romanveskera/SAI/SAI/inc/sai.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/saiipmcgroup.h</label>
+        <link refid="saiipmcgroup_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>saitypes.h</label>
+        <link refid="saitypes_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>stdbool.h</label>
+      </node>
+      <node id="3">
+        <label>stdint.h</label>
+      </node>
+      <node id="5">
+        <label>sys/types.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiextensions.h</label>
+        <link refid="saiextensions_8h"/>
+      </node>
+      <node id="2">
+        <label>/home/romanveskera/SAI/SAI/inc/sai.h</label>
+        <link refid="sai_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/saiipmcgroup.h</label>
+        <link refid="saiipmcgroup_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct__sai__ipmc__group__api__t" prot="public">_sai_ipmc_group_api_t</innerclass>
+    <sectiondef kind="enum">
+      <member refid="group__SAIIPMCGROUP_1ga9400b781b01a06817bd96c2a1a519a3d" kind="enum"><name>_sai_ipmc_group_attr_t</name></member>
+      <member refid="group__SAIIPMCGROUP_1gab5e8b565c30fac94a94629b55a31ecb3" kind="enum"><name>_sai_ipmc_group_member_attr_t</name></member>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <member refid="group__SAIIPMCGROUP_1ga646d827cb8b18e47c325df5928dbba4b" kind="typedef"><name>sai_ipmc_group_attr_t</name></member>
+      <member refid="group__SAIIPMCGROUP_1ga5e061e5f6de950d61f2e0cabf32bd4ff" kind="typedef"><name>sai_ipmc_group_member_attr_t</name></member>
+      <member refid="group__SAIIPMCGROUP_1ga54b4d0e194397f829d4549cfe5f18344" kind="typedef"><name>sai_create_ipmc_group_fn</name></member>
+      <member refid="group__SAIIPMCGROUP_1ga211885e267163d98cca22641d31dc42b" kind="typedef"><name>sai_remove_ipmc_group_fn</name></member>
+      <member refid="group__SAIIPMCGROUP_1ga4419ac687fae0b28d3c356cb719b6a44" kind="typedef"><name>sai_set_ipmc_group_attribute_fn</name></member>
+      <member refid="group__SAIIPMCGROUP_1gadd7658dec849b9ae93457a93ba4e22a1" kind="typedef"><name>sai_get_ipmc_group_attribute_fn</name></member>
+      <member refid="group__SAIIPMCGROUP_1gabde0984d073636b2a4bffa6c889bbdd6" kind="typedef"><name>sai_create_ipmc_group_member_fn</name></member>
+      <member refid="group__SAIIPMCGROUP_1ga2f93e4aa0989336ac84fb39a3aa8aef6" kind="typedef"><name>sai_remove_ipmc_group_member_fn</name></member>
+      <member refid="group__SAIIPMCGROUP_1gadd025044484aed9e0cd152600ffea492" kind="typedef"><name>sai_set_ipmc_group_member_attribute_fn</name></member>
+      <member refid="group__SAIIPMCGROUP_1gab22e7aa6abc9af6ddb0c1a2144eecd9d" kind="typedef"><name>sai_get_ipmc_group_member_attribute_fn</name></member>
+      <member refid="group__SAIIPMCGROUP_1gab44582c7f272aeb71b72974d51dc604a" kind="typedef"><name>sai_ipmc_group_api_t</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>This module defines SAI IPMC Group interface. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (c) 2014 Microsoft Open Technologies, Inc.</para>
+<para>Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <ulink url="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</ulink></para>
+<para>THIS CODE IS PROVIDED ON AN <emphasis>AS IS</emphasis> BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY OR NON-INFRINGEMENT.</para>
+<para>See the Apache Version 2.0 License for specific language governing permissions and limitations under the License.</para>
+<para>Microsoft would like to thank the following companies for their review and assistance with these files: Intel Corporation, Mellanox Technologies Ltd, Dell Products, L.P., Facebook, Inc., Marvell International Ltd. </para>
+    </detaileddescription>
+    <location file="/home/romanveskera/SAI/SAI/inc/saiipmcgroup.h"/>
+  </compounddef>
+</doxygen>

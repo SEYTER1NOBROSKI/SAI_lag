@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="saibfd_8h" kind="file" language="C++">
+    <compoundname>saibfd.h</compoundname>
+    <includes refid="saitypes_8h" local="no">saitypes.h</includes>
+    <includedby refid="sai_8h" local="yes">/home/romanveskera/SAI/SAI/inc/sai.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/saibfd.h</label>
+        <link refid="saibfd_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>saitypes.h</label>
+        <link refid="saitypes_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>stdbool.h</label>
+      </node>
+      <node id="3">
+        <label>stdint.h</label>
+      </node>
+      <node id="5">
+        <label>sys/types.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiextensions.h</label>
+        <link refid="saiextensions_8h"/>
+      </node>
+      <node id="2">
+        <label>/home/romanveskera/SAI/SAI/inc/sai.h</label>
+        <link refid="sai_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/saibfd.h</label>
+        <link refid="saibfd_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct__sai__bfd__session__state__notification__t" prot="public">_sai_bfd_session_state_notification_t</innerclass>
+    <innerclass refid="struct__sai__bfd__api__t" prot="public">_sai_bfd_api_t</innerclass>
+    <sectiondef kind="enum">
+      <member refid="group__SAIBFD_1gaac05472c9336ff0646119db1ecb4dba8" kind="enum"><name>_sai_bfd_session_type_t</name></member>
+      <member refid="group__SAIBFD_1gaf07d62c319a36c1d5f120155dcc5471c" kind="enum"><name>_sai_bfd_session_offload_type_t</name></member>
+      <member refid="group__SAIBFD_1gae8ef375385103b39492a9a5e2798c838" kind="enum"><name>_sai_bfd_encapsulation_type_t</name></member>
+      <member refid="group__SAIBFD_1gadb5fd6b5bfef90ad18a26b62e501ec34" kind="enum"><name>_sai_bfd_session_state_t</name></member>
+      <member refid="group__SAIBFD_1ga447e86ac278a7a786dba33d606901763" kind="enum"><name>_sai_bfd_session_attr_t</name></member>
+      <member refid="group__SAIBFD_1gabd788e55b3b0b247a7bd268edc2760ac" kind="enum"><name>_sai_bfd_session_stat_t</name></member>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <member refid="group__SAIBFD_1ga30fd6136e43da51d400d97e40833d778" kind="typedef"><name>sai_bfd_session_type_t</name></member>
+      <member refid="group__SAIBFD_1gacaab1addfb8663aac510f5b40bad4529" kind="typedef"><name>sai_bfd_session_offload_type_t</name></member>
+      <member refid="group__SAIBFD_1ga1ef636e2da8273ef5c370fb99a9d5555" kind="typedef"><name>sai_bfd_encapsulation_type_t</name></member>
+      <member refid="group__SAIBFD_1ga753791d9cac651dcb5e18abe67d75ac3" kind="typedef"><name>sai_bfd_session_state_t</name></member>
+      <member refid="group__SAIBFD_1ga43c010cf2a5129ebe38b6f31e67fb67b" kind="typedef"><name>sai_bfd_session_state_notification_t</name></member>
+      <member refid="group__SAIBFD_1ga363b90037a5a759a46abc4207a8a6fb6" kind="typedef"><name>sai_bfd_session_attr_t</name></member>
+      <member refid="group__SAIBFD_1ga8d4ddb1d0f5474aa0061476f54c141a2" kind="typedef"><name>sai_bfd_session_stat_t</name></member>
+      <member refid="group__SAIBFD_1ga3c6b7da2eb42ebdcba06c73d1903aea6" kind="typedef"><name>sai_create_bfd_session_fn</name></member>
+      <member refid="group__SAIBFD_1ga6689ad900356ea584dcf41fe59d335f6" kind="typedef"><name>sai_remove_bfd_session_fn</name></member>
+      <member refid="group__SAIBFD_1gaa102192b0ec67e5029d7634f9a16f6cd" kind="typedef"><name>sai_set_bfd_session_attribute_fn</name></member>
+      <member refid="group__SAIBFD_1ga8f9aaddfa3c6febbe75aee39a9098f2b" kind="typedef"><name>sai_get_bfd_session_attribute_fn</name></member>
+      <member refid="group__SAIBFD_1ga052a27992d9674bbcc61328910761ca6" kind="typedef"><name>sai_get_bfd_session_stats_fn</name></member>
+      <member refid="group__SAIBFD_1ga91836d6460ee11d52221d5d711c48e98" kind="typedef"><name>sai_get_bfd_session_stats_ext_fn</name></member>
+      <member refid="group__SAIBFD_1gab3e7eef2c32716e7de10010808cf5a00" kind="typedef"><name>sai_clear_bfd_session_stats_fn</name></member>
+      <member refid="group__SAIBFD_1ga6b899898b97610adcf78c12f1d3922ce" kind="typedef"><name>sai_bfd_session_state_change_notification_fn</name></member>
+      <member refid="group__SAIBFD_1ga63a5468b8e51c1adec85d346f320d745" kind="typedef"><name>sai_bfd_api_t</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>This module defines SAI BFD interface. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (c) 2014 Microsoft Open Technologies, Inc.</para>
+<para>Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <ulink url="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</ulink></para>
+<para>THIS CODE IS PROVIDED ON AN <emphasis>AS IS</emphasis> BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY OR NON-INFRINGEMENT.</para>
+<para>See the Apache Version 2.0 License for specific language governing permissions and limitations under the License.</para>
+<para>Microsoft would like to thank the following companies for their review and assistance with these files: Intel Corporation, Mellanox Technologies Ltd, Dell Products, L.P., Facebook, Inc., Marvell International Ltd. </para>
+    </detaileddescription>
+    <location file="/home/romanveskera/SAI/SAI/inc/saibfd.h"/>
+  </compounddef>
+</doxygen>

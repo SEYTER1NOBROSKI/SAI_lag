@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="saiserialize_8h" kind="file" language="C++">
+    <compoundname>saiserialize.h</compoundname>
+    <sectiondef kind="define">
+      <member refid="group__SAISERIALIZE_1ga19dac19d8cbf34a8ad6bcf00d670ce4e" kind="define"><name>SAI_SERIALIZE_ERROR</name></member>
+      <member refid="group__SAISERIALIZE_1gaecee6cfd55f69a8e0471d062e2bbf2c4" kind="define"><name>SAI_CHARDATA_LENGTH</name></member>
+    </sectiondef>
+    <sectiondef kind="func">
+      <member refid="group__SAISERIALIZE_1ga4b9cf042cab62b65e9050926923a3dd2" kind="function"><name>sai_serialize_is_char_allowed</name></member>
+      <member refid="group__SAISERIALIZE_1ga7f94097f2db9528d066125db940bdb27" kind="function"><name>sai_serialize_bool</name></member>
+      <member refid="group__SAISERIALIZE_1gaefc34d47aa727ceb4f251ee7d5d9f71a" kind="function"><name>sai_deserialize_bool</name></member>
+      <member refid="group__SAISERIALIZE_1ga12140f88c0a2e3ad949d9efe02283cc1" kind="function"><name>sai_serialize_chardata</name></member>
+      <member refid="group__SAISERIALIZE_1ga7ca5c9294f7978aefd4e853d5033fdd0" kind="function"><name>sai_deserialize_chardata</name></member>
+      <member refid="group__SAISERIALIZE_1gaa873482414bd7f6e48ef11e041b8a2db" kind="function"><name>sai_serialize_uint8</name></member>
+      <member refid="group__SAISERIALIZE_1ga6c190be067e8037e1d6c1ed86976d6d9" kind="function"><name>sai_deserialize_uint8</name></member>
+      <member refid="group__SAISERIALIZE_1ga30c3abf7e8fb8583bed70984a80dbd06" kind="function"><name>sai_serialize_int8</name></member>
+      <member refid="group__SAISERIALIZE_1ga4dad0acd2b970cf13fe4a36379686271" kind="function"><name>sai_deserialize_int8</name></member>
+      <member refid="group__SAISERIALIZE_1ga19c86f76e1d14599e8c5895bec02611e" kind="function"><name>sai_serialize_uint16</name></member>
+      <member refid="group__SAISERIALIZE_1gaecde9afe8c686a9a2e1c02b9f3034c30" kind="function"><name>sai_deserialize_uint16</name></member>
+      <member refid="group__SAISERIALIZE_1ga1b776db059dea2f76358631b559d0b6c" kind="function"><name>sai_serialize_int16</name></member>
+      <member refid="group__SAISERIALIZE_1ga0465ec7fe06b9713f3590f5562c99c89" kind="function"><name>sai_deserialize_int16</name></member>
+      <member refid="group__SAISERIALIZE_1gab7df8535b4c1945f7c3843c5bb2063d1" kind="function"><name>sai_serialize_uint32</name></member>
+      <member refid="group__SAISERIALIZE_1gae8d735c06707b96fbcf206516e44d4c6" kind="function"><name>sai_deserialize_uint32</name></member>
+      <member refid="group__SAISERIALIZE_1ga6fd0e9426d63c78323b8e2ef4cb85667" kind="function"><name>sai_serialize_int32</name></member>
+      <member refid="group__SAISERIALIZE_1gac4725ba77a7d20742e28da08966dd1ca" kind="function"><name>sai_deserialize_int32</name></member>
+      <member refid="group__SAISERIALIZE_1ga45b4b89a9417ba8dd05d194721589925" kind="function"><name>sai_serialize_uint64</name></member>
+      <member refid="group__SAISERIALIZE_1ga909afff9fe6546a4c7c2a0d4ca14cd8c" kind="function"><name>sai_deserialize_uint64</name></member>
+      <member refid="group__SAISERIALIZE_1ga2dbfd701d73012d536aede95fc912ab9" kind="function"><name>sai_serialize_int64</name></member>
+      <member refid="group__SAISERIALIZE_1gaab7ace43ebc57177e66d339c02d25ac8" kind="function"><name>sai_deserialize_int64</name></member>
+      <member refid="group__SAISERIALIZE_1ga0e49c5be2626a7cea1d71e68374fe33e" kind="function"><name>sai_serialize_size</name></member>
+      <member refid="group__SAISERIALIZE_1gae2ed662212a20e18cb1f3769e7f92301" kind="function"><name>sai_deserialize_size</name></member>
+      <member refid="group__SAISERIALIZE_1gaafc3f6f2b7068f4bbfeeed90044cb76b" kind="function"><name>sai_serialize_object_id</name></member>
+      <member refid="group__SAISERIALIZE_1gad99bc77c47c462ddd4206460f533906e" kind="function"><name>sai_deserialize_object_id</name></member>
+      <member refid="group__SAISERIALIZE_1ga31b5696279509c963ae7e7336a3da73a" kind="function"><name>sai_serialize_mac</name></member>
+      <member refid="group__SAISERIALIZE_1ga91652c09b129f7e9bd0df8f04a52934e" kind="function"><name>sai_deserialize_mac</name></member>
+      <member refid="group__SAISERIALIZE_1gadc2b1614ce2d6a9ea9ef4b524bfd8c50" kind="function"><name>sai_serialize_encrypt_key</name></member>
+      <member refid="group__SAISERIALIZE_1ga3292a715aed54b19cd01c07fc750fab0" kind="function"><name>sai_deserialize_encrypt_key</name></member>
+      <member refid="group__SAISERIALIZE_1ga3d7659a91abef702a140920b136571c7" kind="function"><name>sai_serialize_auth_key</name></member>
+      <member refid="group__SAISERIALIZE_1ga59b0ec1793a9d8e1b99ac3c6a995afea" kind="function"><name>sai_deserialize_auth_key</name></member>
+      <member refid="group__SAISERIALIZE_1gacfb7478f98491e6dbcc7b6356fe9e538" kind="function"><name>sai_serialize_macsec_sak</name></member>
+      <member refid="group__SAISERIALIZE_1ga4a7bef9dde0ad245a40364d638ad3def" kind="function"><name>sai_deserialize_macsec_sak</name></member>
+      <member refid="group__SAISERIALIZE_1gafc18ef4aee6f504b95544a4d2b9087c1" kind="function"><name>sai_serialize_macsec_auth_key</name></member>
+      <member refid="group__SAISERIALIZE_1ga62d4b5cce343c513c810f31122a11ff8" kind="function"><name>sai_deserialize_macsec_auth_key</name></member>
+      <member refid="group__SAISERIALIZE_1ga99fb394ebb526c3c589d3127c2cbe5c3" kind="function"><name>sai_serialize_macsec_salt</name></member>
+      <member refid="group__SAISERIALIZE_1ga1c1a5f3a55f029b8ff35c5654de651e1" kind="function"><name>sai_deserialize_macsec_salt</name></member>
+      <member refid="group__SAISERIALIZE_1ga5485466fc0baa286c7287c08fb9308a2" kind="function"><name>sai_serialize_enum</name></member>
+      <member refid="group__SAISERIALIZE_1ga6c268d3d46ced77618100350d8046caa" kind="function"><name>sai_deserialize_enum</name></member>
+      <member refid="group__SAISERIALIZE_1ga1aca4b76bb836ec22a884b7d4749ab18" kind="function"><name>sai_serialize_ip4</name></member>
+      <member refid="group__SAISERIALIZE_1ga1c71e0cb1c02ae296639687d37f52e4c" kind="function"><name>sai_deserialize_ip4</name></member>
+      <member refid="group__SAISERIALIZE_1ga40cf4f03a204823eee191fd734b88f31" kind="function"><name>sai_serialize_ip6</name></member>
+      <member refid="group__SAISERIALIZE_1gad86d78db68da208710aea26d75b7180a" kind="function"><name>sai_deserialize_ip6</name></member>
+      <member refid="group__SAISERIALIZE_1ga5295bde073db9510f21a8e772022bb06" kind="function"><name>sai_serialize_ip_address</name></member>
+      <member refid="group__SAISERIALIZE_1gad8641cffca9d84c7d74b9d2cdc4aa70d" kind="function"><name>sai_deserialize_ip_address</name></member>
+      <member refid="group__SAISERIALIZE_1gad728fee23b4d0aff686e226059800262" kind="function"><name>sai_serialize_ip_prefix</name></member>
+      <member refid="group__SAISERIALIZE_1ga4f2a00f99b6736c3c13d3c40c8425b3c" kind="function"><name>sai_deserialize_ip_prefix</name></member>
+      <member refid="group__SAISERIALIZE_1ga22c821062b986e5083477f5808f71db3" kind="function"><name>sai_serialize_ip4_mask</name></member>
+      <member refid="group__SAISERIALIZE_1ga83e399c2407f4aff526a6edfb348d750" kind="function"><name>sai_deserialize_ip4_mask</name></member>
+      <member refid="group__SAISERIALIZE_1gab66ee6938e166ca2ea86a4ed4ab4ae41" kind="function"><name>sai_serialize_ip6_mask</name></member>
+      <member refid="group__SAISERIALIZE_1gaf945c444b3c7b9d1dc7d3cfd3843c97c" kind="function"><name>sai_deserialize_ip6_mask</name></member>
+      <member refid="group__SAISERIALIZE_1ga2f2c615adcc7daed8f8106bc441a0084" kind="function"><name>sai_serialize_pointer</name></member>
+      <member refid="group__SAISERIALIZE_1ga4b6aaf8547c7c47b057a3b4314de7fcd" kind="function"><name>sai_deserialize_pointer</name></member>
+      <member refid="group__SAISERIALIZE_1ga00647c4f236688c419d16c67f186ebf6" kind="function"><name>sai_serialize_enum_list</name></member>
+      <member refid="group__SAISERIALIZE_1gaf2f94bd66e53938b7ccd27b9f5b22f83" kind="function"><name>sai_deserialize_enum_list</name></member>
+      <member refid="group__SAISERIALIZE_1gaa2322c86f14bd8f5e203368f26b5febe" kind="function"><name>sai_serialize_attr_id</name></member>
+      <member refid="group__SAISERIALIZE_1gacacf91aa531b358f5dad9bc76833f036" kind="function"><name>sai_deserialize_attr_id</name></member>
+      <member refid="group__SAISERIALIZE_1gabbabbe315e14edc9890fb39d538e9588" kind="function"><name>sai_serialize_attribute</name></member>
+      <member refid="group__SAISERIALIZE_1ga0b102e7c5da3ef44a5f3ebadb523942c" kind="function"><name>sai_deserialize_attribute</name></member>
+      <member refid="group__SAISERIALIZE_1gad2fcb7a94a6f692c32a30932b719afae" kind="function"><name>sai_free_attribute</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>This module defines SAI Serialize methods. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (c) 2014 Microsoft Open Technologies, Inc.</para>
+<para>Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <ulink url="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</ulink></para>
+<para>THIS CODE IS PROVIDED ON AN <emphasis>AS IS</emphasis> BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY OR NON-INFRINGEMENT.</para>
+<para>See the Apache Version 2.0 License for specific language governing permissions and limitations under the License.</para>
+<para>Microsoft would like to thank the following companies for their review and assistance with these files: Intel Corporation, Mellanox Technologies Ltd, Dell Products, L.P., Facebook, Inc., Marvell International Ltd. </para>
+    </detaileddescription>
+    <location file="saiserialize.h"/>
+  </compounddef>
+</doxygen>

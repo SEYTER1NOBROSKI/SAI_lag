@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="saimacsec_8h" kind="file" language="C++">
+    <compoundname>saimacsec.h</compoundname>
+    <includes refid="saitypes_8h" local="no">saitypes.h</includes>
+    <includedby refid="sai_8h" local="yes">/home/romanveskera/SAI/SAI/inc/sai.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/saimacsec.h</label>
+        <link refid="saimacsec_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>saitypes.h</label>
+        <link refid="saitypes_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>stdbool.h</label>
+      </node>
+      <node id="3">
+        <label>stdint.h</label>
+      </node>
+      <node id="5">
+        <label>sys/types.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiextensions.h</label>
+        <link refid="saiextensions_8h"/>
+      </node>
+      <node id="2">
+        <label>/home/romanveskera/SAI/SAI/inc/sai.h</label>
+        <link refid="sai_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/saimacsec.h</label>
+        <link refid="saimacsec_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct__sai__macsec__api__t" prot="public">_sai_macsec_api_t</innerclass>
+    <sectiondef kind="enum">
+      <member refid="group__SAIMACSEC_1ga403a5cfe73b26d82d229707ddc5f1835" kind="enum"><name>_sai_macsec_direction_t</name></member>
+      <member refid="group__SAIMACSEC_1ga02ca17cd3bfdef81874f9d7f6d62f9a8" kind="enum"><name>_sai_macsec_cipher_suite_t</name></member>
+      <member refid="group__SAIMACSEC_1gafcbfd00e51757d8c8207d3cd106a232a" kind="enum"><name>_sai_macsec_max_secure_associations_per_sc_t</name></member>
+      <member refid="group__SAIMACSEC_1ga934cf029ad97a16e5c93991b252efcb6" kind="enum"><name>_sai_macsec_post_status_t</name></member>
+      <member refid="group__SAIMACSEC_1ga6428fa378b2f8d2a47ec437b28e2bf3a" kind="enum"><name>_sai_macsec_attr_t</name></member>
+      <member refid="group__SAIMACSEC_1ga8963f4e949ef929dc10eb8e876d848df" kind="enum"><name>_sai_macsec_port_post_status_t</name></member>
+      <member refid="group__SAIMACSEC_1gab401f83ffeab261ea751c1b138367954" kind="enum"><name>_sai_macsec_port_attr_t</name></member>
+      <member refid="group__SAIMACSEC_1ga6772a88d273f1072445d0abc88a4a451" kind="enum"><name>_sai_macsec_port_stat_t</name></member>
+      <member refid="group__SAIMACSEC_1ga4da193eca8c693b1dffc779d93962d1c" kind="enum"><name>_sai_macsec_flow_attr_t</name></member>
+      <member refid="group__SAIMACSEC_1ga2bffeeed497dc78a11936cc78e3b0cd3" kind="enum"><name>_sai_macsec_flow_stat_t</name></member>
+      <member refid="group__SAIMACSEC_1gaf71fe4d9dbabd435a926ea6d53d301c0" kind="enum"><name>_sai_macsec_sc_attr_t</name></member>
+      <member refid="group__SAIMACSEC_1ga305c32c14cec870495922b5e2bd3c9d9" kind="enum"><name>_sai_macsec_sc_stat_t</name></member>
+      <member refid="group__SAIMACSEC_1ga4450f618766670336fdeb53b24586815" kind="enum"><name>_sai_macsec_sa_attr_t</name></member>
+      <member refid="group__SAIMACSEC_1gafed29407250c2270d02c804e0a821655" kind="enum"><name>_sai_macsec_sa_stat_t</name></member>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <member refid="group__SAIMACSEC_1ga6425c1f01a3476b9565713b04eb27893" kind="typedef"><name>sai_macsec_direction_t</name></member>
+      <member refid="group__SAIMACSEC_1gafc48df6cb53d8ddb875221f721ca6139" kind="typedef"><name>sai_macsec_cipher_suite_t</name></member>
+      <member refid="group__SAIMACSEC_1gadffefc5129d0b13b5122be5e89756547" kind="typedef"><name>sai_macsec_max_secure_associations_per_sc_t</name></member>
+      <member refid="group__SAIMACSEC_1ga508956a030bccbcb08bb26675db1486c" kind="typedef"><name>sai_macsec_post_status_t</name></member>
+      <member refid="group__SAIMACSEC_1ga1a2ccf90f8ebdeafce3b2b1865391e35" kind="typedef"><name>sai_macsec_attr_t</name></member>
+      <member refid="group__SAIMACSEC_1ga2875d9feea4b2b5a9ef2f5e7fb7294c8" kind="typedef"><name>sai_macsec_port_post_status_t</name></member>
+      <member refid="group__SAIMACSEC_1ga60be047ef673fc7e6d0cc15baac64238" kind="typedef"><name>sai_macsec_port_attr_t</name></member>
+      <member refid="group__SAIMACSEC_1ga3d1874bb25ace1a1c45808bfe0227d14" kind="typedef"><name>sai_macsec_port_stat_t</name></member>
+      <member refid="group__SAIMACSEC_1ga0e0cfcfbe0033fada001bfc1e877e976" kind="typedef"><name>sai_macsec_flow_attr_t</name></member>
+      <member refid="group__SAIMACSEC_1gab888d932d02787c5b46ace450bcc8cb5" kind="typedef"><name>sai_macsec_flow_stat_t</name></member>
+      <member refid="group__SAIMACSEC_1gada1dd54b861fbdf7fff17084d6b6c90f" kind="typedef"><name>sai_macsec_sc_attr_t</name></member>
+      <member refid="group__SAIMACSEC_1ga834abe2e74c8c3dc2066639e57caf0a6" kind="typedef"><name>sai_macsec_sc_stat_t</name></member>
+      <member refid="group__SAIMACSEC_1ga375e061ab8afd2945e78bd5f592dc8a0" kind="typedef"><name>sai_macsec_sa_attr_t</name></member>
+      <member refid="group__SAIMACSEC_1ga2ea89b119a5223f88dde7bcd898d6fb7" kind="typedef"><name>sai_macsec_sa_stat_t</name></member>
+      <member refid="group__SAIMACSEC_1ga6c04bdc2c4e06db38c41c2101ca2eb41" kind="typedef"><name>sai_macsec_post_status_notification_fn</name></member>
+      <member refid="group__SAIMACSEC_1gac1977ddc02d7fc321ffcb2e339af611f" kind="typedef"><name>sai_create_macsec_fn</name></member>
+      <member refid="group__SAIMACSEC_1ga241f064d75775f8057466ac2ca9b53fb" kind="typedef"><name>sai_remove_macsec_fn</name></member>
+      <member refid="group__SAIMACSEC_1gae53b9a8757540b044a07432eb708cd31" kind="typedef"><name>sai_set_macsec_attribute_fn</name></member>
+      <member refid="group__SAIMACSEC_1ga8dd222403fce4c2dfc3019cabf2d326a" kind="typedef"><name>sai_get_macsec_attribute_fn</name></member>
+      <member refid="group__SAIMACSEC_1gab00ab038ab90f7531f228eead94e15e9" kind="typedef"><name>sai_create_macsec_port_fn</name></member>
+      <member refid="group__SAIMACSEC_1ga6ad0b204edd2ea86c3c89a7aabb5f085" kind="typedef"><name>sai_remove_macsec_port_fn</name></member>
+      <member refid="group__SAIMACSEC_1ga4e9572bfdb23d9b0342afe5c17aa6529" kind="typedef"><name>sai_set_macsec_port_attribute_fn</name></member>
+      <member refid="group__SAIMACSEC_1ga2fbd5a212b02b75f5de4eb6230cf9b34" kind="typedef"><name>sai_get_macsec_port_attribute_fn</name></member>
+      <member refid="group__SAIMACSEC_1ga50c94f197a126f7cd20abb3cab2f855d" kind="typedef"><name>sai_get_macsec_port_stats_fn</name></member>
+      <member refid="group__SAIMACSEC_1ga6de8a1b205a81e511003ef331e8fbe9c" kind="typedef"><name>sai_get_macsec_port_stats_ext_fn</name></member>
+      <member refid="group__SAIMACSEC_1gaf7db663c188e7981ed9e20550673a28f" kind="typedef"><name>sai_clear_macsec_port_stats_fn</name></member>
+      <member refid="group__SAIMACSEC_1gaae4fd63ad2181bbf408e6e33a65c09c1" kind="typedef"><name>sai_create_macsec_flow_fn</name></member>
+      <member refid="group__SAIMACSEC_1ga92d25c260b51134543f62efc671c8f3b" kind="typedef"><name>sai_remove_macsec_flow_fn</name></member>
+      <member refid="group__SAIMACSEC_1gab8b8a0ae8341780a1002fc8794c2833a" kind="typedef"><name>sai_set_macsec_flow_attribute_fn</name></member>
+      <member refid="group__SAIMACSEC_1ga697f4137e5eed5827de1914a596a9e00" kind="typedef"><name>sai_get_macsec_flow_attribute_fn</name></member>
+      <member refid="group__SAIMACSEC_1gad564f60384ac24318b580c2e934973b7" kind="typedef"><name>sai_get_macsec_flow_stats_fn</name></member>
+      <member refid="group__SAIMACSEC_1gab57c473b81e7b163a2f23ea48a2468e1" kind="typedef"><name>sai_get_macsec_flow_stats_ext_fn</name></member>
+      <member refid="group__SAIMACSEC_1ga8dadf581e3365b88996bcf36638a43dd" kind="typedef"><name>sai_clear_macsec_flow_stats_fn</name></member>
+      <member refid="group__SAIMACSEC_1ga8c8ef43aa49ddf2181ceed4ed6d181ac" kind="typedef"><name>sai_create_macsec_sc_fn</name></member>
+      <member refid="group__SAIMACSEC_1gab8c98b7ee7924e14cd807559c8a361f9" kind="typedef"><name>sai_remove_macsec_sc_fn</name></member>
+      <member refid="group__SAIMACSEC_1ga1812c55d0135e78a61cde370eab74e6e" kind="typedef"><name>sai_set_macsec_sc_attribute_fn</name></member>
+      <member refid="group__SAIMACSEC_1gabfed790f1383b6f01a4ea27821f78d39" kind="typedef"><name>sai_get_macsec_sc_attribute_fn</name></member>
+      <member refid="group__SAIMACSEC_1ga31077da7c6bd99cc6ffabf71a72504f9" kind="typedef"><name>sai_get_macsec_sc_stats_fn</name></member>
+      <member refid="group__SAIMACSEC_1ga99da15d53bb0fd930b427fb9163849b9" kind="typedef"><name>sai_get_macsec_sc_stats_ext_fn</name></member>
+      <member refid="group__SAIMACSEC_1ga54ec052398d058a9b2368a2e7b07d731" kind="typedef"><name>sai_clear_macsec_sc_stats_fn</name></member>
+      <member refid="group__SAIMACSEC_1ga65b151669409184143c2e643a2aab157" kind="typedef"><name>sai_create_macsec_sa_fn</name></member>
+      <member refid="group__SAIMACSEC_1gab21695bb2f3e7ef0c5267d555a606be9" kind="typedef"><name>sai_remove_macsec_sa_fn</name></member>
+      <member refid="group__SAIMACSEC_1ga4855000d6ef5170733d335cacd0b8cfb" kind="typedef"><name>sai_set_macsec_sa_attribute_fn</name></member>
+      <member refid="group__SAIMACSEC_1gace8c20c74c59e86f44f4e1b51644a6f4" kind="typedef"><name>sai_get_macsec_sa_attribute_fn</name></member>
+      <member refid="group__SAIMACSEC_1ga494f602fff642167434b4045db4458ac" kind="typedef"><name>sai_get_macsec_sa_stats_fn</name></member>
+      <member refid="group__SAIMACSEC_1gacba638f241ccbacb0e59a1c35dcd8d42" kind="typedef"><name>sai_get_macsec_sa_stats_ext_fn</name></member>
+      <member refid="group__SAIMACSEC_1gae5cdd92540c33158332fbe1a26f47c3b" kind="typedef"><name>sai_clear_macsec_sa_stats_fn</name></member>
+      <member refid="group__SAIMACSEC_1gada90824f373e5a6e90cd0e4a219135ce" kind="typedef"><name>sai_macsec_api_t</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>This module defines SAI MACsec interface. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (c) 2014 Microsoft Open Technologies, Inc.</para>
+<para>Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <ulink url="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</ulink></para>
+<para>THIS CODE IS PROVIDED ON AN <emphasis>AS IS</emphasis> BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY OR NON-INFRINGEMENT.</para>
+<para>See the Apache Version 2.0 License for specific language governing permissions and limitations under the License.</para>
+<para>Microsoft would like to thank the following companies for their review and assistance with these files: Intel Corporation, Mellanox Technologies Ltd, Dell Products, L.P., Facebook, Inc., Marvell International Ltd. </para>
+    </detaileddescription>
+    <location file="/home/romanveskera/SAI/SAI/inc/saimacsec.h"/>
+  </compounddef>
+</doxygen>

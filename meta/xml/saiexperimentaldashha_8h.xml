@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="saiexperimentaldashha_8h" kind="file" language="C++">
+    <compoundname>saiexperimentaldashha.h</compoundname>
+    <includes refid="saitypesextensions_8h" local="no">saitypesextensions.h</includes>
+    <includedby refid="saiextensions_8h" local="yes">/home/romanveskera/SAI/SAI/experimental/saiextensions.h</includedby>
+    <includedby refid="saiobject_8h" local="no">/home/romanveskera/SAI/SAI/inc/saiobject.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashha.h</label>
+        <link refid="saiexperimentaldashha_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>saitypesextensions.h</label>
+        <link refid="saitypesextensions_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>saitypes.h</label>
+        <link refid="saitypes_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stdint.h</label>
+      </node>
+      <node id="6">
+        <label>sys/types.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashha.h</label>
+        <link refid="saiexperimentaldashha_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiextensions.h</label>
+        <link refid="saiextensions_8h"/>
+      </node>
+      <node id="4">
+        <label>/home/romanveskera/SAI/SAI/inc/sai.h</label>
+        <link refid="sai_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>/home/romanveskera/SAI/SAI/inc/saiobject.h</label>
+        <link refid="saiobject_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct__sai__dash__ha__api__t" prot="public">_sai_dash_ha_api_t</innerclass>
+    <sectiondef kind="enum">
+      <member refid="group__SAIEXPERIMENTALDASHHA_1gae3206635905ae2ff7e5b1b5c534c2080" kind="enum"><name>_sai_ha_set_attr_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHHA_1gad7a72c8517dc3dc14800d63a941dd446" kind="enum"><name>_sai_ha_set_stat_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHHA_1ga9a5e60e5ead4871c89b484eea2378b39" kind="enum"><name>_sai_ha_scope_attr_t</name></member>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <member refid="group__SAIEXPERIMENTALDASHHA_1ga2831b562fd2f557862ae91b06d3ddb50" kind="typedef"><name>sai_ha_set_attr_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHHA_1ga55d4e9f4690c32df32c9c5bc364e66a4" kind="typedef"><name>sai_ha_set_stat_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHHA_1gae41b6467510e8c04205c88ed94172ee2" kind="typedef"><name>sai_ha_scope_attr_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHHA_1ga13bbe28657398ebe3353eba325b72129" kind="typedef"><name>sai_create_ha_set_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHHA_1ga2e978829b67c3de17588c028bd77cb73" kind="typedef"><name>sai_remove_ha_set_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHHA_1ga12d5d08acf4e92d3e6e6ec4b90cdf1bc" kind="typedef"><name>sai_set_ha_set_attribute_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHHA_1gac4abd4add04b5131c50ad8e898d25cb4" kind="typedef"><name>sai_get_ha_set_attribute_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHHA_1gaa308473229c7a797ccbf5e9648506cbe" kind="typedef"><name>sai_get_ha_set_stats_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHHA_1gad1ea599c0cf04a1927ac45effa7b7c03" kind="typedef"><name>sai_get_ha_set_stats_ext_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHHA_1gaf92ce8ede531104055c3cc97b3fd8fe0" kind="typedef"><name>sai_clear_ha_set_stats_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHHA_1ga7ba1319563c58887800a5271918510ad" kind="typedef"><name>sai_create_ha_scope_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHHA_1ga01fa9ce93d6c5deded23fe44331edc4a" kind="typedef"><name>sai_remove_ha_scope_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHHA_1gab8f4de2555b9e4f65d35782ceac3cbc2" kind="typedef"><name>sai_set_ha_scope_attribute_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHHA_1gac14fa41bd0d893a0a104d2fb0388dbc7" kind="typedef"><name>sai_get_ha_scope_attribute_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHHA_1ga73565034146807e90f63d29c82fb3221" kind="typedef"><name>sai_dash_ha_api_t</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>This module defines SAI extensions for DASH HA. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (c) 2014 Microsoft Open Technologies, Inc.</para>
+<para>Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <ulink url="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</ulink></para>
+<para>THIS CODE IS PROVIDED ON AN <emphasis>AS IS</emphasis> BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY OR NON-INFRINGEMENT.</para>
+<para>See the Apache Version 2.0 License for specific language governing permissions and limitations under the License.</para>
+<para>Microsoft would like to thank the following companies for their review and assistance with these files: Intel Corporation, Mellanox Technologies Ltd, Dell Products, L.P., Facebook, Inc., Marvell International Ltd.</para>
+<para><simplesect kind="warning"><para>This module is a SAI experimental module </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashha.h"/>
+  </compounddef>
+</doxygen>

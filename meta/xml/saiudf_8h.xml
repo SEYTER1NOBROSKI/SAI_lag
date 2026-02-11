@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="saiudf_8h" kind="file" language="C++">
+    <compoundname>saiudf.h</compoundname>
+    <includes refid="saitypes_8h" local="no">saitypes.h</includes>
+    <includedby refid="sai_8h" local="yes">/home/romanveskera/SAI/SAI/inc/sai.h</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>saitypes.h</label>
+        <link refid="saitypes_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/saiudf.h</label>
+        <link refid="saiudf_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>stdbool.h</label>
+      </node>
+      <node id="3">
+        <label>stdint.h</label>
+      </node>
+      <node id="5">
+        <label>sys/types.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiextensions.h</label>
+        <link refid="saiextensions_8h"/>
+      </node>
+      <node id="2">
+        <label>/home/romanveskera/SAI/SAI/inc/sai.h</label>
+        <link refid="sai_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/saiudf.h</label>
+        <link refid="saiudf_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct__sai__udf__api__t" prot="public">_sai_udf_api_t</innerclass>
+    <sectiondef kind="enum">
+      <member refid="group__SAIUDF_1ga155d73d44d256d3c4a95ff36e1c8e026" kind="enum"><name>_sai_udf_base_t</name></member>
+      <member refid="group__SAIUDF_1gaf3e2eab146e97c14c8af92c0b3a1f340" kind="enum"><name>_sai_udf_attr_t</name></member>
+      <member refid="group__SAIUDF_1ga78e81c0451f0e47c785e2f4e4b8d4226" kind="enum"><name>_sai_udf_match_attr_t</name></member>
+      <member refid="group__SAIUDF_1gab8c0d6a1c2237d12492ab7770a777e2a" kind="enum"><name>_sai_udf_group_type_t</name></member>
+      <member refid="group__SAIUDF_1ga36a0e72a1cb059bdc407096aac81c900" kind="enum"><name>_sai_udf_group_attr_t</name></member>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <member refid="group__SAIUDF_1ga3de476cba51630b70c7b558d760822ac" kind="typedef"><name>sai_udf_base_t</name></member>
+      <member refid="group__SAIUDF_1gadae1496db270a980ccbc38759cd171fe" kind="typedef"><name>sai_udf_attr_t</name></member>
+      <member refid="group__SAIUDF_1gaf5e7c8184871d594767ab0db77fa8ce6" kind="typedef"><name>sai_udf_match_attr_t</name></member>
+      <member refid="group__SAIUDF_1ga81a953c6c6d13881919adf690d217e42" kind="typedef"><name>sai_udf_group_type_t</name></member>
+      <member refid="group__SAIUDF_1ga0b3efd0cf5a54775268721882b252a11" kind="typedef"><name>sai_udf_group_attr_t</name></member>
+      <member refid="group__SAIUDF_1gad8ec31f23255e4212eb56dc918e86289" kind="typedef"><name>sai_create_udf_fn</name></member>
+      <member refid="group__SAIUDF_1gac4681ea0cf78a59f30f46efe6f086f07" kind="typedef"><name>sai_remove_udf_fn</name></member>
+      <member refid="group__SAIUDF_1ga0ee35983bd670f465521a87d0b4eb1b9" kind="typedef"><name>sai_set_udf_attribute_fn</name></member>
+      <member refid="group__SAIUDF_1ga7c161a4453b519179a2da5c90772669b" kind="typedef"><name>sai_get_udf_attribute_fn</name></member>
+      <member refid="group__SAIUDF_1gaa9864eeaded4ff8b80cf040b35b8143c" kind="typedef"><name>sai_create_udf_match_fn</name></member>
+      <member refid="group__SAIUDF_1ga9c30145aad41b16f94fb58214112ca08" kind="typedef"><name>sai_remove_udf_match_fn</name></member>
+      <member refid="group__SAIUDF_1ga4ca3493ad2debc6a281896d1ed89e0cc" kind="typedef"><name>sai_set_udf_match_attribute_fn</name></member>
+      <member refid="group__SAIUDF_1ga04d63f8b34e3717919fefba6a3f069dd" kind="typedef"><name>sai_get_udf_match_attribute_fn</name></member>
+      <member refid="group__SAIUDF_1ga3cc1f94a6dc866381fac7c79101fe57d" kind="typedef"><name>sai_create_udf_group_fn</name></member>
+      <member refid="group__SAIUDF_1ga5fe00b240ef1334ac637be7c3097b423" kind="typedef"><name>sai_remove_udf_group_fn</name></member>
+      <member refid="group__SAIUDF_1ga34e708e68a0d439297777447a4e3ac8a" kind="typedef"><name>sai_set_udf_group_attribute_fn</name></member>
+      <member refid="group__SAIUDF_1ga2c93099a1a3a6283cce46ce59b6a2176" kind="typedef"><name>sai_get_udf_group_attribute_fn</name></member>
+      <member refid="group__SAIUDF_1ga717f1fa623632a592c03711f6ac883c9" kind="typedef"><name>sai_udf_api_t</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>This module defines SAI UDF (User Defined Field) interface. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (c) 2014 Microsoft Open Technologies, Inc.</para>
+<para>Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <ulink url="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</ulink></para>
+<para>THIS CODE IS PROVIDED ON AN <emphasis>AS IS</emphasis> BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY OR NON-INFRINGEMENT.</para>
+<para>See the Apache Version 2.0 License for specific language governing permissions and limitations under the License.</para>
+<para>Microsoft would like to thank the following companies for their review and assistance with these files: Intel Corporation, Mellanox Technologies Ltd, Dell Products, L.P., Facebook, Inc., Marvell International Ltd. </para>
+    </detaileddescription>
+    <location file="/home/romanveskera/SAI/SAI/inc/saiudf.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="saiexperimentaldashtunnel_8h" kind="file" language="C++">
+    <compoundname>saiexperimentaldashtunnel.h</compoundname>
+    <includes refid="saitypesextensions_8h" local="no">saitypesextensions.h</includes>
+    <includedby refid="saiextensions_8h" local="yes">/home/romanveskera/SAI/SAI/experimental/saiextensions.h</includedby>
+    <includedby refid="saiobject_8h" local="no">/home/romanveskera/SAI/SAI/inc/saiobject.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtunnel.h</label>
+        <link refid="saiexperimentaldashtunnel_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>saitypesextensions.h</label>
+        <link refid="saitypesextensions_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>saitypes.h</label>
+        <link refid="saitypes_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stdint.h</label>
+      </node>
+      <node id="6">
+        <label>sys/types.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtunnel.h</label>
+        <link refid="saiexperimentaldashtunnel_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiextensions.h</label>
+        <link refid="saiextensions_8h"/>
+      </node>
+      <node id="4">
+        <label>/home/romanveskera/SAI/SAI/inc/sai.h</label>
+        <link refid="sai_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>/home/romanveskera/SAI/SAI/inc/saiobject.h</label>
+        <link refid="saiobject_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct__sai__dash__tunnel__api__t" prot="public">_sai_dash_tunnel_api_t</innerclass>
+    <sectiondef kind="enum">
+      <member refid="group__SAIEXPERIMENTALDASHTUNNEL_1ga6702b41015623393bab38b36b98f6103" kind="enum"><name>_sai_dash_tunnel_attr_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHTUNNEL_1ga7e2a489a15a720043fa14e721df3b602" kind="enum"><name>_sai_dash_tunnel_member_attr_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHTUNNEL_1gad9adee26b491224a96b4dcc2f23f4979" kind="enum"><name>_sai_dash_tunnel_next_hop_attr_t</name></member>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <member refid="group__SAIEXPERIMENTALDASHTUNNEL_1gaf2812ebda908687ed79ea70ac3643bd2" kind="typedef"><name>sai_dash_tunnel_attr_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHTUNNEL_1gaa165abce8481aa69c4ebc2e6398b7606" kind="typedef"><name>sai_dash_tunnel_member_attr_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHTUNNEL_1gab8874b667f960b5e45985022f00748ab" kind="typedef"><name>sai_dash_tunnel_next_hop_attr_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHTUNNEL_1gac079d33cb3117134d898f47183819d91" kind="typedef"><name>sai_create_dash_tunnel_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHTUNNEL_1ga64f3ae824cf028950851a7b0bccbe892" kind="typedef"><name>sai_remove_dash_tunnel_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHTUNNEL_1gac8ee9eb2b23fe38b7be3937fc524521f" kind="typedef"><name>sai_set_dash_tunnel_attribute_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHTUNNEL_1ga6f347e56a6b18fec82a45b5ee63128c0" kind="typedef"><name>sai_get_dash_tunnel_attribute_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHTUNNEL_1ga9eeef205ac57ea77e8f0da81c96783be" kind="typedef"><name>sai_create_dash_tunnel_member_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHTUNNEL_1ga7053ffb479dfb25a9557413116814653" kind="typedef"><name>sai_remove_dash_tunnel_member_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHTUNNEL_1ga69e9f961848342a7e2a12748634f2aae" kind="typedef"><name>sai_set_dash_tunnel_member_attribute_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHTUNNEL_1ga1f936be2f1cdf3937b847e2346ffc6bf" kind="typedef"><name>sai_get_dash_tunnel_member_attribute_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHTUNNEL_1gab3f7f4be2a3b01192ce4a1f8b90e9673" kind="typedef"><name>sai_create_dash_tunnel_next_hop_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHTUNNEL_1ga8c3dd8396a50d8d52e1e4c53e6bbbdd8" kind="typedef"><name>sai_remove_dash_tunnel_next_hop_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHTUNNEL_1gae89102b06b12831643f1b0dcc1c9023d" kind="typedef"><name>sai_set_dash_tunnel_next_hop_attribute_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHTUNNEL_1ga994c89a0d3e63d6c721d4de9b5a3193c" kind="typedef"><name>sai_get_dash_tunnel_next_hop_attribute_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHTUNNEL_1gac6580ee90c85a11616979ef2b47c4612" kind="typedef"><name>sai_dash_tunnel_api_t</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>This module defines SAI extensions for DASH tunnel. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (c) 2014 Microsoft Open Technologies, Inc.</para>
+<para>Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <ulink url="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</ulink></para>
+<para>THIS CODE IS PROVIDED ON AN <emphasis>AS IS</emphasis> BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY OR NON-INFRINGEMENT.</para>
+<para>See the Apache Version 2.0 License for specific language governing permissions and limitations under the License.</para>
+<para>Microsoft would like to thank the following companies for their review and assistance with these files: Intel Corporation, Mellanox Technologies Ltd, Dell Products, L.P., Facebook, Inc., Marvell International Ltd.</para>
+<para><simplesect kind="warning"><para>This module is a SAI experimental module </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashtunnel.h"/>
+  </compounddef>
+</doxygen>

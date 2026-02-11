@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="sail2mcgroup_8h" kind="file" language="C++">
+    <compoundname>sail2mcgroup.h</compoundname>
+    <includes refid="saitypes_8h" local="no">saitypes.h</includes>
+    <includedby refid="sai_8h" local="yes">/home/romanveskera/SAI/SAI/inc/sai.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/sail2mcgroup.h</label>
+        <link refid="sail2mcgroup_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>saitypes.h</label>
+        <link refid="saitypes_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>stdbool.h</label>
+      </node>
+      <node id="3">
+        <label>stdint.h</label>
+      </node>
+      <node id="5">
+        <label>sys/types.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiextensions.h</label>
+        <link refid="saiextensions_8h"/>
+      </node>
+      <node id="2">
+        <label>/home/romanveskera/SAI/SAI/inc/sai.h</label>
+        <link refid="sai_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/sail2mcgroup.h</label>
+        <link refid="sail2mcgroup_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct__sai__l2mc__group__api__t" prot="public">_sai_l2mc_group_api_t</innerclass>
+    <sectiondef kind="enum">
+      <member refid="group__SAIL2MCGROUP_1ga0f4b0c5dbd82c039299551a986e2e1cd" kind="enum"><name>_sai_l2mc_group_attr_t</name></member>
+      <member refid="group__SAIL2MCGROUP_1gab6bdabd2bbb7f357b5211484f666e65c" kind="enum"><name>_sai_l2mc_group_member_attr_t</name></member>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <member refid="group__SAIL2MCGROUP_1ga8eda2c202bad888474aa3ac21c021ce1" kind="typedef"><name>sai_l2mc_group_attr_t</name></member>
+      <member refid="group__SAIL2MCGROUP_1gaf0f88a594f84680099ab83fb04cd8cb3" kind="typedef"><name>sai_l2mc_group_member_attr_t</name></member>
+      <member refid="group__SAIL2MCGROUP_1gae51bb58e6a5c40b38fdb493ae6a94007" kind="typedef"><name>sai_create_l2mc_group_fn</name></member>
+      <member refid="group__SAIL2MCGROUP_1ga1dab7ad9c30b9ead72c106db17044fe8" kind="typedef"><name>sai_remove_l2mc_group_fn</name></member>
+      <member refid="group__SAIL2MCGROUP_1gab170dd9c624dba0476b3c7da3cfd0386" kind="typedef"><name>sai_set_l2mc_group_attribute_fn</name></member>
+      <member refid="group__SAIL2MCGROUP_1ga07e34130d2f3740f698002677cea4869" kind="typedef"><name>sai_get_l2mc_group_attribute_fn</name></member>
+      <member refid="group__SAIL2MCGROUP_1gae1c1c7000846244102225756b9660742" kind="typedef"><name>sai_create_l2mc_group_member_fn</name></member>
+      <member refid="group__SAIL2MCGROUP_1gae40d6c080cb10eba3b3bdbeed60185bb" kind="typedef"><name>sai_remove_l2mc_group_member_fn</name></member>
+      <member refid="group__SAIL2MCGROUP_1gabe5eecae4df20c1fe4b0ba7703db1f0e" kind="typedef"><name>sai_set_l2mc_group_member_attribute_fn</name></member>
+      <member refid="group__SAIL2MCGROUP_1ga882557f5e1ea9526bf3246e9bf68d6fc" kind="typedef"><name>sai_get_l2mc_group_member_attribute_fn</name></member>
+      <member refid="group__SAIL2MCGROUP_1ga881fcf43a55c128ddfd6351fcb8633da" kind="typedef"><name>sai_l2mc_group_api_t</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>This module defines SAI L2MC Group interface. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (c) 2014 Microsoft Open Technologies, Inc.</para>
+<para>Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <ulink url="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</ulink></para>
+<para>THIS CODE IS PROVIDED ON AN <emphasis>AS IS</emphasis> BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY OR NON-INFRINGEMENT.</para>
+<para>See the Apache Version 2.0 License for specific language governing permissions and limitations under the License.</para>
+<para>Microsoft would like to thank the following companies for their review and assistance with these files: Intel Corporation, Mellanox Technologies Ltd, Dell Products, L.P., Facebook, Inc., Marvell International Ltd. </para>
+    </detaileddescription>
+    <location file="/home/romanveskera/SAI/SAI/inc/sail2mcgroup.h"/>
+  </compounddef>
+</doxygen>

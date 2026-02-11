@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="saiexperimentaldashvip_8h" kind="file" language="C++">
+    <compoundname>saiexperimentaldashvip.h</compoundname>
+    <includes refid="saitypesextensions_8h" local="no">saitypesextensions.h</includes>
+    <includedby refid="saiextensions_8h" local="yes">/home/romanveskera/SAI/SAI/experimental/saiextensions.h</includedby>
+    <includedby refid="saiobject_8h" local="no">/home/romanveskera/SAI/SAI/inc/saiobject.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashvip.h</label>
+        <link refid="saiexperimentaldashvip_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>saitypesextensions.h</label>
+        <link refid="saitypesextensions_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>saitypes.h</label>
+        <link refid="saitypes_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stdint.h</label>
+      </node>
+      <node id="6">
+        <label>sys/types.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashvip.h</label>
+        <link refid="saiexperimentaldashvip_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiextensions.h</label>
+        <link refid="saiextensions_8h"/>
+      </node>
+      <node id="4">
+        <label>/home/romanveskera/SAI/SAI/inc/sai.h</label>
+        <link refid="sai_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>/home/romanveskera/SAI/SAI/inc/saiobject.h</label>
+        <link refid="saiobject_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct__sai__vip__entry__t" prot="public">_sai_vip_entry_t</innerclass>
+    <innerclass refid="struct__sai__dash__vip__api__t" prot="public">_sai_dash_vip_api_t</innerclass>
+    <sectiondef kind="enum">
+      <member refid="group__SAIEXPERIMENTALDASHVIP_1gae420375c7356da6ff328a062f97376e7" kind="enum"><name>_sai_vip_entry_action_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHVIP_1gabbf5b9cb31d9a0a0da0ed8188f291dc7" kind="enum"><name>_sai_vip_entry_attr_t</name></member>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <member refid="group__SAIEXPERIMENTALDASHVIP_1gadd45371a312a13fd9f511ffa5e054f87" kind="typedef"><name>sai_vip_entry_action_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHVIP_1gaa601dfcf1651ccc02e6532e9c0ad20aa" kind="typedef"><name>sai_vip_entry_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHVIP_1ga428364c4235a37c3e97a64c84db12cac" kind="typedef"><name>sai_vip_entry_attr_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHVIP_1ga9f092c145040602fbd8e47acf4c21020" kind="typedef"><name>sai_create_vip_entry_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHVIP_1ga35506ab120206c7506848e5004c96550" kind="typedef"><name>sai_remove_vip_entry_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHVIP_1ga38772dc629f0e7cfe94a093ed7042836" kind="typedef"><name>sai_set_vip_entry_attribute_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHVIP_1ga62ea1ca336620d72c72e0407ab55452a" kind="typedef"><name>sai_get_vip_entry_attribute_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHVIP_1ga094a5a4083658b9c482f4a9747109b06" kind="typedef"><name>sai_bulk_create_vip_entry_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHVIP_1ga4ae6432aa4ee86569e36aa46fe908fbd" kind="typedef"><name>sai_bulk_remove_vip_entry_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHVIP_1ga71831a27760772c7272918409c5d4f65" kind="typedef"><name>sai_dash_vip_api_t</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>This module defines SAI extensions for DASH VIP. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (c) 2014 Microsoft Open Technologies, Inc.</para>
+<para>Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <ulink url="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</ulink></para>
+<para>THIS CODE IS PROVIDED ON AN <emphasis>AS IS</emphasis> BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY OR NON-INFRINGEMENT.</para>
+<para>See the Apache Version 2.0 License for specific language governing permissions and limitations under the License.</para>
+<para>Microsoft would like to thank the following companies for their review and assistance with these files: Intel Corporation, Mellanox Technologies Ltd, Dell Products, L.P., Facebook, Inc., Marvell International Ltd.</para>
+<para><simplesect kind="warning"><para>This module is a SAI experimental module </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashvip.h"/>
+  </compounddef>
+</doxygen>

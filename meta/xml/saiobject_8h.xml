@@ -1,0 +1,334 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="saiobject_8h" kind="file" language="C++">
+    <compoundname>saiobject.h</compoundname>
+    <includes refid="saitypes_8h" local="no">saitypes.h</includes>
+    <includes refid="saifdb_8h" local="no">saifdb.h</includes>
+    <includes refid="saimcastfdb_8h" local="no">saimcastfdb.h</includes>
+    <includes refid="sail2mc_8h" local="no">sail2mc.h</includes>
+    <includes refid="saiipmc_8h" local="no">saiipmc.h</includes>
+    <includes refid="saineighbor_8h" local="no">saineighbor.h</includes>
+    <includes refid="sairoute_8h" local="no">sairoute.h</includes>
+    <includes refid="saimpls_8h" local="no">saimpls.h</includes>
+    <includes refid="sainat_8h" local="no">sainat.h</includes>
+    <includes refid="saisrv6_8h" local="no">saisrv6.h</includes>
+    <includes refid="saiprefixcompression_8h" local="no">saiprefixcompression.h</includes>
+    <includes refid="saiexperimentaldashtrustedvni_8h" local="no">saiexperimentaldashtrustedvni.h</includes>
+    <includes refid="saiexperimentaldashoutboundportmap_8h" local="no">saiexperimentaldashoutboundportmap.h</includes>
+    <includes refid="saiexperimentaldashtunnel_8h" local="no">saiexperimentaldashtunnel.h</includes>
+    <includes refid="saiexperimentaldashha_8h" local="no">saiexperimentaldashha.h</includes>
+    <includes refid="saiexperimentaldashappliance_8h" local="no">saiexperimentaldashappliance.h</includes>
+    <includes refid="saiexperimentaldashflow_8h" local="no">saiexperimentaldashflow.h</includes>
+    <includes refid="saiexperimentaldashmeter_8h" local="no">saiexperimentaldashmeter.h</includes>
+    <includes refid="saiexperimentaldashvip_8h" local="no">saiexperimentaldashvip.h</includes>
+    <includes refid="saiexperimentaldashpavalidation_8h" local="no">saiexperimentaldashpavalidation.h</includes>
+    <includes refid="saiexperimentaldashvnet_8h" local="no">saiexperimentaldashvnet.h</includes>
+    <includes refid="saiexperimentaldashoutboundrouting_8h" local="no">saiexperimentaldashoutboundrouting.h</includes>
+    <includes refid="saiexperimentaldashoutboundcatopa_8h" local="no">saiexperimentaldashoutboundcatopa.h</includes>
+    <includes refid="saiexperimentaldashinboundrouting_8h" local="no">saiexperimentaldashinboundrouting.h</includes>
+    <includes refid="saiexperimentaldasheni_8h" local="no">saiexperimentaldasheni.h</includes>
+    <includes refid="saiexperimentaldashdirectionlookup_8h" local="no">saiexperimentaldashdirectionlookup.h</includes>
+    <includes refid="saiexperimentaldashacl_8h" local="no">saiexperimentaldashacl.h</includes>
+    <includes refid="saiexperimentalbmtor_8h" local="no">saiexperimentalbmtor.h</includes>
+    <includedby refid="sai_8h" local="yes">/home/romanveskera/SAI/SAI/inc/sai.h</includedby>
+    <incdepgraph>
+      <node id="33">
+        <label>saiexperimentalbmtor.h</label>
+        <link refid="saiexperimentalbmtor_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>saiexperimentaldashacl.h</label>
+        <link refid="saiexperimentaldashacl_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>saiexperimentaldashappliance.h</label>
+        <link refid="saiexperimentaldashappliance_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>saiexperimentaldashdirectionlookup.h</label>
+        <link refid="saiexperimentaldashdirectionlookup_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>saiexperimentaldasheni.h</label>
+        <link refid="saiexperimentaldasheni_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>saiexperimentaldashflow.h</label>
+        <link refid="saiexperimentaldashflow_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>saiexperimentaldashha.h</label>
+        <link refid="saiexperimentaldashha_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>saiexperimentaldashinboundrouting.h</label>
+        <link refid="saiexperimentaldashinboundrouting_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>saiexperimentaldashmeter.h</label>
+        <link refid="saiexperimentaldashmeter_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>saiexperimentaldashoutboundcatopa.h</label>
+        <link refid="saiexperimentaldashoutboundcatopa_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>saiexperimentaldashoutboundportmap.h</label>
+        <link refid="saiexperimentaldashoutboundportmap_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>saiexperimentaldashoutboundrouting.h</label>
+        <link refid="saiexperimentaldashoutboundrouting_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>saiexperimentaldashpavalidation.h</label>
+        <link refid="saiexperimentaldashpavalidation_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>saiexperimentaldashtrustedvni.h</label>
+        <link refid="saiexperimentaldashtrustedvni_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>saiexperimentaldashtunnel.h</label>
+        <link refid="saiexperimentaldashtunnel_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>saiexperimentaldashvip.h</label>
+        <link refid="saiexperimentaldashvip_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>saiexperimentaldashvnet.h</label>
+        <link refid="saiexperimentaldashvnet_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>saitypesextensions.h</label>
+        <link refid="saitypesextensions_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>saifdb.h</label>
+        <link refid="saifdb_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>saiipmc.h</label>
+        <link refid="saiipmc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>sail2mc.h</label>
+        <link refid="sail2mc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>saimcastfdb.h</label>
+        <link refid="saimcastfdb_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>saimpls.h</label>
+        <link refid="saimpls_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>sainat.h</label>
+        <link refid="sainat_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>saineighbor.h</label>
+        <link refid="saineighbor_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/saiobject.h</label>
+        <link refid="saiobject_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>saiprefixcompression.h</label>
+        <link refid="saiprefixcompression_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>sairoute.h</label>
+        <link refid="sairoute_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>saisrv6.h</label>
+        <link refid="saisrv6_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>saitypes.h</label>
+        <link refid="saitypes_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>stdbool.h</label>
+      </node>
+      <node id="3">
+        <label>stdint.h</label>
+      </node>
+      <node id="5">
+        <label>sys/types.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiextensions.h</label>
+        <link refid="saiextensions_8h"/>
+      </node>
+      <node id="2">
+        <label>/home/romanveskera/SAI/SAI/inc/sai.h</label>
+        <link refid="sai_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/saiobject.h</label>
+        <link refid="saiobject_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="union__sai__object__key__entry__t" prot="public">_sai_object_key_entry_t</innerclass>
+    <innerclass refid="struct__sai__object__key__t" prot="public">_sai_object_key_t</innerclass>
+    <innerclass refid="struct__sai__attr__capability__t" prot="public">_sai_attr_capability_t</innerclass>
+    <sectiondef kind="typedef">
+      <member refid="group__SAIOBJECT_1gac37a4371220fc21a476971eac1ca41ad" kind="typedef"><name>sai_object_key_entry_t</name></member>
+      <member refid="group__SAIOBJECT_1ga7bd6c86c7f5ed7fa4a1c9e1d09766318" kind="typedef"><name>sai_object_key_t</name></member>
+      <member refid="group__SAIOBJECT_1ga8ca56e0ca8bd01b6ee22cc9410bd54db" kind="typedef"><name>sai_attr_capability_t</name></member>
+    </sectiondef>
+    <sectiondef kind="func">
+      <member refid="group__SAIOBJECT_1ga1271ce5f2e7593b7bd0b472deb7191c8" kind="function"><name>sai_get_maximum_attribute_count</name></member>
+      <member refid="group__SAIOBJECT_1ga4a962e9c79a5ad838b4f53617e159b42" kind="function"><name>sai_get_object_count</name></member>
+      <member refid="group__SAIOBJECT_1ga14f31310bbe1d669ce62add3301e2f5d" kind="function"><name>sai_get_object_key</name></member>
+      <member refid="group__SAIOBJECT_1gaf9ab366ded5212ddc136dfc3157a835c" kind="function"><name>sai_bulk_get_attribute</name></member>
+      <member refid="group__SAIOBJECT_1ga7b71c13e609d03ffb8c52bdbef0a4b9c" kind="function"><name>sai_query_attribute_capability</name></member>
+      <member refid="group__SAIOBJECT_1gacb019c19d51c6bcec4022af1e7b1d797" kind="function"><name>sai_query_attribute_enum_values_capability</name></member>
+      <member refid="group__SAIOBJECT_1ga42f59bbc731e81f15940b2d6391b0b4b" kind="function"><name>sai_query_stats_capability</name></member>
+      <member refid="group__SAIOBJECT_1gadab1418363a8a77b3594015054c610a9" kind="function"><name>sai_query_stats_st_capability</name></member>
+      <member refid="group__SAIOBJECT_1gae33aac67f917ebfea3cded3d95f41223" kind="function"><name>sai_bulk_object_get_stats</name></member>
+      <member refid="group__SAIOBJECT_1ga8269b254207169630a6efa1c981bfb67" kind="function"><name>sai_bulk_object_clear_stats</name></member>
+      <member refid="group__SAIOBJECT_1gaff2f10b0818929ac066d342473082da1" kind="function"><name>sai_query_object_stage</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>This module defines SAI APIs for bulk retrieval for each object-type. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (c) 2014 Microsoft Open Technologies, Inc.</para>
+<para>Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <ulink url="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</ulink></para>
+<para>THIS CODE IS PROVIDED ON AN <emphasis>AS IS</emphasis> BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY OR NON-INFRINGEMENT.</para>
+<para>See the Apache Version 2.0 License for specific language governing permissions and limitations under the License.</para>
+<para>Microsoft would like to thank the following companies for their review and assistance with these files: Intel Corporation, Mellanox Technologies Ltd, Dell Products, L.P., Facebook, Inc., Marvell International Ltd. </para>
+    </detaileddescription>
+    <location file="/home/romanveskera/SAI/SAI/inc/saiobject.h"/>
+  </compounddef>
+</doxygen>

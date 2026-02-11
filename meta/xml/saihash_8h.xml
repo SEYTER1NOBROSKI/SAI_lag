@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="saihash_8h" kind="file" language="C++">
+    <compoundname>saihash.h</compoundname>
+    <includes refid="saitypes_8h" local="no">saitypes.h</includes>
+    <includedby refid="sai_8h" local="yes">/home/romanveskera/SAI/SAI/inc/sai.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/saihash.h</label>
+        <link refid="saihash_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>saitypes.h</label>
+        <link refid="saitypes_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>stdbool.h</label>
+      </node>
+      <node id="3">
+        <label>stdint.h</label>
+      </node>
+      <node id="5">
+        <label>sys/types.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiextensions.h</label>
+        <link refid="saiextensions_8h"/>
+      </node>
+      <node id="2">
+        <label>/home/romanveskera/SAI/SAI/inc/sai.h</label>
+        <link refid="sai_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/saihash.h</label>
+        <link refid="saihash_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct__sai__hash__api__t" prot="public">_sai_hash_api_t</innerclass>
+    <sectiondef kind="enum">
+      <member refid="group__SAIHASH_1gafcc31874ad58eb9d8c620352bd1e5b4e" kind="enum"><name>_sai_native_hash_field_t</name></member>
+      <member refid="group__SAIHASH_1gaa1ffe88ed319e0474cb6edf2a97c9d80" kind="enum"><name>_sai_fine_grained_hash_field_attr_t</name></member>
+      <member refid="group__SAIHASH_1gacf33b16b3be3be8e52293d3be67296f2" kind="enum"><name>_sai_hash_attr_t</name></member>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <member refid="group__SAIHASH_1gaff8f0a65800c12f553728c9f8fcef704" kind="typedef"><name>sai_native_hash_field_t</name></member>
+      <member refid="group__SAIHASH_1ga3da50c10dba98635dfc71a140ae201d2" kind="typedef"><name>sai_fine_grained_hash_field_attr_t</name></member>
+      <member refid="group__SAIHASH_1ga7d62d7c094e7d32960599359a5fd67d4" kind="typedef"><name>sai_hash_attr_t</name></member>
+      <member refid="group__SAIHASH_1ga06b8e8eb6fa591a6b0d6c51e6041ad1d" kind="typedef"><name>sai_create_fine_grained_hash_field_fn</name></member>
+      <member refid="group__SAIHASH_1gae2e75c15f6bb33d1c593f69b31ccd4fe" kind="typedef"><name>sai_remove_fine_grained_hash_field_fn</name></member>
+      <member refid="group__SAIHASH_1gaa606c1e9c2477f70564bd5305ec1340a" kind="typedef"><name>sai_set_fine_grained_hash_field_attribute_fn</name></member>
+      <member refid="group__SAIHASH_1ga44286035158127eb2b24c2e7acf0be77" kind="typedef"><name>sai_get_fine_grained_hash_field_attribute_fn</name></member>
+      <member refid="group__SAIHASH_1ga3c12c6e257eb324cebf98017fd8e7f16" kind="typedef"><name>sai_create_hash_fn</name></member>
+      <member refid="group__SAIHASH_1ga35ba3a63f1581d746de9b1e3077bffde" kind="typedef"><name>sai_remove_hash_fn</name></member>
+      <member refid="group__SAIHASH_1ga94474b63f95e3a96b936741bc8de13ac" kind="typedef"><name>sai_set_hash_attribute_fn</name></member>
+      <member refid="group__SAIHASH_1ga21201404b1915d0efe93ebedc1356d77" kind="typedef"><name>sai_get_hash_attribute_fn</name></member>
+      <member refid="group__SAIHASH_1ga829aaa874e78e9d7b7d0ee6cf19f6f40" kind="typedef"><name>sai_hash_api_t</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>This module defines SAI Hash interface. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (c) 2014 Microsoft Open Technologies, Inc.</para>
+<para>Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <ulink url="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</ulink></para>
+<para>THIS CODE IS PROVIDED ON AN <emphasis>AS IS</emphasis> BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY OR NON-INFRINGEMENT.</para>
+<para>See the Apache Version 2.0 License for specific language governing permissions and limitations under the License.</para>
+<para>Microsoft would like to thank the following companies for their review and assistance with these files: Intel Corporation, Mellanox Technologies Ltd, Dell Products, L.P., Facebook, Inc., Marvell International Ltd. </para>
+    </detaileddescription>
+    <location file="/home/romanveskera/SAI/SAI/inc/saihash.h"/>
+  </compounddef>
+</doxygen>

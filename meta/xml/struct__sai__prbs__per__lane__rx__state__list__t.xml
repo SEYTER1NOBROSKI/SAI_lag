@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="struct__sai__prbs__per__lane__rx__state__list__t" kind="struct" language="C++" prot="public">
+    <compoundname>_sai_prbs_per_lane_rx_state_list_t</compoundname>
+    <includes refid="saitypes_8h" local="no">saitypes.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__sai__prbs__per__lane__rx__state__list__t_1a350876762f47d406b20bdb5fb4ef16fd" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t _sai_prbs_per_lane_rx_state_list_t::count</definition>
+        <argsstring></argsstring>
+        <name>count</name>
+        <qualifiedname>_sai_prbs_per_lane_rx_state_list_t::count</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/romanveskera/SAI/SAI/inc/saitypes.h" line="553" column="14" bodyfile="/home/romanveskera/SAI/SAI/inc/saitypes.h" bodystart="553" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__sai__prbs__per__lane__rx__state__list__t_1a751c057b48eaa0a81f6b6f9f0754fa39" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__sai__prbs__per__lane__rx__state__t" kindref="compound">sai_prbs_per_lane_rx_state_t</ref> *</type>
+        <definition>sai_prbs_per_lane_rx_state_t* _sai_prbs_per_lane_rx_state_list_t::list</definition>
+        <argsstring></argsstring>
+        <name>list</name>
+        <qualifiedname>_sai_prbs_per_lane_rx_state_list_t::list</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/romanveskera/SAI/SAI/inc/saitypes.h" line="554" column="34" bodyfile="/home/romanveskera/SAI/SAI/inc/saitypes.h" bodystart="554" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Defines PRBS Rx states for list of all serdes lanes. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>_sai_prbs_per_lane_rx_state_list_t</label>
+        <link refid="struct__sai__prbs__per__lane__rx__state__list__t"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>list</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>_sai_prbs_per_lane_rx_state_t</label>
+        <link refid="struct__sai__prbs__per__lane__rx__state__t"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>rx_state</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>_sai_prbs_rx_state_t</label>
+        <link refid="struct__sai__prbs__rx__state__t"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/romanveskera/SAI/SAI/inc/saitypes.h" line="551" column="1" bodyfile="/home/romanveskera/SAI/SAI/inc/saitypes.h" bodystart="552" bodyend="555"/>
+    <listofallmembers>
+      <member refid="struct__sai__prbs__per__lane__rx__state__list__t_1a350876762f47d406b20bdb5fb4ef16fd" prot="public" virt="non-virtual"><scope>_sai_prbs_per_lane_rx_state_list_t</scope><name>count</name></member>
+      <member refid="struct__sai__prbs__per__lane__rx__state__list__t_1a751c057b48eaa0a81f6b6f9f0754fa39" prot="public" virt="non-virtual"><scope>_sai_prbs_per_lane_rx_state_list_t</scope><name>list</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

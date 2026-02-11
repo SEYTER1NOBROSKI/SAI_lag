@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="struct__sai__port__pam4__lane__eye__values__t" kind="struct" language="C++" prot="public">
+    <compoundname>_sai_port_pam4_lane_eye_values_t</compoundname>
+    <includes refid="saitypes_8h" local="no">saitypes.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__sai__port__pam4__lane__eye__values__t_1a56c8be482360bc5f274a0b2e7c2d7609" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t _sai_port_pam4_lane_eye_values_t::lane</definition>
+        <argsstring></argsstring>
+        <name>lane</name>
+        <qualifiedname>_sai_port_pam4_lane_eye_values_t::lane</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/romanveskera/SAI/SAI/inc/saitypes.h" line="1271" column="14" bodyfile="/home/romanveskera/SAI/SAI/inc/saitypes.h" bodystart="1271" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__sai__port__pam4__lane__eye__values__t_1a1e7f5fe56463c1e5cf4c7aae9188b4cc" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t _sai_port_pam4_lane_eye_values_t::upper_ht</definition>
+        <argsstring></argsstring>
+        <name>upper_ht</name>
+        <qualifiedname>_sai_port_pam4_lane_eye_values_t::upper_ht</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/romanveskera/SAI/SAI/inc/saitypes.h" line="1272" column="13" bodyfile="/home/romanveskera/SAI/SAI/inc/saitypes.h" bodystart="1272" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__sai__port__pam4__lane__eye__values__t_1aeee4766de2da3ae90a42ac3779dafd42" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t _sai_port_pam4_lane_eye_values_t::upper_wd</definition>
+        <argsstring></argsstring>
+        <name>upper_wd</name>
+        <qualifiedname>_sai_port_pam4_lane_eye_values_t::upper_wd</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/romanveskera/SAI/SAI/inc/saitypes.h" line="1273" column="13" bodyfile="/home/romanveskera/SAI/SAI/inc/saitypes.h" bodystart="1273" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__sai__port__pam4__lane__eye__values__t_1a1f6694fc290f74ee8b4838a5eeab669d" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t _sai_port_pam4_lane_eye_values_t::middle_ht</definition>
+        <argsstring></argsstring>
+        <name>middle_ht</name>
+        <qualifiedname>_sai_port_pam4_lane_eye_values_t::middle_ht</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/romanveskera/SAI/SAI/inc/saitypes.h" line="1274" column="13" bodyfile="/home/romanveskera/SAI/SAI/inc/saitypes.h" bodystart="1274" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__sai__port__pam4__lane__eye__values__t_1ad04e19cd153869d99a8ac55be8791410" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t _sai_port_pam4_lane_eye_values_t::middle_wd</definition>
+        <argsstring></argsstring>
+        <name>middle_wd</name>
+        <qualifiedname>_sai_port_pam4_lane_eye_values_t::middle_wd</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/romanveskera/SAI/SAI/inc/saitypes.h" line="1275" column="13" bodyfile="/home/romanveskera/SAI/SAI/inc/saitypes.h" bodystart="1275" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__sai__port__pam4__lane__eye__values__t_1ad902128d6d9b12fd7c3cde15c98167cf" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t _sai_port_pam4_lane_eye_values_t::lower_ht</definition>
+        <argsstring></argsstring>
+        <name>lower_ht</name>
+        <qualifiedname>_sai_port_pam4_lane_eye_values_t::lower_ht</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/romanveskera/SAI/SAI/inc/saitypes.h" line="1276" column="13" bodyfile="/home/romanveskera/SAI/SAI/inc/saitypes.h" bodystart="1276" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__sai__port__pam4__lane__eye__values__t_1a97d90e3c81906f721142be86aefd9ca5" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t _sai_port_pam4_lane_eye_values_t::lower_wd</definition>
+        <argsstring></argsstring>
+        <name>lower_wd</name>
+        <qualifiedname>_sai_port_pam4_lane_eye_values_t::lower_wd</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/romanveskera/SAI/SAI/inc/saitypes.h" line="1277" column="13" bodyfile="/home/romanveskera/SAI/SAI/inc/saitypes.h" bodystart="1277" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Defines the eye height and width for PAM4 SerDes lane height is in mV width is in psec. -1 means not available. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/romanveskera/SAI/SAI/inc/saitypes.h" line="1269" column="1" bodyfile="/home/romanveskera/SAI/SAI/inc/saitypes.h" bodystart="1270" bodyend="1278"/>
+    <listofallmembers>
+      <member refid="struct__sai__port__pam4__lane__eye__values__t_1a56c8be482360bc5f274a0b2e7c2d7609" prot="public" virt="non-virtual"><scope>_sai_port_pam4_lane_eye_values_t</scope><name>lane</name></member>
+      <member refid="struct__sai__port__pam4__lane__eye__values__t_1ad902128d6d9b12fd7c3cde15c98167cf" prot="public" virt="non-virtual"><scope>_sai_port_pam4_lane_eye_values_t</scope><name>lower_ht</name></member>
+      <member refid="struct__sai__port__pam4__lane__eye__values__t_1a97d90e3c81906f721142be86aefd9ca5" prot="public" virt="non-virtual"><scope>_sai_port_pam4_lane_eye_values_t</scope><name>lower_wd</name></member>
+      <member refid="struct__sai__port__pam4__lane__eye__values__t_1a1f6694fc290f74ee8b4838a5eeab669d" prot="public" virt="non-virtual"><scope>_sai_port_pam4_lane_eye_values_t</scope><name>middle_ht</name></member>
+      <member refid="struct__sai__port__pam4__lane__eye__values__t_1ad04e19cd153869d99a8ac55be8791410" prot="public" virt="non-virtual"><scope>_sai_port_pam4_lane_eye_values_t</scope><name>middle_wd</name></member>
+      <member refid="struct__sai__port__pam4__lane__eye__values__t_1a1e7f5fe56463c1e5cf4c7aae9188b4cc" prot="public" virt="non-virtual"><scope>_sai_port_pam4_lane_eye_values_t</scope><name>upper_ht</name></member>
+      <member refid="struct__sai__port__pam4__lane__eye__values__t_1aeee4766de2da3ae90a42ac3779dafd42" prot="public" virt="non-virtual"><scope>_sai_port_pam4_lane_eye_values_t</scope><name>upper_wd</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

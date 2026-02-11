@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="saiqueue_8h" kind="file" language="C++">
+    <compoundname>saiqueue.h</compoundname>
+    <includes refid="saitypes_8h" local="no">saitypes.h</includes>
+    <includedby refid="sai_8h" local="yes">/home/romanveskera/SAI/SAI/inc/sai.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/saiqueue.h</label>
+        <link refid="saiqueue_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>saitypes.h</label>
+        <link refid="saitypes_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>stdbool.h</label>
+      </node>
+      <node id="3">
+        <label>stdint.h</label>
+      </node>
+      <node id="5">
+        <label>sys/types.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiextensions.h</label>
+        <link refid="saiextensions_8h"/>
+      </node>
+      <node id="2">
+        <label>/home/romanveskera/SAI/SAI/inc/sai.h</label>
+        <link refid="sai_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/saiqueue.h</label>
+        <link refid="saiqueue_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct__sai__queue__deadlock__notification__data__t" prot="public">_sai_queue_deadlock_notification_data_t</innerclass>
+    <innerclass refid="struct__sai__queue__api__t" prot="public">_sai_queue_api_t</innerclass>
+    <sectiondef kind="enum">
+      <member refid="group__SAIQUEUE_1gad01a80a619ce999c5db4d67bc3ad5ee6" kind="enum"><name>_sai_queue_type_t</name></member>
+      <member refid="group__SAIQUEUE_1ga32940b117afe6d1052d5ae086967be41" kind="enum"><name>_sai_queue_pfc_continuous_deadlock_state_t</name></member>
+      <member refid="group__SAIQUEUE_1ga146e26930a20c603ae01ea2e906a9c56" kind="enum"><name>_sai_queue_attr_t</name></member>
+      <member refid="group__SAIQUEUE_1gac3390f8b4ca41069d3a319cbdc98b8f1" kind="enum"><name>_sai_queue_stat_t</name></member>
+      <member refid="group__SAIQUEUE_1ga02a08bb8ca0082195a208f1bd0b22eff" kind="enum"><name>_sai_queue_pfc_deadlock_event_type_t</name></member>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <member refid="group__SAIQUEUE_1ga01e87378e951226448167de3ccc7e842" kind="typedef"><name>sai_queue_type_t</name></member>
+      <member refid="group__SAIQUEUE_1ga2606621a2bad3ee549b8b6d15ea0a128" kind="typedef"><name>sai_queue_pfc_continuous_deadlock_state_t</name></member>
+      <member refid="group__SAIQUEUE_1ga45c78500990c4dd9c6b25e30a077a8bd" kind="typedef"><name>sai_queue_attr_t</name></member>
+      <member refid="group__SAIQUEUE_1ga03404a7d03eecb705f2a6c8d00cb53d5" kind="typedef"><name>sai_queue_stat_t</name></member>
+      <member refid="group__SAIQUEUE_1ga8284031415109bd4cd6deaa0b6adb7ca" kind="typedef"><name>sai_queue_pfc_deadlock_event_type_t</name></member>
+      <member refid="group__SAIQUEUE_1ga98387d700844bbb7980deac8326f9984" kind="typedef"><name>sai_queue_deadlock_notification_data_t</name></member>
+      <member refid="group__SAIQUEUE_1gab283805eac6fddfa765b9d1dbaf4910d" kind="typedef"><name>sai_create_queue_fn</name></member>
+      <member refid="group__SAIQUEUE_1gaefa1034c4469b4088122b248b3996c67" kind="typedef"><name>sai_remove_queue_fn</name></member>
+      <member refid="group__SAIQUEUE_1ga478b30c829397fa54acd4cc40cf9cec3" kind="typedef"><name>sai_set_queue_attribute_fn</name></member>
+      <member refid="group__SAIQUEUE_1gaca61ffc65fa57d565ab94b9ebfe7a466" kind="typedef"><name>sai_get_queue_attribute_fn</name></member>
+      <member refid="group__SAIQUEUE_1gaf54effb9e8e591b9861b4116103f1cc9" kind="typedef"><name>sai_get_queue_stats_fn</name></member>
+      <member refid="group__SAIQUEUE_1gafcda31b800d962d8df2e3dda6ef82411" kind="typedef"><name>sai_get_queue_stats_ext_fn</name></member>
+      <member refid="group__SAIQUEUE_1ga9a68f1ef0e90c019b1e31f3641356b20" kind="typedef"><name>sai_clear_queue_stats_fn</name></member>
+      <member refid="group__SAIQUEUE_1gaf753c0e5c329d0f12d0f9210c26c9c69" kind="typedef"><name>sai_queue_pfc_deadlock_notification_fn</name></member>
+      <member refid="group__SAIQUEUE_1gaa339695b6897b8fa16f2b5e1b7112666" kind="typedef"><name>sai_queue_api_t</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>This module defines SAI QOS Queue interface. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (c) 2014 Microsoft Open Technologies, Inc.</para>
+<para>Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <ulink url="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</ulink></para>
+<para>THIS CODE IS PROVIDED ON AN <emphasis>AS IS</emphasis> BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY OR NON-INFRINGEMENT.</para>
+<para>See the Apache Version 2.0 License for specific language governing permissions and limitations under the License.</para>
+<para>Microsoft would like to thank the following companies for their review and assistance with these files: Intel Corporation, Mellanox Technologies Ltd, Dell Products, L.P., Facebook, Inc., Marvell International Ltd. </para>
+    </detaileddescription>
+    <location file="/home/romanveskera/SAI/SAI/inc/saiqueue.h"/>
+  </compounddef>
+</doxygen>

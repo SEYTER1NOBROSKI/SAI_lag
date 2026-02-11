@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="saiprefixcompression_8h" kind="file" language="C++">
+    <compoundname>saiprefixcompression.h</compoundname>
+    <includes refid="saitypes_8h" local="no">saitypes.h</includes>
+    <includedby refid="saiobject_8h" local="no">/home/romanveskera/SAI/SAI/inc/saiobject.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/saiprefixcompression.h</label>
+        <link refid="saiprefixcompression_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>saitypes.h</label>
+        <link refid="saitypes_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>stdbool.h</label>
+      </node>
+      <node id="3">
+        <label>stdint.h</label>
+      </node>
+      <node id="5">
+        <label>sys/types.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="4">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiextensions.h</label>
+        <link refid="saiextensions_8h"/>
+      </node>
+      <node id="3">
+        <label>/home/romanveskera/SAI/SAI/inc/sai.h</label>
+        <link refid="sai_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>/home/romanveskera/SAI/SAI/inc/saiobject.h</label>
+        <link refid="saiobject_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/saiprefixcompression.h</label>
+        <link refid="saiprefixcompression_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct__sai__prefix__compression__entry__t" prot="public">_sai_prefix_compression_entry_t</innerclass>
+    <innerclass refid="struct__sai__prefix__compression__api__t" prot="public">_sai_prefix_compression_api_t</innerclass>
+    <sectiondef kind="enum">
+      <member refid="group__SAIPREFIXCOMPRESSION_1ga24876548b86434536ff31c544d2d9a68" kind="enum"><name>_sai_prefix_compression_table_attr_t</name></member>
+      <member refid="group__SAIPREFIXCOMPRESSION_1ga942af4bd00009450e160459b4e704d11" kind="enum"><name>_sai_prefix_compression_entry_attr_t</name></member>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <member refid="group__SAIPREFIXCOMPRESSION_1ga838ad107edcbbc3d0edef8a72be726c5" kind="typedef"><name>sai_prefix_compression_table_attr_t</name></member>
+      <member refid="group__SAIPREFIXCOMPRESSION_1gacf0cf9bfbf0e21ceb754cff2e19e8fd7" kind="typedef"><name>sai_prefix_compression_entry_attr_t</name></member>
+      <member refid="group__SAIPREFIXCOMPRESSION_1ga1bdb09b8283c16db0ce6371d33707071" kind="typedef"><name>sai_prefix_compression_entry_t</name></member>
+      <member refid="group__SAIPREFIXCOMPRESSION_1ga49ace38aa764db6628704c1a54450efc" kind="typedef"><name>sai_create_prefix_compression_table_fn</name></member>
+      <member refid="group__SAIPREFIXCOMPRESSION_1gac46d7c79b15e249be5141cb5808a97ef" kind="typedef"><name>sai_remove_prefix_compression_table_fn</name></member>
+      <member refid="group__SAIPREFIXCOMPRESSION_1ga860b5d43a4197b1c6b7fb40e4f43d683" kind="typedef"><name>sai_set_prefix_compression_table_attribute_fn</name></member>
+      <member refid="group__SAIPREFIXCOMPRESSION_1ga66abeaffc609c3be89f3167ff4ffac66" kind="typedef"><name>sai_get_prefix_compression_table_attribute_fn</name></member>
+      <member refid="group__SAIPREFIXCOMPRESSION_1ga6d368dd829df9e6716cd62ff318df5f6" kind="typedef"><name>sai_create_prefix_compression_entry_fn</name></member>
+      <member refid="group__SAIPREFIXCOMPRESSION_1gafed790616bc90e22f7bed402910dab60" kind="typedef"><name>sai_remove_prefix_compression_entry_fn</name></member>
+      <member refid="group__SAIPREFIXCOMPRESSION_1gaf5699d0af1cc62fc6295c0ab17935ee9" kind="typedef"><name>sai_set_prefix_compression_entry_attribute_fn</name></member>
+      <member refid="group__SAIPREFIXCOMPRESSION_1gad0f0bf575e44c2ca91b93c1cfe58b0fc" kind="typedef"><name>sai_get_prefix_compression_entry_attribute_fn</name></member>
+      <member refid="group__SAIPREFIXCOMPRESSION_1ga371f0e35b38f4ce16106db57b99f369a" kind="typedef"><name>sai_bulk_create_prefix_compression_entry_fn</name></member>
+      <member refid="group__SAIPREFIXCOMPRESSION_1ga193679bdd60e2219b29b6ce632b90bdc" kind="typedef"><name>sai_bulk_remove_prefix_compression_entry_fn</name></member>
+      <member refid="group__SAIPREFIXCOMPRESSION_1ga7f3080791d0deadc25a794698e0cf1d0" kind="typedef"><name>sai_prefix_compression_api_t</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>This module defines SAI prefix compression interface. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (c) 2024 Microsoft Open Technologies, Inc.</para>
+<para>Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <ulink url="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</ulink></para>
+<para>THIS CODE IS PROVIDED ON AN <emphasis>AS IS</emphasis> BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY OR NON-INFRINGEMENT.</para>
+<para>See the Apache Version 2.0 License for specific language governing permissions and limitations under the License.</para>
+<para>Microsoft would like to thank the following companies for their review and assistance with these files: Intel Corporation, Mellanox Technologies Ltd, Dell Products, L.P., Facebook, Inc., Marvell International Ltd. </para>
+    </detaileddescription>
+    <location file="/home/romanveskera/SAI/SAI/inc/saiprefixcompression.h"/>
+  </compounddef>
+</doxygen>

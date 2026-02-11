@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="saineighbor_8h" kind="file" language="C++">
+    <compoundname>saineighbor.h</compoundname>
+    <includes refid="saitypes_8h" local="no">saitypes.h</includes>
+    <includedby refid="sai_8h" local="yes">/home/romanveskera/SAI/SAI/inc/sai.h</includedby>
+    <includedby refid="saiobject_8h" local="no">/home/romanveskera/SAI/SAI/inc/saiobject.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/saineighbor.h</label>
+        <link refid="saineighbor_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>saitypes.h</label>
+        <link refid="saitypes_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>stdbool.h</label>
+      </node>
+      <node id="3">
+        <label>stdint.h</label>
+      </node>
+      <node id="5">
+        <label>sys/types.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiextensions.h</label>
+        <link refid="saiextensions_8h"/>
+      </node>
+      <node id="2">
+        <label>/home/romanveskera/SAI/SAI/inc/sai.h</label>
+        <link refid="sai_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/saineighbor.h</label>
+        <link refid="saineighbor_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>/home/romanveskera/SAI/SAI/inc/saiobject.h</label>
+        <link refid="saiobject_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct__sai__neighbor__entry__t" prot="public">_sai_neighbor_entry_t</innerclass>
+    <innerclass refid="struct__sai__neighbor__api__t" prot="public">_sai_neighbor_api_t</innerclass>
+    <sectiondef kind="enum">
+      <member refid="group__SAINEIGHBOR_1gaae5e1a835bf95e5dab9f146c57b07e78" kind="enum"><name>_sai_neighbor_entry_attr_t</name></member>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <member refid="group__SAINEIGHBOR_1ga52bb2cce3f96c12364d9fb2a5786be3e" kind="typedef"><name>sai_neighbor_entry_attr_t</name></member>
+      <member refid="group__SAINEIGHBOR_1gae1e8d0aa64419b76dd3c72a26207cb0c" kind="typedef"><name>sai_neighbor_entry_t</name></member>
+      <member refid="group__SAINEIGHBOR_1ga8e179b3fad2059f9edecab19e82583d8" kind="typedef"><name>sai_create_neighbor_entry_fn</name></member>
+      <member refid="group__SAINEIGHBOR_1ga920277ac5c74cc1f7d3759688dd678a4" kind="typedef"><name>sai_remove_neighbor_entry_fn</name></member>
+      <member refid="group__SAINEIGHBOR_1gadb84f46515359209d22ce4bfd6e49266" kind="typedef"><name>sai_set_neighbor_entry_attribute_fn</name></member>
+      <member refid="group__SAINEIGHBOR_1ga33896dfb5183f3fdc6d0746c5433b684" kind="typedef"><name>sai_get_neighbor_entry_attribute_fn</name></member>
+      <member refid="group__SAINEIGHBOR_1ga67f0ac85a18c7e93e19e69f10ac4da9c" kind="typedef"><name>sai_remove_all_neighbor_entries_fn</name></member>
+      <member refid="group__SAINEIGHBOR_1gacf556ad5f5983341d513714ce0a6913a" kind="typedef"><name>sai_bulk_create_neighbor_entry_fn</name></member>
+      <member refid="group__SAINEIGHBOR_1gae8d5c8edb9a2db7c5c33447745805ef2" kind="typedef"><name>sai_bulk_remove_neighbor_entry_fn</name></member>
+      <member refid="group__SAINEIGHBOR_1ga186853169c011e62894fff60d649ca37" kind="typedef"><name>sai_bulk_set_neighbor_entry_attribute_fn</name></member>
+      <member refid="group__SAINEIGHBOR_1ga115cd51d215f2aa3c5feee32fabaf9ce" kind="typedef"><name>sai_bulk_get_neighbor_entry_attribute_fn</name></member>
+      <member refid="group__SAINEIGHBOR_1gaba7f653459431779a87a79c178b70163" kind="typedef"><name>sai_neighbor_api_t</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>This module defines SAI Neighbor interface. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (c) 2014 Microsoft Open Technologies, Inc.</para>
+<para>Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <ulink url="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</ulink></para>
+<para>THIS CODE IS PROVIDED ON AN <emphasis>AS IS</emphasis> BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY OR NON-INFRINGEMENT.</para>
+<para>See the Apache Version 2.0 License for specific language governing permissions and limitations under the License.</para>
+<para>Microsoft would like to thank the following companies for their review and assistance with these files: Intel Corporation, Mellanox Technologies Ltd, Dell Products, L.P., Facebook, Inc., Marvell International Ltd.</para>
+<para><simplesect kind="par"><title>Abstract</title><para></para>
+</simplesect>
+This module defines SAI neighbor table API The table contains both IPv4 and IPv6 neighbors </para>
+    </detaileddescription>
+    <location file="/home/romanveskera/SAI/SAI/inc/saineighbor.h"/>
+  </compounddef>
+</doxygen>

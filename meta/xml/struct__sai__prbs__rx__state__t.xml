@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="struct__sai__prbs__rx__state__t" kind="struct" language="C++" prot="public">
+    <compoundname>_sai_prbs_rx_state_t</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__sai__prbs__rx__state__t_1a144516894a7a028d4d64ba24759bde73" prot="public" static="no" mutable="no">
+        <type><ref refid="group__SAITYPES_1ga8a88e3aa9bb5d0cef987d796e8343b49" kindref="member">sai_port_prbs_rx_status_t</ref></type>
+        <definition>sai_port_prbs_rx_status_t _sai_prbs_rx_state_t::rx_status</definition>
+        <argsstring></argsstring>
+        <name>rx_status</name>
+        <qualifiedname>_sai_prbs_rx_state_t::rx_status</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/romanveskera/SAI/SAI/inc/saitypes.h" line="492" column="31" bodyfile="/home/romanveskera/SAI/SAI/inc/saitypes.h" bodystart="492" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__sai__prbs__rx__state__t_1ad1351f1f90e3263df0d9dbd34ab05bc5" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t _sai_prbs_rx_state_t::error_count</definition>
+        <argsstring></argsstring>
+        <name>error_count</name>
+        <qualifiedname>_sai_prbs_rx_state_t::error_count</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/romanveskera/SAI/SAI/inc/saitypes.h" line="494" column="14" bodyfile="/home/romanveskera/SAI/SAI/inc/saitypes.h" bodystart="494" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/romanveskera/SAI/SAI/inc/saitypes.h" line="490" column="1" bodyfile="/home/romanveskera/SAI/SAI/inc/saitypes.h" bodystart="491" bodyend="495"/>
+    <listofallmembers>
+      <member refid="struct__sai__prbs__rx__state__t_1ad1351f1f90e3263df0d9dbd34ab05bc5" prot="public" virt="non-virtual"><scope>_sai_prbs_rx_state_t</scope><name>error_count</name></member>
+      <member refid="struct__sai__prbs__rx__state__t_1a144516894a7a028d4d64ba24759bde73" prot="public" virt="non-virtual"><scope>_sai_prbs_rx_state_t</scope><name>rx_status</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

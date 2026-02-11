@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="saifdb_8h" kind="file" language="C++">
+    <compoundname>saifdb.h</compoundname>
+    <includes refid="saitypes_8h" local="no">saitypes.h</includes>
+    <includedby refid="sai_8h" local="yes">/home/romanveskera/SAI/SAI/inc/sai.h</includedby>
+    <includedby refid="saiobject_8h" local="no">/home/romanveskera/SAI/SAI/inc/saiobject.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/saifdb.h</label>
+        <link refid="saifdb_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>saitypes.h</label>
+        <link refid="saitypes_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>stdbool.h</label>
+      </node>
+      <node id="3">
+        <label>stdint.h</label>
+      </node>
+      <node id="5">
+        <label>sys/types.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiextensions.h</label>
+        <link refid="saiextensions_8h"/>
+      </node>
+      <node id="2">
+        <label>/home/romanveskera/SAI/SAI/inc/sai.h</label>
+        <link refid="sai_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/saifdb.h</label>
+        <link refid="saifdb_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>/home/romanveskera/SAI/SAI/inc/saiobject.h</label>
+        <link refid="saiobject_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct__sai__fdb__entry__t" prot="public">_sai_fdb_entry_t</innerclass>
+    <innerclass refid="struct__sai__fdb__event__notification__data__t" prot="public">_sai_fdb_event_notification_data_t</innerclass>
+    <innerclass refid="struct__sai__fdb__api__t" prot="public">_sai_fdb_api_t</innerclass>
+    <sectiondef kind="enum">
+      <member refid="group__SAIFDB_1gacdd4898fb2761ce311a2453aec91b623" kind="enum"><name>_sai_fdb_entry_type_t</name></member>
+      <member refid="group__SAIFDB_1gade05c575f81b331577f6f4d40ff23232" kind="enum"><name>_sai_fdb_event_t</name></member>
+      <member refid="group__SAIFDB_1gaf297f72d5b2b9d94b0d6a0d5584adf4e" kind="enum"><name>_sai_fdb_entry_attr_t</name></member>
+      <member refid="group__SAIFDB_1ga3308895befe9f991ec1dbed9445c7b9c" kind="enum"><name>_sai_fdb_flush_entry_type_t</name></member>
+      <member refid="group__SAIFDB_1ga8496d67b431969142a58d24a6f566fdf" kind="enum"><name>_sai_fdb_flush_attr_t</name></member>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <member refid="group__SAIFDB_1ga9c584445a4c94f7df3df394fe2668731" kind="typedef"><name>sai_fdb_entry_type_t</name></member>
+      <member refid="group__SAIFDB_1ga91dcf517f2145e149a0bb47a142b8db7" kind="typedef"><name>sai_fdb_entry_t</name></member>
+      <member refid="group__SAIFDB_1ga84b4bd646344f7737354884147cfde56" kind="typedef"><name>sai_fdb_event_t</name></member>
+      <member refid="group__SAIFDB_1ga6644234783ed5d9f0e485b406f6917ae" kind="typedef"><name>sai_fdb_entry_attr_t</name></member>
+      <member refid="group__SAIFDB_1gaa5692fcc8c99ffafd075d43a1a43518d" kind="typedef"><name>sai_fdb_flush_entry_type_t</name></member>
+      <member refid="group__SAIFDB_1gaf39922b309ac3436794635e735fa5805" kind="typedef"><name>sai_fdb_flush_attr_t</name></member>
+      <member refid="group__SAIFDB_1ga9fafd9ff6e1295bb80527f68ab25a593" kind="typedef"><name>sai_fdb_event_notification_data_t</name></member>
+      <member refid="group__SAIFDB_1gaf47179831c492b63f825f3be251d6ff0" kind="typedef"><name>sai_create_fdb_entry_fn</name></member>
+      <member refid="group__SAIFDB_1ga955401f2e2ffc6d6ba0943136dd74f95" kind="typedef"><name>sai_remove_fdb_entry_fn</name></member>
+      <member refid="group__SAIFDB_1ga1a0eef72d436d2b15a1f98e8c2dc245f" kind="typedef"><name>sai_set_fdb_entry_attribute_fn</name></member>
+      <member refid="group__SAIFDB_1ga92cd93632d840307a9ca483c8001ae37" kind="typedef"><name>sai_get_fdb_entry_attribute_fn</name></member>
+      <member refid="group__SAIFDB_1gae11a660ad91d41aa0867f355deb9d4b6" kind="typedef"><name>sai_flush_fdb_entries_fn</name></member>
+      <member refid="group__SAIFDB_1gaf2acd2e293c2d9ae6ed98ca649b95c91" kind="typedef"><name>sai_fdb_event_notification_fn</name></member>
+      <member refid="group__SAIFDB_1ga4a60a6a6e2db9eefea68e8f1aae405d0" kind="typedef"><name>sai_bulk_create_fdb_entry_fn</name></member>
+      <member refid="group__SAIFDB_1ga052f072f12926d996508f23ecb3b91ca" kind="typedef"><name>sai_bulk_remove_fdb_entry_fn</name></member>
+      <member refid="group__SAIFDB_1gad37f5f050b61b990364663e94851e7a5" kind="typedef"><name>sai_bulk_set_fdb_entry_attribute_fn</name></member>
+      <member refid="group__SAIFDB_1ga856c65861ed30b254da8c6048d58eb89" kind="typedef"><name>sai_bulk_get_fdb_entry_attribute_fn</name></member>
+      <member refid="group__SAIFDB_1ga499680a81f6d80249d3ffe51d4e1d1eb" kind="typedef"><name>sai_fdb_api_t</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>This module defines SAI FDB interface. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (c) 2014 Microsoft Open Technologies, Inc.</para>
+<para>Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <ulink url="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</ulink></para>
+<para>THIS CODE IS PROVIDED ON AN <emphasis>AS IS</emphasis> BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY OR NON-INFRINGEMENT.</para>
+<para>See the Apache Version 2.0 License for specific language governing permissions and limitations under the License.</para>
+<para>Microsoft would like to thank the following companies for their review and assistance with these files: Intel Corporation, Mellanox Technologies Ltd, Dell Products, L.P., Facebook, Inc., Marvell International Ltd. </para>
+    </detaileddescription>
+    <location file="/home/romanveskera/SAI/SAI/inc/saifdb.h"/>
+  </compounddef>
+</doxygen>

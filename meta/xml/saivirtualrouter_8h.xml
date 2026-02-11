@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="saivirtualrouter_8h" kind="file" language="C++">
+    <compoundname>saivirtualrouter.h</compoundname>
+    <includes refid="saitypes_8h" local="no">saitypes.h</includes>
+    <includedby refid="sai_8h" local="yes">/home/romanveskera/SAI/SAI/inc/sai.h</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>saitypes.h</label>
+        <link refid="saitypes_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/saivirtualrouter.h</label>
+        <link refid="saivirtualrouter_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>stdbool.h</label>
+      </node>
+      <node id="3">
+        <label>stdint.h</label>
+      </node>
+      <node id="5">
+        <label>sys/types.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiextensions.h</label>
+        <link refid="saiextensions_8h"/>
+      </node>
+      <node id="2">
+        <label>/home/romanveskera/SAI/SAI/inc/sai.h</label>
+        <link refid="sai_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/saivirtualrouter.h</label>
+        <link refid="saivirtualrouter_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct__sai__virtual__router__api__t" prot="public">_sai_virtual_router_api_t</innerclass>
+    <sectiondef kind="enum">
+      <member refid="group__SAIROUTER_1ga8cf0cd9569ee13bb720da7ba07ac5dba" kind="enum"><name>_sai_virtual_router_attr_t</name></member>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <member refid="group__SAIROUTER_1ga83480c5a6a2de9fba16d0f934382e979" kind="typedef"><name>sai_virtual_router_attr_t</name></member>
+      <member refid="group__SAIROUTER_1gabaa7380afb3f169a097c98b8147d69e7" kind="typedef"><name>sai_create_virtual_router_fn</name></member>
+      <member refid="group__SAIROUTER_1gafc88ee5b13b69d2d74abc6fc8c9b3656" kind="typedef"><name>sai_remove_virtual_router_fn</name></member>
+      <member refid="group__SAIROUTER_1gaaeb6e970d5094967a6197b5c174244df" kind="typedef"><name>sai_set_virtual_router_attribute_fn</name></member>
+      <member refid="group__SAIROUTER_1ga6ed6d5f830e4f58c7e55ae5dea331945" kind="typedef"><name>sai_get_virtual_router_attribute_fn</name></member>
+      <member refid="group__SAIROUTER_1ga05ab282b8b3504316b55d33aad54a2c4" kind="typedef"><name>sai_virtual_router_api_t</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>This module defines SAI Virtual Router interface. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (c) 2014 Microsoft Open Technologies, Inc.</para>
+<para>Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <ulink url="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</ulink></para>
+<para>THIS CODE IS PROVIDED ON AN <emphasis>AS IS</emphasis> BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY OR NON-INFRINGEMENT.</para>
+<para>See the Apache Version 2.0 License for specific language governing permissions and limitations under the License.</para>
+<para>Microsoft would like to thank the following companies for their review and assistance with these files: Intel Corporation, Mellanox Technologies Ltd, Dell Products, L.P., Facebook, Inc., Marvell International Ltd.</para>
+<para><simplesect kind="par"><title>Abstract</title><para></para>
+</simplesect>
+This module defines SAI Virtual Router (VR) API. Virtual Router should allow VRFs at a minimum, VRRP functionality is considered. </para>
+    </detaileddescription>
+    <location file="/home/romanveskera/SAI/SAI/inc/saivirtualrouter.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="saimetadatalogger_8h" kind="file" language="C++">
+    <compoundname>saimetadatalogger.h</compoundname>
+    <sectiondef kind="define">
+      <member refid="group__SAIMETADATALOGGER_1gaf3bc595f81ce05d447a257c954a9bda0" kind="define"><name>SAI_META_LOG</name></member>
+      <member refid="group__SAIMETADATALOGGER_1ga74be3a301e9ff863bea920c5bf4e3112" kind="define"><name>SAI_META_LOG_ENTER</name></member>
+      <member refid="group__SAIMETADATALOGGER_1ga03cadb6967bc27942a75882ad564d619" kind="define"><name>SAI_META_LOG_DEBUG</name></member>
+      <member refid="group__SAIMETADATALOGGER_1ga4b45464839a006db5a92e5ecfcb06e2d" kind="define"><name>SAI_META_LOG_INFO</name></member>
+      <member refid="group__SAIMETADATALOGGER_1ga4a6869765251e8156f25cfc9b7e911c5" kind="define"><name>SAI_META_LOG_NOTICE</name></member>
+      <member refid="group__SAIMETADATALOGGER_1ga5728f49d1ba30ba8c99d6a1d1990ecd4" kind="define"><name>SAI_META_LOG_WARN</name></member>
+      <member refid="group__SAIMETADATALOGGER_1ga8a9ccf07a49a813f30021f6104c1f0f5" kind="define"><name>SAI_META_LOG_ERROR</name></member>
+      <member refid="group__SAIMETADATALOGGER_1gafb5f3391e6a4ebb0eac15d56ac4c8228" kind="define"><name>SAI_META_LOG_CRITICAL</name></member>
+      <member refid="group__SAIMETADATALOGGER_1gacd81b24b2cc572bebef0edbaffea513d" kind="define"><name>SAI_META_LOG_EXIT</name></member>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <member refid="group__SAIMETADATALOGGER_1ga3c841dc2e07b5fc6f2fedccd4696ec29" kind="typedef"><name>sai_metadata_log_fn</name></member>
+    </sectiondef>
+    <sectiondef kind="var">
+      <member refid="group__SAIMETADATALOGGER_1ga29c3188e453e38d28e0b9d9ee5f8f96d" kind="variable"><name>sai_metadata_log</name></member>
+      <member refid="group__SAIMETADATALOGGER_1ga4be62560bd9cc056ff81146c2cbbbc5c" kind="variable"><name>sai_metadata_log_level</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>This module defines SAI Metadata Logger. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (c) 2014 Microsoft Open Technologies, Inc.</para>
+<para>Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <ulink url="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</ulink></para>
+<para>THIS CODE IS PROVIDED ON AN <emphasis>AS IS</emphasis> BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY OR NON-INFRINGEMENT.</para>
+<para>See the Apache Version 2.0 License for specific language governing permissions and limitations under the License.</para>
+<para>Microsoft would like to thank the following companies for their review and assistance with these files: Intel Corporation, Mellanox Technologies Ltd, Dell Products, L.P., Facebook, Inc., Marvell International Ltd. </para>
+    </detaileddescription>
+    <location file="saimetadatalogger.h"/>
+  </compounddef>
+</doxygen>

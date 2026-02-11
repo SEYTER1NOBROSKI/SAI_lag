@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="saischedulergroup_8h" kind="file" language="C++">
+    <compoundname>saischedulergroup.h</compoundname>
+    <includes refid="saitypes_8h" local="no">saitypes.h</includes>
+    <includedby refid="sai_8h" local="yes">/home/romanveskera/SAI/SAI/inc/sai.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/saischedulergroup.h</label>
+        <link refid="saischedulergroup_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>saitypes.h</label>
+        <link refid="saitypes_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>stdbool.h</label>
+      </node>
+      <node id="3">
+        <label>stdint.h</label>
+      </node>
+      <node id="5">
+        <label>sys/types.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiextensions.h</label>
+        <link refid="saiextensions_8h"/>
+      </node>
+      <node id="2">
+        <label>/home/romanveskera/SAI/SAI/inc/sai.h</label>
+        <link refid="sai_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/saischedulergroup.h</label>
+        <link refid="saischedulergroup_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct__sai__scheduler__group__api__t" prot="public">_sai_scheduler_group_api_t</innerclass>
+    <sectiondef kind="enum">
+      <member refid="group__SAISCHEDULERGROUP_1ga3a2980fde4379410ccaed608442d2d60" kind="enum"><name>_sai_scheduler_group_attr_t</name></member>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <member refid="group__SAISCHEDULERGROUP_1gafc1a5b9478b7b62277e8a994be51577f" kind="typedef"><name>sai_scheduler_group_attr_t</name></member>
+      <member refid="group__SAISCHEDULERGROUP_1gabae94cc079343cd77d6640111109f004" kind="typedef"><name>sai_create_scheduler_group_fn</name></member>
+      <member refid="group__SAISCHEDULERGROUP_1gad8a2728bb39960f8a72bf2bdfd64a2fc" kind="typedef"><name>sai_remove_scheduler_group_fn</name></member>
+      <member refid="group__SAISCHEDULERGROUP_1ga4cbabbd389a25f5682ba8d2864b0cb2f" kind="typedef"><name>sai_set_scheduler_group_attribute_fn</name></member>
+      <member refid="group__SAISCHEDULERGROUP_1gaf8905b725a210a5e7079eace071af4c5" kind="typedef"><name>sai_get_scheduler_group_attribute_fn</name></member>
+      <member refid="group__SAISCHEDULERGROUP_1gafd3daa10e93228122f9a89726248cb8a" kind="typedef"><name>sai_scheduler_group_api_t</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>This module defines SAI QOS Scheduler Group interface. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (c) 2014 Microsoft Open Technologies, Inc.</para>
+<para>Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <ulink url="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</ulink></para>
+<para>THIS CODE IS PROVIDED ON AN <emphasis>AS IS</emphasis> BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY OR NON-INFRINGEMENT.</para>
+<para>See the Apache Version 2.0 License for specific language governing permissions and limitations under the License.</para>
+<para>Microsoft would like to thank the following companies for their review and assistance with these files: Intel Corporation, Mellanox Technologies Ltd, Dell Products, L.P., Facebook, Inc., Marvell International Ltd. </para>
+    </detaileddescription>
+    <location file="/home/romanveskera/SAI/SAI/inc/saischedulergroup.h"/>
+  </compounddef>
+</doxygen>

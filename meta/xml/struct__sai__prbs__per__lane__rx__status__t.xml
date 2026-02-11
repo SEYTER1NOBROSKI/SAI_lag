@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="struct__sai__prbs__per__lane__rx__status__t" kind="struct" language="C++" prot="public">
+    <compoundname>_sai_prbs_per_lane_rx_status_t</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__sai__prbs__per__lane__rx__status__t_1a2d2c697613dcd8c7bb1a6a7b8f5b2587" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t _sai_prbs_per_lane_rx_status_t::lane</definition>
+        <argsstring></argsstring>
+        <name>lane</name>
+        <qualifiedname>_sai_prbs_per_lane_rx_status_t::lane</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/romanveskera/SAI/SAI/inc/saitypes.h" line="480" column="14" bodyfile="/home/romanveskera/SAI/SAI/inc/saitypes.h" bodystart="480" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__sai__prbs__per__lane__rx__status__t_1a3625afb3c1664f73d36b7eee428cfd60" prot="public" static="no" mutable="no">
+        <type><ref refid="group__SAITYPES_1ga8a88e3aa9bb5d0cef987d796e8343b49" kindref="member">sai_port_prbs_rx_status_t</ref></type>
+        <definition>sai_port_prbs_rx_status_t _sai_prbs_per_lane_rx_status_t::rx_status</definition>
+        <argsstring></argsstring>
+        <name>rx_status</name>
+        <qualifiedname>_sai_prbs_per_lane_rx_status_t::rx_status</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/romanveskera/SAI/SAI/inc/saitypes.h" line="481" column="31" bodyfile="/home/romanveskera/SAI/SAI/inc/saitypes.h" bodystart="481" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/romanveskera/SAI/SAI/inc/saitypes.h" line="478" column="1" bodyfile="/home/romanveskera/SAI/SAI/inc/saitypes.h" bodystart="479" bodyend="482"/>
+    <listofallmembers>
+      <member refid="struct__sai__prbs__per__lane__rx__status__t_1a2d2c697613dcd8c7bb1a6a7b8f5b2587" prot="public" virt="non-virtual"><scope>_sai_prbs_per_lane_rx_status_t</scope><name>lane</name></member>
+      <member refid="struct__sai__prbs__per__lane__rx__status__t_1a3625afb3c1664f73d36b7eee428cfd60" prot="public" virt="non-virtual"><scope>_sai_prbs_per_lane_rx_status_t</scope><name>rx_status</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

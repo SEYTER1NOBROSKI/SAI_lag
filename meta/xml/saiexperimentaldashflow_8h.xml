@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="saiexperimentaldashflow_8h" kind="file" language="C++">
+    <compoundname>saiexperimentaldashflow.h</compoundname>
+    <includes refid="saitypesextensions_8h" local="no">saitypesextensions.h</includes>
+    <includedby refid="saiextensions_8h" local="yes">/home/romanveskera/SAI/SAI/experimental/saiextensions.h</includedby>
+    <includedby refid="saiswitchextensions_8h" local="no">/home/romanveskera/SAI/SAI/experimental/saiswitchextensions.h</includedby>
+    <includedby refid="saiobject_8h" local="no">/home/romanveskera/SAI/SAI/inc/saiobject.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashflow.h</label>
+        <link refid="saiexperimentaldashflow_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>saitypesextensions.h</label>
+        <link refid="saitypesextensions_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>saitypes.h</label>
+        <link refid="saitypes_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stdint.h</label>
+      </node>
+      <node id="6">
+        <label>sys/types.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashflow.h</label>
+        <link refid="saiexperimentaldashflow_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiextensions.h</label>
+        <link refid="saiextensions_8h"/>
+      </node>
+      <node id="3">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiswitchextensions.h</label>
+        <link refid="saiswitchextensions_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>/home/romanveskera/SAI/SAI/inc/sai.h</label>
+        <link refid="sai_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>/home/romanveskera/SAI/SAI/inc/saiobject.h</label>
+        <link refid="saiobject_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct__sai__flow__entry__t" prot="public">_sai_flow_entry_t</innerclass>
+    <innerclass refid="struct__sai__dash__flow__api__t" prot="public">_sai_dash_flow_api_t</innerclass>
+    <sectiondef kind="enum">
+      <member refid="group__SAIEXPERIMENTALDASHFLOW_1gafff5a04504c41ecfa3deba619d8fb9e2" kind="enum"><name>_sai_flow_entry_action_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHFLOW_1gae610099568236ce31ea4963fa6bae145" kind="enum"><name>_sai_flow_table_attr_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHFLOW_1ga435aa57324d95a20c5e5045eabb9180f" kind="enum"><name>_sai_flow_entry_attr_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHFLOW_1ga1e4b387b8ee8ed42a606e0b4e96dd3c7" kind="enum"><name>_sai_flow_entry_bulk_get_session_filter_attr_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHFLOW_1ga0346ffc4d20e71d16a7b44ad40fc101f" kind="enum"><name>_sai_flow_entry_bulk_get_session_attr_t</name></member>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <member refid="group__SAIEXPERIMENTALDASHFLOW_1gaf859d1ba328e6d0b538388c60d0042cf" kind="typedef"><name>sai_flow_entry_action_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHFLOW_1ga86b48dec7d5b692d0e8273e945fac8b7" kind="typedef"><name>sai_flow_table_attr_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHFLOW_1gab6bb89fd028d2c4bd4a4d497857059e9" kind="typedef"><name>sai_flow_entry_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHFLOW_1gaed8fd4d3227a0e333188ff31818e108c" kind="typedef"><name>sai_flow_entry_attr_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHFLOW_1ga740df7e4998090f16951ff7e9b8bbb2f" kind="typedef"><name>sai_flow_entry_bulk_get_session_filter_attr_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHFLOW_1ga4e760f5eaa61bcfc24e9a2a292511c26" kind="typedef"><name>sai_flow_entry_bulk_get_session_attr_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHFLOW_1ga2ef4966748f622835563d015dddf131e" kind="typedef"><name>sai_create_flow_table_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHFLOW_1ga8c5e636fe21e30d8cf19297ad64bd62d" kind="typedef"><name>sai_remove_flow_table_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHFLOW_1ga5325669b404538e376b2d6f206eb34c4" kind="typedef"><name>sai_set_flow_table_attribute_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHFLOW_1ga053452e236da3a08997349e865bd03e0" kind="typedef"><name>sai_get_flow_table_attribute_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHFLOW_1gad2417bd9b0ef034e940c2effcbcacbfc" kind="typedef"><name>sai_create_flow_entry_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHFLOW_1ga3234112049417fe54be6f4fba794b50c" kind="typedef"><name>sai_remove_flow_entry_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHFLOW_1ga29ff8c8cb61f83ac5a9a989a04c17156" kind="typedef"><name>sai_set_flow_entry_attribute_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHFLOW_1gaaf331d971404b8290ab7ce2fe83e028d" kind="typedef"><name>sai_get_flow_entry_attribute_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHFLOW_1ga534925608e389ff23904b8c2b95e55ae" kind="typedef"><name>sai_bulk_create_flow_entry_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHFLOW_1ga414485bd2b2f086c89d9715a25403fd7" kind="typedef"><name>sai_bulk_remove_flow_entry_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHFLOW_1ga9441ab8d93437248ba82d46ec60836a6" kind="typedef"><name>sai_create_flow_entry_bulk_get_session_filter_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHFLOW_1ga131530c88a79e7c3b7bb5239ade70f83" kind="typedef"><name>sai_remove_flow_entry_bulk_get_session_filter_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHFLOW_1gaf6affb3e27bf9124b96b432c92a60bc4" kind="typedef"><name>sai_set_flow_entry_bulk_get_session_filter_attribute_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHFLOW_1gab68e05987353889aae18210e10626093" kind="typedef"><name>sai_get_flow_entry_bulk_get_session_filter_attribute_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHFLOW_1ga55e73cb114430e4c29ccdead4c8c841d" kind="typedef"><name>sai_create_flow_entry_bulk_get_session_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHFLOW_1gaa9ec66d8b9605e49c43fed4f1a086832" kind="typedef"><name>sai_remove_flow_entry_bulk_get_session_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHFLOW_1ga2c129e3f7191b05fc7800d5de9d7384b" kind="typedef"><name>sai_set_flow_entry_bulk_get_session_attribute_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHFLOW_1gaa3a76817830f6999cb8f9105d34751b4" kind="typedef"><name>sai_get_flow_entry_bulk_get_session_attribute_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHFLOW_1gab39cd35ab7cbd5fdf453f914dbbf3fac" kind="typedef"><name>sai_dash_flow_api_t</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>This module defines SAI extensions for DASH flow. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (c) 2014 Microsoft Open Technologies, Inc.</para>
+<para>Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <ulink url="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</ulink></para>
+<para>THIS CODE IS PROVIDED ON AN <emphasis>AS IS</emphasis> BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY OR NON-INFRINGEMENT.</para>
+<para>See the Apache Version 2.0 License for specific language governing permissions and limitations under the License.</para>
+<para>Microsoft would like to thank the following companies for their review and assistance with these files: Intel Corporation, Mellanox Technologies Ltd, Dell Products, L.P., Facebook, Inc., Marvell International Ltd.</para>
+<para><simplesect kind="warning"><para>This module is a SAI experimental module </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashflow.h"/>
+  </compounddef>
+</doxygen>

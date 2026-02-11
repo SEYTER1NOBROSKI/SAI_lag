@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="saivlan_8h" kind="file" language="C++">
+    <compoundname>saivlan.h</compoundname>
+    <includes refid="saitypes_8h" local="no">saitypes.h</includes>
+    <includedby refid="sai_8h" local="yes">/home/romanveskera/SAI/SAI/inc/sai.h</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>saitypes.h</label>
+        <link refid="saitypes_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/saivlan.h</label>
+        <link refid="saivlan_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>stdbool.h</label>
+      </node>
+      <node id="3">
+        <label>stdint.h</label>
+      </node>
+      <node id="5">
+        <label>sys/types.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiextensions.h</label>
+        <link refid="saiextensions_8h"/>
+      </node>
+      <node id="2">
+        <label>/home/romanveskera/SAI/SAI/inc/sai.h</label>
+        <link refid="sai_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/saivlan.h</label>
+        <link refid="saivlan_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct__sai__vlan__api__t" prot="public">_sai_vlan_api_t</innerclass>
+    <sectiondef kind="define">
+      <member refid="group__SAIVLAN_1gad41f0f5b70bff9cc41b802e22910ddb5" kind="define"><name>SAI_VLAN_COUNTER_SET_DEFAULT</name></member>
+    </sectiondef>
+    <sectiondef kind="enum">
+      <member refid="group__SAIVLAN_1gab0a0af7d3e6ae36eac67b3235cdaaad5" kind="enum"><name>_sai_vlan_tagging_mode_t</name></member>
+      <member refid="group__SAIVLAN_1ga30517eff3c618d464795bc3e7f92c06b" kind="enum"><name>_sai_vlan_mcast_lookup_key_type_t</name></member>
+      <member refid="group__SAIVLAN_1ga1af45a026cce0ec78ee2c44ba24ded76" kind="enum"><name>_sai_vlan_flood_control_type_t</name></member>
+      <member refid="group__SAIVLAN_1gab2ff78d1ae1fab3ade115fadee03284c" kind="enum"><name>_sai_vlan_attr_t</name></member>
+      <member refid="group__SAIVLAN_1ga114a1b9058706353bffa3325402c7c38" kind="enum"><name>_sai_vlan_member_attr_t</name></member>
+      <member refid="group__SAIVLAN_1gabef55bfdc4ebce5649f7f9d25a256439" kind="enum"><name>_sai_vlan_stat_t</name></member>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <member refid="group__SAIVLAN_1ga0d381f8db7bc5002ac67304da2e5e274" kind="typedef"><name>sai_vlan_tagging_mode_t</name></member>
+      <member refid="group__SAIVLAN_1ga317f9efdc393297150447a62e8698b12" kind="typedef"><name>sai_vlan_mcast_lookup_key_type_t</name></member>
+      <member refid="group__SAIVLAN_1gadb9554a891eda87b618deefb84bcad5b" kind="typedef"><name>sai_vlan_flood_control_type_t</name></member>
+      <member refid="group__SAIVLAN_1ga78115f97b211dc1da49c18db14fcb930" kind="typedef"><name>sai_vlan_attr_t</name></member>
+      <member refid="group__SAIVLAN_1ga210380a0b2ed983587fd535a99971cc2" kind="typedef"><name>sai_vlan_member_attr_t</name></member>
+      <member refid="group__SAIVLAN_1ga4af42c7efafbd43f76c1a1d6020d591b" kind="typedef"><name>sai_vlan_stat_t</name></member>
+      <member refid="group__SAIVLAN_1ga665ff5c1a16dcc02ef7be1b8d8a8bc5c" kind="typedef"><name>sai_create_vlan_fn</name></member>
+      <member refid="group__SAIVLAN_1gadafb8c8050169b33040ee3e72654e5e8" kind="typedef"><name>sai_remove_vlan_fn</name></member>
+      <member refid="group__SAIVLAN_1gaed81fe0afb16e0294e2263249a3dd661" kind="typedef"><name>sai_set_vlan_attribute_fn</name></member>
+      <member refid="group__SAIVLAN_1gae826a4e242532545280c408e6f231d08" kind="typedef"><name>sai_get_vlan_attribute_fn</name></member>
+      <member refid="group__SAIVLAN_1gab0ce98cf01f5c04e0323383af71d149a" kind="typedef"><name>sai_create_vlan_member_fn</name></member>
+      <member refid="group__SAIVLAN_1gadd4e6e2d6c9de1c88509813ec9a32926" kind="typedef"><name>sai_remove_vlan_member_fn</name></member>
+      <member refid="group__SAIVLAN_1ga3fed4430cdd8bd5b63dac19be7fd595d" kind="typedef"><name>sai_set_vlan_member_attribute_fn</name></member>
+      <member refid="group__SAIVLAN_1gae5d28576054d46610fa28a9a68bcc43f" kind="typedef"><name>sai_get_vlan_member_attribute_fn</name></member>
+      <member refid="group__SAIVLAN_1ga09e7a3c596d1491150ee080c62e02ced" kind="typedef"><name>sai_get_vlan_stats_fn</name></member>
+      <member refid="group__SAIVLAN_1ga121bf76ab67aa80dec6e3b139820e476" kind="typedef"><name>sai_get_vlan_stats_ext_fn</name></member>
+      <member refid="group__SAIVLAN_1ga779f20bb6a22895bac1082e0e9058894" kind="typedef"><name>sai_clear_vlan_stats_fn</name></member>
+      <member refid="group__SAIVLAN_1gafa7bca59a93026d07ed5650736535af6" kind="typedef"><name>sai_vlan_api_t</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>This module defines SAI VLAN interface. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (c) 2014 Microsoft Open Technologies, Inc.</para>
+<para>Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <ulink url="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</ulink></para>
+<para>THIS CODE IS PROVIDED ON AN <emphasis>AS IS</emphasis> BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY OR NON-INFRINGEMENT.</para>
+<para>See the Apache Version 2.0 License for specific language governing permissions and limitations under the License.</para>
+<para>Microsoft would like to thank the following companies for their review and assistance with these files: Intel Corporation, Mellanox Technologies Ltd, Dell Products, L.P., Facebook, Inc., Marvell International Ltd. </para>
+    </detaileddescription>
+    <location file="/home/romanveskera/SAI/SAI/inc/saivlan.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="saiicmpecho_8h" kind="file" language="C++">
+    <compoundname>saiicmpecho.h</compoundname>
+    <includes refid="saitypes_8h" local="no">saitypes.h</includes>
+    <includedby refid="sai_8h" local="yes">/home/romanveskera/SAI/SAI/inc/sai.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/saiicmpecho.h</label>
+        <link refid="saiicmpecho_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>saitypes.h</label>
+        <link refid="saitypes_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>stdbool.h</label>
+      </node>
+      <node id="3">
+        <label>stdint.h</label>
+      </node>
+      <node id="5">
+        <label>sys/types.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiextensions.h</label>
+        <link refid="saiextensions_8h"/>
+      </node>
+      <node id="2">
+        <label>/home/romanveskera/SAI/SAI/inc/sai.h</label>
+        <link refid="sai_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/saiicmpecho.h</label>
+        <link refid="saiicmpecho_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct__sai__icmp__echo__session__state__notification__t" prot="public">_sai_icmp_echo_session_state_notification_t</innerclass>
+    <innerclass refid="struct__sai__icmp__echo__api__t" prot="public">_sai_icmp_echo_api_t</innerclass>
+    <sectiondef kind="enum">
+      <member refid="group__SAIICMPECHO_1ga171fb9d331ce842320152715f685a6cf" kind="enum"><name>_sai_icmp_echo_session_state_t</name></member>
+      <member refid="group__SAIICMPECHO_1gae6ddabb7d7de6422d5f2002f93817bb8" kind="enum"><name>_sai_icmp_echo_session_attr_t</name></member>
+      <member refid="group__SAIICMPECHO_1gafd67eb8d49e0c31ad00a571b3d6472fe" kind="enum"><name>_sai_icmp_echo_session_stat_t</name></member>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <member refid="group__SAIICMPECHO_1ga7e72333d2d880cf3c255d1e0283b9ddb" kind="typedef"><name>sai_icmp_echo_session_state_t</name></member>
+      <member refid="group__SAIICMPECHO_1ga2bdd6e2c8de2660efe2c391c17966351" kind="typedef"><name>sai_icmp_echo_session_state_notification_t</name></member>
+      <member refid="group__SAIICMPECHO_1gadc535fd51aa6063e0939b054b1d5cff0" kind="typedef"><name>sai_icmp_echo_session_attr_t</name></member>
+      <member refid="group__SAIICMPECHO_1gac7e93ba9d851c571ae96e2968715e967" kind="typedef"><name>sai_icmp_echo_session_stat_t</name></member>
+      <member refid="group__SAIICMPECHO_1ga79ef0ecaca2fed65e1aded2850e3d9d1" kind="typedef"><name>sai_create_icmp_echo_session_fn</name></member>
+      <member refid="group__SAIICMPECHO_1ga7d158b90661a4e22dd3f55303e49bd8b" kind="typedef"><name>sai_remove_icmp_echo_session_fn</name></member>
+      <member refid="group__SAIICMPECHO_1gacc29a0306271cbd68b73812f43438628" kind="typedef"><name>sai_set_icmp_echo_session_attribute_fn</name></member>
+      <member refid="group__SAIICMPECHO_1ga47197403f6a8f267d41c441a22466211" kind="typedef"><name>sai_get_icmp_echo_session_attribute_fn</name></member>
+      <member refid="group__SAIICMPECHO_1gafef76da9dac876b026c95ddf8b7bf833" kind="typedef"><name>sai_get_icmp_echo_session_stats_fn</name></member>
+      <member refid="group__SAIICMPECHO_1ga0cc4cbd1e4cfa9a17df827d98910b3bd" kind="typedef"><name>sai_get_icmp_echo_session_stats_ext_fn</name></member>
+      <member refid="group__SAIICMPECHO_1gab8973c9225c0985e2e942e6d56b0113c" kind="typedef"><name>sai_clear_icmp_echo_session_stats_fn</name></member>
+      <member refid="group__SAIICMPECHO_1gae41af1d44950808351681e83678ce018" kind="typedef"><name>sai_icmp_echo_session_state_change_notification_fn</name></member>
+      <member refid="group__SAIICMPECHO_1gab829963ef88d905ac30bb7a42d5eef78" kind="typedef"><name>sai_icmp_echo_api_t</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>This module defines SAI interface. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (c) 2014 Microsoft Open Technologies, Inc.</para>
+<para>Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <ulink url="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</ulink></para>
+<para>THIS CODE IS PROVIDED ON AN <emphasis>AS IS</emphasis> BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY OR NON-INFRINGEMENT.</para>
+<para>See the Apache Version 2.0 License for specific language governing permissions and limitations under the License.</para>
+<para>Microsoft would like to thank the following companies for their review and assistance with these files: Intel Corporation, Mellanox Technologies Ltd, Dell Products, L.P., Facebook, Inc., Marvell International Ltd. </para>
+    </detaileddescription>
+    <location file="/home/romanveskera/SAI/SAI/inc/saiicmpecho.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="saistp_8h" kind="file" language="C++">
+    <compoundname>saistp.h</compoundname>
+    <includes refid="saitypes_8h" local="no">saitypes.h</includes>
+    <includedby refid="sai_8h" local="yes">/home/romanveskera/SAI/SAI/inc/sai.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/saistp.h</label>
+        <link refid="saistp_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>saitypes.h</label>
+        <link refid="saitypes_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>stdbool.h</label>
+      </node>
+      <node id="3">
+        <label>stdint.h</label>
+      </node>
+      <node id="5">
+        <label>sys/types.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiextensions.h</label>
+        <link refid="saiextensions_8h"/>
+      </node>
+      <node id="2">
+        <label>/home/romanveskera/SAI/SAI/inc/sai.h</label>
+        <link refid="sai_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/inc/saistp.h</label>
+        <link refid="saistp_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct__sai__stp__api__t" prot="public">_sai_stp_api_t</innerclass>
+    <sectiondef kind="enum">
+      <member refid="group__SAISTP_1ga26e988f37890670a3f30f6d0f6b57914" kind="enum"><name>_sai_stp_port_state_t</name></member>
+      <member refid="group__SAISTP_1gaa806c0766e18099197c6404ee08d38af" kind="enum"><name>_sai_stp_attr_t</name></member>
+      <member refid="group__SAISTP_1gadb5fa0a11a6337ecf8648eb73c325efa" kind="enum"><name>_sai_stp_port_attr_t</name></member>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <member refid="group__SAISTP_1ga9454567cceb017e7df17dbe850d326d4" kind="typedef"><name>sai_stp_port_state_t</name></member>
+      <member refid="group__SAISTP_1ga5ae26aba87e6746f836116a00457aece" kind="typedef"><name>sai_stp_attr_t</name></member>
+      <member refid="group__SAISTP_1ga0c8507ac4e344f538e0891f6f5e98b7b" kind="typedef"><name>sai_stp_port_attr_t</name></member>
+      <member refid="group__SAISTP_1ga393423be5264d2b6e7e0d55b8683498d" kind="typedef"><name>sai_create_stp_fn</name></member>
+      <member refid="group__SAISTP_1gaee549aceea7b1808706990e5787565dc" kind="typedef"><name>sai_remove_stp_fn</name></member>
+      <member refid="group__SAISTP_1ga7362140de70a28985fd87e6b1bf5f623" kind="typedef"><name>sai_set_stp_attribute_fn</name></member>
+      <member refid="group__SAISTP_1gaf41427c0877281b63c80361b0fc21b78" kind="typedef"><name>sai_get_stp_attribute_fn</name></member>
+      <member refid="group__SAISTP_1gabc9ee09e8a9cfbf22aea215638c57736" kind="typedef"><name>sai_create_stp_port_fn</name></member>
+      <member refid="group__SAISTP_1gab545a8e7f9a0c3536cb9f9d2043a5adb" kind="typedef"><name>sai_remove_stp_port_fn</name></member>
+      <member refid="group__SAISTP_1gaba55485842a22e42afbc54a4e9a08f75" kind="typedef"><name>sai_set_stp_port_attribute_fn</name></member>
+      <member refid="group__SAISTP_1ga4694d923ad1ae78d03ab9ad79d481d67" kind="typedef"><name>sai_get_stp_port_attribute_fn</name></member>
+      <member refid="group__SAISTP_1gacd2c7fe4a449e4041053eb4e7fc661a8" kind="typedef"><name>sai_stp_api_t</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>This module defines SAI STP interface. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (c) 2014 Microsoft Open Technologies, Inc.</para>
+<para>Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <ulink url="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</ulink></para>
+<para>THIS CODE IS PROVIDED ON AN <emphasis>AS IS</emphasis> BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY OR NON-INFRINGEMENT.</para>
+<para>See the Apache Version 2.0 License for specific language governing permissions and limitations under the License.</para>
+<para>Microsoft would like to thank the following companies for their review and assistance with these files: Intel Corporation, Mellanox Technologies Ltd, Dell Products, L.P., Facebook, Inc., Marvell International Ltd. </para>
+    </detaileddescription>
+    <location file="/home/romanveskera/SAI/SAI/inc/saistp.h"/>
+  </compounddef>
+</doxygen>

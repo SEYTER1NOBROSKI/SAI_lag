@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="saimetadatatypes_8h" kind="file" language="C++">
+    <compoundname>saimetadatatypes.h</compoundname>
+    <includedby refid="saimetadatautils_8h" local="yes">saimetadatautils.h</includedby>
+    <invincdepgraph>
+      <node id="1">
+        <label>saimetadatatypes.h</label>
+        <link refid="saimetadatatypes_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>saimetadatautils.h</label>
+        <link refid="saimetadatautils_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct__sai__object__meta__key__t" prot="public">_sai_object_meta_key_t</innerclass>
+    <innerclass refid="struct__sai__attr__condition__t" prot="public">_sai_attr_condition_t</innerclass>
+    <innerclass refid="struct__sai__enum__metadata__t" prot="public">_sai_enum_metadata_t</innerclass>
+    <innerclass refid="struct__sai__attr__capability__metadata__t" prot="public">_sai_attr_capability_metadata_t</innerclass>
+    <innerclass refid="struct__sai__attr__metadata__t" prot="public">_sai_attr_metadata_t</innerclass>
+    <innerclass refid="struct__sai__struct__member__info__t" prot="public">_sai_struct_member_info_t</innerclass>
+    <innerclass refid="struct__sai__rev__graph__member__t" prot="public">_sai_rev_graph_member_t</innerclass>
+    <innerclass refid="struct__sai__object__type__info__t" prot="public">_sai_object_type_info_t</innerclass>
+    <sectiondef kind="define">
+      <member refid="group__SAIMETADATATYPES_1gaf401b32948a9628f79f638ebd3cda5e0" kind="define"><name>SAI_INVALID_ATTRIBUTE_ID</name></member>
+      <member refid="group__SAIMETADATATYPES_1gafe2ec900686134f1dbbb375592e963f2" kind="define"><name>SAI_HAS_FLAG_MANDATORY_ON_CREATE</name></member>
+      <member refid="group__SAIMETADATATYPES_1ga756c376aa8c5da199e0a555262a98594" kind="define"><name>SAI_HAS_FLAG_CREATE_ONLY</name></member>
+      <member refid="group__SAIMETADATATYPES_1ga2627a81637e9a0450ac6e49946d5d842" kind="define"><name>SAI_HAS_FLAG_CREATE_AND_SET</name></member>
+      <member refid="group__SAIMETADATATYPES_1gaacfff22f6bde6d70dfe5e1f392155c76" kind="define"><name>SAI_HAS_FLAG_READ_ONLY</name></member>
+      <member refid="group__SAIMETADATATYPES_1ga62a2475ee50ff36f275e2172ee6da84b" kind="define"><name>SAI_HAS_FLAG_KEY</name></member>
+      <member refid="group__SAIMETADATATYPES_1gabd9ffb4c1a1ac39074d339bfa1dd6ac9" kind="define"><name>SAI_HAS_FLAG_DYNAMIC</name></member>
+      <member refid="group__SAIMETADATATYPES_1ga86a2dfb2a50c527d3c776f754fb8958e" kind="define"><name>SAI_HAS_FLAG_SPECIAL</name></member>
+    </sectiondef>
+    <sectiondef kind="enum">
+      <member refid="group__SAIMETADATATYPES_1ga9cd0e8e2efb1f7fdcd554a669d27ab3b" kind="enum"><name>_sai_attr_value_type_t</name></member>
+      <member refid="group__SAIMETADATATYPES_1ga10f3e241e69063e0b113b6f7afa27730" kind="enum"><name>_sai_attr_flags_t</name></member>
+      <member refid="group__SAIMETADATATYPES_1ga6632bf8274f8309eb65bd08edeab51fe" kind="enum"><name>_sai_default_value_type_t</name></member>
+      <member refid="group__SAIMETADATATYPES_1gac9c49d1a763597e371a9af4837d49161" kind="enum"><name>_sai_attr_condition_type_t</name></member>
+      <member refid="group__SAIMETADATATYPES_1ga60dc6876a000659866dbdca07ddbee3f" kind="enum"><name>_sai_condition_operator_t</name></member>
+      <member refid="group__SAIMETADATATYPES_1gaa22040a3c3534076d5395660a89226a3" kind="enum"><name>_sai_enum_flags_type_t</name></member>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <member refid="group__SAIMETADATATYPES_1gabfac0d0e3a2d634699a9dec6580eedde" kind="typedef"><name>sai_object_meta_key_t</name></member>
+      <member refid="group__SAIMETADATATYPES_1gab83b6ea7e43cbb4cddb2371f228ed785" kind="typedef"><name>sai_attr_value_type_t</name></member>
+      <member refid="group__SAIMETADATATYPES_1ga582019ce7917089f3c33a4f8ed765ef5" kind="typedef"><name>sai_attr_flags_t</name></member>
+      <member refid="group__SAIMETADATATYPES_1ga2ec64f076a67f925f2dfd2384d7274f5" kind="typedef"><name>sai_default_value_type_t</name></member>
+      <member refid="group__SAIMETADATATYPES_1ga6a3a61c74e9ef2a9542e1725b5b340cb" kind="typedef"><name>sai_attr_condition_type_t</name></member>
+      <member refid="group__SAIMETADATATYPES_1ga3fd4995f7df86534cfda42ca776338fe" kind="typedef"><name>sai_condition_operator_t</name></member>
+      <member refid="group__SAIMETADATATYPES_1gad02c157058b7eee2ad51834999e72899" kind="typedef"><name>sai_attr_condition_t</name></member>
+      <member refid="group__SAIMETADATATYPES_1gadaba75b90da2722e28e29890b7e6ac2e" kind="typedef"><name>sai_enum_flags_type_t</name></member>
+      <member refid="group__SAIMETADATATYPES_1ga3958ad8fbdf3830857358199fe733509" kind="typedef"><name>sai_enum_metadata_t</name></member>
+      <member refid="group__SAIMETADATATYPES_1ga0774525a623e7349f9a5e45656512f75" kind="typedef"><name>sai_attr_capability_metadata_t</name></member>
+      <member refid="group__SAIMETADATATYPES_1ga4c405e86ac70b1cb3bd2ee38f032f4eb" kind="typedef"><name>sai_attr_metadata_t</name></member>
+      <member refid="group__SAIMETADATATYPES_1gac12cfe132c9747441590b99e15da1e95" kind="typedef"><name>sai_meta_get_struct_member_oid_fn</name></member>
+      <member refid="group__SAIMETADATATYPES_1ga1c456135ac4f9bb9b658b2120bab9ff6" kind="typedef"><name>sai_meta_set_struct_member_oid_fn</name></member>
+      <member refid="group__SAIMETADATATYPES_1ga2a3b15644d0774eb0c0c5f48cb11196c" kind="typedef"><name>sai_struct_member_info_t</name></member>
+      <member refid="group__SAIMETADATATYPES_1gaadec0e580b2f32918857dca0204ab7ac" kind="typedef"><name>sai_rev_graph_member_t</name></member>
+      <member refid="group__SAIMETADATATYPES_1ga2d8dd904cee66111d81d5495c6d20680" kind="typedef"><name>sai_meta_generic_create_fn</name></member>
+      <member refid="group__SAIMETADATATYPES_1gad2769f79029bb8102497eaea1eddd535" kind="typedef"><name>sai_meta_generic_remove_fn</name></member>
+      <member refid="group__SAIMETADATATYPES_1ga82bbdf5ac100cc1a5e08ec68e70c226e" kind="typedef"><name>sai_meta_generic_set_fn</name></member>
+      <member refid="group__SAIMETADATATYPES_1ga45f0baaa08f180fb523d72d02ceb0847" kind="typedef"><name>sai_meta_generic_get_fn</name></member>
+      <member refid="group__SAIMETADATATYPES_1ga0d394a9167abad7d81e625d45eab6008" kind="typedef"><name>sai_meta_generic_get_stats_fn</name></member>
+      <member refid="group__SAIMETADATATYPES_1ga5a97b85d512a1bd142eae6442a826164" kind="typedef"><name>sai_meta_generic_get_stats_ext_fn</name></member>
+      <member refid="group__SAIMETADATATYPES_1gab8eb84bc457a0f0bfe44b15bc3361e1d" kind="typedef"><name>sai_meta_generic_clear_stats_fn</name></member>
+      <member refid="group__SAIMETADATATYPES_1ga846b154e7b0652abf59a489a7d59d3c3" kind="typedef"><name>sai_generic_create_fn</name></member>
+      <member refid="group__SAIMETADATATYPES_1gad37c61ac40a013a53e6963bdfa55ab22" kind="typedef"><name>sai_generic_remove_fn</name></member>
+      <member refid="group__SAIMETADATATYPES_1ga06b7930b8c779fce1bb09885a3e18c44" kind="typedef"><name>sai_generic_set_fn</name></member>
+      <member refid="group__SAIMETADATATYPES_1gae09661b12e179f92ffc6a675f3e57f6f" kind="typedef"><name>sai_generic_get_fn</name></member>
+      <member refid="group__SAIMETADATATYPES_1ga6e19ca3cf2ad65005e381909e14a9cd0" kind="typedef"><name>sai_object_type_info_t</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>This module defines SAI Metadata Types. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (c) 2014 Microsoft Open Technologies, Inc.</para>
+<para>Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <ulink url="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</ulink></para>
+<para>THIS CODE IS PROVIDED ON AN <emphasis>AS IS</emphasis> BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY OR NON-INFRINGEMENT.</para>
+<para>See the Apache Version 2.0 License for specific language governing permissions and limitations under the License.</para>
+<para>Microsoft would like to thank the following companies for their review and assistance with these files: Intel Corporation, Mellanox Technologies Ltd, Dell Products, L.P., Facebook, Inc., Marvell International Ltd. </para>
+    </detaileddescription>
+    <location file="saimetadatatypes.h"/>
+  </compounddef>
+</doxygen>

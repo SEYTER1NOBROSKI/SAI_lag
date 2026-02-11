@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="saiexperimentaldashoutboundcatopa_8h" kind="file" language="C++">
+    <compoundname>saiexperimentaldashoutboundcatopa.h</compoundname>
+    <includes refid="saitypesextensions_8h" local="no">saitypesextensions.h</includes>
+    <includedby refid="saiextensions_8h" local="yes">/home/romanveskera/SAI/SAI/experimental/saiextensions.h</includedby>
+    <includedby refid="saiobject_8h" local="no">/home/romanveskera/SAI/SAI/inc/saiobject.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashoutboundcatopa.h</label>
+        <link refid="saiexperimentaldashoutboundcatopa_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>saitypesextensions.h</label>
+        <link refid="saitypesextensions_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>saitypes.h</label>
+        <link refid="saitypes_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stdint.h</label>
+      </node>
+      <node id="6">
+        <label>sys/types.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashoutboundcatopa.h</label>
+        <link refid="saiexperimentaldashoutboundcatopa_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>/home/romanveskera/SAI/SAI/experimental/saiextensions.h</label>
+        <link refid="saiextensions_8h"/>
+      </node>
+      <node id="4">
+        <label>/home/romanveskera/SAI/SAI/inc/sai.h</label>
+        <link refid="sai_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>/home/romanveskera/SAI/SAI/inc/saiobject.h</label>
+        <link refid="saiobject_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct__sai__outbound__ca__to__pa__entry__t" prot="public">_sai_outbound_ca_to_pa_entry_t</innerclass>
+    <innerclass refid="struct__sai__dash__outbound__ca__to__pa__api__t" prot="public">_sai_dash_outbound_ca_to_pa_api_t</innerclass>
+    <sectiondef kind="enum">
+      <member refid="group__SAIEXPERIMENTALDASHOUTBOUNDCATOPA_1ga758bf4ad8046c0088a7ddbaef3b6b876" kind="enum"><name>_sai_outbound_ca_to_pa_entry_action_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHOUTBOUNDCATOPA_1gaf3a22ff2b33dde5285aaa1e2878fa415" kind="enum"><name>_sai_outbound_ca_to_pa_entry_attr_t</name></member>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <member refid="group__SAIEXPERIMENTALDASHOUTBOUNDCATOPA_1ga387094b39036735ea984a41c25f82c18" kind="typedef"><name>sai_outbound_ca_to_pa_entry_action_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHOUTBOUNDCATOPA_1gae96a125ce10592f06439b77c77d53c61" kind="typedef"><name>sai_outbound_ca_to_pa_entry_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHOUTBOUNDCATOPA_1ga619f918f7c6b05da122bdaee706cd692" kind="typedef"><name>sai_outbound_ca_to_pa_entry_attr_t</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHOUTBOUNDCATOPA_1gaab57996115893b84cb294e0473bbaba2" kind="typedef"><name>sai_create_outbound_ca_to_pa_entry_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHOUTBOUNDCATOPA_1ga4600a045e7f3d0bc96efd808ce6af58b" kind="typedef"><name>sai_remove_outbound_ca_to_pa_entry_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHOUTBOUNDCATOPA_1ga378b7d90d74e138355e424f35896d29b" kind="typedef"><name>sai_set_outbound_ca_to_pa_entry_attribute_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHOUTBOUNDCATOPA_1ga3d27aaaa5c540d2743e97f172c45c5ba" kind="typedef"><name>sai_get_outbound_ca_to_pa_entry_attribute_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHOUTBOUNDCATOPA_1gac2b697475a219623b981a9043cc4c3f5" kind="typedef"><name>sai_bulk_create_outbound_ca_to_pa_entry_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHOUTBOUNDCATOPA_1gaf85f3e8bf75cbaebf1ae7de8a5f49b08" kind="typedef"><name>sai_bulk_remove_outbound_ca_to_pa_entry_fn</name></member>
+      <member refid="group__SAIEXPERIMENTALDASHOUTBOUNDCATOPA_1ga5c5908b1aa4cdef42ee5fe83734d9e54" kind="typedef"><name>sai_dash_outbound_ca_to_pa_api_t</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>This module defines SAI extensions for DASH outbound CA to PA. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Copyright (c) 2014 Microsoft Open Technologies, Inc.</para>
+<para>Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <ulink url="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</ulink></para>
+<para>THIS CODE IS PROVIDED ON AN <emphasis>AS IS</emphasis> BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY OR NON-INFRINGEMENT.</para>
+<para>See the Apache Version 2.0 License for specific language governing permissions and limitations under the License.</para>
+<para>Microsoft would like to thank the following companies for their review and assistance with these files: Intel Corporation, Mellanox Technologies Ltd, Dell Products, L.P., Facebook, Inc., Marvell International Ltd.</para>
+<para><simplesect kind="warning"><para>This module is a SAI experimental module </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashoutboundcatopa.h"/>
+  </compounddef>
+</doxygen>

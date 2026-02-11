@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="struct__sai__outbound__port__map__port__range__entry__t" kind="struct" language="C++" prot="public">
+    <compoundname>_sai_outbound_port_map_port_range_entry_t</compoundname>
+    <includes refid="saiexperimentaldashoutboundportmap_8h" local="no">saiexperimentaldashoutboundportmap.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__sai__outbound__port__map__port__range__entry__t_1a4332198e85d7c8158ff818d4e02b298c" prot="public" static="no" mutable="no">
+        <type>sai_object_id_t</type>
+        <definition>sai_object_id_t _sai_outbound_port_map_port_range_entry_t::switch_id</definition>
+        <argsstring></argsstring>
+        <name>switch_id</name>
+        <qualifiedname>_sai_outbound_port_map_port_range_entry_t::switch_id</qualifiedname>
+        <briefdescription>
+<para>Switch ID. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>Allowed object types</title><para> @@objects         SAI_OBJECT_TYPE_SWITCH </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashoutboundportmap.h" line="93" column="21" bodyfile="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashoutboundportmap.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__sai__outbound__port__map__port__range__entry__t_1a96a557bcf947be078bb4dc24858443e9" prot="public" static="no" mutable="no">
+        <type>sai_object_id_t</type>
+        <definition>sai_object_id_t _sai_outbound_port_map_port_range_entry_t::outbound_port_map_id</definition>
+        <argsstring></argsstring>
+        <name>outbound_port_map_id</name>
+        <qualifiedname>_sai_outbound_port_map_port_range_entry_t::outbound_port_map_id</qualifiedname>
+        <briefdescription>
+<para>Exact matched key outbound_port_map_id. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>Allowed object types</title><para> @@objects         SAI_OBJECT_TYPE_OUTBOUND_PORT_MAP </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashoutboundportmap.h" line="100" column="21" bodyfile="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashoutboundportmap.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__sai__outbound__port__map__port__range__entry__t_1a563e33b2f50a10ed508bdb0b1b3674bd" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__sai__u32__range__t" kindref="compound">sai_u32_range_t</ref></type>
+        <definition>sai_u32_range_t _sai_outbound_port_map_port_range_entry_t::dst_port_range</definition>
+        <argsstring></argsstring>
+        <name>dst_port_range</name>
+        <qualifiedname>_sai_outbound_port_map_port_range_entry_t::dst_port_range</qualifiedname>
+        <briefdescription>
+<para>Range matched key dst_port_range. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashoutboundportmap.h" line="105" column="21" bodyfile="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashoutboundportmap.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Entry for outbound_port_map_port_range_entry. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>_sai_outbound_port_map_port_range_entry_t</label>
+        <link refid="struct__sai__outbound__port__map__port__range__entry__t"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>dst_port_range</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>_sai_u32_range_t</label>
+        <link refid="struct__sai__u32__range__t"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashoutboundportmap.h" line="86" column="1" bodyfile="/home/romanveskera/SAI/SAI/experimental/saiexperimentaldashoutboundportmap.h" bodystart="87" bodyend="107"/>
+    <listofallmembers>
+      <member refid="struct__sai__outbound__port__map__port__range__entry__t_1a563e33b2f50a10ed508bdb0b1b3674bd" prot="public" virt="non-virtual"><scope>_sai_outbound_port_map_port_range_entry_t</scope><name>dst_port_range</name></member>
+      <member refid="struct__sai__outbound__port__map__port__range__entry__t_1a96a557bcf947be078bb4dc24858443e9" prot="public" virt="non-virtual"><scope>_sai_outbound_port_map_port_range_entry_t</scope><name>outbound_port_map_id</name></member>
+      <member refid="struct__sai__outbound__port__map__port__range__entry__t_1a4332198e85d7c8158ff818d4e02b298c" prot="public" virt="non-virtual"><scope>_sai_outbound_port_map_port_range_entry_t</scope><name>switch_id</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

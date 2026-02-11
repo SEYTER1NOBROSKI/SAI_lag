@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="struct__sai__port__pam4__eye__values__list__t" kind="struct" language="C++" prot="public">
+    <compoundname>_sai_port_pam4_eye_values_list_t</compoundname>
+    <includes refid="saitypes_8h" local="no">saitypes.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__sai__port__pam4__eye__values__list__t_1a2f251510f83bef7f5cab7875490800b3" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t _sai_port_pam4_eye_values_list_t::count</definition>
+        <argsstring></argsstring>
+        <name>count</name>
+        <qualifiedname>_sai_port_pam4_eye_values_list_t::count</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/romanveskera/SAI/SAI/inc/saitypes.h" line="1293" column="14" bodyfile="/home/romanveskera/SAI/SAI/inc/saitypes.h" bodystart="1293" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__sai__port__pam4__eye__values__list__t_1a8aac1c45af9f92b0d0935f2a7467c6e8" prot="public" static="no" mutable="no">
+        <type><ref refid="group__SAITYPES_1ga7a4e0cc28dd804c86593e3b64d90bf8b" kindref="member">sai_port_pam4_lane_eye_values_t</ref> *</type>
+        <definition>sai_port_pam4_lane_eye_values_t* _sai_port_pam4_eye_values_list_t::list</definition>
+        <argsstring></argsstring>
+        <name>list</name>
+        <qualifiedname>_sai_port_pam4_eye_values_list_t::list</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/romanveskera/SAI/SAI/inc/saitypes.h" line="1294" column="37" bodyfile="/home/romanveskera/SAI/SAI/inc/saitypes.h" bodystart="1294" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Defines a port&apos;s PAM4 eye values for list of all serdes lanes. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>The count defines the number of objects which will be returned to the caller in the list member. The caller must allocate the buffer for the list member and set the count member to the size of the allocated objects in the list member. If the size is not large enough, the callee must set the count member to the actual number of objects filled in the list member and return <ref refid="group__SAISTATUS_1ga7255b9d60f461644acd8459627a43288" kindref="member">SAI_STATUS_BUFFER_OVERFLOW</ref>. Once the caller gets such a return code, it may use the returned count member to re-allocate the list and retry. </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>_sai_port_pam4_eye_values_list_t</label>
+        <link refid="struct__sai__port__pam4__eye__values__list__t"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>list</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>_sai_port_pam4_lane_eye_values_t</label>
+        <link refid="struct__sai__port__pam4__lane__eye__values__t"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/romanveskera/SAI/SAI/inc/saitypes.h" line="1291" column="1" bodyfile="/home/romanveskera/SAI/SAI/inc/saitypes.h" bodystart="1292" bodyend="1295"/>
+    <listofallmembers>
+      <member refid="struct__sai__port__pam4__eye__values__list__t_1a2f251510f83bef7f5cab7875490800b3" prot="public" virt="non-virtual"><scope>_sai_port_pam4_eye_values_list_t</scope><name>count</name></member>
+      <member refid="struct__sai__port__pam4__eye__values__list__t_1a8aac1c45af9f92b0d0935f2a7467c6e8" prot="public" virt="non-virtual"><scope>_sai_port_pam4_eye_values_list_t</scope><name>list</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
