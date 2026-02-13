@@ -120,7 +120,7 @@ int main()
 		return 1;
 	}
 	
-	sai_object_id_t port_list[1];
+	sai_object_id_t port_list[1] = {0x100000000001};
 
 	attrs[0].id = SAI_LAG_MEMBER_ATTR_LAG_ID;
 	attrs[0].value.oid = lag_id;

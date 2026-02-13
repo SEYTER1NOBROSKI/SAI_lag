@@ -22,6 +22,7 @@ struct lag_db_t {
     lag_member_db_entry_t members[MAX_NUMBER_OF_LAG_MEMBERS];
 } lag_db;
 
+
 sai_status_t get_lag_member_attribute(_In_ const sai_object_key_t   *key,
                                       _Inout_ sai_attribute_value_t *value,
                                       _In_ uint32_t                  attr_index,
@@ -57,12 +58,12 @@ sai_status_t get_lag_member_attribute(_In_ const sai_object_key_t   *key,
 		printf("Get LAG MEMBER attribute PORT_ID: 0x%lX\n", value->oid);
 		break;
 	case SAI_OBJECT_TYPE_LAG:
-		uint32_t real_count = 0;
+		uint32_t real_count = value->objlist.count;
+		value->objlist.count = 0;
 		for (uint32_t i = 0; i < MAX_NUMBER_OF_LAG_MEMBERS; i++) {
 			if (lag_db.lags[db_index].members_ids[i] != SAI_NULL_OBJECT_ID) {
 				value->objlist.list[value->objlist.count] = lag_db.lags[db_index].members_ids[i];
 				value->objlist.count++;
-				real_count++;
 			}
 		}
 		printf("Get LAG attribute PORT_LIST: count %d\n", real_count);
@@ -251,21 +252,13 @@ sai_status_t stub_create_lag_member(
 		return status;
 	}
 
-	uint32_t member_db_id = ii;
-	lag_db.members[member_db_id].is_used = true;
-	status = stub_create_object(SAI_OBJECT_TYPE_LAG_MEMBER, member_db_id, lag_member_id);
-	if (status != SAI_STATUS_SUCCESS) {
-		printf("Cannot create a LAG MEMBER OID\n");
-		return status;
-	}
-
-	lag_db.members[member_db_id].lag_oid = lag_id->oid;
-	lag_db.members[member_db_id].port_oid = port_id->oid;
-
-	uint32_t real_id = lag_id->oid;
+	// fixed ID
+	uint64_t real_id = lag_id->oid ;
+	real_id = real_id & 0xFFFFFFFFFFFF;
+	printf("Real LAG ID: %lx\n", real_id);
 
 	if (real_id >= MAX_NUMBER_OF_LAGS || !lag_db.lags[real_id].is_used) {
-		printf("Invalid LAG OID 0x%X or there is no LAG with this ID\n", real_id);
+		printf("Invalid LAG OID 0x%lX or there is no LAG with this ID\n", real_id);
 		return SAI_STATUS_INVALID_PARAMETER;
 	}
 
@@ -279,12 +272,21 @@ sai_status_t stub_create_lag_member(
 	}
 
 	if (!added_to_lag) {
-		printf("LAG 0x%X cannot accept more members\n", real_id);
-		lag_db.members[member_db_id].is_used = false;
-		memset(&lag_db.members[member_db_id], 0, sizeof(lag_db.members[member_db_id]));
+		printf("LAG 0x%lX cannot accept more members\n", real_id);
 		return SAI_STATUS_TABLE_FULL;
 	}
 
+	uint32_t member_db_id = ii;
+	lag_db.members[member_db_id].is_used = true;
+	status = stub_create_object(SAI_OBJECT_TYPE_LAG_MEMBER, member_db_id, lag_member_id);
+	if (status != SAI_STATUS_SUCCESS) {
+		printf("Cannot create a LAG MEMBER OID\n");
+		return status;
+	}
+
+	lag_db.members[member_db_id].lag_oid = lag_id->oid;
+	lag_db.members[member_db_id].port_oid = port_id->oid;
+	
 	printf("CREATE LAG MEMBER: 0x%lX, Linked to LAG: %lx (Port: %lx)\n", *lag_member_id, lag_id->oid, port_id->oid);
 	return SAI_STATUS_SUCCESS;
 }
