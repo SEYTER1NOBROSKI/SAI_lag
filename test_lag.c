@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include "sai.h"
 
 const char* test_profile_get_value(
@@ -28,6 +29,7 @@ int main()
 	sai_object_id_t lag_id, lag2_id;
 	sai_object_id_t member_ids[4];
 	sai_attribute_t attrs[2];
+	sai_object_id_t *list_buffer;
 
 	status = sai_api_initialize(0, &test_services);
 	if (status != SAI_STATUS_SUCCESS) {
@@ -59,6 +61,16 @@ int main()
 		printf("Failed to create a LAG MEMBER, status=%d\n", status);
 		return 1;
 	}
+	attrs[0].id = SAI_LAG_ATTR_PORT_LIST;
+	attrs[0].value.objlist.count = 2;
+	list_buffer = malloc(sizeof(sai_object_id_t) * attrs[0].value.objlist.count);
+	attrs[0].value.objlist.list = list_buffer;
+	status = lag_api->get_lag_attribute(lag_id, 1, attrs);
+	if (status != SAI_STATUS_SUCCESS) {
+		printf("Failed to get LAG attribute, status=%d\n", status);
+		return 1;
+	}
+	free(list_buffer);
 	status = lag_api->create_lag(&lag2_id, 0, NULL);
 	if (status != SAI_STATUS_SUCCESS) {
 		printf("Failed to create a LAG, status=%d\n", status);
@@ -77,6 +89,9 @@ int main()
 		printf("Failed to create a LAG MEMBER, status=%d\n", status);
 		return 1;
 	}
+	//removing LAG with members should fail
+	status = lag_api->remove_lag(lag_id);
+	
 	for (int i = 0; i < 4; i++) {
 		status = lag_api->remove_lag_member(member_ids[i]);
 		if (status != SAI_STATUS_SUCCESS) {
@@ -96,4 +111,55 @@ int main()
 		return 1;
 	}
 
+	//creating member without LAG ID should fail
+	status = lag_api->create_lag_member(&member_ids[0], 2, attrs);
+
+	status = lag_api->create_lag(&lag_id, 0, NULL);
+	if (status != SAI_STATUS_SUCCESS) {
+		printf("Failed to create a LAG, status=%d\n", status);
+		return 1;
+	}
+	
+	sai_object_id_t port_list[1];
+
+	attrs[0].id = SAI_LAG_MEMBER_ATTR_LAG_ID;
+	attrs[0].value.oid = lag_id;
+	attrs[1].id = SAI_LAG_MEMBER_ATTR_PORT_ID;
+	attrs[1].value.oid = port_list[0];
+	status = lag_api->create_lag_member(&member_ids[0], 2, attrs);
+	if (status != SAI_STATUS_SUCCESS) {
+		printf("Failed to create a LAG MEMBER, status=%d\n", status);
+		return 1;
+	}
+
+	//creating member without LAG ID should fail
+	attrs[0].id = SAI_LAG_MEMBER_ATTR_PORT_ID;
+	attrs[0].value.oid = port_list[0];
+
+	status = lag_api->create_lag_member(&member_ids[0], 1, attrs);
+
+	attrs[0].id = SAI_LAG_MEMBER_ATTR_LAG_ID;
+	status = lag_api->get_lag_member_attribute(member_ids[0], 1, attrs);
+	if (status != SAI_STATUS_SUCCESS) {
+		printf("Failed to get LAG MEMBER attribute, status=%d\n", status);
+		return 1;
+	}
+
+	attrs[0].id = SAI_LAG_MEMBER_ATTR_PORT_ID;
+	status = lag_api->get_lag_member_attribute(member_ids[0], 1, attrs);
+	if (status != SAI_STATUS_SUCCESS) {
+		printf("Failed to get LAG MEMBER attribute, status=%d\n", status);
+		return 1;
+	}
+
+	attrs[0].id = SAI_LAG_ATTR_PORT_LIST;
+	attrs[0].value.objlist.count = 1;
+	list_buffer = malloc(sizeof(sai_object_id_t) * attrs[0].value.objlist.count);
+	attrs[0].value.objlist.list = list_buffer;
+	status = lag_api->get_lag_attribute(lag_id, 1, attrs);
+	if (status != SAI_STATUS_SUCCESS) {
+		printf("Failed to get LAG attribute, status=%d\n", status);
+		return 1;
+	}
+	free(list_buffer);
 }
