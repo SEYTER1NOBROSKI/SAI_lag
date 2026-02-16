@@ -66,14 +66,20 @@ sai_status_t get_lag_member_attribute(_In_ const sai_object_key_t   *key,
 				value->objlist.count++;
 			}
 		}
+		//added printing of port list for better visibility in tests
 		printf("Get LAG attribute PORT_LIST: count %d\n", real_count);
+		printf("PORT_LIST: ");
+		for (uint32_t i = 0; i < value->objlist.count; i++) {
+			printf("0x%lX ", lag_db.members[i].port_oid);
+		}
+		printf("\n");
 		break;
-    default:
-        printf("Got unexpected attribute ID\n");
-        return SAI_STATUS_FAILURE;
-    }
+	default:
+		printf("Got unexpected attribute ID\n");
+		return SAI_STATUS_FAILURE;
+	}
 
-    return SAI_STATUS_SUCCESS;
+	return SAI_STATUS_SUCCESS;
 }
 
 static const sai_attribute_entry_t lag_attribs[] = {
@@ -172,15 +178,18 @@ sai_status_t stub_remove_lag(
 		printf("Cannot get LAG DB ID.\n");
 		return status;
 	}
-	if (lag_db.members[lag_db_id].is_used) {
-		printf("LAG with ID 0x%lX cannot be removed: it has members.\n", lag_id);
-		return SAI_STATUS_OBJECT_IN_USE;
-	} else {
-		lag_db.lags[lag_db_id].is_used = false;
-		memset(lag_db.lags[lag_db_id].members_ids, 0, sizeof(lag_db.lags[lag_db_id].members_ids));
-		printf("REMOVE LAG: 0x%lX\n", lag_id);
-		return SAI_STATUS_SUCCESS;
+	// check if there are members linked to the LAG, if yes, fail with OBJECT_IN_USE
+	for (uint32_t i = 0; i < MAX_NUMBER_OF_LAG_MEMBERS; i++) {
+		if (lag_db.lags[lag_db_id].members_ids[i] != 0) {
+			printf("LAG with ID 0x%lX cannot be removed: it has members.\n", lag_id);
+			return SAI_STATUS_OBJECT_IN_USE;
+		}
 	}
+
+	memset(lag_db.lags[lag_db_id].members_ids, 0, sizeof(lag_db.lags[lag_db_id].members_ids));
+	lag_db.lags[lag_db_id].is_used = false;
+	printf("REMOVE LAG: 0x%lX\n", lag_id);
+	return SAI_STATUS_SUCCESS;
 }
 
 sai_status_t stub_set_lag_attribute(
@@ -262,6 +271,15 @@ sai_status_t stub_create_lag_member(
 		return SAI_STATUS_INVALID_PARAMETER;
 	}
 
+	//fixed giving oid to member, previosly it was generated randomly, but it caused problems with removing members and lags in tests, because we had no control over member OIDs
+	uint32_t member_db_id = ii;
+	lag_db.members[member_db_id].is_used = true;
+	status = stub_create_object(SAI_OBJECT_TYPE_LAG_MEMBER, member_db_id, lag_member_id);
+	if (status != SAI_STATUS_SUCCESS) {
+		printf("Cannot create a LAG MEMBER OID\n");
+		return status;
+	}
+
 	bool added_to_lag = false;
 	for (uint32_t i = 0; i < MAX_NUMBER_OF_LAG_MEMBERS; i++) {
 		if (lag_db.lags[real_id].members_ids[i] == SAI_NULL_OBJECT_ID) {
@@ -276,14 +294,8 @@ sai_status_t stub_create_lag_member(
 		return SAI_STATUS_TABLE_FULL;
 	}
 
-	uint32_t member_db_id = ii;
-	lag_db.members[member_db_id].is_used = true;
-	status = stub_create_object(SAI_OBJECT_TYPE_LAG_MEMBER, member_db_id, lag_member_id);
-	if (status != SAI_STATUS_SUCCESS) {
-		printf("Cannot create a LAG MEMBER OID\n");
-		return status;
-	}
 
+	lag_db.members[member_db_id].is_used = true;
 	lag_db.members[member_db_id].lag_oid = lag_id->oid;
 	lag_db.members[member_db_id].port_oid = port_id->oid;
 	
@@ -296,14 +308,29 @@ sai_status_t stub_remove_lag_member(
 {
 	sai_status_t status;
 	uint32_t     member_db_id;
+	uint32_t      lag_db_id;
 	status = stub_object_to_type(lag_member_id, SAI_OBJECT_TYPE_LAG_MEMBER, &member_db_id);
 	if (status != SAI_STATUS_SUCCESS) {
-	 	printf("Invalid LAG MEMBER OID 0x%lX\n", lag_member_id);
-	 	return status;
+		printf("Invalid LAG MEMBER OID 0x%lX\n", lag_member_id);
+		return status;
 	}
 
-	lag_db.members[member_db_id].is_used = false;
+	// get parent LAG OID and remove member from the LAG's member list
+	sai_object_id_t parent_lag_oid = lag_db.members[member_db_id].lag_oid;
+	status = stub_object_to_type(parent_lag_oid, SAI_OBJECT_TYPE_LAG, &lag_db_id);
+	if (status == SAI_STATUS_SUCCESS) {
+		for (uint32_t i = 0; i < MAX_NUMBER_OF_LAG_MEMBERS; i++) {
+			if (lag_db.lags[lag_db_id].members_ids[i] == lag_member_id) {
+				lag_db.lags[lag_db_id].members_ids[i] = 0;
+				break;
+			}
+		}
+	} else {
+		printf("Invalid parent LAG OID 0x%lX\n", parent_lag_oid);
+		return status;
+	}
 	memset(&lag_db.members[member_db_id], 0, sizeof(lag_db.members[member_db_id]));
+	lag_db.members[member_db_id].is_used = false;
 	printf("REMOVE LAG MEMBER: 0x%lX\n", lag_member_id);
 
 	return SAI_STATUS_SUCCESS;
